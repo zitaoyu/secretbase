@@ -14,8 +14,8 @@ export const ThemeSwitcher = () => {
   const { theme, setTheme } = useTheme();
 
   useEffect(() => {
-    setMounted(true);
     setIsSelected(theme === "dark");
+    setMounted(true);
   }, []);
 
   function toggleTheme() {
@@ -28,7 +28,11 @@ export const ThemeSwitcher = () => {
 
   return (
     <Switch isSelected={isSelected} onValueChange={toggleTheme} color="default">
-      <Image src={isSelected ? MoonIcon : SunIcon} alt="mode icon" />
+      <Image
+        height={28}
+        src={isSelected ? MoonIcon : SunIcon}
+        alt="mode icon"
+      />
     </Switch>
   );
 };

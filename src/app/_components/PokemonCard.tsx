@@ -1,6 +1,7 @@
 import { Card, CardBody, CardFooter } from "@nextui-org/react";
 import myPokedex from "../_apis/pokeapi";
 import { useState } from "react";
+import { PokemonSprite } from "./PokemonSprite";
 
 const capitalizeFirstLetter = (str: string): string => {
   return str.charAt(0).toUpperCase() + str.slice(1);
@@ -27,16 +28,12 @@ export const PokemonCard: React.FC<PokemonCardProps> = ({ id, name }) => {
       onMouseLeave={() => setIsHover(false)}
     >
       <CardBody className="items-center h-[116px] justify-center overflow-hidden">
-        <img
-          className="group-hover:scale-110 rounded-none"
-          src={
+        <PokemonSprite
+          imageUrl={
             isHover && animatedSpriteUrl !== ""
               ? animatedSpriteUrl
               : defaultSpriteUrl
           }
-          alt={name}
-          loading="lazy"
-          
         />
         <span className="absolute left-3 top-2">#{id}</span>
       </CardBody>

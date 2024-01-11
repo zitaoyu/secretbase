@@ -5,16 +5,16 @@ import {
   NavbarItem,
 } from "@nextui-org/react";
 import { ThemeSwitcher } from "./ThemeSwitcher";
-import { SiteLogo } from "./Logo";
+import { Logo } from "./Logo";
+import Link from "next/link";
 
 export const PrimaryNavBar = () => {
   return (
     <Navbar maxWidth="2xl" isBordered>
       <NavbarBrand>
-        <SiteLogo width={48} height={48} className="fill-porygon-blue mr-2" />
-        <h1 className=" text-lg text-porygon-pink font-sans font-extrabold italic">
-          Porygon Dex
-        </h1>
+        <Link href={"/"}>
+          <Logo />
+        </Link>
       </NavbarBrand>
       <NavbarContent justify="end">
         <NavbarItem>

@@ -1,12 +1,13 @@
 import React from "react";
+import myPokedex from "../_apis/pokeapi";
 
-interface SiteLogoProps {
+interface PokeballSVGProps {
   width?: number;
   height?: number;
   className?: string;
 }
 
-export const SiteLogo: React.FC<SiteLogoProps> = ({
+const PokeballSVG: React.FC<PokeballSVGProps> = ({
   width = 48,
   height = 48,
   className,
@@ -51,5 +52,20 @@ export const SiteLogo: React.FC<SiteLogoProps> = ({
         />
       </g>
     </svg>
+  );
+};
+
+export const Logo = () => {
+  const logoSprite =
+    "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/firered-leafgreen/137.png";
+
+  return (
+    <div className="flex items-center">
+      {/* <PokeballSVG width={48} height={48} className="fill-porygon-blue mr-2" /> */}
+      <img className="sprite translate-x-2" src={logoSprite}></img>
+      <h1 className=" text-lg text-porygon-pink font-sans font-extrabold italic">
+        Porygon Dex
+      </h1>
+    </div>
   );
 };
