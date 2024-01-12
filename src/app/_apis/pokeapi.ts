@@ -20,7 +20,7 @@ class PokeApiWrapper implements PokeApiWrapperInterface {
   }
 
   getPokemonList(): Promise<NamedAPIResourceList> {
-    return this.pokedex.getPokemonsList();
+    return this.pokedex.getPokemonsList({ limit: 1024 });
   }
 
   getPokemonByName(name: string): Promise<Pokemon> {
