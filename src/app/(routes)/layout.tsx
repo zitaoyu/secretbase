@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers";
+import { PrimaryNavBar } from "../_components/navbar/PrimaryNavBar";
 
 // If loading a variable font, you don't need to specify the font weight
 const roboto = Roboto({
@@ -23,7 +24,14 @@ export default function RootLayout({
   return (
     <html lang="en" className={roboto.className}>
       <body>
-        <Providers>{children}</Providers>
+        <Providers>
+          <main className="min-h-screen">
+            <PrimaryNavBar />
+            <section className="mx-auto my-4 max-w-7xl px-4">
+              {children}
+            </section>
+          </main>
+        </Providers>
       </body>
     </html>
   );

@@ -1,11 +1,6 @@
+import { PokeApiWrapperInterface, PokemonSimpleData } from "./pokeapi.i";
 import Pokedex, { NamedAPIResourceList, Pokemon } from "pokedex-promise-v2";
-
-interface PokeApiWrapperInterface {
-  getPokemonList(): Promise<NamedAPIResourceList>;
-  getPokemonByName(name: string): Promise<Pokemon>;
-  getPokemonDefaultSpriteUrlById(id: number): string;
-  getPokemonAnimatedSpriteUrlById(id: number): string;
-}
+import basicPokemonData from "./basicPokemonData.json";
 
 class PokeApiWrapper implements PokeApiWrapperInterface {
   private pokedex: Pokedex;
@@ -19,12 +14,16 @@ class PokeApiWrapper implements PokeApiWrapperInterface {
     });
   }
 
+  getBasicPokemonData(): PokemonSimpleData[] {
+    return basicPokemonData.data;
+  }
+
   getPokemonList(): Promise<NamedAPIResourceList> {
     return this.pokedex.getPokemonsList({ limit: 1024 });
   }
 
-  getPokemonByName(name: string): Promise<Pokemon> {
-    return this.pokedex.getPokemonByName(name);
+  getPokemonByName(nameOrId: string | number): Promise<Pokemon> {
+    return this.pokedex.getPokemonByName(nameOrId);
   }
 
   getPokemonDefaultSpriteUrlById(id: number): string {
@@ -37,7 +36,6 @@ class PokeApiWrapper implements PokeApiWrapperInterface {
       return "";
     }
     const spriteUrl: string = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/${id}.gif`;
-
     return spriteUrl;
   }
 }

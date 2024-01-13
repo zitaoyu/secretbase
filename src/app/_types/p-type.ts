@@ -1,4 +1,4 @@
-enum PokemonType {
+export enum PokemonType {
   Normal = "normal",
   Fire = "fire",
   Water = "water",
@@ -17,5 +17,3 @@ enum PokemonType {
   Dark = "dark",
   Steel = "steel",
 }
-
-export default PokemonType;

@@ -1,45 +1,25 @@
 "use client";
 
-import React, { useEffect, useRef, useState } from "react";
-import myPokedex from "../_apis/pokeapi";
+import React, { useEffect, useState } from "react";
+import myPokedex from "../../_apis/pokeapi";
 import { PokemonCard } from "./PokemonCard";
-import { NamedAPIResource } from "pokedex-promise-v2";
 import { Input } from "@nextui-org/react";
+import { PokemonSimpleData } from "../../_apis/pokeapi.i";
+import { PrimarySpinner } from "../PrimarySpinner";
 
-interface PokemonSimpleData {
-  id: number;
-  name: string;
-  url: string;
-}
-
-interface PokedexGridProps {}
-
-export const PokedexGrid: React.FC<PokedexGridProps> = ({}) => {
+export const PokedexGrid = () => {
   const [pokemonDataList, setPokemonDataList] = useState<PokemonSimpleData[]>(
-    []
+    [],
   );
   const [filteredList, setFilterList] = useState<PokemonSimpleData[]>([]);
   const [showPokemons, setShowPokemons] = useState<number>(50);
+  const [isloading, setIsLoading] = useState<boolean>(true);
 
   useEffect(() => {
-    myPokedex
-      .getPokemonList()
-      .then((response) => {
-        const pokemonDatas: PokemonSimpleData[] = [];
-        response.results.map((value: NamedAPIResource, index: number) => {
-          const data: PokemonSimpleData = {
-            id: index + 1,
-            name: value.name,
-            url: value.url,
-          };
-          pokemonDatas.push(data);
-        });
-        setPokemonDataList(pokemonDatas);
-        setFilterList(pokemonDatas);
-      })
-      .catch((error: any) => {
-        throw Error("Unable to fetch pokemon data, please try again...");
-      });
+    const data = myPokedex.getBasicPokemonData();
+    setPokemonDataList(data);
+    setFilterList(data);
+    setIsLoading(false);
   }, []);
 
   function loadMorePokemonCards() {
@@ -67,13 +47,21 @@ export const PokedexGrid: React.FC<PokedexGridProps> = ({}) => {
 
   function handleFilterList(searchStr: string) {
     const filteredData = pokemonDataList.filter((pokemon) =>
-      pokemon.name.toLowerCase().includes(searchStr.toLowerCase())
+      pokemon.name.toLowerCase().includes(searchStr.toLowerCase()),
     );
     setFilterList(filteredData);
   }
 
+  if (isloading) {
+    return (
+      <div className="flex h-[70vh] w-full grow">
+        <PrimarySpinner className="m-auto" />
+      </div>
+    );
+  }
+
   return (
-    <section className="px-4 my-4 max-w-7xl mx-auto">
+    <div>
       <Input
         onChange={(event) => handleFilterList(event.target.value)}
         className="my-4"
@@ -90,18 +78,20 @@ export const PokedexGrid: React.FC<PokedexGridProps> = ({}) => {
       />
       <div
         className={`
-                grid w-full gap-4
-                grid-cols-2 
+                grid w-full grid-cols-2
+                justify-center 
+                gap-4 
                 sm:grid-cols-3 
-                md:grid-cols-4 
-                lg:grid-cols-5
-                xl:grid-cols-6
+                md:grid-cols-4
+                lg:grid-cols-5 xl:grid-cols-6
                 `}
       >
-        {filteredList?.slice(0, showPokemons).map((pokemon) => (
-          <PokemonCard key={pokemon.id} id={pokemon.id} name={pokemon.name} />
-        ))}
+        {filteredList
+          ?.slice(0, showPokemons)
+          .map((pokemonData) => (
+            <PokemonCard key={pokemonData.id} data={pokemonData} />
+          ))}
       </div>
-    </section>
+    </div>
   );
 };

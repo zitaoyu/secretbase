@@ -14,6 +14,22 @@ const config: Config = {
     colors: {
       "porygon-blue": "#69b6d8",
       "porygon-pink": "#e15e74",
+      // normal: "#A8A77A",
+      // fire: "#EE8130",
+      // water: "#6390F0",
+      // electric: "#F7D02C",
+      // grass: "#7AC74C",
+      // ice: "#96D9D6",
+      // fighting: "#C22E28",
+      // ground: "#E2BF65",
+      // flying: "#A98FF3",
+      // psychic: "#F95587",
+      // bug: "#A6B91A",
+      // rock: "#B6A136",
+      // ghost: "#735797",
+      // dragon: "#6F35FC",
+      // dark: "#705746",
+      // steel: "#B7B7CE",
     },
   },
   darkMode: "class",
@@ -24,13 +40,11 @@ const config: Config = {
         dark: {
           colors: {
             background: "#333333",
-            foreground: "#ffffff",
           },
         },
         light: {
           colors: {
             background: "#f6f6f6",
-            foreground: "#000000",
           },
         },
       },

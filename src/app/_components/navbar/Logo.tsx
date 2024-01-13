@@ -1,6 +1,3 @@
-import React from "react";
-import myPokedex from "../_apis/pokeapi";
-
 interface PokeballSVGProps {
   width?: number;
   height?: number;
@@ -63,7 +60,7 @@ export const Logo = () => {
     <div className="flex items-center">
       {/* <PokeballSVG width={48} height={48} className="fill-porygon-blue mr-2" /> */}
       <img className="sprite translate-x-2" src={logoSprite}></img>
-      <h1 className=" text-lg text-porygon-pink font-sans font-extrabold italic">
+      <h1 className=" font-sans text-lg font-extrabold italic text-porygon-pink">
         Porygon Dex
       </h1>
     </div>
