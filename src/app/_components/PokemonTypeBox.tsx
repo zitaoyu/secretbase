@@ -29,7 +29,7 @@ export const PokemonTypeBoxes: React.FC<PokemonTypeBoxesProps> = ({
   return (
     <div className="flex gap-1">
       {types.map((type) => (
-        <PokemonTypeBox type={type} />
+        <PokemonTypeBox type={type} key={type} />
       ))}
     </div>
   );
