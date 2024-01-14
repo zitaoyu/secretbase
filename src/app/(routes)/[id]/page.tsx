@@ -71,9 +71,9 @@ const BasicInfoBoxItem = ({
       >
         {items.map((item) =>
           item.url === null ? (
-            <span>{item.value}</span>
+            <span key={item.value}>{item.value}</span>
           ) : (
-            <Link className="hover:underline" href={item.url}>
+            <Link key={item.value} className="hover:underline" href={item.url}>
               {item.value}
             </Link>
           ),
@@ -142,8 +142,8 @@ const BasicInfoBox = ({ pokemonData }: BasicInfoBoxProps) => {
 };
 
 const MovesInfoBox = () => {
-  return
-}
+  return;
+};
 
 export default function PokemonPage() {
   const { id } = useParams();
