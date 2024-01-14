@@ -3,6 +3,7 @@ import { Roboto } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers";
 import { PrimaryNavBar } from "../_components/navbar/PrimaryNavBar";
+import { Analytics } from "@vercel/analytics/react";
 
 // If loading a variable font, you don't need to specify the font weight
 const roboto = Roboto({
@@ -29,6 +30,7 @@ export default function RootLayout({
             <PrimaryNavBar />
             <section className="mx-auto my-4 max-w-7xl px-4">
               {children}
+              <Analytics />
             </section>
           </main>
         </Providers>
