@@ -4,7 +4,7 @@ import { PokemonSprite } from "../PokemonSprite";
 import { PokemonSimpleData } from "../../_apis/pokeapi.i";
 import { PokemonTypeBoxes } from "../PokemonTypeBox";
 import Link from "next/link";
-import { capitalizeFirstLetter } from "@/app/_utils/capitalize";
+import { capitalizeFirstLetter } from "@/app/_utils/format";
 
 interface PokemonCardProps {
   data: PokemonSimpleData;

@@ -15297,7 +15297,7 @@
         "special-defense": 93,
         "speed": 91
       },
-      "spriteUrl": null,
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1020.png",
       "animatedSpriteUrl": null
     },
     {
@@ -15357,7 +15357,7 @@
         "special-defense": 85,
         "speed": 60
       },
-      "spriteUrl": null,
+      "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1024.png",
       "animatedSpriteUrl": null
     }
   ]

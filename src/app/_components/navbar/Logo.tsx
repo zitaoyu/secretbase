@@ -4,7 +4,7 @@ interface PokeballSVGProps {
   className?: string;
 }
 
-const PokeballSVG: React.FC<PokeballSVGProps> = ({
+export const PokeballSVG: React.FC<PokeballSVGProps> = ({
   width = 48,
   height = 48,
   className,

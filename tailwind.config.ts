@@ -37,14 +37,17 @@ const config: Config = {
     nextui({
       addCommonColors: true,
       themes: {
+        // Using Neutral color pallette from: https://atlassian.design/foundations/color-new/color-palette-new
         dark: {
           colors: {
-            background: "#333333",
+            background: "#1D2125", //100
+            content1: "#22272B", //200
           },
         },
         light: {
           colors: {
-            background: "#f6f6f6",
+            background: "#F1F2F4", //200
+            content1: "#F7F8F9", //100
           },
         },
       },

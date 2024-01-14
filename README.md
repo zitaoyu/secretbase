@@ -3,8 +3,10 @@
 - [x] unify font
 - [x] update background colors light/dark
 - [x] create card container for pokedex
-- [ ] add types to pokemon card
-- [ ] add route to view pokemon stats
+- [x] add types to pokemon card
+- [x] add route to pokemon detail page
+- [ ] add moves table to pokemon page
+- [ ] add stats table to pokemon page
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
