@@ -5,9 +5,6 @@ interface PrimaryButtonProps {
   children?: React.ReactNode;
 }
 
-export const PrimaryButton: React.FC<PrimaryButtonProps> = ({
-  className,
-  children,
-}) => {
+export const PrimaryButton = ({ className, children }: PrimaryButtonProps) => {
   return <Button className={className}>{children}</Button>;
 };

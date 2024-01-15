@@ -1,7 +1,7 @@
 import { Card, CardBody, CardFooter } from "@nextui-org/react";
 import { useState } from "react";
 import { PokemonSprite } from "../PokemonSprite";
-import { PokemonSimpleData } from "../../_apis/pokeapi.i";
+import { PokemonSimpleData } from "../../api/pokeapi.i";
 import { PokemonTypeBoxes } from "../PokemonTypeBox";
 import Link from "next/link";
 import { capitalizeFirstLetter } from "@/app/_utils/format";
@@ -10,7 +10,7 @@ interface PokemonCardProps {
   data: PokemonSimpleData;
 }
 
-export const PokemonCard: React.FC<PokemonCardProps> = ({ data }) => {
+export const PokemonCard = ({ data }: PokemonCardProps) => {
   const [isHover, setIsHover] = useState(false);
 
   function getSpriteUrl() {

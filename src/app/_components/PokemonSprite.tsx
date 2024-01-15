@@ -2,8 +2,8 @@ interface PokemonSpriteProps {
   imageUrl: string;
 }
 
-export const PokemonSprite: React.FC<PokemonSpriteProps> = ({ imageUrl }) => {
+export const PokemonSprite = ({ imageUrl }: PokemonSpriteProps) => {
   return (
-    <img className="group-hover:scale-125 sprite transition" src={imageUrl} />
+    <img className="sprite transition group-hover:scale-125" src={imageUrl} />
   );
 };

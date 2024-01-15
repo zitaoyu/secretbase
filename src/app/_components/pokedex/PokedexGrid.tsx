@@ -1,11 +1,11 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import myPokedex from "../../_apis/pokeapi";
 import { PokemonCard } from "./PokemonCard";
 import { Input } from "@nextui-org/react";
-import { PokemonSimpleData } from "../../_apis/pokeapi.i";
 import { PrimarySpinner } from "../PrimarySpinner";
+import { PokemonSimpleData } from "@/app/_lib/api/pokeapi.i";
+import myPokedex from "@/app/_lib/api/pokeapi";
 
 export const PokedexGrid = () => {
   const [pokemonDataList, setPokemonDataList] = useState<PokemonSimpleData[]>(

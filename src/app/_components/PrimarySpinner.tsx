@@ -5,10 +5,10 @@ interface PrimarySpinnerProps {
   className?: string;
 }
 
-export const PrimarySpinner: React.FC<PrimarySpinnerProps> = ({
+export const PrimarySpinner = ({
   size = "lg",
   className,
-}) => {
+}: PrimarySpinnerProps) => {
   return (
     <Spinner
       className={`text-background ${className}`}

@@ -5,9 +5,9 @@ interface PrimaryContainerProps {
   children: React.ReactNode;
 }
 
-export const PrimaryContainer: React.FC<PrimaryContainerProps> = ({
+export const PrimaryContainer = ({
   className,
   children,
-}) => {
+}: PrimaryContainerProps) => {
   return <Card className={className}>{children}</Card>;
 };

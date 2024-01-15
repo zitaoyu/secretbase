@@ -4,11 +4,11 @@ interface PokeballSVGProps {
   className?: string;
 }
 
-export const PokeballSVG: React.FC<PokeballSVGProps> = ({
+export const PokeballSVG = ({
   width = 48,
   height = 48,
   className,
-}) => {
+}: PokeballSVGProps) => {
   return (
     <svg
       version="1.0"

@@ -8,7 +8,7 @@ interface PokemonTypeBoxProps {
   type: string;
 }
 
-export const PokemonTypeBox: React.FC<PokemonTypeBoxProps> = ({ type }) => {
+export const PokemonTypeBox = ({ type }: PokemonTypeBoxProps) => {
   return (
     <div
       className="rounded-md px-2 text-white"
@@ -21,13 +21,15 @@ export const PokemonTypeBox: React.FC<PokemonTypeBoxProps> = ({ type }) => {
 
 interface PokemonTypeBoxesProps {
   types: string[];
+  className?: string;
 }
 
-export const PokemonTypeBoxes: React.FC<PokemonTypeBoxesProps> = ({
+export const PokemonTypeBoxes = ({
   types,
-}) => {
+  className,
+}: PokemonTypeBoxesProps) => {
   return (
-    <div className="flex gap-1">
+    <div className={`flex gap-1 ${className}`}>
       {types.map((type) => (
         <PokemonTypeBox type={type} key={type} />
       ))}
