@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 import { Providers } from "./providers";
 import { PrimaryNavBar } from "../_components/NavBar/PrimaryNavBar";
-import { Analytics } from "@vercel/analytics/react";
 
 // If loading a variable font, you don't need to specify the font weight
 const roboto = Roboto({
