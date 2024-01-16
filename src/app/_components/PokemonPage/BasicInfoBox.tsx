@@ -21,7 +21,7 @@ const BasicInfoBoxItem = ({
   isVerticle = false,
 }: BasicInfoBoxItemProps) => {
   return (
-    <div className={`w-full items-center bg-default p-1`}>
+    <div className={`w-full items-center bg-default-200 p-1`}>
       <div className={`font-medium ${isVerticle && "text-center"}`}>
         {title}
       </div>
@@ -89,7 +89,7 @@ export const BasicInfoBox = ({ pokemonData }: BasicInfoBoxProps) => {
         backgroundColor: getPokemonTypeColor(pokemonData.types[0].type.name),
       }}
     >
-      <div className="rounded-2xl bg-default p-2">
+      <div className="rounded-2xl bg-default-200 p-2">
         <BasicInfoBoxItem title="Abilities:" items={abilities} isVerticle />
         <div className="grid grid-cols-2">
           <BasicInfoBoxItem title="Weight:" items={weight} />

@@ -79,7 +79,12 @@ export default function PokemonPage() {
       <div className="flex w-full max-w-2xl flex-col gap-2">
         <SectionTitle title="Level Up Moves" />
         {/* <Divider className="mb-4 mt-2" /> */}
-        <MovesTable movesData={pokemonData?.moves} />
+        <MovesTable movesData={pokemonData?.moves} method="level-up" />
+      </div>
+      <div className="flex w-full max-w-2xl flex-col gap-2">
+        <SectionTitle title="TM Moves" />
+        {/* <Divider className="mb-4 mt-2" /> */}
+        <MovesTable movesData={pokemonData?.moves} method="machine" />
       </div>
     </Card>
   );

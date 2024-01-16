@@ -1,4 +1,4 @@
-import { NamedAPIResourceList, Pokemon } from "pokedex-promise-v2";
+import { NamedAPIResourceList, Pokemon, Move } from "pokedex-promise-v2";
 
 export interface PokemonSimpleData {
   id: number;
@@ -20,6 +20,8 @@ export interface PokeApiWrapperInterface {
   getBasicPokemonData(): PokemonSimpleData[];
   getPokemonList(): Promise<NamedAPIResourceList>;
   getPokemonByName(nameOrId: string | number): Promise<Pokemon>;
+  getMoveByName(nameOrId: string | number): Promise<Move>;
+  getMoveByNameArray(nameOrId: Array<string | number>): Promise<Move[]>;
   getPokemonDefaultSpriteUrlById(id: number): string;
   getPokemonAnimatedSpriteUrlById(id: number): string;
 }

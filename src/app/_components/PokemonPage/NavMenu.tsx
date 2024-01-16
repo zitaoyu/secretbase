@@ -8,7 +8,7 @@ type NavMenuProps = {
 export const NavMenu = ({ id }: NavMenuProps) => {
   return (
     <nav className="flex w-full justify-center">
-      <div className="flex flex-1">
+      <div className="hidden flex-1 sm:flex">
         <Link href={"/"}>
           <PrimaryButton>{"Pokedex"}</PrimaryButton>
         </Link>
@@ -23,7 +23,7 @@ export const NavMenu = ({ id }: NavMenuProps) => {
           <PrimaryButton>{"Next"}</PrimaryButton>
         </Link>
       </div>
-      <div className="flex flex-1 justify-end">
+      <div className="hidden flex-1 justify-end sm:flex">
         {/* <PrimaryButton>{"N"}</PrimaryButton> */}
       </div>
     </nav>

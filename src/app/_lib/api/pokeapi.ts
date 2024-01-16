@@ -1,5 +1,9 @@
 import { PokeApiWrapperInterface, PokemonSimpleData } from "./pokeapi.i";
-import Pokedex, { NamedAPIResourceList, Pokemon } from "pokedex-promise-v2";
+import Pokedex, {
+  NamedAPIResourceList,
+  Pokemon,
+  Move,
+} from "pokedex-promise-v2";
 import basicPokemonData from "./basicPokemonData.json";
 
 class PokeApiWrapper implements PokeApiWrapperInterface {
@@ -24,6 +28,14 @@ class PokeApiWrapper implements PokeApiWrapperInterface {
 
   getPokemonByName(nameOrId: string | number): Promise<Pokemon> {
     return this.pokedex.getPokemonByName(nameOrId);
+  }
+
+  getMoveByName(nameOrId: string | number): Promise<Move> {
+    return this.pokedex.getMoveByName(nameOrId);
+  }
+
+  getMoveByNameArray(nameOrId: Array<string | number>): Promise<Move[]> {
+    return this.pokedex.getMoveByName(nameOrId);
   }
 
   getPokemonDefaultSpriteUrlById(id: number): string {

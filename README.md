@@ -5,7 +5,7 @@
 - [x] create card container for pokedex
 - [x] add types to pokemon card
 - [x] add route to pokemon detail page
-- [ ] add moves table to pokemon page
+- [x] add moves table to pokemon page
 - [ ] add stats table to pokemon page
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).

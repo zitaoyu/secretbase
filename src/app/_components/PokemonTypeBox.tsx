@@ -11,7 +11,7 @@ interface PokemonTypeBoxProps {
 export const PokemonTypeBox = ({ type }: PokemonTypeBoxProps) => {
   return (
     <div
-      className="rounded-md px-2 text-white"
+      className="w-16 rounded-md px-2 text-center text-white"
       style={{ backgroundColor: getPokemonTypeColor(type) }}
     >
       {type}
