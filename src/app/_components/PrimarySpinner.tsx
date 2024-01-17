@@ -1,8 +1,8 @@
 import { Spinner } from "@nextui-org/react";
+import WrapperProps from "./Wrapper.i";
 
-interface PrimarySpinnerProps {
+interface PrimarySpinnerProps extends WrapperProps {
   size?: "sm" | "md" | "lg";
-  className?: string;
 }
 
 export const PrimarySpinner = ({

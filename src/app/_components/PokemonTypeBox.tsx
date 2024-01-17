@@ -1,6 +1,7 @@
 "use client";
 
 import { getPokemonTypeColor } from "../_utils/type-colors";
+import WrapperProps from "./Wrapper.i";
 
 interface PokemonTypeBoxProps {
   type: string;
@@ -17,9 +18,8 @@ export const PokemonTypeBox = ({ type }: PokemonTypeBoxProps) => {
   );
 };
 
-interface PokemonTypeBoxesProps {
+interface PokemonTypeBoxesProps extends WrapperProps {
   types: string[];
-  className?: string;
 }
 
 export const PokemonTypeBoxes = ({

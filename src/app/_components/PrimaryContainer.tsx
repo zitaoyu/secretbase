@@ -1,9 +1,7 @@
 import { Card } from "@nextui-org/react";
+import WrapperProps from "./Wrapper.i";
 
-interface PrimaryContainerProps {
-  className?: string;
-  children: React.ReactNode;
-}
+interface PrimaryContainerProps extends WrapperProps {}
 
 export const PrimaryContainer = ({
   className,

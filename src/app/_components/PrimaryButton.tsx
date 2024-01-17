@@ -1,9 +1,7 @@
 import { Button, ButtonProps } from "@nextui-org/react";
+import WrapperProps from "./Wrapper.i";
 
-interface PrimaryButtonProps extends ButtonProps {
-  className?: string;
-  children?: React.ReactNode;
-}
+interface PrimaryButtonProps extends ButtonProps, WrapperProps {}
 
 export const PrimaryButton = ({
   className,
