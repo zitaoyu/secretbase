@@ -12,7 +12,10 @@ export const StatsTable = ({ statsData }: StatsTableProps) => {
       <SectionTitle title="Base Stats" />
       <div className="w-full rounded-xl p-1 text-sm outline outline-default sm:text-base">
         {statsData.map((stat) => (
-          <div className="grid grid-cols-4 border-b-2 border-default">
+          <div
+            className="grid grid-cols-4 border-b-2 border-default"
+            key={stat.stat.name}
+          >
             <div className="flex justify-between border-r-2 border-default p-1">
               <span>{statNameMap[stat.stat.name]}:</span>
               <span>{stat.base_stat}</span>
