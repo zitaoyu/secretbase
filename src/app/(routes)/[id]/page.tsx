@@ -1,8 +1,8 @@
 "use client";
 
-import { Card, Tab, Tabs } from "@nextui-org/react";
+import { Card } from "@nextui-org/react";
 import { useParams } from "next/navigation";
-import { Key, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Pokemon, PokemonType } from "pokedex-promise-v2";
 import { capitalizeFirstLetter } from "@/app/_utils/format";
 import { PokemonTypeBoxes } from "@/app/_components/PokemonTypeBox";
@@ -70,7 +70,7 @@ export default function PokemonPage() {
             {capitalizeFirstLetter(pokemonData?.name || "")}
           </p>
           {/* Pokemon types */}
-          <PokemonTypeBoxes types={types} />
+          <PokemonTypeBoxes types={types} size="lg" />
           {/* Pokemon Basic Info Box */}
           <BasicInfoBox pokemonData={pokemonData} />
         </div>

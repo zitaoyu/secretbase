@@ -263,7 +263,11 @@ export const MovesTable = ({ title, movesData, method }: MovesTableProps) => {
                   </span>
                 </TableCell>
                 <TableCell>
-                  {row.type ? <PokemonTypeBox type={row.type} /> : placeholder}
+                  {row.type ? (
+                    <PokemonTypeBox type={row.type} size="sm" />
+                  ) : (
+                    placeholder
+                  )}
                 </TableCell>
                 <TableCell>
                   {row.category ? (
@@ -288,7 +292,11 @@ export const MovesTable = ({ title, movesData, method }: MovesTableProps) => {
                   </span>
                 </TableCell>
                 <TableCell>
-                  {row.type ? <PokemonTypeBox type={row.type} /> : placeholder}
+                  {row.type ? (
+                    <PokemonTypeBox type={row.type} size="sm" />
+                  ) : (
+                    placeholder
+                  )}
                 </TableCell>
                 <TableCell>
                   {row.category ? (
