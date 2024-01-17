@@ -59,7 +59,7 @@ export const Logo = () => {
   return (
     <div className="flex items-center">
       {/* <PokeballSVG width={48} height={48} className="fill-porygon-blue mr-2" /> */}
-      <img className="sprite translate-x-2" src={logoSprite}></img>
+      {/* <img className="sprite translate-x-2" src={logoSprite} /> */}
       <h1 className=" font-sans text-lg font-extrabold italic text-porygon-pink">
         Porygon Dex
       </h1>

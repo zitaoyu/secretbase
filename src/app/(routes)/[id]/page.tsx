@@ -1,8 +1,8 @@
 "use client";
 
-import { Card, Divider } from "@nextui-org/react";
+import { Card, Tab, Tabs } from "@nextui-org/react";
 import { useParams } from "next/navigation";
-import { useEffect, useState } from "react";
+import { Key, useEffect, useState } from "react";
 import { Pokemon, PokemonType } from "pokedex-promise-v2";
 import { capitalizeFirstLetter } from "@/app/_utils/format";
 import { PokemonTypeBoxes } from "@/app/_components/PokemonTypeBox";
@@ -12,8 +12,8 @@ import { BasicInfoBox } from "@/app/_components/PokemonPage/BasicInfoBox";
 import { SpriteGallery } from "@/app/_components/PokemonPage/SpriteGallery";
 import UnknownPokemonSprite from "../../_assets/unknown_pokemon.png";
 import { MovesTable } from "@/app/_components/PokemonPage/MovesTable";
-import { SectionTitle } from "@/app/_components/PokemonPage/SectionTitle";
 import myPokedex from "@/app/_lib/api/pokeapi";
+import { StatsTable } from "@/app/_components/PokemonPage/StatsTable";
 
 export default function PokemonPage() {
   const { id } = useParams();
@@ -75,6 +75,7 @@ export default function PokemonPage() {
           <BasicInfoBox pokemonData={pokemonData} />
         </div>
       </div>
+      <StatsTable statsData={pokemonData?.stats || []} />
       {/* Moves Table */}
       <MovesTable
         title="Level Up Moves"

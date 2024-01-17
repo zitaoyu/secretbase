@@ -1,8 +1,8 @@
 import { Pokemon } from "pokedex-promise-v2";
-import { PrimaryButton } from "@/app/_components/PrimaryButton";
 import Link from "next/link";
 import { getPokemonTypeColor } from "@/app/_utils/type-colors";
 import { formatName } from "@/app/_utils/format";
+import { statNameMap } from "@/app/_utils/stats";
 
 type BoxItemData = {
   value: string | number;
@@ -44,15 +44,6 @@ const BasicInfoBoxItem = ({
   );
 };
 
-const evNameMap: Record<string, string> = {
-  hp: "HP",
-  attack: "Atk",
-  defense: "Def",
-  "special-attack": "Sp.Atk",
-  "special-defense": "Sp.Def",
-  speed: "Speed",
-};
-
 type BasicInfoBoxProps = {
   pokemonData: Pokemon | undefined;
 };
@@ -83,7 +74,7 @@ export const BasicInfoBox = ({ pokemonData }: BasicInfoBoxProps) => {
     .filter((stat) => stat.effort > 0)
     .map((stat) => {
       return {
-        value: stat.effort + " " + evNameMap[stat.stat.name],
+        value: stat.effort + " " + statNameMap[stat.stat.name],
         url: null,
       };
     });

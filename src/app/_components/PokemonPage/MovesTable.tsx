@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   Table,
   TableHeader,
@@ -6,9 +6,11 @@ import {
   TableBody,
   TableRow,
   TableCell,
+  Tab,
+  Tabs,
 } from "@nextui-org/react";
 import { MoveElement } from "pokedex-promise-v2";
-import { extractIdFromUrl, formatName } from "@/app/_utils/format";
+import { formatName } from "@/app/_utils/format";
 import myPokedex from "@/app/_lib/api/pokeapi";
 import { PrimarySpinner } from "../PrimarySpinner";
 import { PokemonTypeBox } from "../PokemonTypeBox";
@@ -18,6 +20,7 @@ import moveStatusSprite from "../../_assets/move-status.png";
 import { StaticImageData } from "next/image";
 import { PrimaryButton } from "../PrimaryButton";
 import { SectionTitle } from "./SectionTitle";
+import { Gen } from "@/app/_utils/gen";
 
 const moveTypeSpriteMap: Record<string, StaticImageData> = {
   physical: movePhysicalSprite,
@@ -36,6 +39,70 @@ interface MoveRowData {
   TMId?: number;
 }
 
+interface GenTabsProps {
+  gen: Gen;
+  setGen: React.Dispatch<React.SetStateAction<Gen>>;
+}
+
+const GenTabs = ({ gen, setGen }: GenTabsProps) => {
+  const tabs: { id: Gen; label: string }[] = [
+    {
+      id: "red-blue",
+      label: "Gen I",
+    },
+    {
+      id: "crystal",
+      label: "II",
+    },
+    {
+      id: "firered-leafgreen",
+      label: "III",
+    },
+    {
+      id: "platinum",
+      label: "IV",
+    },
+    {
+      id: "black-2-white-2",
+      label: "V",
+    },
+    {
+      id: "omega-ruby-alpha-sapphire",
+      label: "VI",
+    },
+    {
+      id: "ultra-sun-ultra-moon",
+      label: "VII",
+    },
+    {
+      id: "sword-shield",
+      label: "VIII",
+    },
+    {
+      id: "scarlet-violet",
+      label: "IX",
+    },
+  ];
+
+  return (
+    <Tabs
+      className="w-full"
+      aria-label="Dynamic tabs"
+      items={tabs}
+      classNames={{
+        tabList: "bg-default-200",
+        base: "justify-center",
+      }}
+      selectedKey={gen}
+      onSelectionChange={(key) => {
+        setGen(key as Gen);
+      }}
+    >
+      {(item) => <Tab key={item.id} title={item.label}></Tab>}
+    </Tabs>
+  );
+};
+
 interface MovesTableProps {
   title: string;
   movesData: MoveElement[] | undefined;
@@ -46,6 +113,7 @@ export const MovesTable = ({ title, movesData, method }: MovesTableProps) => {
   const [rows, setRows] = useState<MoveRowData[]>([]);
   const [loading, setLoading] = useState(true);
   const [show, setShow] = useState(0);
+  const [gen, setGen] = useState<Gen>("scarlet-violet");
   const placeholder = "-";
 
   const columns = [
@@ -91,20 +159,22 @@ export const MovesTable = ({ title, movesData, method }: MovesTableProps) => {
 
         for (const move of movesData) {
           // filter gen 9 moves only
-          const moveVersionDetail = move.version_group_details.filter(
-            (version) => version.version_group.name === "red-blue",
+          const moveVersionDetails = move.version_group_details.filter(
+            (version) => version.version_group.name === gen,
           );
-          const moveDetail = moveVersionDetail.filter(
+          const moveDetails = moveVersionDetails.filter(
             (version) => version.move_learn_method.name === method,
           );
 
-          if (moveDetail.length > 0) {
-            const moveData = {
-              level: moveDetail[0].level_learned_at,
-              move: move.move.name,
-              url: move.move.url,
-            };
-            newRows.push(moveData);
+          if (moveDetails.length > 0) {
+            for (const detail of moveDetails) {
+              const moveData = {
+                level: detail.level_learned_at,
+                move: move.move.name,
+                url: move.move.url,
+              };
+              newRows.push(moveData);
+            }
           }
         }
 
@@ -138,15 +208,16 @@ export const MovesTable = ({ title, movesData, method }: MovesTableProps) => {
       }
     };
     fetchData();
-  }, [movesData]);
+  }, [movesData, gen]);
 
   if (!movesData || loading) {
     return <PrimarySpinner />;
   }
 
   return (
-    <div className="flex w-full max-w-2xl flex-col gap-2">
+    <div className="flex w-full max-w-2xl flex-col items-center gap-2">
       <SectionTitle title={title} />
+      <GenTabs gen={gen} setGen={setGen} />
       <Table
         className="overflow-scroll rounded-xl p-1 outline outline-default sm:p-4"
         removeWrapper
@@ -155,7 +226,7 @@ export const MovesTable = ({ title, movesData, method }: MovesTableProps) => {
         bottomContent={
           show < rows.length && (
             <PrimaryButton
-              className="mb-2"
+              className="mb-1 sm:mb-0"
               onClick={() => setShow(rows.length)}
             >
               Show All Moves
