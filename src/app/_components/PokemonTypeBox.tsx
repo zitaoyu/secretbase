@@ -5,7 +5,7 @@ import { getPokemonTypeColor } from "../_utils/type-colors";
 import WrapperProps from "./Wrapper.i";
 
 interface PokemonTypeBoxSizeProps {
-  size: "sm" | "md" | "lg";
+  size?: "sm" | "md" | "lg";
 }
 
 interface PokemonTypeBoxProps extends PokemonTypeBoxSizeProps {
