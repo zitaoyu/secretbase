@@ -54,14 +54,14 @@ export const PokedexGrid = () => {
 
   if (isloading) {
     return (
-      <div className="flex h-[70vh] w-full grow">
+      <div className="flex h-[70vh] w-full">
         <PrimarySpinner className="m-auto" />
       </div>
     );
   }
 
   return (
-    <div>
+    <div className="p-1">
       <Input
         onChange={(event) => handleFilterList(event.target.value)}
         className="my-4"

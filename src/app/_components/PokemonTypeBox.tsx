@@ -1,7 +1,5 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { PokemonType } from "../_types/p-type";
 import { getPokemonTypeColor } from "../_utils/type-colors";
 
 interface PokemonTypeBoxProps {
@@ -11,7 +9,7 @@ interface PokemonTypeBoxProps {
 export const PokemonTypeBox = ({ type }: PokemonTypeBoxProps) => {
   return (
     <div
-      className="w-16 rounded-md px-2 text-center text-white"
+      className="w-16 rounded-md text-center text-white"
       style={{ backgroundColor: getPokemonTypeColor(type) }}
     >
       {type}

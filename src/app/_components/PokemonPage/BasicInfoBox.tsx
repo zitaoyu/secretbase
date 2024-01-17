@@ -44,6 +44,15 @@ const BasicInfoBoxItem = ({
   );
 };
 
+const evNameMap: Record<string, string> = {
+  hp: "HP",
+  attack: "Atk",
+  defense: "Def",
+  "special-attack": "Sp.Atk",
+  "special-defense": "Sp.Def",
+  speed: "Speed",
+};
+
 type BasicInfoBoxProps = {
   pokemonData: Pokemon | undefined;
 };
@@ -69,6 +78,15 @@ export const BasicInfoBox = ({ pokemonData }: BasicInfoBoxProps) => {
           };
         })
       : [{ value: "None", url: null }];
+
+  const evYield: BoxItemData[] = pokemonData.stats
+    .filter((stat) => stat.effort > 0)
+    .map((stat) => {
+      return {
+        value: stat.effort + " " + evNameMap[stat.stat.name],
+        url: null,
+      };
+    });
 
   const weight: BoxItemData[] = [
     { value: pokemonData.weight / 10 + "kg", url: null },
@@ -97,6 +115,7 @@ export const BasicInfoBox = ({ pokemonData }: BasicInfoBoxProps) => {
         </div>
         <BasicInfoBoxItem title="Base Experience:" items={baseExp} />
         <BasicInfoBoxItem title="Held Items:" items={heldItems} />
+        <BasicInfoBoxItem title="EV yield:" items={evYield} />
       </div>
     </div>
   );

@@ -42,7 +42,7 @@ export default function PokemonPage() {
 
   if (isLoading) {
     return (
-      <Card className="h-[80vh] w-full p-4">
+      <Card className="h-screen w-full p-4">
         <PrimarySpinner className="m-auto" />
       </Card>
     );
@@ -76,16 +76,16 @@ export default function PokemonPage() {
         </div>
       </div>
       {/* Moves Table */}
-      <div className="flex w-full max-w-2xl flex-col gap-2">
-        <SectionTitle title="Level Up Moves" />
-        {/* <Divider className="mb-4 mt-2" /> */}
-        <MovesTable movesData={pokemonData?.moves} method="level-up" />
-      </div>
-      <div className="flex w-full max-w-2xl flex-col gap-2">
-        <SectionTitle title="TM Moves" />
-        {/* <Divider className="mb-4 mt-2" /> */}
-        <MovesTable movesData={pokemonData?.moves} method="machine" />
-      </div>
+      <MovesTable
+        title="Level Up Moves"
+        movesData={pokemonData?.moves}
+        method="level-up"
+      />
+      <MovesTable
+        title="TM Moves"
+        movesData={pokemonData?.moves}
+        method="machine"
+      />
     </Card>
   );
 }
