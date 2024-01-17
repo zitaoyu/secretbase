@@ -11,8 +11,14 @@ export const PrimarySpinner = ({
 }: PrimarySpinnerProps) => {
   return (
     <Spinner
-      className={`text-background ${className}`}
-      color="default"
+      className={`${className}`}
+      classNames={{
+        base: "text-background",
+        // wrapper: "",
+        // circle1: "border-b-porygon-pink", // bar
+        // circle2: "border-b-porygon-pink", // dots
+      }}
+      color="danger"
       size={size}
     />
   );

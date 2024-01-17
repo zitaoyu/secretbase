@@ -8,7 +8,7 @@ interface StatsTableProps {
 
 export const StatsTable = ({ statsData }: StatsTableProps) => {
   return (
-    <div className="w-full max-w-xl">
+    <div className="flex w-full max-w-xl flex-col gap-2">
       <SectionTitle title="Base Stats" />
       <div className="w-full rounded-xl p-1 text-sm outline outline-default sm:text-base">
         {statsData.map((stat) => (
@@ -16,7 +16,7 @@ export const StatsTable = ({ statsData }: StatsTableProps) => {
             className="grid grid-cols-4 border-b-2 border-default"
             key={stat.stat.name}
           >
-            <div className="flex justify-between border-r-2 border-default p-1">
+            <div className="flex justify-between border-r-2 border-default p-1 font-semibold">
               <span>{statNameMap[stat.stat.name]}:</span>
               <span>{stat.base_stat}</span>
             </div>
@@ -32,7 +32,7 @@ export const StatsTable = ({ statsData }: StatsTableProps) => {
           </div>
         ))}
         <div className="grid grid-cols-4">
-          <div className="flex justify-between p-1">
+          <div className="flex justify-between p-1 font-semibold">
             <span>Total:</span>
             <span>
               {statsData

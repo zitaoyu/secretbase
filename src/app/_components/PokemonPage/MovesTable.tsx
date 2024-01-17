@@ -41,10 +41,11 @@ interface MoveRowData {
 
 interface GenTabsProps {
   gen: Gen;
-  setGen: React.Dispatch<React.SetStateAction<Gen>>;
+  loading: boolean;
+  reloadMoves: (gen: Gen) => void;
 }
 
-const GenTabs = ({ gen, setGen }: GenTabsProps) => {
+const GenTabs = ({ gen, loading, reloadMoves }: GenTabsProps) => {
   const tabs: { id: Gen; label: string }[] = [
     {
       id: "red-blue",
@@ -95,8 +96,9 @@ const GenTabs = ({ gen, setGen }: GenTabsProps) => {
       }}
       selectedKey={gen}
       onSelectionChange={(key) => {
-        setGen(key as Gen);
+        reloadMoves(key as Gen);
       }}
+      isDisabled={loading}
     >
       {(item) => <Tab key={item.id} title={item.label}></Tab>}
     </Tabs>
@@ -210,14 +212,19 @@ export const MovesTable = ({ title, movesData, method }: MovesTableProps) => {
     fetchData();
   }, [movesData, gen]);
 
-  if (!movesData || loading) {
-    return <PrimarySpinner />;
+  function reloadMoves(gen: Gen) {
+    setLoading(true);
+    setGen(gen);
+  }
+
+  if (!movesData) {
+    return;
   }
 
   return (
     <div className="flex w-full max-w-2xl flex-col items-center gap-2">
       <SectionTitle title={title} />
-      <GenTabs gen={gen} setGen={setGen} />
+      <GenTabs gen={gen} loading={loading} reloadMoves={reloadMoves} />
       <Table
         className="overflow-scroll rounded-xl p-1 outline outline-default sm:p-4"
         removeWrapper
@@ -244,7 +251,8 @@ export const MovesTable = ({ title, movesData, method }: MovesTableProps) => {
             </TableColumn>
           ))}
         </TableHeader>
-        <TableBody>
+
+        <TableBody isLoading={loading} loadingContent={<PrimarySpinner />}>
           {rows.slice(0, show).map((row) =>
             method === "level-up" ? (
               <TableRow key={row.move}>
