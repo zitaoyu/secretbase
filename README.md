@@ -6,7 +6,7 @@
 - [x] add types to pokemon card
 - [x] add route to pokemon detail page
 - [x] add moves table to pokemon page
-- [ ] add stats table to pokemon page
+- [x] add stats table to pokemon page
 - [ ] add filtering to search bar
 - [ ] add different layout to pokedex
 
