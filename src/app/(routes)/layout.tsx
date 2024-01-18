@@ -28,7 +28,7 @@ export default function RootLayout({
         <Providers>
           <main className="min-h-screen">
             <PrimaryNavBar />
-            <section className="mx-auto max-w-7xl sm:p-4">
+            <section className="mx-auto max-w-7xl">
               {children}
               <Analytics />
             </section>

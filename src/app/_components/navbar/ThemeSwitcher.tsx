@@ -34,7 +34,7 @@ export const ThemeSwitcher = () => {
       <div className="h-10 w-10 overflow-hidden">
         <Image
           className="-translate-y-[36%] scale-[1.75]"
-          src={theme === "light" ? MoonIcon : SunIcon}
+          src={theme === "light" ? SunIcon : MoonIcon}
           alt="mode icon"
         />
       </div>
