@@ -59,7 +59,7 @@ const SearchBar = ({
         startContent={<FaSearch size={20} />}
       />
       <PrimaryIconButton
-        className="h-full w-12 shadow-md"
+        className="h-full w-12 bg-content1 shadow-md"
         icon={iconMap[gridType]}
         onClick={toggleGrid}
       />
@@ -137,12 +137,7 @@ export const PokedexGrid = () => {
       />
       <div
         className={`
-                grid w-full grid-cols-2 justify-center gap-4
-                py-4
-                sm:grid-cols-3 
-                md:grid-cols-4
-                lg:grid-cols-5 
-                xl:grid-cols-6
+                grid w-full justify-center gap-4 py-4
                 ${
                   gridType === "mini"
                     ? `                    

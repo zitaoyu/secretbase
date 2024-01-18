@@ -31,13 +31,13 @@ export const ThemeSwitcher = () => {
         icon={theme === "light" ? MdOutlineLightMode : MdOutlineDarkMode}
         onClick={toggleTheme}
       />
-      <div className="h-10 w-10 overflow-hidden">
+      {/* <div className="h-10 w-10 overflow-hidden">
         <Image
           className="-translate-y-[36%] scale-[1.75]"
           src={theme === "light" ? SunIcon : MoonIcon}
           alt="mode icon"
         />
-      </div>
+      </div> */}
     </div>
   );
 };
