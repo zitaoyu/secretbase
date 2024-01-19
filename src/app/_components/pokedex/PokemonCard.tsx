@@ -25,7 +25,7 @@ export const PokemonCard = ({ data, isMini = false }: PokemonCardProps) => {
     <Link href={`/${data.id}`}>
       <Card
         className={`group m-auto aspect-square h-full max-h-48 w-full max-w-48  hover:outline hover:outline-porygon-blue
-                    ${isMini ? "max-h-28 max-w-28 p-0 hover:scale-125" : "max-h-48 max-w-48"}
+                    ${isMini ? "max-h-28 max-w-28 p-0 md:hover:scale-110" : "max-h-48 max-w-48"}
                     `}
         isPressable
         onPress={undefined}
@@ -38,6 +38,7 @@ export const PokemonCard = ({ data, isMini = false }: PokemonCardProps) => {
           <img
             className={`sprite object-cover transition ${isMini ? "sprite scale-[1.5]" : "group-hover:scale-125"}`}
             src={isMini ? (data.spriteUrl as string) : getSpriteUrl()}
+            alt={data.name + " sprite"}
           />
           {!isMini && <span className="absolute left-3 top-2">#{data.id}</span>}
         </CardBody>

@@ -275,6 +275,7 @@ export const MovesTable = ({ title, movesData, method }: MovesTableProps) => {
                       <img
                         className="sprite w-full object-cover"
                         src={moveTypeSpriteMap[row.category].src}
+                        alt={row.move}
                       />
                     </div>
                   ) : (
@@ -304,6 +305,7 @@ export const MovesTable = ({ title, movesData, method }: MovesTableProps) => {
                       <img
                         className="sprite w-full object-cover"
                         src={moveTypeSpriteMap[row.category].src}
+                        alt={row.move + " category"}
                       />
                     </div>
                   ) : (

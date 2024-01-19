@@ -4,6 +4,10 @@ interface PokemonSpriteProps {
 
 export const PokemonSprite = ({ imageUrl }: PokemonSpriteProps) => {
   return (
-    <img className="sprite transition group-hover:scale-125" src={imageUrl} />
+    <img
+      className="sprite transition group-hover:scale-125"
+      src={imageUrl}
+      alt="pokemon sprite"
+    />
   );
 };

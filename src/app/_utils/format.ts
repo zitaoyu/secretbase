@@ -16,3 +16,11 @@ export function extractIdFromUrl(url: string): number {
   const lastPart = parts[parts.length - 2];
   return /^\d+$/.test(lastPart) ? parseInt(lastPart, 10) : -1;
 }
+
+export function isNumber(s: string): boolean {
+  return /^\d+$/.test(s);
+}
+
+export function stringToInt(s: string): number {
+  return parseInt(s, 10);
+}

@@ -13,8 +13,9 @@ import { ThemeSwitcher } from "./ThemeSwitcher";
 import { Logo } from "./Logo";
 import Link from "next/link";
 import { useState } from "react";
-import { RxHamburgerMenu } from "react-icons/rx";
 import { CgClose } from "react-icons/cg";
+import { IoMenu } from "react-icons/io5";
+import { PrimaryIconButton } from "../PrimaryIconButton";
 
 export const PrimaryNavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -32,14 +33,6 @@ export const PrimaryNavBar = () => {
       isBordered
     >
       <NavbarContent>
-        <NavbarMenuToggle
-          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="h-full w-full sm:hidden"
-          icon={
-            isMenuOpen ? <CgClose size={32} /> : <RxHamburgerMenu size={32} />
-          }
-        />
-
         <NavbarBrand>
           <Link href={"/"}>
             <Logo />
@@ -60,11 +53,19 @@ export const PrimaryNavBar = () => {
         <NavbarItem>
           <ThemeSwitcher />
         </NavbarItem>
+        <NavbarItem>
+          <PrimaryIconButton
+            className="block sm:hidden"
+            icon={isMenuOpen ? CgClose : IoMenu}
+            onClick={() => setIsMenuOpen((prev) => !prev)}
+          />
+        </NavbarItem>
       </NavbarContent>
 
-      <NavbarMenu className="gap-6 pl-8">
+      <NavbarMenu className="gap-8 py-8">
         {menuItems.map((menuItem) => (
           <NavbarMenuItem
+            className="text-right"
             onClick={() => setIsMenuOpen(false)}
             key={menuItem.label}
           >

@@ -7,8 +7,9 @@
 - [x] add route to pokemon detail page
 - [x] add moves table to pokemon page
 - [x] add stats table to pokemon page
-- [ ] add filtering to search bar
+- [x] add filtering to search bar
 - [ ] add different layout to pokedex
+- [ ] add type filtering
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
