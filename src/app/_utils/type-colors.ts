@@ -1,4 +1,4 @@
-import { PokemonType } from "../_types/p-type";
+import { PokemonType } from "../_types/pokemon.type";
 
 const typeColors: Record<PokemonType, string> = {
   [PokemonType.Normal]: "#A8A77A",

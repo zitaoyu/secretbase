@@ -2,7 +2,7 @@
 
 import { formatName } from "../_utils/format";
 import { getPokemonTypeColor } from "../_utils/type-colors";
-import WrapperProps from "./Wrapper.i";
+import WrapperProps from "./Wrapper";
 
 interface PokemonTypeBoxSizeProps {
   size?: "sm" | "md" | "lg";

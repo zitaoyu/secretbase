@@ -1,4 +1,7 @@
-import { PokeApiWrapperInterface, PokemonSimpleData } from "./pokeapi.i";
+import {
+  PokeApiWrapperInterface,
+  PokemonSimpleData,
+} from "./pokeapi.interface";
 import Pokedex, {
   NamedAPIResourceList,
   Pokemon,

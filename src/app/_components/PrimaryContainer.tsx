@@ -1,5 +1,5 @@
 import { Card } from "@nextui-org/react";
-import WrapperProps from "./Wrapper.i";
+import WrapperProps from "./Wrapper";
 
 interface PrimaryContainerProps extends WrapperProps {}
 

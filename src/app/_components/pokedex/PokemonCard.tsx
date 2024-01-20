@@ -1,7 +1,7 @@
 import { Card, CardBody, CardFooter } from "@nextui-org/react";
 import { useState } from "react";
 import { PokemonSprite } from "../PokemonSprite";
-import { PokemonSimpleData } from "../../_lib/api/pokeapi.i";
+import { PokemonSimpleData } from "../../_lib/api/pokeapi.interface";
 import { PokemonTypeBoxes } from "../PokemonTypeBox";
 import Link from "next/link";
 import { capitalizeFirstLetter } from "@/app/_utils/format";

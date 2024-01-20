@@ -1,11 +1,13 @@
-interface PokemonSpriteProps {
+import WrapperProps from "./Wrapper";
+
+interface PokemonSpriteProps extends WrapperProps {
   imageUrl: string;
 }
 
-export const PokemonSprite = ({ imageUrl }: PokemonSpriteProps) => {
+export const PokemonSprite = ({ imageUrl, className }: PokemonSpriteProps) => {
   return (
     <img
-      className="sprite transition group-hover:scale-125"
+      className={className + " sprite"}
       src={imageUrl}
       alt="pokemon sprite"
     />

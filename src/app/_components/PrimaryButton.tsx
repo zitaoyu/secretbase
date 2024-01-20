@@ -1,5 +1,5 @@
 import { Button, ButtonProps } from "@nextui-org/react";
-import WrapperProps from "./Wrapper.i";
+import WrapperProps from "./Wrapper";
 
 interface PrimaryButtonProps extends ButtonProps, WrapperProps {}
 
