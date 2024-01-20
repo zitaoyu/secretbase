@@ -96,7 +96,9 @@ const GenTabs = ({ gen, loading, reloadMoves }: GenTabsProps) => {
       }}
       selectedKey={gen}
       onSelectionChange={(key) => {
-        reloadMoves(key as Gen);
+        if (key !== gen) {
+          reloadMoves(key as Gen);
+        }
       }}
       isDisabled={loading}
     >
@@ -255,8 +257,10 @@ export const MovesTable = ({ title, movesData, method }: MovesTableProps) => {
         <TableBody isLoading={loading} loadingContent={<PrimarySpinner />}>
           {rows.slice(0, show).map((row) =>
             method === "level-up" ? (
-              <TableRow key={row.move}>
-                <TableCell>{row.level === 0 ? "Evo." : row.level}</TableCell>
+              <TableRow key={row.TMId}>
+                <TableCell>
+                  {row.level !== null && row.level === 0 ? "Evo." : row.level}
+                </TableCell>
                 <TableCell>
                   <span className="text-nowrap font-medium">
                     {formatName(row.move) || placeholder}
