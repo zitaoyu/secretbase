@@ -88,7 +88,7 @@ export const BasicInfoBox = ({ pokemonData }: BasicInfoBoxProps) => {
   ];
 
   const baseExp: BoxItemData[] = [
-    { value: pokemonData?.base_experience || "", url: null },
+    { value: pokemonData?.base_experience || "?", url: null },
   ];
 
   return (

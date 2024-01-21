@@ -8,8 +8,9 @@
 - [x] add moves table to pokemon page
 - [x] add stats table to pokemon page
 - [x] add filtering to search bar
-- [ ] add different layout to pokedex
+- [x] add different layout to pokedex
 - [ ] add type filtering
+- [ ] remove invalid gen in moves table
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
