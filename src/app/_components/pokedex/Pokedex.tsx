@@ -108,7 +108,7 @@ export const Pokedex = () => {
   }
 
   return (
-    <div className="flex flex-col items-center gap-4 p-2 py-4 sm:px-4">
+    <div className="flex flex-col items-center gap-4 p-2 sm:p-4 lg:p-6">
       <PokedexFilter
         setSearchString={setSearchString}
         setIndexFilter={setIndexFilter}

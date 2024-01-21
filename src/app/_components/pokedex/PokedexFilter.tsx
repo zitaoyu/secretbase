@@ -99,7 +99,7 @@ export const PokedexFilter = ({
           className="w-full"
           classNames={{
             input: "bg-content1 text-base", // input
-            inputWrapper: ["bg-content1 shadow-md"], //outer wrapper
+            inputWrapper: "bg-content1 shadow-md", //outer wrapper
             innerWrapper: "bg-content1",
           }}
           type="search"
@@ -112,7 +112,7 @@ export const PokedexFilter = ({
           onChange={(event) => setSearchString(event.target.value)}
         />
         <PrimaryIconButton
-          className="block aspect-square h-full bg-content1 shadow-md sm:hidden"
+          className="block aspect-square h-14 w-14 bg-content1 shadow-md sm:hidden"
           size="lg"
           icon={isShowFilters ? MdFilterAltOff : MdFilterAlt}
           onClick={() => setIsShowFilters((prev) => !prev)}
@@ -128,15 +128,21 @@ export const PokedexFilter = ({
             aria-label="Gen filter"
             defaultItems={genSelectorItems}
             placeholder="Generation"
-            className="w-full rounded-xl shadow-md"
+            className="w-full rounded-xl shadow-sm"
+            classNames={{}}
             inputProps={{
               classNames: {
                 input: "bg-content1 text-base",
                 inputWrapper: "bg-content1",
               },
             }}
+            listboxProps={{
+              itemClasses: {
+                title: "text-base",
+              },
+            }}
             variant="faded"
-            size="sm"
+            size="md"
             radius="lg"
             disableAnimation
             onSelectionChange={(key) => {
@@ -158,13 +164,16 @@ export const PokedexFilter = ({
           </Autocomplete>
         </div>
         {/* Grid Layout Toggle */}
-        <PrimaryIconButton
-          className="bg-content1 shadow-md"
-          size="lg"
-          icon={iconMap[gridType]}
-          onClick={toggleGrid}
-          disableAnimation
-        />
+        <div className="h-14 w-14">
+          <PrimaryIconButton
+            className="h-14 w-14 bg-content1 p-1 shadow-sm"
+            size="lg"
+            fullWidth
+            icon={iconMap[gridType]}
+            onClick={toggleGrid}
+            disableAnimation
+          />
+        </div>
       </div>
     </div>
   );

@@ -42,14 +42,14 @@ export default function PokemonPage() {
 
   if (isLoading) {
     return (
-      <Card className="h-screen w-full p-4">
+      <Card className="h-screen w-full rounded-none p-4">
         <PrimarySpinner className="m-auto" />
       </Card>
     );
   }
 
   return (
-    <Card className="flex h-full w-full min-w-80 flex-col items-center gap-10 p-4">
+    <Card className="flex h-full w-full min-w-80 flex-col items-center gap-10 rounded-none p-4">
       {/* Nav Menu */}
       <NavMenu id={pokemonIdInt} />
       {/* Pokemon Info */}
