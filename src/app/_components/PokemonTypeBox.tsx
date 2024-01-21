@@ -31,15 +31,19 @@ export const PokemonTypeBox = ({ type, size = "md" }: PokemonTypeBoxProps) => {
 
 interface PokemonTypeBoxesProps extends PokemonTypeBoxSizeProps, WrapperProps {
   types: string[];
+  isVertical?: boolean;
 }
 
 export const PokemonTypeBoxes = ({
   types,
   size = "md",
+  isVertical = false,
   className,
 }: PokemonTypeBoxesProps) => {
   return (
-    <div className={`flex gap-1 ${className}`}>
+    <div
+      className={`${className} flex items-center gap-1 ${isVertical && "flex-col"}`}
+    >
       {types.map((type) => (
         <PokemonTypeBox type={type} key={type} size={size} />
       ))}

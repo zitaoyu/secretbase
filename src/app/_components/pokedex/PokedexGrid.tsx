@@ -20,7 +20,7 @@ export const PokedexGrid = ({
 
   return (
     <div
-      className={`grid w-full justify-center gap-4 py-4 ${isMini ? miniGridStyles : regularGridStyles}`}
+      className={`grid w-full justify-center gap-4 ${isMini ? miniGridStyles : regularGridStyles}`}
     >
       {pokemonData
         ?.slice(0, showPokemons)

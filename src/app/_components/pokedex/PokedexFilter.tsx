@@ -98,8 +98,8 @@ export const PokedexFilter = ({
         <Input
           className="w-full"
           classNames={{
-            input: "bg-content1", // input
-            inputWrapper: ["bg-content1", "shadow-md"], //outer wrapper
+            input: "bg-content1 text-base", // input
+            inputWrapper: ["bg-content1 shadow-md"], //outer wrapper
             innerWrapper: "bg-content1",
           }}
           type="search"
@@ -131,7 +131,7 @@ export const PokedexFilter = ({
             className="w-full rounded-xl shadow-md"
             inputProps={{
               classNames: {
-                input: "bg-content1",
+                input: "bg-content1 text-base",
                 inputWrapper: "bg-content1",
               },
             }}
