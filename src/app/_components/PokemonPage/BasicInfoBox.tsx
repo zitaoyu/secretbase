@@ -3,6 +3,9 @@ import Link from "next/link";
 import { getPokemonTypeColor } from "@/app/_utils/type-colors";
 import { formatName } from "@/app/_utils/format";
 import { statNameMap } from "@/app/_utils/stats";
+import { useEffect, useState } from "react";
+import myPokedex from "@/app/_lib/api/pokeapi";
+import { PrimarySpinner } from "../PrimarySpinner";
 
 type BoxItemData = {
   value: string | number;
@@ -26,7 +29,7 @@ const BasicInfoBoxItem = ({
         {title}
       </div>
       <div
-        className={`flex w-full rounded-2xl bg-white p-1 dark:bg-zinc-600 
+        className={`flex w-full rounded-2xl bg-white px-3 py-1 dark:bg-zinc-600 
                     ${items.length > 1 ? "justify-evenly" : "justify-center"}
                     `}
       >
@@ -49,8 +52,29 @@ type BasicInfoBoxProps = {
 };
 
 export const BasicInfoBox = ({ pokemonData }: BasicInfoBoxProps) => {
-  if (!pokemonData) {
-    return;
+  const [pokedexEntry, setPokedexEntry] = useState("");
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    if (pokemonData) {
+      myPokedex
+        .getSpeciesByName(pokemonData?.id)
+        .then((response) => {
+          const latestPokedexEntry = response.flavor_text_entries
+            .slice()
+            .reverse()
+            .find((entry) => entry.language && entry.language.name === "en");
+          setPokedexEntry(latestPokedexEntry?.flavor_text || "");
+        })
+        .catch(() => {
+          throw Error("unable to fetch pokedex entry, try again...");
+        });
+      setLoading(false);
+    }
+  }, [pokemonData]);
+
+  if (!pokemonData || loading) {
+    return <PrimarySpinner />;
   }
 
   const abilities: BoxItemData[] = pokemonData.abilities.map((ability) => {
@@ -91,6 +115,8 @@ export const BasicInfoBox = ({ pokemonData }: BasicInfoBoxProps) => {
     { value: pokemonData?.base_experience || "?", url: null },
   ];
 
+  const entry: BoxItemData[] = [{ value: pokedexEntry, url: null }];
+
   return (
     <div
       className="flex w-full max-w-lg flex-col rounded-2xl p-[2px]"
@@ -107,6 +133,7 @@ export const BasicInfoBox = ({ pokemonData }: BasicInfoBoxProps) => {
         <BasicInfoBoxItem title="Base Experience:" items={baseExp} />
         <BasicInfoBoxItem title="Held Items:" items={heldItems} />
         <BasicInfoBoxItem title="EV yield:" items={evYield} />
+        <BasicInfoBoxItem title="Pokedex Entry:" items={entry} />
       </div>
     </div>
   );

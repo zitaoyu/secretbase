@@ -14,6 +14,7 @@ import UnknownPokemonSprite from "../../_assets/unknown_pokemon.png";
 import { MovesTable } from "@/app/_components/PokemonPage/MovesTable";
 import myPokedex from "@/app/_lib/api/pokeapi";
 import { StatsTable } from "@/app/_components/PokemonPage/StatsTable";
+import ScrollToTop from "@/app/_components/ScrollToTop";
 
 export default function PokemonPage() {
   const { id } = useParams();
@@ -50,6 +51,7 @@ export default function PokemonPage() {
 
   return (
     <Card className="flex h-full w-full min-w-80 flex-col items-center gap-10 rounded-none p-4">
+      {/* <ScrollToTop /> */}
       {/* Nav Menu */}
       <NavMenu id={pokemonIdInt} />
       {/* Pokemon Info */}

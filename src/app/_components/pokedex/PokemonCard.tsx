@@ -1,6 +1,5 @@
 import { Card, CardBody, CardFooter } from "@nextui-org/react";
 import { useState } from "react";
-import { PokemonSprite } from "../PokemonSprite";
 import { PokemonSimpleData } from "../../_lib/api/pokeapi.interface";
 import { PokemonTypeBoxes } from "../PokemonTypeBox";
 import Link from "next/link";
@@ -22,7 +21,7 @@ export const PokemonCard = ({ data, isMini = false }: PokemonCardProps) => {
   }
 
   return (
-    <Link href={`/${data.id}`}>
+    <Link href={`/${data.id}`} scroll>
       <Card
         className={`group m-auto aspect-square h-full max-h-48 w-full max-w-48 hover:outline hover:outline-porygon-blue
                     ${isMini ? "max-h-28 max-w-28 p-0 md:hover:scale-110" : "max-h-48 max-w-48"}

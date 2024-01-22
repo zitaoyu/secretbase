@@ -9,8 +9,10 @@
 - [x] add stats table to pokemon page
 - [x] add filtering to search bar
 - [x] add different layout to pokedex
+- [x] remove invalid gen in moves table
+- [ ] add type chart
 - [ ] add type filtering
-- [ ] remove invalid gen in moves table
+- [ ] add shiny sprites and other art work
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

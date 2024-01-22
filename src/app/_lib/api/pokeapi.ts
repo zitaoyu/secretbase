@@ -6,6 +6,7 @@ import Pokedex, {
   NamedAPIResourceList,
   Pokemon,
   Move,
+  PokemonSpecies,
 } from "pokedex-promise-v2";
 import basicPokemonData from "./basicPokemonData.json";
 
@@ -39,6 +40,10 @@ class PokeApiWrapper implements PokeApiWrapperInterface {
 
   getMoveByNameArray(nameOrId: Array<string | number>): Promise<Move[]> {
     return this.pokedex.getMoveByName(nameOrId);
+  }
+
+  getSpeciesByName(nameOrId: string | number): Promise<PokemonSpecies> {
+    return this.pokedex.getPokemonSpeciesByName(nameOrId);
   }
 
   getPokemonDefaultSpriteUrlById(id: number): string {

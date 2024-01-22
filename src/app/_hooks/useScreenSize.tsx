@@ -3,11 +3,11 @@ import { useState, useEffect } from "react";
 interface ScreenSize {
   width: number;
   height: number;
-  size: "2xl" | "xl" | "lg" | "md" | "sm" | "xs";
+  size: "2xl" | "xl" | "lg" | "md" | "sm" | "xs" | "none";
 }
 
 const getScreenSizeCategory = (
-  width: number
+  width: number,
 ): "2xl" | "xl" | "lg" | "md" | "sm" | "xs" => {
   if (width >= 1536) {
     return "2xl";
@@ -30,7 +30,7 @@ const useScreenSize = (): ScreenSize => {
   const [screenSize, setScreenSize] = useState<ScreenSize>(() => ({
     width: isClient ? window.innerWidth : 0,
     height: isClient ? window.innerHeight : 0,
-    size: isClient ? getScreenSizeCategory(window.innerWidth) : "xs",
+    size: isClient ? getScreenSizeCategory(window.innerWidth) : "none",
   }));
 
   useEffect(() => {
