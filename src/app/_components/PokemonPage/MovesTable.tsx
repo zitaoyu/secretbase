@@ -41,11 +41,12 @@ interface MoveRowData {
 
 interface GenTabsProps {
   gen: Gen;
+  genMovesMap: Record<Gen, MoveRowData[]>;
   loading: boolean;
   reloadMoves: (gen: Gen) => void;
 }
 
-const GenTabs = ({ gen, loading, reloadMoves }: GenTabsProps) => {
+const GenTabs = ({ gen, genMovesMap, loading, reloadMoves }: GenTabsProps) => {
   const tabs: { id: Gen; label: string }[] = [
     {
       id: "red-blue",
@@ -102,7 +103,13 @@ const GenTabs = ({ gen, loading, reloadMoves }: GenTabsProps) => {
       }}
       isDisabled={loading}
     >
-      {(item) => <Tab key={item.id} title={item.label}></Tab>}
+      {(item) => (
+        <Tab
+          key={item.id}
+          title={item.label}
+          isDisabled={genMovesMap[item.id].length === 0}
+        ></Tab>
+      )}
     </Tabs>
   );
 };
@@ -115,9 +122,24 @@ interface MovesTableProps {
 
 export const MovesTable = ({ title, movesData, method }: MovesTableProps) => {
   const [rows, setRows] = useState<MoveRowData[]>([]);
+  const [mount, setMount] = useState(false);
   const [loading, setLoading] = useState(true);
   const [show, setShow] = useState(0);
   const [gen, setGen] = useState<Gen>("scarlet-violet");
+  const createDefaultGenMovesMap = (): Record<Gen, MoveRowData[]> => ({
+    "red-blue": [],
+    crystal: [],
+    "firered-leafgreen": [],
+    platinum: [],
+    "black-2-white-2": [],
+    "omega-ruby-alpha-sapphire": [],
+    "ultra-sun-ultra-moon": [],
+    "sword-shield": [],
+    "scarlet-violet": [],
+  });
+  const [genMovesMap, setGenMovesMap] = useState<Record<Gen, MoveRowData[]>>(
+    createDefaultGenMovesMap(),
+  );
   const placeholder = "-";
 
   const columns = [
@@ -143,12 +165,6 @@ export const MovesTable = ({ title, movesData, method }: MovesTableProps) => {
     },
   ];
 
-  // if (method === "machine") {
-  //   columns.unshift({
-  //     key: "tm",
-  //     label: "TM",
-  //   });
-  // } else
   if (method === "level-up") {
     columns.unshift({
       key: "level",
@@ -156,20 +172,20 @@ export const MovesTable = ({ title, movesData, method }: MovesTableProps) => {
     });
   }
 
+  // Load genMovesMap when first mounted
   useEffect(() => {
-    const fetchData = async () => {
-      if (movesData) {
-        const newRows: MoveRowData[] = [];
-
+    if (movesData && !mount) {
+      const newGenMovesMap: Record<Gen, MoveRowData[]> =
+        createDefaultGenMovesMap();
+      let latestGen: Gen = "scarlet-violet";
+      for (const gen of Object.keys(newGenMovesMap) as Gen[]) {
         for (const move of movesData) {
-          // filter gen 9 moves only
           const moveVersionDetails = move.version_group_details.filter(
             (version) => version.version_group.name === gen,
           );
           const moveDetails = moveVersionDetails.filter(
             (version) => version.move_learn_method.name === method,
           );
-
           if (moveDetails.length > 0) {
             for (const detail of moveDetails) {
               const moveData = {
@@ -177,42 +193,57 @@ export const MovesTable = ({ title, movesData, method }: MovesTableProps) => {
                 move: move.move.name,
                 url: move.move.url,
               };
-              newRows.push(moveData);
+              newGenMovesMap[gen].push(moveData);
             }
           }
         }
-
-        newRows.sort((a, b) => a.level - b.level);
-
-        await Promise.all(
-          newRows.map(async (row) => {
-            try {
-              const response = await myPokedex.getMoveByName(row.move);
-              if (response.power) {
-                row.power = response.power;
-              }
-              if (response.accuracy) {
-                row.accuracy = response.accuracy;
-              }
-              row.type = response.type.name;
-              row.category = response.damage_class.name;
-              if (response.machines.length > 0) {
-                // TODO: TM id is not correct from PokeApi
-                // row.TMId = extractIdFromUrl(response.machines[0].machine.url);
-              }
-            } catch (error) {
-              throw new Error(error + ", try again later...");
-            }
-          }),
-        );
-
-        setRows(newRows);
-        setShow(method === "level-up" ? newRows.length : 20);
-        setLoading(false);
+        if (newGenMovesMap[gen].length > 0) {
+          latestGen = gen;
+          newGenMovesMap[gen].sort((a, b) => a.level - b.level);
+        }
       }
-    };
-    fetchData();
-  }, [movesData, gen]);
+      setGenMovesMap(newGenMovesMap);
+      setGen(latestGen);
+      fetchMovesData();
+      setMount(true);
+    }
+  }, []);
+
+  // get list from genMovesMap then fetch data
+  useEffect(() => {
+    if (mount) {
+      fetchMovesData();
+    }
+  }, [mount, gen]);
+
+  async function fetchMovesData() {
+    const newRows = genMovesMap[gen];
+
+    await Promise.all(
+      newRows.map(async (row) => {
+        try {
+          const response = await myPokedex.getMoveByName(row.move);
+          if (response.power) {
+            row.power = response.power;
+          }
+          if (response.accuracy) {
+            row.accuracy = response.accuracy;
+          }
+          row.type = response.type.name;
+          row.category = response.damage_class.name;
+          if (response.machines.length > 0) {
+            // TODO: TM id is not correct from PokeApi
+            // row.TMId = extractIdFromUrl(response.machines[0].machine.url);
+          }
+        } catch (error) {
+          throw new Error(error + ", try again later...");
+        }
+      }),
+    );
+    setRows(newRows);
+    setShow(method === "level-up" ? newRows.length : 20);
+    setLoading(false);
+  }
 
   function reloadMoves(gen: Gen) {
     setLoading(true);
@@ -226,7 +257,12 @@ export const MovesTable = ({ title, movesData, method }: MovesTableProps) => {
   return (
     <div className="flex w-full max-w-2xl flex-col items-center gap-2">
       <SectionTitle title={title} />
-      <GenTabs gen={gen} loading={loading} reloadMoves={reloadMoves} />
+      <GenTabs
+        gen={gen}
+        genMovesMap={genMovesMap}
+        loading={loading}
+        reloadMoves={reloadMoves}
+      />
       <Table
         className="overflow-scroll rounded-xl p-1 outline outline-default sm:p-4"
         removeWrapper
