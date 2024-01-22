@@ -15,10 +15,8 @@ import { useState } from "react";
 import { CgClose } from "react-icons/cg";
 import { IoMenu } from "react-icons/io5";
 import { PrimaryIconButton } from "../PrimaryIconButton";
-import useScreenSize from "@/app/_hooks/useScreenSize";
 
 export const PrimaryNavBar = () => {
-  const screenSize = useScreenSize();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const menuItems: { label: string; href: string }[] = [
@@ -28,10 +26,10 @@ export const PrimaryNavBar = () => {
 
   return (
     <Navbar
+      className="border-0 sm:border sm:border-default"
       isMenuOpen={isMenuOpen}
       onMenuOpenChange={setIsMenuOpen}
       maxWidth="2xl"
-      isBordered={screenSize.size !== "xs"}
     >
       <NavbarContent>
         <NavbarBrand>
