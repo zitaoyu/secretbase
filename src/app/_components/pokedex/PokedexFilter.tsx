@@ -124,7 +124,7 @@ const ListBoxFilter = ({
 
 interface PokedexFilterProps {
   setSearchString: React.Dispatch<React.SetStateAction<string>>;
-  setGenFilter: React.Dispatch<React.SetStateAction<Gen>>;
+  setGenFilter: React.Dispatch<React.SetStateAction<Gen | null>>;
   setType1Filter: React.Dispatch<React.SetStateAction<PokemonType | null>>;
   setType2Filter: React.Dispatch<React.SetStateAction<PokemonType | null>>;
   gridType: GridType;

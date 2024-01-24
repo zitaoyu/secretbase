@@ -13,8 +13,9 @@ export type GenIndex =
   | [810, 905]
   | [906, 1025];
 
+export const defaultGenIndexFilter: GenIndex = [0, 1025];
+
 export const genIndexMap: Record<Gen, GenIndex> = {
-  all: [0, 1025],
   "red-blue": [0, 151],
   crystal: [152, 251],
   "firered-leafgreen": [252, 386],

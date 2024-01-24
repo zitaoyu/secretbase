@@ -6,7 +6,7 @@ import { PokemonSimpleData } from "@/app/_lib/api/pokeapi.interface";
 import myPokedex from "@/app/_lib/api/pokeapi";
 import { PokemonType } from "@/app/_types/pokemon.type";
 import { isNumber, stringToInt } from "@/app/_utils/format";
-import { GridType, genIndexMap } from "./Pokedex.type";
+import { GridType, defaultGenIndexFilter, genIndexMap } from "./Pokedex.type";
 import { PokedexFilter } from "./PokedexFilter";
 import { PokedexGrid } from "./PokedexGrid";
 import { PokedexTableGrid } from "./PokedexTableGrid";
@@ -20,7 +20,7 @@ export const Pokedex = () => {
   const [showPokemons, setShowPokemons] = useState<number>(100);
   const [isloading, setIsLoading] = useState<boolean>(true);
   const [searchString, setSearchString] = useState<string>("");
-  const [genFilter, setGenFilter] = useState<Gen>("all");
+  const [genFilter, setGenFilter] = useState<Gen | null>(null);
   const [type1filter, setType1Filter] = useState<PokemonType | null>(null);
   const [type2filter, setType2Filter] = useState<PokemonType | null>(null);
   const [gridType, setGridType] = useState<GridType>("regular");
@@ -89,7 +89,7 @@ export const Pokedex = () => {
         }
       }
       // Generation filtering
-      let indexFilter = genIndexMap["all"];
+      let indexFilter = defaultGenIndexFilter;
       if (genFilter) {
         indexFilter = genIndexMap[genFilter];
       }
