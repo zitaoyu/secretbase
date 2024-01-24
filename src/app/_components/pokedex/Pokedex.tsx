@@ -6,10 +6,11 @@ import { PokemonSimpleData } from "@/app/_lib/api/pokeapi.interface";
 import myPokedex from "@/app/_lib/api/pokeapi";
 import { PokemonType } from "@/app/_types/pokemon.type";
 import { isNumber, stringToInt } from "@/app/_utils/format";
-import { GenIndex, GridType, defaultIndexFilter } from "./Pokedex.type";
+import { GridType, genIndexMap } from "./Pokedex.type";
 import { PokedexFilter } from "./PokedexFilter";
 import { PokedexGrid } from "./PokedexGrid";
 import { PokedexTableGrid } from "./PokedexTableGrid";
+import { Gen } from "@/app/_utils/gen";
 
 export const Pokedex = () => {
   const [pokemonDataList, setPokemonDataList] = useState<PokemonSimpleData[]>(
@@ -19,16 +20,15 @@ export const Pokedex = () => {
   const [showPokemons, setShowPokemons] = useState<number>(100);
   const [isloading, setIsLoading] = useState<boolean>(true);
   const [searchString, setSearchString] = useState<string>("");
-  const [indexFilter, setIndexFilter] = useState<GenIndex>(defaultIndexFilter);
-  const [type1filter, setType1Filter] = useState<PokemonType>();
-  const [type2filter, setType2Filter] = useState<PokemonType>();
+  const [genFilter, setGenFilter] = useState<Gen>("all");
+  const [type1filter, setType1Filter] = useState<PokemonType | null>(null);
+  const [type2filter, setType2Filter] = useState<PokemonType | null>(null);
   const [gridType, setGridType] = useState<GridType>("regular");
 
   useEffect(() => {
     const data = myPokedex.getBasicPokemonData();
     setPokemonDataList(data);
     setFilterList(data);
-    setIndexFilter(defaultIndexFilter);
     setIsLoading(false);
   }, []);
 
@@ -43,7 +43,7 @@ export const Pokedex = () => {
 
   useEffect(() => {
     handleFilterList();
-  }, [searchString, indexFilter]);
+  }, [searchString, genFilter, type1filter, type2filter]);
 
   function loadMorePokemonCards() {
     setShowPokemons((prev) => prev + 50);
@@ -69,13 +69,13 @@ export const Pokedex = () => {
           pokemon.types.includes(type1filter),
         );
       }
-      console.log(filteredData);
+
       if (type2filter) {
         filteredData = filteredData.filter((pokemon) =>
           pokemon.types.includes(type2filter),
         );
       }
-      console.log(filteredData);
+
       // Name filtering
       if (searchString !== "") {
         if (isNumber(searchString)) {
@@ -88,8 +88,11 @@ export const Pokedex = () => {
           );
         }
       }
-
       // Generation filtering
+      let indexFilter = genIndexMap["all"];
+      if (genFilter) {
+        indexFilter = genIndexMap[genFilter];
+      }
       filteredData = filteredData.filter(
         (pokemon) =>
           indexFilter[0] <= pokemon.id && pokemon.id <= indexFilter[1],
@@ -111,7 +114,7 @@ export const Pokedex = () => {
     <div className="flex flex-col items-center gap-4 p-2 sm:p-4 lg:p-6">
       <PokedexFilter
         setSearchString={setSearchString}
-        setIndexFilter={setIndexFilter}
+        setGenFilter={setGenFilter}
         setType1Filter={setType1Filter}
         setType2Filter={setType2Filter}
         gridType={gridType}

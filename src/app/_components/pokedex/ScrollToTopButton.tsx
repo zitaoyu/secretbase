@@ -9,8 +9,6 @@ export const ScrollToTopButton = () => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
       const screenHeight = window.innerHeight;
-
-      console.log(screenHeight);
       setShowButton(scrollY > screenHeight);
     };
 

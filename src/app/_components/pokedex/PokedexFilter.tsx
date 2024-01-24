@@ -10,71 +10,136 @@ import { MdFilterAlt, MdFilterAltOff } from "react-icons/md";
 import { IconType } from "react-icons";
 import { Gen } from "@/app/_utils/gen";
 import { PokemonType } from "@/app/_types/pokemon.type";
-import {
-  GenIndex,
-  GridType,
-  defaultIndexFilter,
-  genIndexMap,
-} from "./Pokedex.type";
+import { GridType } from "./Pokedex.type";
+
+type selectorItem<T> = {
+  label: string;
+  value: T;
+};
+
+const genSelectorItems: selectorItem<Gen>[] = [
+  {
+    label: "Gen 1",
+    value: "red-blue",
+  },
+  {
+    label: "Gen 2",
+    value: "crystal",
+  },
+  {
+    label: "Gen 3",
+    value: "firered-leafgreen",
+  },
+  {
+    label: "Gen 4",
+    value: "platinum",
+  },
+  {
+    label: "Gen 5",
+    value: "black-2-white-2",
+  },
+  {
+    label: "Gen 6",
+    value: "omega-ruby-alpha-sapphire",
+  },
+  {
+    label: "Gen 7",
+    value: "ultra-sun-ultra-moon",
+  },
+  {
+    label: "Sword & Shield",
+    value: "sword-shield",
+  },
+  {
+    label: "Scarlet & Violet",
+    value: "scarlet-violet",
+  },
+];
+
+const typeSelectorItems: selectorItem<PokemonType>[] = [
+  { label: "Normal", value: PokemonType.Normal },
+  { label: "Fire", value: PokemonType.Fire },
+  { label: "Water", value: PokemonType.Water },
+  { label: "Electric", value: PokemonType.Electric },
+  { label: "Grass", value: PokemonType.Grass },
+  { label: "Ice", value: PokemonType.Ice },
+  { label: "Fighting", value: PokemonType.Fighting },
+  { label: "Poison", value: PokemonType.Poison },
+  { label: "Ground", value: PokemonType.Ground },
+  { label: "Flying", value: PokemonType.Flying },
+  { label: "Psychic", value: PokemonType.Psychic },
+  { label: "Bug", value: PokemonType.Bug },
+  { label: "Rock", value: PokemonType.Rock },
+  { label: "Ghost", value: PokemonType.Ghost },
+  { label: "Dragon", value: PokemonType.Dragon },
+  { label: "Dark", value: PokemonType.Dark },
+  { label: "Steel", value: PokemonType.Steel },
+];
+
+interface ListBoxFilterProps {
+  placeholder: string;
+  listItems: { label: string; value: any }[];
+  setter: React.Dispatch<any>;
+}
+
+const ListBoxFilter = ({
+  placeholder,
+  listItems,
+  setter,
+}: ListBoxFilterProps) => {
+  return (
+    <Autocomplete
+      aria-label="Gen filter"
+      defaultItems={listItems}
+      placeholder={placeholder}
+      className="w-full rounded-xl shadow-sm"
+      classNames={{}}
+      inputProps={{
+        classNames: {
+          input: "bg-content1 text-base",
+          inputWrapper: "bg-content1",
+        },
+      }}
+      listboxProps={{
+        itemClasses: {
+          title: "text-base",
+        },
+      }}
+      variant="faded"
+      size="md"
+      radius="lg"
+      disableAnimation
+      onSelectionChange={(key) => {
+        setter(key);
+      }}
+    >
+      {(item) => (
+        <AutocompleteItem key={item.value} aria-label={item.label}>
+          {item.label}
+        </AutocompleteItem>
+      )}
+    </Autocomplete>
+  );
+};
 
 interface PokedexFilterProps {
   setSearchString: React.Dispatch<React.SetStateAction<string>>;
-  setIndexFilter: React.Dispatch<React.SetStateAction<GenIndex>>;
-  setType1Filter: React.Dispatch<React.SetStateAction<PokemonType | undefined>>;
-  setType2Filter: React.Dispatch<React.SetStateAction<PokemonType | undefined>>;
+  setGenFilter: React.Dispatch<React.SetStateAction<Gen>>;
+  setType1Filter: React.Dispatch<React.SetStateAction<PokemonType | null>>;
+  setType2Filter: React.Dispatch<React.SetStateAction<PokemonType | null>>;
   gridType: GridType;
   setGridType: React.Dispatch<React.SetStateAction<GridType>>;
 }
 
 export const PokedexFilter = ({
   setSearchString,
-  setIndexFilter,
+  setGenFilter,
   setType1Filter,
   setType2Filter,
   gridType,
   setGridType,
 }: PokedexFilterProps) => {
   const [isShowFilters, setIsShowFilters] = useState(false);
-
-  const genSelectorItems: { label: string; value: Gen }[] = [
-    {
-      label: "Gen I",
-      value: "red-blue",
-    },
-    {
-      label: "Gen II",
-      value: "crystal",
-    },
-    {
-      label: "Gen III",
-      value: "firered-leafgreen",
-    },
-    {
-      label: "Gen IV",
-      value: "platinum",
-    },
-    {
-      label: "Gen V",
-      value: "black-2-white-2",
-    },
-    {
-      label: "Gen VI",
-      value: "omega-ruby-alpha-sapphire",
-    },
-    {
-      label: "Gen VII",
-      value: "ultra-sun-ultra-moon",
-    },
-    {
-      label: "Sword & Shield",
-      value: "sword-shield",
-    },
-    {
-      label: "Scarlet & Violet",
-      value: "scarlet-violet",
-    },
-  ];
-
   const iconMap: Record<GridType, IconType> = {
     regular: BsGrid3X3GapFill,
     mini: FaListUl,
@@ -92,8 +157,8 @@ export const PokedexFilter = ({
   }
 
   return (
-    <div className="flex w-full flex-col items-center gap-2 sm:h-12 sm:flex-row sm:gap-1">
-      <div className="flex w-full flex-grow items-center gap-1">
+    <div className="flex w-full flex-col items-center gap-2 sm:gap-1 md:h-12 md:flex-row">
+      <div className="flex w-full flex-grow items-center gap-1 md:max-w-2xl">
         {/* Search Bar */}
         <Input
           className="w-full"
@@ -112,7 +177,7 @@ export const PokedexFilter = ({
           onChange={(event) => setSearchString(event.target.value)}
         />
         <PrimaryIconButton
-          className="block aspect-square h-14 w-14 bg-content1 shadow-md sm:hidden"
+          className="block aspect-square h-14 w-14 bg-content1 shadow-md md:hidden"
           size="lg"
           icon={isShowFilters ? MdFilterAltOff : MdFilterAlt}
           onClick={() => setIsShowFilters((prev) => !prev)}
@@ -120,48 +185,30 @@ export const PokedexFilter = ({
         />
       </div>
       <div
-        className={`flex h-full w-full items-center gap-1 sm:flex sm:w-auto ${!isShowFilters && "hidden"}`}
+        className={`flex h-full w-full items-center gap-1 md:flex md:w-auto ${!isShowFilters && "hidden"}`}
       >
+        {/* Types Filter */}
+        <div className="min-w-36">
+          <ListBoxFilter
+            placeholder="Type 1"
+            listItems={typeSelectorItems}
+            setter={setType1Filter}
+          />
+        </div>
+        <div className="min-w-36">
+          <ListBoxFilter
+            placeholder="Type 2"
+            listItems={typeSelectorItems}
+            setter={setType2Filter}
+          />
+        </div>
+        {/* Gen Filter */}
         <div className="w-full min-w-40">
-          {/* Gen Filter */}
-          <Autocomplete
-            aria-label="Gen filter"
-            defaultItems={genSelectorItems}
+          <ListBoxFilter
             placeholder="Generation"
-            className="w-full rounded-xl shadow-sm"
-            classNames={{}}
-            inputProps={{
-              classNames: {
-                input: "bg-content1 text-base",
-                inputWrapper: "bg-content1",
-              },
-            }}
-            listboxProps={{
-              itemClasses: {
-                title: "text-base",
-              },
-            }}
-            variant="faded"
-            size="md"
-            radius="lg"
-            disableAnimation
-            onSelectionChange={(key) => {
-              if (key === null) {
-                setIndexFilter(defaultIndexFilter);
-              } else {
-                setIndexFilter(genIndexMap[key as Gen]);
-              }
-            }}
-          >
-            {(generation) => (
-              <AutocompleteItem
-                key={generation.value}
-                aria-label={generation.label}
-              >
-                {generation.label}
-              </AutocompleteItem>
-            )}
-          </Autocomplete>
+            listItems={genSelectorItems}
+            setter={setGenFilter}
+          />
         </div>
         {/* Grid Layout Toggle */}
         <div className="h-14 w-14">
