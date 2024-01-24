@@ -3,11 +3,13 @@ import {
   Pokemon,
   Move,
   PokemonSpecies,
+  PokemonForm,
 } from "pokedex-promise-v2";
 
 export interface PokemonSimpleData {
   id: number;
   name: string;
+  form_name: string | null;
   types: string[];
   stats: {
     hp: number;
@@ -28,6 +30,7 @@ export interface PokeApiWrapperInterface {
   getMoveByName(nameOrId: string | number): Promise<Move>;
   getMoveByNameArray(nameOrId: Array<string | number>): Promise<Move[]>;
   getSpeciesByName(nameOrId: string | number): Promise<PokemonSpecies>;
+  getFormByName(nameOrId: string | number): Promise<PokemonForm>;
   getPokemonDefaultSpriteUrlById(id: number): string;
   getPokemonAnimatedSpriteUrlById(id: number): string;
 }

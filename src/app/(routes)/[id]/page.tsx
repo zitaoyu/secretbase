@@ -3,9 +3,7 @@
 import { Card } from "@nextui-org/react";
 import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
-import { Pokemon, PokemonType } from "pokedex-promise-v2";
-import { capitalizeFirstLetter } from "@/app/_utils/format";
-import { PokemonTypeBoxes } from "@/app/_components/PokemonTypeBox";
+import { Pokemon, PokemonForm, PokemonSpecies } from "pokedex-promise-v2";
 import { PrimarySpinner } from "@/app/_components/PrimarySpinner";
 import { NavMenu } from "@/app/_components/PokemonPage/NavMenu";
 import { BasicInfoBox } from "@/app/_components/PokemonPage/BasicInfoBox";
@@ -22,26 +20,38 @@ export default function PokemonPage() {
   const pokemonIdInt: number = parseInt(pokemonId, 10);
   const [isLoading, setIsLoading] = useState(true);
   const [pokemonData, setPokemonData] = useState<Pokemon>();
-  const [types, setTypes] = useState<string[]>([]);
+  const [speciesData, setSpeciesData] = useState<PokemonSpecies>();
+  const [formData, setFormData] = useState<PokemonForm>();
 
   useEffect(() => {
     myPokedex
       .getPokemonByName(pokemonId)
       .then((response) => {
         setPokemonData(response);
-        const types: string[] = [];
-        response.types.map((value: PokemonType) => {
-          types.push(value.type.name);
-        });
-        setTypes(types);
+      })
+      .catch(() => {
+        throw Error("Unable to fetch pokemon details, try again later...");
+      });
+    myPokedex
+      .getSpeciesByName(pokemonId)
+      .then((response: PokemonSpecies) => {
+        setSpeciesData(response);
+      })
+      .catch(() => {
+        throw Error("Unable to fetch pokemon species data, try again later...");
+      });
+    myPokedex
+      .getFormByName(pokemonId)
+      .then((response: PokemonForm) => {
+        setFormData(response);
         setIsLoading(false);
       })
-      .catch((error) => {
-        throw Error("Unable to fetch pokemon details, try again later...");
+      .catch(() => {
+        throw Error("Unable to fetch pokemon species data, try again later...");
       });
   }, []);
 
-  if (isLoading) {
+  if (isLoading || !pokemonData || !speciesData || !formData) {
     return (
       <Card className="h-screen w-full rounded-none p-4">
         <PrimarySpinner className="m-auto" />
@@ -65,17 +75,12 @@ export default function PokemonPage() {
             UnknownPokemonSprite.src
           }
         />
-
-        <div className="mb-4 flex w-full flex-col items-center gap-4">
-          {/* Pokmeon Name */}
-          <p className="-mb-2 text-2xl font-semibold">
-            {capitalizeFirstLetter(pokemonData?.name || "")}
-          </p>
-          {/* Pokemon types */}
-          <PokemonTypeBoxes types={types} size="lg" />
-          {/* Pokemon Basic Info Box */}
-          <BasicInfoBox pokemonData={pokemonData} />
-        </div>
+        {/* Pokemon Basic Info Box */}
+        <BasicInfoBox
+          pokemonData={pokemonData}
+          speciesData={speciesData}
+          formData={formData}
+        />
       </div>
       <StatsTable statsData={pokemonData?.stats || []} />
       {/* Moves Table */}
