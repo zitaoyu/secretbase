@@ -185,41 +185,46 @@ export const PokedexFilter = ({
         />
       </div>
       <div
-        className={`flex h-full w-full items-center gap-1 md:flex md:w-auto ${!isShowFilters && "hidden"}`}
+        className={`flex h-full w-full flex-col items-center gap-1 md:flex md:w-auto ${!isShowFilters && "hidden"}`}
       >
-        {/* Types Filter */}
-        <div className="min-w-36">
-          <ListBoxFilter
-            placeholder="Type 1"
-            listItems={typeSelectorItems}
-            setter={setType1Filter}
-          />
+        <div className="flex gap-1">
+          {/* Types Filter */}
+          <div className="min-w-36">
+            <ListBoxFilter
+              placeholder="Type 1"
+              listItems={typeSelectorItems}
+              setter={setType1Filter}
+            />
+          </div>
+          <div className="min-w-36">
+            <ListBoxFilter
+              placeholder="Type 2"
+              listItems={typeSelectorItems}
+              setter={setType2Filter}
+            />
+          </div>
         </div>
-        <div className="min-w-36">
-          <ListBoxFilter
-            placeholder="Type 2"
-            listItems={typeSelectorItems}
-            setter={setType2Filter}
-          />
-        </div>
-        {/* Gen Filter */}
-        <div className="w-full min-w-40">
-          <ListBoxFilter
-            placeholder="Generation"
-            listItems={genSelectorItems}
-            setter={setGenFilter}
-          />
-        </div>
-        {/* Grid Layout Toggle */}
-        <div className="h-14 w-14">
-          <PrimaryIconButton
-            className="h-14 w-14 bg-content1 p-1 shadow-sm"
-            size="lg"
-            fullWidth
-            icon={iconMap[gridType]}
-            onClick={toggleGrid}
-            disableAnimation
-          />
+
+        <div className="flex w-full gap-1">
+          {/* Gen Filter */}
+          <div className="w-full min-w-40">
+            <ListBoxFilter
+              placeholder="Generation"
+              listItems={genSelectorItems}
+              setter={setGenFilter}
+            />
+          </div>
+          {/* Grid Layout Toggle */}
+          <div className="h-14 w-14">
+            <PrimaryIconButton
+              className="h-14 w-14 bg-content1 p-1 shadow-sm"
+              size="lg"
+              fullWidth
+              icon={iconMap[gridType]}
+              onClick={toggleGrid}
+              disableAnimation
+            />
+          </div>
         </div>
       </div>
     </div>
