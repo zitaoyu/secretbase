@@ -18,6 +18,7 @@ const typeColors: Record<PokemonType, string> = {
   [PokemonType.Dragon]: "#6F35FC",
   [PokemonType.Dark]: "#705746",
   [PokemonType.Steel]: "#B7B7CE",
+  [PokemonType.Fairy]: "#ee99ee",
 };
 
 export function getPokemonTypeColor(type: string): string {

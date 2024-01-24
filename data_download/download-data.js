@@ -13,7 +13,7 @@ const fetchDataWithRetries = async (url, maxRetries = 3) => {
       attempts++;
       console.error(
         `Error fetching data (attempt ${attempts}/${maxRetries}):`,
-        error.message
+        error.message,
       );
 
       // Retry after a delay
@@ -42,6 +42,26 @@ axios
     const fetchPokemonData = async (url) => {
       try {
         const pokemonData = await fetchDataWithRetries(url);
+        const pokemonSpecies = await fetchDataWithRetries(
+          pokemonData.species.url,
+        );
+        // Find the name with language code "en"
+        const englishNameObject = pokemonSpecies.names.find(
+          (obj) => obj.language.name === "en",
+        );
+
+        const pokemonFormData = await fetchDataWithRetries(
+          pokemonData.forms[0].url,
+        );
+        const pokemonFormObject = pokemonFormData.form_names.find(
+          (obj) => obj.language.name === "en",
+        );
+
+        // Extract the English name
+        let englishName = englishNameObject
+          ? englishNameObject.name
+          : pokemonData.name;
+
         const { id, name } = pokemonData;
         const types = [];
         pokemonData.types.map((value) => {
@@ -57,7 +77,8 @@ axios
         });
         const data = {
           id,
-          name,
+          name: englishName,
+          form_name: pokemonFormObject?.name || null,
           types,
           stats,
           spriteUrl: pokemonData.sprites.front_default,
@@ -65,7 +86,7 @@ axios
             pokemonData.sprites.versions["generation-v"]["black-white"].animated
               .front_default,
         };
-
+        console.log(data);
         DownloadedData.data.push(data);
 
         // Log success

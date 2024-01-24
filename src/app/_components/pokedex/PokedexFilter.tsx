@@ -74,6 +74,7 @@ const typeSelectorItems: selectorItem<PokemonType>[] = [
   { label: "Dragon", value: PokemonType.Dragon },
   { label: "Dark", value: PokemonType.Dark },
   { label: "Steel", value: PokemonType.Steel },
+  { label: "Fairy", value: PokemonType.Fairy },
 ];
 
 interface ListBoxFilterProps {
@@ -185,18 +186,18 @@ export const PokedexFilter = ({
         />
       </div>
       <div
-        className={`flex h-full w-full flex-col items-center gap-1 md:flex md:w-auto ${!isShowFilters && "hidden"}`}
+        className={`flex h-full w-full flex-col items-center gap-1 sm:flex-row md:flex md:w-auto ${!isShowFilters && "hidden"}`}
       >
-        <div className="flex gap-1">
+        <div className="flex w-full gap-1">
           {/* Types Filter */}
-          <div className="min-w-36">
+          <div className="w-full min-w-32">
             <ListBoxFilter
               placeholder="Type 1"
               listItems={typeSelectorItems}
               setter={setType1Filter}
             />
           </div>
-          <div className="min-w-36">
+          <div className="w-full min-w-32">
             <ListBoxFilter
               placeholder="Type 2"
               listItems={typeSelectorItems}
@@ -207,7 +208,7 @@ export const PokedexFilter = ({
 
         <div className="flex w-full gap-1">
           {/* Gen Filter */}
-          <div className="w-full min-w-40">
+          <div className="w-full min-w-44">
             <ListBoxFilter
               placeholder="Generation"
               listItems={genSelectorItems}
