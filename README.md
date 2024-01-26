@@ -15,7 +15,7 @@ Porygon Dex serves as a wiki site for the Pokémon main series games, dedicated 
 To run locally, simply do:
 
 ```bash
-  git clone https://github.com/zitaoyu/bed-and-breakfast-client
+  git clone https://github.com/zitaoyu/porygondex.git
   npm install
   npm run dev
 ```
