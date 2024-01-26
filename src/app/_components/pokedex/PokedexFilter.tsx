@@ -190,14 +190,14 @@ export const PokedexFilter = ({
       >
         <div className="flex w-full gap-1">
           {/* Types Filter */}
-          <div className="w-full min-w-32">
+          <div className="w-full min-w-40">
             <ListBoxFilter
               placeholder="Type 1"
               listItems={typeSelectorItems}
               setter={setType1Filter}
             />
           </div>
-          <div className="w-full min-w-32">
+          <div className="w-full min-w-40">
             <ListBoxFilter
               placeholder="Type 2"
               listItems={typeSelectorItems}

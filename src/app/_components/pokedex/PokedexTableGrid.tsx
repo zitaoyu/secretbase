@@ -128,22 +128,49 @@ export const PokedexTableGrid = ({
                 isVertical
               />
             </TableCell>
-            <TableCell className={cellStyles + " bg-red-50"}>
+            <TableCell
+              className={
+                cellStyles + " bg-red-50 dark:bg-red-400 dark:bg-opacity-50"
+              }
+            >
               {pokemon.stats.hp}
             </TableCell>
-            <TableCell className={cellStyles + " bg-yellow-100"}>
+            <TableCell
+              className={
+                cellStyles +
+                " bg-yellow-100 dark:bg-yellow-500 dark:bg-opacity-50"
+              }
+            >
               {pokemon.stats.attack}
             </TableCell>
-            <TableCell className={cellStyles + " bg-yellow-50"}>
+            <TableCell
+              className={
+                cellStyles +
+                " bg-yellow-50 dark:bg-yellow-600 dark:bg-opacity-50"
+              }
+            >
               {pokemon.stats.defense}
             </TableCell>
-            <TableCell className={cellStyles + " bg-blue-50"}>
+            <TableCell
+              className={
+                cellStyles + " bg-blue-50 dark:bg-blue-500 dark:bg-opacity-50"
+              }
+            >
               {pokemon.stats["special-attack"]}
             </TableCell>
-            <TableCell className={cellStyles + " bg-green-50"}>
+            <TableCell
+              className={
+                cellStyles + " bg-green-50 dark:bg-green-600 dark:bg-opacity-50"
+              }
+            >
               {pokemon.stats["special-defense"]}
             </TableCell>
-            <TableCell className={cellStyles + " bg-purple-50"}>
+            <TableCell
+              className={
+                cellStyles +
+                " bg-purple-50 dark:bg-purple-500 dark:bg-opacity-50"
+              }
+            >
               {pokemon.stats.speed}
             </TableCell>
           </TableRow>
