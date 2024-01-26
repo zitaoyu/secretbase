@@ -4,9 +4,11 @@ Porygon Dex serves as a wiki site for the Pokémon main series games, dedicated 
 
 ## Screenshots
 
-![Regular Grid](https://raw.githubusercontent.com/zitaoyu/porygondex/main/image-path/public/readme-screenshot-1.png)
-![Mini Grid](https://raw.githubusercontent.com/zitaoyu/porygondex/main/image-path/public/readme-screenshot-2.png)
-![Table Frid](https://raw.githubusercontent.com/zitaoyu/porygondex/main/image-path/public/readme-screenshot-3.png)
+![Regular Grid](https://raw.githubusercontent.com/zitaoyu/porygondex/main/public/readme-screenshot-1.png)
+
+![Mini Grid](https://raw.githubusercontent.com/zitaoyu/porygondex/main/public/readme-screenshot-2.png)
+
+![Table Frid](https://raw.githubusercontent.com/zitaoyu/porygondex/main/public/readme-screenshot-3.png)
 
 ## Getting Started
 
