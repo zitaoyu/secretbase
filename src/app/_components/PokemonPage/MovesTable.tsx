@@ -264,7 +264,7 @@ export const MovesTable = ({ title, movesData, method }: MovesTableProps) => {
         reloadMoves={reloadMoves}
       />
       <Table
-        className="overflow-scroll rounded-xl p-1 outline outline-default sm:p-4"
+        className="overflow-auto rounded-xl p-1 outline outline-default sm:p-4"
         removeWrapper
         selectionMode="single"
         aria-label="Moves Table"
