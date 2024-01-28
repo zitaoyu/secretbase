@@ -14,7 +14,9 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   title: "Porygon Dex",
-  description: "",
+  description: "Full National Pokédex with modern UI for both desktop and",
+  keywords:
+    "pokemon,pokedex,pokedex mobile,pokedexmobile,national,national pokedex,nationalpokedex,porygondex,porygon dex",
 };
 
 export default function RootLayout({
