@@ -81,17 +81,20 @@ interface ListBoxFilterProps {
   placeholder: string;
   listItems: { label: string; value: any }[];
   setter: React.Dispatch<any>;
+  defaultSelectedKey?: any;
 }
 
 const ListBoxFilter = ({
   placeholder,
   listItems,
   setter,
+  defaultSelectedKey,
 }: ListBoxFilterProps) => {
   return (
     <Autocomplete
-      aria-label="Gen filter"
+      aria-label={`${placeholder} filter`}
       defaultItems={listItems}
+      defaultSelectedKey={defaultSelectedKey}
       placeholder={placeholder}
       className="w-full rounded-xl shadow-sm"
       classNames={{}}
@@ -124,18 +127,26 @@ const ListBoxFilter = ({
 };
 
 interface PokedexFilterProps {
+  searchString: string;
   setSearchString: React.Dispatch<React.SetStateAction<string>>;
+  genFilter: Gen | null;
   setGenFilter: React.Dispatch<React.SetStateAction<Gen | null>>;
+  type1Filter: PokemonType | null;
   setType1Filter: React.Dispatch<React.SetStateAction<PokemonType | null>>;
+  type2Filter: PokemonType | null;
   setType2Filter: React.Dispatch<React.SetStateAction<PokemonType | null>>;
   gridType: GridType;
   setGridType: React.Dispatch<React.SetStateAction<GridType>>;
 }
 
 export const PokedexFilter = ({
+  searchString,
   setSearchString,
+  genFilter,
   setGenFilter,
+  type1Filter,
   setType1Filter,
+  type2Filter,
   setType2Filter,
   gridType,
   setGridType,
@@ -171,6 +182,7 @@ export const PokedexFilter = ({
           type="search"
           variant="faded"
           placeholder="Search by name or dex number..."
+          defaultValue={searchString}
           size="md"
           disableAnimation
           radius="lg"
@@ -194,6 +206,7 @@ export const PokedexFilter = ({
             <ListBoxFilter
               placeholder="Type 1"
               listItems={typeSelectorItems}
+              defaultSelectedKey={type1Filter}
               setter={setType1Filter}
             />
           </div>
@@ -201,6 +214,7 @@ export const PokedexFilter = ({
             <ListBoxFilter
               placeholder="Type 2"
               listItems={typeSelectorItems}
+              defaultSelectedKey={type2Filter}
               setter={setType2Filter}
             />
           </div>
@@ -212,6 +226,7 @@ export const PokedexFilter = ({
             <ListBoxFilter
               placeholder="Generation"
               listItems={genSelectorItems}
+              defaultSelectedKey={genFilter}
               setter={setGenFilter}
             />
           </div>

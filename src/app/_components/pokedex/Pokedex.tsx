@@ -11,8 +11,13 @@ import { PokedexFilter } from "./PokedexFilter";
 import { PokedexGrid } from "./PokedexGrid";
 import { PokedexTableGrid } from "./PokedexTableGrid";
 import { Gen } from "@/app/_utils/gen";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
 export const Pokedex = () => {
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+
   const [pokemonDataList, setPokemonDataList] = useState<PokemonSimpleData[]>(
     [],
   );
@@ -26,6 +31,7 @@ export const Pokedex = () => {
   const [gridType, setGridType] = useState<GridType>("regular");
 
   useEffect(() => {
+    loadQueryParams();
     const data = myPokedex.getBasicPokemonData();
     setPokemonDataList(data);
     setFilterList(data);
@@ -33,7 +39,7 @@ export const Pokedex = () => {
   }, []);
 
   useEffect(() => {
-    if (showPokemons < 1015) {
+    if (showPokemons < pokemonDataList.length) {
       window.addEventListener("scroll", handleScroll);
       return () => {
         window.removeEventListener("scroll", handleScroll);
@@ -43,7 +49,7 @@ export const Pokedex = () => {
 
   useEffect(() => {
     handleFilterList();
-  }, [searchString, genFilter, type1filter, type2filter]);
+  }, [searchString, genFilter, type1filter, type2filter, gridType]);
 
   function loadMorePokemonCards() {
     setShowPokemons((prev) => prev + 50);
@@ -99,7 +105,51 @@ export const Pokedex = () => {
       );
 
       setFilterList(filteredData);
+      updateQueryParams();
     }
+  }
+
+  function loadQueryParams() {
+    const search = searchParams.get("search") as PokemonType;
+    if (search) {
+      setSearchString(search);
+    }
+    const type1 = searchParams.get("type1") as PokemonType;
+    if (type1) {
+      setType1Filter(type1);
+    }
+    const type2 = searchParams.get("type2") as PokemonType;
+    if (type2) {
+      setType1Filter(type2);
+    }
+    const gen = searchParams.get("gen") as Gen;
+    if (gen) {
+      setGenFilter(gen);
+    }
+    const grid = searchParams.get("grid") as GridType;
+    if (grid) {
+      setGridType(grid);
+    }
+  }
+
+  function updateQueryParams() {
+    const params = new URLSearchParams();
+    if (searchString !== "") {
+      params.set("search", searchString);
+    }
+    if (type1filter) {
+      params.set("type1", type1filter);
+    }
+    if (type2filter) {
+      params.set("type2", type2filter);
+    }
+    if (genFilter) {
+      params.set("gen", genFilter);
+    }
+    if (gridType !== "regular") {
+      params.set("grid", gridType);
+    }
+    router.push(pathname + "?" + params.toString());
   }
 
   if (isloading) {
@@ -113,9 +163,13 @@ export const Pokedex = () => {
   return (
     <div className="flex flex-col items-center gap-4 p-2 sm:p-4 lg:p-6">
       <PokedexFilter
+        searchString={searchString}
         setSearchString={setSearchString}
+        genFilter={genFilter}
         setGenFilter={setGenFilter}
+        type1Filter={type1filter}
         setType1Filter={setType1Filter}
+        type2Filter={type2filter}
         setType2Filter={setType2Filter}
         gridType={gridType}
         setGridType={setGridType}
