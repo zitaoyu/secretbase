@@ -9,7 +9,7 @@ import {
   NavbarMenuItem,
 } from "@nextui-org/react";
 import { ThemeSwitcher } from "./ThemeSwitcher";
-import { Logo, SecretBaseLogo } from "./Logo";
+import { SecretBaseLogo } from "./Logo";
 import Link from "next/link";
 import { useState } from "react";
 import { CgClose } from "react-icons/cg";
@@ -20,6 +20,7 @@ export const PrimaryNavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const menuItems: { label: string; href: string }[] = [
+    { label: "Home", href: "/" },
     { label: "Pokedex", href: "/" },
     { label: "About", href: "#" },
   ];
@@ -39,7 +40,7 @@ export const PrimaryNavBar = () => {
         </NavbarBrand>
       </NavbarContent>
 
-      <NavbarContent justify="end">
+      <NavbarContent className="md:gap-6" justify="end">
         {menuItems.map((menuItem) => (
           <NavbarMenuItem
             className="hidden sm:block"
@@ -58,9 +59,8 @@ export const PrimaryNavBar = () => {
         <NavbarItem>
           <ThemeSwitcher />
         </NavbarItem>
-        <NavbarItem>
+        <NavbarItem className="block sm:hidden">
           <PrimaryIconButton
-            className="block sm:hidden"
             icon={isMenuOpen ? CgClose : IoMenu}
             onClick={() => setIsMenuOpen((prev) => !prev)}
           />
