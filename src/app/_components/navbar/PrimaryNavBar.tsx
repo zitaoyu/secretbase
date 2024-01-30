@@ -9,7 +9,7 @@ import {
   NavbarMenuItem,
 } from "@nextui-org/react";
 import { ThemeSwitcher } from "./ThemeSwitcher";
-import { Logo } from "./Logo";
+import { Logo, SecretBaseLogo } from "./Logo";
 import Link from "next/link";
 import { useState } from "react";
 import { CgClose } from "react-icons/cg";
@@ -34,7 +34,7 @@ export const PrimaryNavBar = () => {
       <NavbarContent>
         <NavbarBrand>
           <Link href={"/"}>
-            <Logo />
+            <SecretBaseLogo />
           </Link>
         </NavbarBrand>
       </NavbarContent>
@@ -42,11 +42,17 @@ export const PrimaryNavBar = () => {
       <NavbarContent justify="end">
         {menuItems.map((menuItem) => (
           <NavbarMenuItem
-            className="hidden hover:text-porygon-blue sm:block"
+            className="hidden sm:block"
             onClick={() => setIsMenuOpen(false)}
             key={menuItem.label}
           >
-            <Link href={menuItem.href}>{menuItem.label}</Link>
+            <Link
+              className="hover:text-sb-green group block transition"
+              href={menuItem.href}
+            >
+              <span>{menuItem.label}</span>
+              <div className="group-hover:bg-sb-green h-[2px] rounded-full transition"></div>
+            </Link>
           </NavbarMenuItem>
         ))}
         <NavbarItem>
