@@ -23,20 +23,22 @@ function getEvolutionMethod(evoDetails: any): string {
       method = `Learn ${formatName(evoDetails?.known_move.name)}`;
     } else if (evoDetails?.min_happiness) {
       method = `Friendship`;
+    } else if (evoDetails?.held_item) {
+      method = `Holding ${formatName(evoDetails.held_item.name)}`;
     } else {
       method = `Level up`;
     }
   } else if (trigger === "trade") {
     method = `Trade`;
+    if (evoDetails?.held_item) {
+      method += ` (${formatName(evoDetails.held_item.name)})`;
+    }
   } else if (trigger === "use-item") {
     method = `${formatName(evoDetails.item.name)}`;
   }
 
   if (evoDetails?.time_of_day) {
-    method += ` (${evoDetails.time_of_day})`;
-  }
-  if (evoDetails?.held_item) {
-    method += ` (${formatName(evoDetails.held_item.name)})`;
+    method += ` (${formatName(evoDetails.time_of_day)})`;
   }
   return method || "?";
 }
@@ -85,9 +87,9 @@ interface EvolutionStageProps {
 
 const EvolutionStage = ({ data }: EvolutionStageProps) => {
   return (
-    <div className="flex items-center gap-6">
+    <div className="flex items-center justify-between gap-6">
       {data.method && (
-        <div className="flex w-14 flex-col items-center">
+        <div className="flex flex-col items-center">
           <IoArrowForward className="fill-default text-default-500" size={32} />
           <span className="text-nowrap text-sm">{data.method}</span>
         </div>
@@ -137,11 +139,8 @@ export const EvolutionTable = ({ speciesData }: EvolutionTableProps) => {
   if (isLoading) return;
 
   return (
-    <SectionContainer
-      className="flex w-full justify-center sm:p-6"
-      title="Evolutions"
-    >
-      <div className="flex gap-6 overflow-y-auto py-2">
+    <SectionContainer className="flex w-full justify-center" title="Evolutions">
+      <div className="flex gap-6 overflow-y-auto p-6">
         {/* Stage 1 */}
         <div>{evoTree && <EvolutionStage data={evoTree} />}</div>
         {/* Stage 2 */}
