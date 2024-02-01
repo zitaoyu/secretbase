@@ -140,7 +140,7 @@ export const EvolutionTable = ({ speciesData }: EvolutionTableProps) => {
 
   return (
     <SectionContainer className="flex w-full justify-center" title="Evolutions">
-      <div className="flex gap-6 overflow-y-auto p-6">
+      <div className="flex gap-6 overflow-y-auto p-6 py-10">
         {/* Stage 1 */}
         <div>{evoTree && <EvolutionStage data={evoTree} />}</div>
         {/* Stage 2 */}
