@@ -28,7 +28,7 @@ class PokeApiWrapper implements PokeApiWrapperInterface {
   }
 
   getPokemonList(): Promise<NamedAPIResourceList> {
-    return this.pokedex.getPokemonsList({ limit: 1024 });
+    return this.pokedex.getPokemonsList({ limit: 1025 });
   }
 
   getPokemonByName(nameOrId: string | number): Promise<Pokemon> {
@@ -49,6 +49,10 @@ class PokeApiWrapper implements PokeApiWrapperInterface {
 
   getFormByName(nameOrId: string | number): Promise<PokemonForm> {
     return this.pokedex.getPokemonFormByName(nameOrId);
+  }
+
+  getEvolutionChainById(id: number): Promise<Pokedex.EvolutionChain> {
+    return this.pokedex.getEvolutionChainById(id);
   }
 
   getPokemonDefaultSpriteUrlById(id: number): string {

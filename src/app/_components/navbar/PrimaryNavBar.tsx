@@ -48,11 +48,11 @@ export const PrimaryNavBar = () => {
             key={menuItem.label}
           >
             <Link
-              className="hover:text-sb-green group block transition"
+              className="hover:text-sb-primary group block transition"
               href={menuItem.href}
             >
               <span>{menuItem.label}</span>
-              <div className="group-hover:bg-sb-green h-[2px] rounded-full transition"></div>
+              <div className="group-hover:bg-sb-primary h-[2px] rounded-full transition"></div>
             </Link>
           </NavbarMenuItem>
         ))}

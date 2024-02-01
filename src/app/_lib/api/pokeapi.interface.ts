@@ -4,7 +4,11 @@ import {
   Move,
   PokemonSpecies,
   PokemonForm,
+  EvolutionChain,
 } from "pokedex-promise-v2";
+
+export const POKEDEX_START_INDEX: number = 1;
+export const POKEDEX_END_INDEX: number = 1025;
 
 export interface PokemonSimpleData {
   id: number;
@@ -31,6 +35,7 @@ export interface PokeApiWrapperInterface {
   getMoveByNameArray(nameOrId: Array<string | number>): Promise<Move[]>;
   getSpeciesByName(nameOrId: string | number): Promise<PokemonSpecies>;
   getFormByName(nameOrId: string | number): Promise<PokemonForm>;
+  getEvolutionChainById(id: number): Promise<EvolutionChain>;
   getPokemonDefaultSpriteUrlById(id: number): string;
   getPokemonAnimatedSpriteUrlById(id: number): string;
 }

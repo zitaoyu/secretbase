@@ -12,6 +12,8 @@ const config: Config = {
   ],
   theme: {
     colors: {
+      "sb-primary": "#80c060",
+      "sb-secondary": "#69b6d8",
       "porygon-blue": "#69b6d8",
       "porygon-pink": "#e15e74",
       "sb-green": "#80c060",
@@ -28,7 +30,6 @@ const config: Config = {
           colors: {
             background: "#1D2125", //100
             content1: "#22272B", //200
-            primary: {},
           },
         },
         light: {

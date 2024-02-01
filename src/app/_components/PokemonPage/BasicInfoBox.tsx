@@ -109,14 +109,8 @@ export const BasicInfoBox = ({
     const nameObj = speciesData.names.find(
       (nameObj) => nameObj.language.name === "en",
     );
-    const formName = formData.form_names.find(
-      (obj) => obj.language.name === "en",
-    );
-    let formatedName = nameObj?.name || "Unknown";
-    if (formName) {
-      formatedName += " (" + formName.name + ")";
-    }
-    setFormatedName(formatedName);
+    const formName = formData.names.find((item) => item.language.name === "en");
+    setFormatedName(formName?.name || nameObj?.name || "Unknown");
 
     const latestPokedexEntry: string =
       speciesData?.flavor_text_entries

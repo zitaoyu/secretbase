@@ -35,6 +35,7 @@ To run locally, simply do:
 - [ ] add type chart
 - [x] add type filtering
 - [ ] add shiny sprites and other art work
+- [x] evolution chart
 
 ## Status
 
