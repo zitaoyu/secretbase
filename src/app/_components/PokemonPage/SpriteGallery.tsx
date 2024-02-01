@@ -64,7 +64,7 @@ export const SpriteGallery = ({
   const bgSizes: Record<string, string> = {
     sm: "h-28 w-28",
     md: "h-32 w-32",
-    lg: "h-40 w-40",
+    lg: "h-40 w-40 my-4",
   };
   const spriteSizes: Record<string, string> = {
     sm: "scale-[1]",
@@ -73,7 +73,7 @@ export const SpriteGallery = ({
   };
 
   return (
-    <div className={`relative my-4 ${bgSizes[size]}`}>
+    <div className={`relative ${bgSizes[size]}`}>
       <PokeballSVG className="h-full w-full fill-zinc-200 dark:fill-zinc-700" />
       <img
         className={`sprite absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 overflow-visible object-cover

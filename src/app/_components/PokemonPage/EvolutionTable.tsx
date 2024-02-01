@@ -20,7 +20,7 @@ function getEvolutionMethod(evoDetails: any): string {
     if (evoDetails?.min_level) {
       method = `Level ${evoDetails.min_level}`;
     } else if (evoDetails?.known_move) {
-      method = `Learned ${formatName(evoDetails?.known_move.name)}`;
+      method = `Learn ${formatName(evoDetails?.known_move.name)}`;
     } else if (evoDetails?.min_happiness) {
       method = `Friendship`;
     } else {
@@ -92,7 +92,7 @@ const EvolutionStage = ({ data }: EvolutionStageProps) => {
           <span className="text-nowrap text-sm">{data.method}</span>
         </div>
       )}
-      <Link className="flex flex-col items-center" href={`/${data.id}`}>
+      <Link className="flex flex-col items-center gap-2" href={`/${data.id}`}>
         <SpriteGallery size="sm" imageUrl={data.spriteUrl} />
         <span className="font-medium">{data.name}</span>
       </Link>
@@ -138,32 +138,32 @@ export const EvolutionTable = ({ speciesData }: EvolutionTableProps) => {
 
   return (
     <SectionContainer
-      className="flex gap-6 overflow-y-scroll p-6 sm:justify-center"
+      className="flex w-full justify-center sm:p-6"
       title="Evolutions"
     >
-      {/* Stage 1 */}
-      <div>{evoTree && <EvolutionStage data={evoTree} />}</div>
-
-      {/* Stage 2 */}
-      {evoTree?.evolves_to && evoTree.evolves_to.length > 0 && (
-        <div>
-          {evoTree.evolves_to.map((node) => (
-            <EvolutionStage key={node.name} data={node} />
-          ))}
-        </div>
-      )}
-
-      {/* Stage 3 */}
-      {evoTree?.evolves_to &&
-        evoTree.evolves_to.length > 0 &&
-        evoTree.evolves_to[0].evolves_to &&
-        evoTree.evolves_to[0].evolves_to.length > 0 && (
+      <div className="flex gap-6 overflow-y-auto py-2">
+        {/* Stage 1 */}
+        <div>{evoTree && <EvolutionStage data={evoTree} />}</div>
+        {/* Stage 2 */}
+        {evoTree?.evolves_to && evoTree.evolves_to.length > 0 && (
           <div>
-            {evoTree.evolves_to[0].evolves_to.map((node) => (
+            {evoTree.evolves_to.map((node) => (
               <EvolutionStage key={node.name} data={node} />
             ))}
           </div>
         )}
+        {/* Stage 3 */}
+        {evoTree?.evolves_to &&
+          evoTree.evolves_to.length > 0 &&
+          evoTree.evolves_to[0].evolves_to &&
+          evoTree.evolves_to[0].evolves_to.length > 0 && (
+            <div>
+              {evoTree.evolves_to[0].evolves_to.map((node) => (
+                <EvolutionStage key={node.name} data={node} />
+              ))}
+            </div>
+          )}
+      </div>
     </SectionContainer>
   );
 };

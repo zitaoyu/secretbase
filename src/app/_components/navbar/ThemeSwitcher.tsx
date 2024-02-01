@@ -22,18 +22,16 @@ export const ThemeSwitcher = () => {
   }
 
   return (
-    <div className="flex">
-      <PrimaryIconButton
-        isDisabled={loading}
-        icon={
-          loading
-            ? IoEllipsisHorizontal
-            : theme === "light"
-              ? MdOutlineLightMode
-              : MdOutlineDarkMode
-        }
-        onClick={toggleTheme}
-      />
-    </div>
+    <PrimaryIconButton
+      isDisabled={loading}
+      icon={
+        loading
+          ? IoEllipsisHorizontal
+          : theme === "light"
+            ? MdOutlineLightMode
+            : MdOutlineDarkMode
+      }
+      onClick={toggleTheme}
+    />
   );
 };
