@@ -8,7 +8,7 @@ import { BsFillGridFill, BsGrid3X3GapFill } from "react-icons/bs";
 import { FaListUl } from "react-icons/fa";
 import { MdFilterAlt, MdFilterAltOff } from "react-icons/md";
 import { IconType } from "react-icons";
-import { Gen } from "@/app/_utils/gen";
+import { Gen } from "@/app/_types/gen.type";
 import { PokemonType } from "@/app/_types/pokemon.type";
 import { GridType } from "./Pokedex.type";
 

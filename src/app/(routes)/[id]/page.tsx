@@ -15,6 +15,8 @@ import { StatsTable } from "@/app/_components/PokemonPage/StatsTable";
 import { ScrollToTop } from "@/app/_components/ScrollToTop";
 import { EvolutionTable } from "@/app/_components/PokemonPage/EvolutionTable";
 import { extractIdFromUrl } from "@/app/_utils/format";
+import { ResistanceTable } from "@/app/_components/PokemonPage/ResistanceTable";
+import { PokemonType } from "@/app/_types/pokemon.type";
 
 export default function PokemonPage() {
   const { id } = useParams();
@@ -87,7 +89,12 @@ export default function PokemonPage() {
               formData={formData}
             />
           </div>
-          <StatsTable statsData={pokemonData?.stats || []} />
+          <ResistanceTable
+            types={pokemonData.types.map(
+              (type) => type.type.name as PokemonType,
+            )}
+          />
+          <StatsTable statsData={pokemonData.stats || []} />
           <EvolutionTable speciesData={speciesData} />
           {/* Moves Table */}
           <MovesTable

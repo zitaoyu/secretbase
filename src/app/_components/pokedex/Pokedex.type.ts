@@ -1,4 +1,4 @@
-import { Gen } from "@/app/_utils/gen";
+import { Gen } from "@/app/_types/gen.type";
 
 export type GridType = "regular" | "mini" | "table";
 export type GenIndex =

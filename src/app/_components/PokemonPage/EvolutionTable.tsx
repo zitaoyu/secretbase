@@ -13,7 +13,6 @@ function getSpriteUrl(id: number | string) {
 }
 
 function getEvolutionMethod(evoDetails: any): string {
-  console.log(evoDetails);
   let method;
   const trigger = evoDetails?.trigger.name;
   if (trigger === "level-up") {

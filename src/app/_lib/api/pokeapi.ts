@@ -8,6 +8,7 @@ import Pokedex, {
   Move,
   PokemonSpecies,
   PokemonForm,
+  Type,
 } from "pokedex-promise-v2";
 import basicPokemonData from "./basicPokemonData.json";
 
@@ -49,6 +50,10 @@ class PokeApiWrapper implements PokeApiWrapperInterface {
 
   getFormByName(nameOrId: string | number): Promise<PokemonForm> {
     return this.pokedex.getPokemonFormByName(nameOrId);
+  }
+
+  getTypeByNameArray(nameArray: (string | number)[]): Promise<Type[]> {
+    return this.pokedex.getTypeByName(nameArray);
   }
 
   getEvolutionChainById(id: number): Promise<Pokedex.EvolutionChain> {

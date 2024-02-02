@@ -1,6 +1,5 @@
 import { statColorMap, statNameMap } from "@/app/_utils/stats";
 import { StatElement } from "pokedex-promise-v2";
-import { SectionTitle } from "./SectionTitle";
 import { SectionContainer } from "./SectionContainer";
 
 interface StatsTableProps {

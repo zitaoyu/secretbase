@@ -20,7 +20,7 @@ import moveStatusSprite from "../../_assets/move-status.png";
 import { StaticImageData } from "next/image";
 import { PrimaryButton } from "../PrimaryButton";
 import { SectionTitle } from "./SectionTitle";
-import { Gen } from "@/app/_utils/gen";
+import { Gen } from "@/app/_types/gen.type";
 
 const moveTypeSpriteMap: Record<string, StaticImageData> = {
   physical: movePhysicalSprite,
