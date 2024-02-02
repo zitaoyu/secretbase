@@ -32,10 +32,10 @@ To run locally, simply do:
 - [x] add filtering to search bar
 - [x] add different layout to pokedex
 - [x] remove invalid gen in moves table
-- [ ] add type chart
+- [x] add type chart
 - [x] add type filtering
-- [ ] add shiny sprites and other art work
 - [x] evolution chart
+- [ ] add shiny sprites and other art work
 
 ## Status
 
