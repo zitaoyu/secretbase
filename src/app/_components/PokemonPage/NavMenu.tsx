@@ -47,7 +47,7 @@ export const NavMenu = ({ id, dexId = undefined }: NavMenuProps) => {
         </Link>
       </div>
       <div className="hidden flex-1 justify-end sm:flex">
-        {/* <PrimaryButton>{"N"}</PrimaryButton> */}
+        <PrimaryButton>{"Details"}</PrimaryButton>
       </div>
     </nav>
   );
