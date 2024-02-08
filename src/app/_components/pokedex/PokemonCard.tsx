@@ -23,7 +23,7 @@ export const PokemonCard = ({ data, isMini = false }: PokemonCardProps) => {
   return (
     <Link href={`/${data.id}`} scroll>
       <Card
-        className={`hover:border-sb-primary group m-auto aspect-square h-full max-h-48 w-full max-w-48 hover:border-2
+        className={`group m-auto aspect-square h-full max-h-48 w-full max-w-48 hover:border-2 hover:border-sb-primary
                     ${isMini ? "max-h-28 max-w-28 p-0 md:hover:scale-110" : "max-h-48 max-w-48"}
                     `}
         isPressable

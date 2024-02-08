@@ -17,9 +17,107 @@ import { EvolutionTable } from "@/app/_components/PokemonPage/EvolutionTable";
 import { extractIdFromUrl } from "@/app/_utils/format";
 import { ResistanceTable } from "@/app/_components/PokemonPage/ResistanceTable";
 import { PokemonType } from "@/app/_types/pokemon.type";
+import { PokemonSimpleData } from "@/app/_lib/api/pokeapi.interface";
+import { PokemonCard } from "@/app/_components/pokedex/PokemonCard";
+import {
+  MdKeyboardDoubleArrowLeft,
+  MdKeyboardDoubleArrowRight,
+} from "react-icons/md";
+import WrapperProps from "@/app/_components/Wrapper";
+import useScrollPosition from "@/app/_hooks/useScrollPosition";
+import useScreenSize from "@/app/_hooks/useScreenSize";
+
+interface SidePanelProps extends WrapperProps {
+  isLeft?: boolean;
+  onOpen?: () => void;
+  onClose?: () => void;
+}
+
+const SidePanel = ({
+  children,
+  isLeft = true,
+  onOpen = () => {},
+  onClose = () => {},
+}: SidePanelProps) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  function openPanel() {
+    setIsOpen((prev) => !prev);
+    onOpen();
+  }
+
+  function closePanel() {
+    setIsOpen(false);
+    onClose();
+  }
+
+  return (
+    <div
+      className={`fixed top-0 z-50 flex h-screen w-10/12 transition duration-700 ease-in-out md:w-1/2
+                  ${isOpen ? "translate-x-0" : "-translate-x-full"}
+                  ${isLeft ? "left-0" : "left-full"}
+                  `}
+    >
+      {/* Overlay */}
+      <div
+        className={`fixed left-0 top-0 h-screen w-screen ${isOpen ? "block" : "hidden"}`}
+        onClick={closePanel}
+      />
+      {/* Toggle Button */}
+      <button
+        className="absolute left-full top-1/3 z-40 h-20 -translate-y-1/2 rounded-r-xl border-b-2 border-r-2 border-t-2 border-default bg-content1 sm:top-1/2"
+        onClick={openPanel}
+      >
+        <div className="flex flex-col items-center px-1">
+          <div className="hidden sm:block">Pokedex</div>
+          <div>
+            {isOpen ? (
+              <MdKeyboardDoubleArrowLeft size={32} />
+            ) : (
+              <MdKeyboardDoubleArrowRight size={32} />
+            )}
+          </div>
+        </div>
+      </button>
+      <div className="z-50 h-screen w-full border-r-2 border-default bg-content1">
+        {children}
+      </div>
+    </div>
+  );
+};
+
+const PokedexSidePanel = () => {
+  const [pokemonData, setPokemonData] = useState<PokemonSimpleData[]>();
+
+  function loadData() {
+    const data = myPokedex.getBasicPokemonData();
+    setPokemonData(data);
+  }
+
+  function unloadData() {
+    setPokemonData([]);
+  }
+
+  return (
+    <SidePanel onOpen={loadData} onClose={unloadData}>
+      {pokemonData ? (
+        <div className="grid h-full w-full grid-cols-4 gap-2 overflow-y-scroll p-4 lg:grid-cols-6 lg:gap-4 xl:grid-cols-8">
+          {pokemonData.map((pokemon) => (
+            <PokemonCard key={pokemon.id} data={pokemon} isMini />
+          ))}
+        </div>
+      ) : (
+        <PrimarySpinner />
+      )}
+    </SidePanel>
+  );
+};
 
 export default function PokemonPage() {
   const { id } = useParams();
+  const { scrollY } = useScrollPosition();
+  const { size } = useScreenSize();
+
   const pokemonId: string = Array.isArray(id) ? id[0] : id;
   const pokemonIdInt: number = parseInt(pokemonId, 10);
   const [isLoading, setIsLoading] = useState(true);
@@ -61,54 +159,57 @@ export default function PokemonPage() {
   }, []);
 
   return (
-    <Card className="h-full min-h-screen w-full min-w-80 rounded-none p-4">
-      <ScrollToTop />
-      {/* Nav Menu */}
-      <NavMenu id={pokemonIdInt} dexId={speciesData?.id} />
-      {/* Display info after data is fully loaded */}
-      {isLoading || !pokemonData || !speciesData || !formData ? (
-        <PrimarySpinner className="m-auto" />
-      ) : (
-        <div className="flex flex-col items-center gap-10">
-          {/* Pokemon Info */}
-          <div className="mt-6 flex w-full flex-col items-center">
-            {/* Pokemon Image */}
-            <SpriteGallery
-              imageUrl={
-                pokemonData?.sprites.versions["generation-v"]["black-white"]
-                  .animated.front_default ||
-                pokemonData?.sprites.front_default ||
-                UnknownPokemonSprite.src
-              }
-              size="lg"
+    <div className="relative min-h-screen w-full">
+      {!(scrollY < 100 && size === "xs") && <PokedexSidePanel />}
+      <Card className="mx-auto h-full min-h-screen w-full min-w-80 max-w-7xl rounded-none p-4">
+        <ScrollToTop />
+        {/* Nav Menu */}
+        <NavMenu id={pokemonIdInt} dexId={speciesData?.id} />
+        {/* Display info after data is fully loaded */}
+        {isLoading || !pokemonData || !speciesData || !formData ? (
+          <PrimarySpinner className="m-auto" />
+        ) : (
+          <div className="flex flex-col items-center gap-10">
+            {/* Pokemon Info */}
+            <div className="mt-6 flex w-full flex-col items-center">
+              {/* Pokemon Image */}
+              <SpriteGallery
+                imageUrl={
+                  pokemonData?.sprites.versions["generation-v"]["black-white"]
+                    .animated.front_default ||
+                  pokemonData?.sprites.front_default ||
+                  UnknownPokemonSprite.src
+                }
+                size="lg"
+              />
+              {/* Pokemon Basic Info Box */}
+              <BasicInfoBox
+                pokemonData={pokemonData}
+                speciesData={speciesData}
+                formData={formData}
+              />
+            </div>
+            <ResistanceTable
+              types={pokemonData.types.map(
+                (type) => type.type.name as PokemonType,
+              )}
             />
-            {/* Pokemon Basic Info Box */}
-            <BasicInfoBox
-              pokemonData={pokemonData}
-              speciesData={speciesData}
-              formData={formData}
+            <StatsTable statsData={pokemonData.stats || []} />
+            <EvolutionTable speciesData={speciesData} />
+            {/* Moves Table */}
+            <MovesTable
+              title="Level Up Moves"
+              movesData={pokemonData?.moves}
+              method="level-up"
+            />
+            <MovesTable
+              title="TM Moves"
+              movesData={pokemonData?.moves}
+              method="machine"
             />
           </div>
-          <ResistanceTable
-            types={pokemonData.types.map(
-              (type) => type.type.name as PokemonType,
-            )}
-          />
-          <StatsTable statsData={pokemonData.stats || []} />
-          <EvolutionTable speciesData={speciesData} />
-          {/* Moves Table */}
-          <MovesTable
-            title="Level Up Moves"
-            movesData={pokemonData?.moves}
-            method="level-up"
-          />
-          <MovesTable
-            title="TM Moves"
-            movesData={pokemonData?.moves}
-            method="machine"
-          />
-        </div>
-      )}
-    </Card>
+        )}
+      </Card>
+    </div>
   );
 }

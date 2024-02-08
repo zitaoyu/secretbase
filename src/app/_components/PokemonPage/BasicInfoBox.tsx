@@ -24,7 +24,7 @@ const BasicInfoBoxItem = ({
   isVerticle = false,
 }: BasicInfoBoxItemProps) => {
   return (
-    <div className={`w-full items-center bg-default-200 p-1`}>
+    <div className={`w-full items-center p-1`}>
       <div className={`font-medium ${isVerticle && "text-center"}`}>
         {title}
       </div>

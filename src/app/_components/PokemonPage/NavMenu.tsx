@@ -20,35 +20,24 @@ export const NavMenu = ({ id, dexId = undefined }: NavMenuProps) => {
     POKEDEX_START_INDEX <= nextId && nextId <= POKEDEX_END_INDEX;
 
   return (
-    <nav className="flex w-full justify-center">
-      <div className="hidden flex-1 sm:flex">
-        <Link href={"/"}>
-          <PrimaryButton>{"Pokedex"}</PrimaryButton>
-        </Link>
-      </div>
-
-      <div className="flex flex-1 items-center justify-between gap-4">
-        <Link
-          className={!isPrevIndex ? "pointer-events-none" : ""}
-          href={`/${prevId}`}
-        >
-          <PrimaryButton isDisabled={!isPrevIndex} className="text-2xl">
-            <IoIosArrowBack />
-          </PrimaryButton>
-        </Link>
-        <span className="font-semibold">No. {dexId}</span>
-        <Link
-          className={!isNextIndex ? "pointer-events-none" : ""}
-          href={`/${nextId}`}
-        >
-          <PrimaryButton isDisabled={!isNextIndex} className="text-2xl">
-            <IoIosArrowForward />
-          </PrimaryButton>
-        </Link>
-      </div>
-      <div className="hidden flex-1 justify-end sm:flex">
-        {/* <PrimaryButton>{"N"}</PrimaryButton> */}
-      </div>
+    <nav className="flex w-full items-center justify-between sm:justify-center sm:gap-20">
+      <Link
+        className={!isPrevIndex ? "pointer-events-none" : ""}
+        href={`/${prevId}`}
+      >
+        <PrimaryButton isDisabled={!isPrevIndex} className="text-2xl">
+          <IoIosArrowBack />
+        </PrimaryButton>
+      </Link>
+      <span className="text-nowrap font-semibold">No. {dexId}</span>
+      <Link
+        className={!isNextIndex ? "pointer-events-none" : ""}
+        href={`/${nextId}`}
+      >
+        <PrimaryButton isDisabled={!isNextIndex} className="text-2xl">
+          <IoIosArrowForward />
+        </PrimaryButton>
+      </Link>
     </nav>
   );
 };

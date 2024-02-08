@@ -27,7 +27,7 @@ export const PrimaryNavBar = () => {
 
   return (
     <Navbar
-      className="border-0 sm:border sm:border-default"
+      className="border-0 sm:border-b sm:border-default"
       isMenuOpen={isMenuOpen}
       onMenuOpenChange={setIsMenuOpen}
       maxWidth="2xl"
@@ -48,11 +48,11 @@ export const PrimaryNavBar = () => {
             key={menuItem.label}
           >
             <Link
-              className="hover:text-sb-primary group block transition"
+              className="group block transition hover:text-sb-primary"
               href={menuItem.href}
             >
               <span>{menuItem.label}</span>
-              <div className="group-hover:bg-sb-primary h-[2px] rounded-full transition"></div>
+              <div className="h-[2px] rounded-full transition group-hover:bg-sb-primary"></div>
             </Link>
           </NavbarMenuItem>
         ))}

@@ -3,9 +3,9 @@ import { ScrollToTopButton } from "../_components/pokedex/ScrollToTopButton";
 
 export default function Home() {
   return (
-    <div className="h-full w-full">
+    <section className="mx-auto max-w-7xl">
       <Pokedex />
       <ScrollToTopButton />
-    </div>
+    </section>
   );
 }
