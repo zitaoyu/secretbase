@@ -23,57 +23,107 @@ import {
   MdKeyboardDoubleArrowLeft,
   MdKeyboardDoubleArrowRight,
 } from "react-icons/md";
+import WrapperProps from "@/app/_components/Wrapper";
+import useScrollPosition from "@/app/_hooks/useScrollPosition";
+import useScreenSize from "@/app/_hooks/useScreenSize";
 
-const PokedexSidePanel = () => {
-  const [pokemonDataList, setPokemonDataList] = useState<PokemonSimpleData[]>();
+interface SidePanelProps extends WrapperProps {
+  isLeft?: boolean;
+  onOpen?: () => void;
+  onClose?: () => void;
+}
+
+const SidePanel = ({
+  children,
+  isLeft = true,
+  onOpen = () => {},
+  onClose = () => {},
+}: SidePanelProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
-  useEffect(() => {
-    const data = myPokedex.getBasicPokemonData();
-    setPokemonDataList(data);
-  }, []);
+  function openPanel() {
+    setIsOpen((prev) => !prev);
+    onOpen();
+  }
+
+  function closePanel() {
+    setIsOpen(false);
+    onClose();
+  }
 
   return (
     <div
-      className={`fixed left-0 top-0 z-50 h-screen w-9/12 transition duration-400 ease-in-out lg:w-1/3 ${isOpen ? "translate-x-0" : "-translate-x-full"}`}
+      className={`fixed top-0 z-50 flex h-screen w-10/12 transition duration-700 ease-in-out md:w-1/2
+                  ${isOpen ? "translate-x-0" : "-translate-x-full"}
+                  ${isLeft ? "left-0" : "left-full"}
+                  `}
     >
+      {/* Overlay */}
       <div
-        className={`h-screen w-full overflow-y-scroll rounded-r-xl bg-content1 p-2`}
+        className={`fixed left-0 top-0 h-screen w-screen ${isOpen ? "block" : "hidden"}`}
+        onClick={closePanel}
+      />
+      {/* Toggle Button */}
+      <button
+        className="absolute left-full top-1/3 z-40 h-20 -translate-y-1/2 rounded-r-xl border-b-2 border-r-2 border-t-2 border-default bg-content1 sm:top-1/2"
+        onClick={openPanel}
       >
-        <button
-          className="absolute left-full top-1/2 h-20 w-10 rounded-r-xl border-b-2 border-r-2 border-t-2 border-default bg-content1"
-          onClick={() => setIsOpen((prev) => !prev)}
-        >
-          {isOpen ? (
-            <MdKeyboardDoubleArrowLeft size={32} />
-          ) : (
-            <MdKeyboardDoubleArrowRight size={32} />
-          )}
-        </button>
-        <h1 className="pb-4 text-center text-xl">Pokedex</h1>
-        {pokemonDataList ? (
-          <div className="grid grid-cols-5 gap-2">
-            {pokemonDataList.map((pokemon) => (
-              <PokemonCard key={pokemon.id} data={pokemon} isMini />
-            ))}
+        <div className="flex flex-col items-center px-1">
+          <div className="hidden sm:block">Pokedex</div>
+          <div>
+            {isOpen ? (
+              <MdKeyboardDoubleArrowLeft size={32} />
+            ) : (
+              <MdKeyboardDoubleArrowRight size={32} />
+            )}
           </div>
-        ) : (
-          <PrimarySpinner />
-        )}
+        </div>
+      </button>
+      <div className="z-50 h-screen w-full border-r-2 border-default bg-content1">
+        {children}
       </div>
     </div>
   );
 };
 
+const PokedexSidePanel = () => {
+  const [pokemonData, setPokemonData] = useState<PokemonSimpleData[]>();
+
+  function loadData() {
+    const data = myPokedex.getBasicPokemonData();
+    setPokemonData(data);
+  }
+
+  function unloadData() {
+    setPokemonData([]);
+  }
+
+  return (
+    <SidePanel onOpen={loadData} onClose={unloadData}>
+      {pokemonData ? (
+        <div className="grid h-full w-full grid-cols-4 gap-2 overflow-y-scroll p-4 lg:grid-cols-6 lg:gap-4 xl:grid-cols-8">
+          {pokemonData.map((pokemon) => (
+            <PokemonCard key={pokemon.id} data={pokemon} isMini />
+          ))}
+        </div>
+      ) : (
+        <PrimarySpinner />
+      )}
+    </SidePanel>
+  );
+};
+
 export default function PokemonPage() {
   const { id } = useParams();
+  const { scrollY } = useScrollPosition();
+  const { size } = useScreenSize();
+
   const pokemonId: string = Array.isArray(id) ? id[0] : id;
   const pokemonIdInt: number = parseInt(pokemonId, 10);
   const [isLoading, setIsLoading] = useState(true);
   const [pokemonData, setPokemonData] = useState<Pokemon>();
   const [speciesData, setSpeciesData] = useState<PokemonSpecies>();
   const [formData, setFormData] = useState<PokemonForm>();
-  const [isLeftPanelOpen, setIsLeftPanelOpen] = useState(false);
 
   useEffect(() => {
     myPokedex
@@ -110,10 +160,7 @@ export default function PokemonPage() {
 
   return (
     <div className="relative min-h-screen w-full">
-      {/* overlay */}
-      {/* <div className="fixed left-0 top-0 z-50 h-screen w-screen" /> */}
-      <PokedexSidePanel />
-
+      {!(scrollY < 100 && size === "xs") && <PokedexSidePanel />}
       <Card className="mx-auto h-full min-h-screen w-full min-w-80 max-w-7xl rounded-none p-4">
         <ScrollToTop />
         {/* Nav Menu */}
