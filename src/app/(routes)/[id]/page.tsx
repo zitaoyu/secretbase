@@ -53,7 +53,7 @@ const SidePanel = ({
 
   return (
     <div
-      className={`fixed top-0 z-50 flex h-screen w-10/12 transition duration-700 ease-in-out md:w-1/2
+      className={`fixed top-0 z-50 flex h-screen w-10/12 max-w-lg transition duration-700 ease-in-out md:w-1/2
                   ${isOpen ? "translate-x-0" : "-translate-x-full"}
                   ${isLeft ? "left-0" : "left-full"}
                   `}
@@ -65,11 +65,11 @@ const SidePanel = ({
       />
       {/* Toggle Button */}
       <button
-        className="absolute left-full top-1/3 z-40 h-20 -translate-y-1/2 rounded-r-xl border-b-2 border-r-2 border-t-2 border-default bg-content1 sm:top-1/2"
-        onClick={openPanel}
+        className={`${isOpen ? "opacity-100" : "opacity-60 sm:opacity-100"} absolute left-full top-1/3 z-40 h-20 -translate-y-1/2 rounded-r-xl border-b-2 border-r-2 border-t-2 border-default-400 bg-content1 sm:top-1/2 `}
+        onClick={() => (isOpen ? closePanel() : openPanel())}
       >
         <div className="flex flex-col items-center px-1">
-          <div className="hidden sm:block">Pokedex</div>
+          {!isOpen && <div className="hidden sm:block">Pokedex</div>}
           <div>
             {isOpen ? (
               <MdKeyboardDoubleArrowLeft size={32} />
@@ -79,7 +79,7 @@ const SidePanel = ({
           </div>
         </div>
       </button>
-      <div className="z-50 h-screen w-full border-r-2 border-default bg-content1">
+      <div className="z-50 h-screen w-full border-r-2 border-default-400 bg-content1">
         {children}
       </div>
     </div>
@@ -88,28 +88,38 @@ const SidePanel = ({
 
 const PokedexSidePanel = () => {
   const [pokemonData, setPokemonData] = useState<PokemonSimpleData[]>();
+  const [isShowOverlay, setIsShowOverlay] = useState(false);
 
-  function loadData() {
+  function onOpen() {
     const data = myPokedex.getBasicPokemonData();
     setPokemonData(data);
+    setIsShowOverlay(true);
   }
 
-  function unloadData() {
+  function onClose() {
     setPokemonData([]);
+    setIsShowOverlay(false);
   }
 
   return (
-    <SidePanel onOpen={loadData} onClose={unloadData}>
-      {pokemonData ? (
-        <div className="grid h-full w-full grid-cols-4 gap-2 overflow-y-scroll p-4 lg:grid-cols-6 lg:gap-4 xl:grid-cols-8">
-          {pokemonData.map((pokemon) => (
-            <PokemonCard key={pokemon.id} data={pokemon} isMini />
-          ))}
-        </div>
-      ) : (
-        <PrimarySpinner />
-      )}
-    </SidePanel>
+    <div>
+      <div
+        className={`fixed left-0 top-0 z-40 h-screen bg-black opacity-20
+                    ${isShowOverlay ? " w-screen" : "w-0"}
+                    `}
+      />
+      <SidePanel onOpen={onOpen} onClose={onClose}>
+        {pokemonData ? (
+          <div className="grid h-full w-full grid-cols-4 gap-2 overflow-y-scroll p-4 lg:grid-cols-5">
+            {pokemonData.map((pokemon) => (
+              <PokemonCard key={pokemon.id} data={pokemon} isMini />
+            ))}
+          </div>
+        ) : (
+          <PrimarySpinner />
+        )}
+      </SidePanel>
+    </div>
   );
 };
 
@@ -160,7 +170,7 @@ export default function PokemonPage() {
 
   return (
     <div className="relative min-h-screen w-full">
-      {!(scrollY < 100 && size === "xs") && <PokedexSidePanel />}
+      <PokedexSidePanel />
       <Card className="mx-auto h-full min-h-screen w-full min-w-80 max-w-7xl rounded-none p-4">
         <ScrollToTop />
         {/* Nav Menu */}
