@@ -1,21 +1,26 @@
-import { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
 
 interface UseScrollPositionHook {
   scrollY: number;
 }
 
 const useScrollPosition = (): UseScrollPositionHook => {
-  const [scrollY, setScrollY] = useState<number>(window.scrollY);
+  const [scrollY, setScrollY] = useState<number>(0);
 
   const handleScroll = (): void => {
-    setScrollY(window.scrollY);
+    if (typeof window !== "undefined") {
+      setScrollY(window.scrollY);
+    }
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+    if (typeof window !== "undefined") {
+      setScrollY(window.scrollY);
+      window.addEventListener("scroll", handleScroll);
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }
   }, []);
 
   return { scrollY };
