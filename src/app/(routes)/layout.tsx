@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "Full National Pokédex with modern UI for both desktop and mobile.",
   keywords:
-    "pokemon,pokedex,pokedex mobile,pokedexmobile,national,national pokedex,nationalpokedex,porygondex,porygon dex",
+    "secretbase,secret base,pokemon,pokedex,pokedex mobile,pokedexmobile,national,national pokedex,nationalpokedex",
 };
 
 export default function RootLayout({
