@@ -65,7 +65,7 @@ const SidePanel = ({
       />
       {/* Toggle Button */}
       <button
-        className={`${isOpen ? "opacity-100" : "opacity-60 sm:opacity-100"} absolute left-full top-1/3 z-40 h-20 -translate-y-1/2 rounded-r-xl border-b-2 border-r-2 border-t-2 border-default-400 bg-content1 sm:top-1/2 `}
+        className={`${isOpen ? "opacity-100" : "opacity-60 sm:opacity-100"} absolute left-full top-[20%] z-40 h-20 -translate-y-1/2 rounded-r-xl border-b-2 border-r-2 border-t-2 border-default-400 bg-content1 sm:top-1/2 `}
         onClick={() => (isOpen ? closePanel() : openPanel())}
       >
         <div className="flex flex-col items-center px-1">
