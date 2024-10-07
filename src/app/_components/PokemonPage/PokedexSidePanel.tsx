@@ -8,7 +8,6 @@ import {
   MdKeyboardDoubleArrowRight,
 } from "react-icons/md";
 import WrapperProps from "@/app/_components/Wrapper";
-import { extractIdFromUrl } from "@/app/_utils/format";
 
 interface SidePanelProps extends WrapperProps {
   isLeft?: boolean;

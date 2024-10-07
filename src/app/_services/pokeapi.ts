@@ -10,6 +10,7 @@ import Pokedex, {
 import { PokemonSimpleData } from "./models/PokemonSimpleData";
 import basicPokemonData from "./data/basicPokemonData.json";
 import { extractIdFromUrl } from "../_utils/format";
+import { PokemonFullData } from "./models/PokemonFullData";
 
 class PokeApiWrapper implements PokeApiWrapperInterface {
   private pokedex: Pokedex;
@@ -72,17 +73,21 @@ class PokeApiWrapper implements PokeApiWrapperInterface {
     return spriteUrl;
   }
 
-  async getPokemonData(pokemonId: string | number): Promise<{
-    pokemon: Pokemon;
-    species: PokemonSpecies;
-    form: PokemonForm;
-  }> {
+  // TODO: add all data proccesing here instead of in components
+  async getPokemonData(pokemonId: string | number): Promise<PokemonFullData> {
     const pokemon = await this.pokedex.getPokemonByName(pokemonId);
     const speciesId = extractIdFromUrl(pokemon.species.url);
     const species = await this.pokedex.getPokemonSpeciesByName(speciesId);
     const form = await this.pokedex.getPokemonFormByName(pokemon.forms[0].name);
 
-    return { pokemon, species, form };
+    const pokemonFullData: PokemonFullData = {
+      simpleData: basicPokemonData.data[pokemonId as number],
+      pokemon,
+      species,
+      form,
+    };
+
+    return pokemonFullData;
   }
 }
 
