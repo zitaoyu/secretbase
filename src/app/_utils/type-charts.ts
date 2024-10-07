@@ -1,6 +1,4 @@
-// data from:
-// https://gist.github.com/agarie/2620966
-// https://gist.github.com/ainsleyrutterford/7752d017f7539fc490f7b436db0fba3e
+import { PokemonType } from "../_types/pokemon.type";
 
 export const TYPE_CHART_EFFECTIVENESS = {
   normal: {
@@ -328,7 +326,10 @@ export const TYPE_CHART_EFFECTIVENESS = {
   },
 };
 
-export const TYPE_CHART_WEAKNESSES = {
+export const TYPE_CHART_WEAKNESSES: Record<
+  PokemonType,
+  Record<PokemonType, number>
+> = {
   normal: {
     normal: 1,
     fire: 1,
@@ -347,6 +348,7 @@ export const TYPE_CHART_WEAKNESSES = {
     dragon: 1,
     dark: 1,
     steel: 1,
+    fairy: 1,
   },
   fire: {
     normal: 1,
@@ -366,6 +368,7 @@ export const TYPE_CHART_WEAKNESSES = {
     dragon: 1,
     dark: 1,
     steel: 0.5,
+    fairy: 0.5,
   },
   water: {
     normal: 1,
@@ -385,6 +388,7 @@ export const TYPE_CHART_WEAKNESSES = {
     dragon: 1,
     dark: 1,
     steel: 0.5,
+    fairy: 1,
   },
   electric: {
     normal: 1,
@@ -404,6 +408,7 @@ export const TYPE_CHART_WEAKNESSES = {
     dragon: 1,
     dark: 1,
     steel: 0.5,
+    fairy: 1,
   },
   grass: {
     normal: 1,
@@ -423,6 +428,7 @@ export const TYPE_CHART_WEAKNESSES = {
     dragon: 1,
     dark: 1,
     steel: 1,
+    fairy: 1,
   },
   ice: {
     normal: 1,
@@ -442,6 +448,7 @@ export const TYPE_CHART_WEAKNESSES = {
     dragon: 1,
     dark: 1,
     steel: 2,
+    fairy: 1,
   },
   fighting: {
     normal: 1,
@@ -461,6 +468,7 @@ export const TYPE_CHART_WEAKNESSES = {
     dragon: 1,
     dark: 0.5,
     steel: 1,
+    fairy: 2,
   },
   poison: {
     normal: 1,
@@ -480,6 +488,7 @@ export const TYPE_CHART_WEAKNESSES = {
     dragon: 1,
     dark: 1,
     steel: 1,
+    fairy: 0.5,
   },
   ground: {
     normal: 1,
@@ -499,6 +508,7 @@ export const TYPE_CHART_WEAKNESSES = {
     dragon: 1,
     dark: 1,
     steel: 1,
+    fairy: 0.5,
   },
   flying: {
     normal: 1,
@@ -518,6 +528,7 @@ export const TYPE_CHART_WEAKNESSES = {
     dragon: 1,
     dark: 1,
     steel: 1,
+    fairy: 1,
   },
   psychic: {
     normal: 1,
@@ -537,6 +548,7 @@ export const TYPE_CHART_WEAKNESSES = {
     dragon: 1,
     dark: 2,
     steel: 1,
+    fairy: 1,
   },
   bug: {
     normal: 1,
@@ -556,6 +568,7 @@ export const TYPE_CHART_WEAKNESSES = {
     dragon: 1,
     dark: 1,
     steel: 1,
+    fairy: 1,
   },
   rock: {
     normal: 0.5,
@@ -575,6 +588,7 @@ export const TYPE_CHART_WEAKNESSES = {
     dragon: 1,
     dark: 1,
     steel: 2,
+    fairy: 1,
   },
   ghost: {
     normal: 0,
@@ -594,6 +608,7 @@ export const TYPE_CHART_WEAKNESSES = {
     dragon: 1,
     dark: 2,
     steel: 1,
+    fairy: 1,
   },
   dragon: {
     normal: 1,
@@ -613,6 +628,7 @@ export const TYPE_CHART_WEAKNESSES = {
     dragon: 2,
     dark: 1,
     steel: 1,
+    fairy: 2,
   },
   dark: {
     normal: 1,
@@ -632,6 +648,7 @@ export const TYPE_CHART_WEAKNESSES = {
     dragon: 1,
     dark: 0.5,
     steel: 1,
+    fairy: 2,
   },
   steel: {
     normal: 0.5,
@@ -651,5 +668,73 @@ export const TYPE_CHART_WEAKNESSES = {
     dragon: 0.5,
     dark: 0.5,
     steel: 0.5,
+    fairy: 0.5,
+  },
+  fairy: {
+    normal: 1,
+    fire: 1,
+    water: 1,
+    electric: 1,
+    grass: 1,
+    ice: 1,
+    fighting: 0.5,
+    poison: 2,
+    ground: 1,
+    flying: 1,
+    psychic: 1,
+    bug: 0.5,
+    rock: 1,
+    ghost: 1,
+    dragon: 0,
+    dark: 0.5,
+    steel: 2,
+    fairy: 1,
   },
 };
+
+const defaultDamageRelation: Record<PokemonType, number> = {
+  normal: 1,
+  fire: 1,
+  water: 1,
+  electric: 1,
+  grass: 1,
+  ice: 1,
+  fighting: 1,
+  poison: 1,
+  ground: 1,
+  flying: 1,
+  psychic: 1,
+  bug: 1,
+  rock: 1,
+  ghost: 1,
+  dragon: 1,
+  dark: 1,
+  steel: 1,
+  fairy: 1,
+};
+
+export function getDefaultDamageRelation(): Record<PokemonType, number> {
+  return JSON.parse(JSON.stringify(defaultDamageRelation));
+}
+
+export function getDamageRelation(
+  types: PokemonType[],
+): Record<PokemonType, number> {
+  if (types.length == 1) {
+    return TYPE_CHART_WEAKNESSES[types[0]];
+  } else {
+    const chart1 = { ...TYPE_CHART_WEAKNESSES[types[0]] };
+    const chart2 = TYPE_CHART_WEAKNESSES[types[1]];
+
+    for (const pokemonType in chart1) {
+      if (
+        chart1.hasOwnProperty(pokemonType) &&
+        chart2.hasOwnProperty(pokemonType)
+      ) {
+        chart1[pokemonType as PokemonType] *=
+          chart2[pokemonType as PokemonType];
+      }
+    }
+    return chart1;
+  }
+}

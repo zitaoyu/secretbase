@@ -18,7 +18,7 @@ import { extractIdFromUrl } from "@/app/_utils/format";
 import { ResistanceTable } from "@/app/_components/PokemonPage/ResistanceTable";
 import { PokemonType } from "@/app/_types/pokemon.type";
 import { PokemonSimpleData } from "@/app/_services/models/PokemonSimpleData";
-import { PokemonCard } from "@/app/_components/pokedex/PokemonCard";
+import { PokemonCard } from "@/app/_components/Pokedex/PokemonCard";
 import {
   MdKeyboardDoubleArrowLeft,
   MdKeyboardDoubleArrowRight,
