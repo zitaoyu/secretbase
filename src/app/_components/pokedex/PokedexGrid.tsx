@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { PokemonCard } from "./PokemonCard";
-import { PokemonSimpleData } from "@/app/_lib/api/pokeapi.interface";
+import { PokemonSimpleData } from "@/app/_services/models/PokemonSimpleData";
 
 interface PokedexGridProps {
   pokemonData: PokemonSimpleData[];

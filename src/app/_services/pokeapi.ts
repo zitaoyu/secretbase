@@ -1,7 +1,4 @@
-import {
-  PokeApiWrapperInterface,
-  PokemonSimpleData,
-} from "./pokeapi.interface";
+import { PokeApiWrapperInterface } from "./pokeapi.interface";
 import Pokedex, {
   NamedAPIResourceList,
   Pokemon,
@@ -10,7 +7,8 @@ import Pokedex, {
   PokemonForm,
   Type,
 } from "pokedex-promise-v2";
-import basicPokemonData from "./basicPokemonData.json";
+import { PokemonSimpleData } from "./models/PokemonSimpleData";
+import basicPokemonData from "./data/basicPokemonData.json";
 
 class PokeApiWrapper implements PokeApiWrapperInterface {
   private pokedex: Pokedex;

@@ -2,8 +2,8 @@
 
 import React, { useEffect, useState } from "react";
 import { PrimarySpinner } from "../PrimarySpinner";
-import { PokemonSimpleData } from "@/app/_lib/api/pokeapi.interface";
-import myPokedex from "@/app/_lib/api/pokeapi";
+import { PokemonSimpleData } from "@/app/_services/models/PokemonSimpleData";
+import myPokedex from "@/app/_services/pokeapi";
 import { PokemonType } from "@/app/_types/pokemon.type";
 import { isNumber, stringToInt } from "@/app/_utils/format";
 import { GridType, defaultGenIndexFilter, genIndexMap } from "./Pokedex.type";

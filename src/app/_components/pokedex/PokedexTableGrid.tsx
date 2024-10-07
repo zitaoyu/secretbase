@@ -1,4 +1,4 @@
-import { PokemonSimpleData } from "@/app/_lib/api/pokeapi.interface";
+import { PokemonSimpleData } from "@/app/_services/models/PokemonSimpleData";
 import { formatName } from "@/app/_utils/format";
 import {
   Table,

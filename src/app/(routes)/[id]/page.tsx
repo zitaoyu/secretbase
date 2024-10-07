@@ -10,14 +10,14 @@ import { BasicInfoBox } from "@/app/_components/PokemonPage/BasicInfoBox";
 import { SpriteGallery } from "@/app/_components/PokemonPage/SpriteGallery";
 import UnknownPokemonSprite from "../../_assets/unknown_pokemon.png";
 import { MovesTable } from "@/app/_components/PokemonPage/MovesTable";
-import myPokedex from "@/app/_lib/api/pokeapi";
+import myPokedex from "@/app/_services/pokeapi";
 import { StatsTable } from "@/app/_components/PokemonPage/StatsTable";
 import { ScrollToTop } from "@/app/_components/ScrollToTop";
 import { EvolutionTable } from "@/app/_components/PokemonPage/EvolutionTable";
 import { extractIdFromUrl } from "@/app/_utils/format";
 import { ResistanceTable } from "@/app/_components/PokemonPage/ResistanceTable";
 import { PokemonType } from "@/app/_types/pokemon.type";
-import { PokemonSimpleData } from "@/app/_lib/api/pokeapi.interface";
+import { PokemonSimpleData } from "@/app/_services/models/PokemonSimpleData";
 import { PokemonCard } from "@/app/_components/pokedex/PokemonCard";
 import {
   MdKeyboardDoubleArrowLeft,

@@ -2,7 +2,7 @@
 // https://gist.github.com/agarie/2620966
 // https://gist.github.com/ainsleyrutterford/7752d017f7539fc490f7b436db0fba3e
 
-const TYPE_CHART_EFFECTIVENESS = {
+export const TYPE_CHART_EFFECTIVENESS = {
   normal: {
     normal: 1,
     fire: 1,
@@ -328,7 +328,7 @@ const TYPE_CHART_EFFECTIVENESS = {
   },
 };
 
-const TYPE_CHART_WEAKNESSES = {
+export const TYPE_CHART_WEAKNESSES = {
   normal: {
     normal: 1,
     fire: 1,
@@ -653,5 +653,3 @@ const TYPE_CHART_WEAKNESSES = {
     steel: 0.5,
   },
 };
-
-export default { TYPE_CHART_EFFECTIVENESS, TYPE_CHART_WEAKNESSES };

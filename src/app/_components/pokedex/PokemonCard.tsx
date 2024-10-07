@@ -1,6 +1,6 @@
 import { Card, CardBody, CardFooter } from "@nextui-org/react";
 import { useState } from "react";
-import { PokemonSimpleData } from "../../_lib/api/pokeapi.interface";
+import { PokemonSimpleData } from "@/app/_services/models/PokemonSimpleData";
 import { PokemonTypeBoxes } from "../PokemonTypeBox";
 import Link from "next/link";
 import { capitalizeFirstLetter } from "@/app/_utils/format";

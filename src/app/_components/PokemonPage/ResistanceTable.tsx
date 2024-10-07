@@ -1,7 +1,7 @@
 import { SectionContainer } from "./SectionContainer";
 import { PokemonTypeBox } from "../PokemonTypeBox";
 import { useEffect, useState } from "react";
-import myPokedex from "@/app/_lib/api/pokeapi";
+import myPokedex from "@/app/_services/pokeapi";
 import { PokemonType } from "@/app/_types/pokemon.type";
 
 const defaultDamageRelation: Record<PokemonType, number> = {
