@@ -20,9 +20,9 @@ export const PrimaryNavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const menuItems: { label: string; href: string }[] = [
-    { label: "Home", href: "/" },
+    // { label: "Home", href: "/" },
     { label: "Pokedex", href: "/" },
-    { label: "About", href: "#" },
+    // { label: "About", href: "#" },
   ];
 
   return (

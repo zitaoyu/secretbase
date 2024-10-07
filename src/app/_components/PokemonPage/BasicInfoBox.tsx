@@ -74,9 +74,14 @@ export const BasicInfoBox = ({
     setTypes(pokemonData.types.map((value) => value.type.name));
     // abilities
     const newAbilities: BoxItemData[] = pokemonData.abilities.map((ability) => {
+      // TODO: add ability detail
+      // return {
+      //   value: formatName(ability.ability.name),
+      //   url: ability.ability.url,
+      // };
       return {
         value: formatName(ability.ability.name),
-        url: ability.ability.url,
+        url: null,
       };
     });
     setAbilities(newAbilities);

@@ -9,6 +9,7 @@ import Pokedex, {
 } from "pokedex-promise-v2";
 import { PokemonSimpleData } from "./models/PokemonSimpleData";
 import basicPokemonData from "./data/basicPokemonData.json";
+import { extractIdFromUrl } from "../_utils/format";
 
 class PokeApiWrapper implements PokeApiWrapperInterface {
   private pokedex: Pokedex;
@@ -69,6 +70,19 @@ class PokeApiWrapper implements PokeApiWrapperInterface {
     }
     const spriteUrl: string = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/${id}.gif`;
     return spriteUrl;
+  }
+
+  async getPokemonData(pokemonId: string | number): Promise<{
+    pokemon: Pokemon;
+    species: PokemonSpecies;
+    form: PokemonForm;
+  }> {
+    const pokemon = await this.pokedex.getPokemonByName(pokemonId);
+    const speciesId = extractIdFromUrl(pokemon.species.url);
+    const species = await this.pokedex.getPokemonSpeciesByName(speciesId);
+    const form = await this.pokedex.getPokemonFormByName(pokemon.forms[0].name);
+
+    return { pokemon, species, form };
   }
 }
 
