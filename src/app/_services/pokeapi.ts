@@ -23,8 +23,11 @@ class PokeApiWrapper implements PokeApiWrapperInterface {
       timeout: 10 * 1000, // 10s
     });
   }
+  getBasicPokemonDataById(id: number): PokemonSimpleData {
+    return basicPokemonData.data[(id as number) - 1];
+  }
 
-  getBasicPokemonData(): PokemonSimpleData[] {
+  getAllBasicPokemonData(): PokemonSimpleData[] {
     return basicPokemonData.data;
   }
 
@@ -75,13 +78,14 @@ class PokeApiWrapper implements PokeApiWrapperInterface {
 
   // TODO: add all data proccesing here instead of in components
   async getPokemonData(pokemonId: string | number): Promise<PokemonFullData> {
+    const simpleData = this.getBasicPokemonDataById(pokemonId as number);
     const pokemon = await this.pokedex.getPokemonByName(pokemonId);
     const speciesId = extractIdFromUrl(pokemon.species.url);
     const species = await this.pokedex.getPokemonSpeciesByName(speciesId);
     const form = await this.pokedex.getPokemonFormByName(pokemon.forms[0].name);
 
     const pokemonFullData: PokemonFullData = {
-      simpleData: basicPokemonData.data[pokemonId as number],
+      simpleData,
       pokemon,
       species,
       form,

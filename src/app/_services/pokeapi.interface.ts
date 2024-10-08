@@ -13,7 +13,8 @@ export const POKEDEX_START_INDEX: number = 1;
 export const POKEDEX_END_INDEX: number = 1025;
 
 export interface PokeApiWrapperInterface {
-  getBasicPokemonData(): PokemonSimpleData[];
+  getBasicPokemonDataById(id: number): PokemonSimpleData;
+  getAllBasicPokemonData(): PokemonSimpleData[];
   getPokemonList(): Promise<NamedAPIResourceList>;
   getPokemonByName(nameOrId: string | number): Promise<Pokemon>;
   getMoveByName(nameOrId: string | number): Promise<Move>;

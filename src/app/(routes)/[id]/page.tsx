@@ -3,7 +3,6 @@
 import { Card } from "@nextui-org/react";
 import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
-import { Pokemon, PokemonForm, PokemonSpecies } from "pokedex-promise-v2";
 import { PrimarySpinner } from "@/app/_components/PrimarySpinner";
 import { NavMenu } from "@/app/_components/PokemonPage/NavMenu";
 import { BasicInfoBox } from "@/app/_components/PokemonPage/BasicInfoBox";
@@ -17,6 +16,7 @@ import { EvolutionTable } from "@/app/_components/PokemonPage/EvolutionTable";
 import { ResistanceTable } from "@/app/_components/PokemonPage/ResistanceTable";
 import { PokedexSidePanel } from "@/app/_components/PokemonPage/PokedexSidePanel";
 import { PokemonType } from "@/app/_types/pokemon.type";
+import { PokemonFullData } from "@/app/_services/models/PokemonFullData";
 import useScrollPosition from "@/app/_hooks/useScrollPosition";
 import useScreenSize from "@/app/_hooks/useScreenSize";
 import UnknownPokemonSprite from "../../_assets/unknown_pokemon.png";
@@ -29,19 +29,15 @@ export default function PokemonPage() {
   const pokemonId: string = Array.isArray(id) ? id[0] : id;
   const pokemonIdInt: number = parseInt(pokemonId, 10);
   const [isLoading, setIsLoading] = useState(true);
-  const [pokemonData, setPokemonData] = useState<Pokemon>();
-  const [speciesData, setSpeciesData] = useState<PokemonSpecies>();
-  const [formData, setFormData] = useState<PokemonForm>();
+  const [pokemonFullData, setPokemonFullData] = useState<PokemonFullData>();
 
   useEffect(() => {
     setIsLoading(true);
 
     myPokedex
       .getPokemonData(pokemonId)
-      .then(({ pokemon, species, form }) => {
-        setPokemonData(pokemon);
-        setSpeciesData(species);
-        setFormData(form);
+      .then((fullData) => {
+        setPokemonFullData(fullData);
         setIsLoading(false);
       })
       .catch(() => {
@@ -56,9 +52,9 @@ export default function PokemonPage() {
       <Card className="mx-auto h-full min-h-screen w-full min-w-80 max-w-7xl rounded-none p-4">
         <ScrollToTop />
         {/* Nav Menu */}
-        <NavMenu id={pokemonIdInt} dexId={speciesData?.id} />
+        <NavMenu id={pokemonIdInt} dexId={pokemonFullData?.species.id} />
         {/* Display info after data is fully loaded */}
-        {isLoading || !pokemonData || !speciesData || !formData ? (
+        {isLoading || !pokemonFullData ? (
           <PrimarySpinner className="m-auto" />
         ) : (
           <div className="flex flex-col items-center gap-10">
@@ -67,36 +63,37 @@ export default function PokemonPage() {
               {/* Pokemon Image */}
               <SpriteGallery
                 imageUrl={
-                  pokemonData?.sprites.versions["generation-v"]["black-white"]
-                    .animated.front_default ||
-                  pokemonData?.sprites.front_default ||
+                  pokemonFullData.pokemon?.sprites.versions["generation-v"][
+                    "black-white"
+                  ].animated.front_default ||
+                  pokemonFullData.pokemon?.sprites.front_default ||
                   UnknownPokemonSprite.src
                 }
                 size="lg"
               />
               {/* Pokemon Basic Info Box */}
               <BasicInfoBox
-                pokemonData={pokemonData}
-                speciesData={speciesData}
-                formData={formData}
+                pokemonData={pokemonFullData.pokemon}
+                speciesData={pokemonFullData.species}
+                formData={pokemonFullData.form}
               />
             </div>
             <ResistanceTable
-              types={pokemonData.types.map(
+              types={pokemonFullData.pokemon.types.map(
                 (type) => type.type.name as PokemonType,
               )}
             />
-            <StatsTable statsData={pokemonData.stats || []} />
-            <EvolutionTable speciesData={speciesData} />
+            <StatsTable statsData={pokemonFullData.pokemon.stats || []} />
+            <EvolutionTable speciesData={pokemonFullData.species} />
             {/* Moves Table */}
             <MovesTable
               title="Level Up Moves"
-              movesData={pokemonData?.moves}
+              movesData={pokemonFullData.pokemon?.moves}
               method="level-up"
             />
             <MovesTable
               title="TM Moves"
-              movesData={pokemonData?.moves}
+              movesData={pokemonFullData.pokemon?.moves}
               method="machine"
             />
           </div>
