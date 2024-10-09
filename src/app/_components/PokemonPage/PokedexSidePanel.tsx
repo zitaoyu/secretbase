@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { PrimarySpinner } from "@/app/_components/PrimarySpinner";
 import myPokedex from "@/app/_services/pokeapi";
 import { PokemonSimpleData } from "@/app/_services/models/PokemonSimpleData";
-import { PokemonCard } from "@/app/_components/Pokedex/PokemonCard";
+import { PokemonCard } from "@/app/_components/pokedex/PokemonCard";
 import {
   MdKeyboardDoubleArrowLeft,
   MdKeyboardDoubleArrowRight,
@@ -73,7 +73,7 @@ export const PokedexSidePanel = () => {
   const [isShowOverlay, setIsShowOverlay] = useState(false);
 
   function onOpen() {
-    const data = myPokedex.getBasicPokemonData();
+    const data = myPokedex.getAllBasicPokemonData();
     setPokemonData(data);
     setIsShowOverlay(true);
   }
