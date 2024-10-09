@@ -25,7 +25,7 @@ const fetchDataWithRetries = async (url, maxRetries = 3) => {
 };
 
 // Step 1: Make a request to the Pokemon API
-const apiUrl = "https://pokeapi.co/api/v2/pokemon?limit=1025&offset=0";
+const apiUrl = "https://pokeapi.co/api/v2/pokemon?limit=100000&offset=0";
 
 axios
   .get(apiUrl)
@@ -62,7 +62,7 @@ axios
           ? englishNameObject.name
           : pokemonData.name;
 
-        const { id, name } = pokemonData;
+        const { id, name, order } = pokemonData;
         const types = [];
         pokemonData.types.map((value) => {
           if (value.type.name) {
@@ -77,17 +77,23 @@ axios
         });
         const data = {
           id,
+          order,
           name: englishName,
           form_name: pokemonFormObject?.name || null,
           types,
           stats,
           spriteUrl: pokemonData.sprites.front_default,
+          shinySpriteUrl: pokemonData.sprites.front_shiny,
           animatedSpriteUrl:
             pokemonData.sprites.versions["generation-v"]["black-white"].animated
               .front_default,
+          animatedShinySpriteUrl:
+            pokemonData.sprites.versions["generation-v"]["black-white"].animated
+              .front_shiny,
         };
-        console.log(data);
         DownloadedData.data.push(data);
+
+        DownloadedData.data.sort((a, b) => a.order - b.order);
 
         // Log success
         console.log(`Successfully fetched data for ${name} (ID: ${id})`);
@@ -100,6 +106,8 @@ axios
     for (const result of results) {
       await fetchPokemonData(result.url);
     }
+
+    // TODO: sort all pokemon data in DownloadedData.data by order property which is a integer
 
     // Save the collected data as a JSON file
     const jsonData = JSON.stringify(DownloadedData, null, 2);

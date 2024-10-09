@@ -63,10 +63,8 @@ export default function PokemonPage() {
               {/* Pokemon Image */}
               <SpriteGallery
                 imageUrl={
-                  pokemonFullData.pokemon?.sprites.versions["generation-v"][
-                    "black-white"
-                  ].animated.front_default ||
-                  pokemonFullData.pokemon?.sprites.front_default ||
+                  pokemonFullData.simpleData.animatedSpriteUrl ||
+                  pokemonFullData.simpleData.spriteUrl ||
                   UnknownPokemonSprite.src
                 }
                 size="lg"

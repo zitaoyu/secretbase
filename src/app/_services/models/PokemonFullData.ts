@@ -2,8 +2,8 @@ import { PokemonSimpleData } from "./PokemonSimpleData";
 import { Pokemon, PokemonSpecies, PokemonForm } from "pokedex-promise-v2";
 
 interface DataLink {
-  name: string;
-  url: string;
+  name: string | number;
+  url: string | null;
 }
 
 // formatted page data
