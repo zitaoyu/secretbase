@@ -63,7 +63,7 @@ export default function PokemonPage() {
               {/* Pokemon Image */}
               <SpriteGallery
                 imageUrl={
-                  pokemonFullData.simpleData.animatedSpriteUrl ||
+                  pokemonFullData.simpleData?.animatedSpriteUrl ||
                   pokemonFullData.simpleData.spriteUrl ||
                   UnknownPokemonSprite.src
                 }

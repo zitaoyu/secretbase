@@ -1,7 +1,8 @@
 export interface PokemonSimpleData {
   id: number;
+  pokeapiId: number;
   name: string;
-  form_name: string | null;
+  formName: string | null;
   types: string[];
   stats: {
     hp: number;
@@ -12,5 +13,7 @@ export interface PokemonSimpleData {
     speed: number;
   };
   spriteUrl: string | null;
+  shinySpriteUrl: string | null;
   animatedSpriteUrl: string | null;
+  animatedShinySpriteUrl: string | null;
 }

@@ -9,8 +9,8 @@ import Pokedex, {
 } from "pokedex-promise-v2";
 import { PokemonSimpleData } from "./models/PokemonSimpleData";
 import basicPokemonData from "./data/basicPokemonData.json";
-import { extractIdFromUrl } from "../_utils/format";
-import { PokemonFullData } from "./models/PokemonFullData";
+import { extractIdFromUrl, formatName } from "../_utils/format";
+import { PokemonFullData, PokemonPageData } from "./models/PokemonFullData";
 
 class PokeApiWrapper implements PokeApiWrapperInterface {
   private pokedex: Pokedex;
@@ -23,8 +23,12 @@ class PokeApiWrapper implements PokeApiWrapperInterface {
       timeout: 10 * 1000, // 10s
     });
   }
+
   getBasicPokemonDataById(id: number): PokemonSimpleData {
-    return basicPokemonData.data[(id as number) - 1];
+    return (
+      basicPokemonData.data.find((item) => item.pokeapiId == id) ||
+      basicPokemonData.data[0]
+    );
   }
 
   getAllBasicPokemonData(): PokemonSimpleData[] {
@@ -83,6 +87,16 @@ class PokeApiWrapper implements PokeApiWrapperInterface {
     const speciesId = extractIdFromUrl(pokemon.species.url);
     const species = await this.pokedex.getPokemonSpeciesByName(speciesId);
     const form = await this.pokedex.getPokemonFormByName(pokemon.forms[0].name);
+
+    // format data for pokemon page
+    const abilities = pokemon.abilities.map((ability) => {
+      {
+        return {
+          name: formatName(ability.ability.name),
+          url: null,
+        };
+      }
+    });
 
     const pokemonFullData: PokemonFullData = {
       simpleData,
