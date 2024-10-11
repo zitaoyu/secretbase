@@ -1,5 +1,5 @@
 import Link from "next/link";
-import myPokedex from "@/app/_lib/api/pokeapi";
+import myPokedex from "@/app/_services/pokeapi";
 import { extractIdFromUrl } from "@/app/_utils/format";
 import { Chain, EvolutionChain, PokemonSpecies } from "pokedex-promise-v2";
 import { useEffect, useState } from "react";

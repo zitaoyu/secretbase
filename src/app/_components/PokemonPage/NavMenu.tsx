@@ -2,7 +2,7 @@ import { PrimaryButton } from "@/app/_components/PrimaryButton";
 import {
   POKEDEX_START_INDEX,
   POKEDEX_END_INDEX,
-} from "@/app/_lib/api/pokeapi.interface";
+} from "@/app/_services/pokeapi.interface";
 import Link from "next/link";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 

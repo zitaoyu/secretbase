@@ -11,7 +11,7 @@ import {
 } from "@nextui-org/react";
 import { MoveElement } from "pokedex-promise-v2";
 import { formatName } from "@/app/_utils/format";
-import myPokedex from "@/app/_lib/api/pokeapi";
+import myPokedex from "@/app/_services/pokeapi";
 import { PrimarySpinner } from "../PrimarySpinner";
 import { PokemonTypeBox } from "../PokemonTypeBox";
 import movePhysicalSprite from "../../_assets/move-physical.png";

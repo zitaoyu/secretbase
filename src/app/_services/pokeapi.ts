@@ -1,7 +1,4 @@
-import {
-  PokeApiWrapperInterface,
-  PokemonSimpleData,
-} from "./pokeapi.interface";
+import { PokeApiWrapperInterface } from "./pokeapi.interface";
 import Pokedex, {
   NamedAPIResourceList,
   Pokemon,
@@ -10,7 +7,10 @@ import Pokedex, {
   PokemonForm,
   Type,
 } from "pokedex-promise-v2";
-import basicPokemonData from "./basicPokemonData.json";
+import { PokemonSimpleData } from "./models/PokemonSimpleData";
+import basicPokemonData from "./data/basicPokemonData.json";
+import { extractIdFromUrl, formatName } from "../_utils/format";
+import { PokemonFullData, PokemonPageData } from "./models/PokemonFullData";
 
 class PokeApiWrapper implements PokeApiWrapperInterface {
   private pokedex: Pokedex;
@@ -24,7 +24,14 @@ class PokeApiWrapper implements PokeApiWrapperInterface {
     });
   }
 
-  getBasicPokemonData(): PokemonSimpleData[] {
+  getBasicPokemonDataById(id: number): PokemonSimpleData {
+    return (
+      basicPokemonData.data.find((item) => item.pokeapiId == id) ||
+      basicPokemonData.data[0]
+    );
+  }
+
+  getAllBasicPokemonData(): PokemonSimpleData[] {
     return basicPokemonData.data;
   }
 
@@ -71,6 +78,34 @@ class PokeApiWrapper implements PokeApiWrapperInterface {
     }
     const spriteUrl: string = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/${id}.gif`;
     return spriteUrl;
+  }
+
+  // TODO: add all data proccesing here instead of in components
+  async getPokemonData(pokemonId: string | number): Promise<PokemonFullData> {
+    const simpleData = this.getBasicPokemonDataById(pokemonId as number);
+    const pokemon = await this.pokedex.getPokemonByName(pokemonId);
+    const speciesId = extractIdFromUrl(pokemon.species.url);
+    const species = await this.pokedex.getPokemonSpeciesByName(speciesId);
+    const form = await this.pokedex.getPokemonFormByName(pokemon.forms[0].name);
+
+    // format data for pokemon page
+    const abilities = pokemon.abilities.map((ability) => {
+      {
+        return {
+          name: formatName(ability.ability.name),
+          url: null,
+        };
+      }
+    });
+
+    const pokemonFullData: PokemonFullData = {
+      simpleData,
+      pokemon,
+      species,
+      form,
+    };
+
+    return pokemonFullData;
   }
 }
 
