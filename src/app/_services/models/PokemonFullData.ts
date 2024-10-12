@@ -1,8 +1,8 @@
 import { PokemonSimpleData } from "./PokemonSimpleData";
 import { Pokemon, PokemonSpecies, PokemonForm } from "pokedex-promise-v2";
 
-interface DataLink {
-  name: string | number;
+export interface DataLink {
+  value: string | number;
   url: string | null;
 }
 
@@ -10,13 +10,14 @@ interface DataLink {
 export interface PokemonPageData {
   prevPokeapiId: number;
   nextPokeapiId: number;
-  abilities?: DataLink[];
-  weight?: string;
-  height?: string;
-  baseExp?: number;
-  heldItems?: DataLink[];
-  evYield?: string[];
-  pokedexEntry?: string;
+  formatedName: string;
+  abilities: DataLink[];
+  weight: string;
+  height: string;
+  baseExp: number;
+  heldItems: DataLink[];
+  evYield: DataLink[];
+  pokedexEntry: string;
 }
 
 // TODO: create own model for pokemon page

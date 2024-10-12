@@ -6,15 +6,14 @@ import { statNameMap } from "@/app/_utils/stats";
 import { useEffect, useState } from "react";
 import { PrimarySpinner } from "../PrimarySpinner";
 import { PokemonTypeBoxes } from "../PokemonTypeBox";
-
-type BoxItemData = {
-  value: string | number;
-  url: string | null;
-};
+import {
+  DataLink,
+  PokemonFullData,
+} from "@/app/_services/models/PokemonFullData";
 
 type BasicInfoBoxItemProps = {
   title: string;
-  items: BoxItemData[];
+  items: DataLink[];
   isVerticle?: boolean;
 };
 
@@ -48,87 +47,37 @@ const BasicInfoBoxItem = ({
 };
 
 type BasicInfoBoxProps = {
-  pokemonData: Pokemon;
-  speciesData: PokemonSpecies;
-  formData: PokemonForm;
+  pokemonFullData: PokemonFullData;
 };
 
-export const BasicInfoBox = ({
-  pokemonData,
-  speciesData,
-  formData,
-}: BasicInfoBoxProps) => {
+export const BasicInfoBox = ({ pokemonFullData }: BasicInfoBoxProps) => {
   const [loading, setLoading] = useState(true);
-  const [formatedName, setFormatedName] = useState<string>(pokemonData.name);
+  const [formatedName, setFormatedName] = useState<string>(
+    pokemonFullData.simpleData.name,
+  );
   const [types, setTypes] = useState<string[]>([]);
-  const [abilities, setAbilities] = useState<BoxItemData[]>([]);
-  const [heldItems, setHeldItems] = useState<BoxItemData[]>([]);
-  const [evYield, setEvYield] = useState<BoxItemData[]>([]);
-  const [weight, setWeight] = useState<BoxItemData[]>([]);
-  const [height, setHeight] = useState<BoxItemData[]>([]);
-  const [baseExp, setBaseExp] = useState<BoxItemData[]>([]);
-  const [entry, setEntry] = useState<BoxItemData[]>([]);
+  const [abilities, setAbilities] = useState<DataLink[]>([]);
+  const [heldItems, setHeldItems] = useState<DataLink[]>([]);
+  const [evYield, setEvYield] = useState<DataLink[]>([]);
+  const [weight, setWeight] = useState<DataLink[]>([]);
+  const [height, setHeight] = useState<DataLink[]>([]);
+  const [baseExp, setBaseExp] = useState<DataLink[]>([]);
+  const [entry, setEntry] = useState<DataLink[]>([]);
 
   useEffect(() => {
-    // types
-    setTypes(pokemonData.types.map((value) => value.type.name));
-    // abilities
-    const newAbilities: BoxItemData[] = pokemonData.abilities.map((ability) => {
-      // TODO: add ability detail
-      // return {
-      //   value: formatName(ability.ability.name),
-      //   url: ability.ability.url,
-      // };
-      return {
-        value: formatName(ability.ability.name),
-        url: null,
-      };
-    });
-    setAbilities(newAbilities);
-    // held items
-    const newHeldItems: BoxItemData[] =
-      pokemonData.held_items.length > 0
-        ? pokemonData.held_items.map((item) => {
-            return {
-              value: formatName(item.item.name),
-              url: item.item.url,
-            };
-          })
-        : [{ value: "None", url: null }];
-    setHeldItems(newHeldItems);
-
-    const newEvYield: BoxItemData[] = pokemonData.stats
-      .filter((stat) => stat.effort > 0)
-      .map((stat) => {
-        return {
-          value: stat.effort + " " + statNameMap[stat.stat.name],
-          url: null,
-        };
-      });
-    setEvYield(newEvYield);
-
-    setWeight([{ value: pokemonData.weight / 10 + "kg", url: null }]);
-    setHeight([{ value: pokemonData.height / 10 + "m", url: null }]);
-    setBaseExp([{ value: pokemonData?.base_experience || "?", url: null }]);
-
-    const nameObj = speciesData.names.find(
-      (nameObj) => nameObj.language.name === "en",
-    );
-    const formName = formData.names.find((item) => item.language.name === "en");
-    setFormatedName(formName?.name || nameObj?.name || "Unknown");
-
-    const latestPokedexEntry: string =
-      speciesData?.flavor_text_entries
-        .slice()
-        .reverse()
-        .find((entry) => entry.language && entry.language.name === "en")
-        ?.flavor_text || "";
-
-    setEntry([{ value: latestPokedexEntry, url: null }]);
+    setTypes(pokemonFullData.simpleData.types);
+    setAbilities(pokemonFullData.pageData.abilities);
+    setHeldItems(pokemonFullData.pageData.heldItems);
+    setEvYield(pokemonFullData.pageData.evYield);
+    setWeight([{ value: pokemonFullData.pageData.weight, url: null }]);
+    setHeight([{ value: pokemonFullData.pageData.height, url: null }]);
+    setBaseExp([{ value: pokemonFullData.pageData.baseExp, url: null }]);
+    setFormatedName(pokemonFullData.pageData.formatedName);
+    setEntry([{ value: pokemonFullData.pageData.pokedexEntry, url: null }]);
     setLoading(false);
   }, []);
 
-  if (!pokemonData || loading) {
+  if (!pokemonFullData || loading) {
     return (
       <div className="flex h-[400px] w-full items-center">
         <PrimarySpinner className="m-auto" />
@@ -145,7 +94,7 @@ export const BasicInfoBox = ({
       <div
         className="flex w-full max-w-lg flex-col rounded-2xl p-[2px]"
         style={{
-          backgroundColor: getPokemonTypeColor(pokemonData.types[0].type.name),
+          backgroundColor: getPokemonTypeColor(types[0]),
         }}
       >
         <div className="rounded-2xl bg-default-200 p-2">

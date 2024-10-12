@@ -8,21 +8,17 @@ import {
   Type,
 } from "pokedex-promise-v2";
 import { PokemonSimpleData } from "./models/PokemonSimpleData";
+import { PokemonFullData } from "./models/PokemonFullData";
 
 export const POKEDEX_START_INDEX: number = 1;
 export const POKEDEX_END_INDEX: number = 1025;
 
 export interface PokeApiWrapperInterface {
-  getBasicPokemonDataById(id: number): PokemonSimpleData;
-  getAllBasicPokemonData(): PokemonSimpleData[];
-  getPokemonList(): Promise<NamedAPIResourceList>;
-  getPokemonByName(nameOrId: string | number): Promise<Pokemon>;
+  getPokemonSimpleDataById(id: number): PokemonSimpleData;
+  getAllPokemonSimpleData(): PokemonSimpleData[];
+  getPokemonFullDataById(pokemonId: string | number): Promise<PokemonFullData>;
+  // wrapper method
   getMoveByName(nameOrId: string | number): Promise<Move>;
-  getMoveByNameArray(nameOrId: Array<string | number>): Promise<Move[]>;
   getSpeciesByName(nameOrId: string | number): Promise<PokemonSpecies>;
-  getFormByName(nameOrId: string | number): Promise<PokemonForm>;
-  getTypeByNameArray(nameArray: Array<string | number>): Promise<Type[]>;
   getEvolutionChainById(id: number): Promise<EvolutionChain>;
-  getPokemonDefaultSpriteUrlById(id: number): string;
-  getPokemonAnimatedSpriteUrlById(id: number): string;
 }

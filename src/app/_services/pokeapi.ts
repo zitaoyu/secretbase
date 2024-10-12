@@ -1,19 +1,18 @@
 import { PokeApiWrapperInterface } from "./pokeapi.interface";
-import Pokedex, {
-  NamedAPIResourceList,
-  Pokemon,
-  Move,
-  PokemonSpecies,
-  PokemonForm,
-  Type,
-} from "pokedex-promise-v2";
+import Pokedex, { Move, PokemonSpecies } from "pokedex-promise-v2";
 import { PokemonSimpleData } from "./models/PokemonSimpleData";
-import basicPokemonData from "./data/basicPokemonData.json";
+import pokemonSimpleDataDatabase from "./databases/pokemonSimpleDataDatabase";
 import { extractIdFromUrl, formatName } from "../_utils/format";
-import { PokemonFullData, PokemonPageData } from "./models/PokemonFullData";
+import {
+  DataLink,
+  PokemonFullData,
+  PokemonPageData,
+} from "./models/PokemonFullData";
+import { statNameMap } from "../_utils/stats";
 
 class PokeApiWrapper implements PokeApiWrapperInterface {
   private pokedex: Pokedex;
+  private pokemonSimpleDataDatabase: PokemonSimpleData[];
 
   constructor() {
     this.pokedex = new Pokedex({
@@ -22,32 +21,21 @@ class PokeApiWrapper implements PokeApiWrapperInterface {
       cacheLimit: 100 * 1000, // 100s
       timeout: 10 * 1000, // 10s
     });
-  }
 
-  getBasicPokemonDataById(id: number): PokemonSimpleData {
+    this.pokemonSimpleDataDatabase = pokemonSimpleDataDatabase;
+  }
+  getPokemonSimpleDataById(id: number): PokemonSimpleData {
     return (
-      basicPokemonData.data.find((item) => item.pokeapiId == id) ||
-      basicPokemonData.data[0]
+      this.pokemonSimpleDataDatabase.find((item) => item.pokeapiId == id) ||
+      this.pokemonSimpleDataDatabase[0]
     );
   }
 
-  getAllBasicPokemonData(): PokemonSimpleData[] {
-    return basicPokemonData.data;
-  }
-
-  getPokemonList(): Promise<NamedAPIResourceList> {
-    return this.pokedex.getPokemonsList({ limit: 1025 });
-  }
-
-  getPokemonByName(nameOrId: string | number): Promise<Pokemon> {
-    return this.pokedex.getPokemonByName(nameOrId);
+  getAllPokemonSimpleData(): PokemonSimpleData[] {
+    return this.pokemonSimpleDataDatabase;
   }
 
   getMoveByName(nameOrId: string | number): Promise<Move> {
-    return this.pokedex.getMoveByName(nameOrId);
-  }
-
-  getMoveByNameArray(nameOrId: Array<string | number>): Promise<Move[]> {
     return this.pokedex.getMoveByName(nameOrId);
   }
 
@@ -55,71 +43,98 @@ class PokeApiWrapper implements PokeApiWrapperInterface {
     return this.pokedex.getPokemonSpeciesByName(nameOrId);
   }
 
-  getFormByName(nameOrId: string | number): Promise<PokemonForm> {
-    return this.pokedex.getPokemonFormByName(nameOrId);
-  }
-
-  getTypeByNameArray(nameArray: (string | number)[]): Promise<Type[]> {
-    return this.pokedex.getTypeByName(nameArray);
-  }
-
   getEvolutionChainById(id: number): Promise<Pokedex.EvolutionChain> {
     return this.pokedex.getEvolutionChainById(id);
   }
 
-  getPokemonDefaultSpriteUrlById(id: number): string {
-    const spriteUrl: string = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`;
-    return spriteUrl;
-  }
-
-  getPokemonAnimatedSpriteUrlById(id: number): string {
-    if (id >= 650) {
-      return "";
-    }
-    const spriteUrl: string = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/${id}.gif`;
-    return spriteUrl;
-  }
-
   // TODO: add all data proccesing here instead of in components
-  async getPokemonData(pokemonId: string | number): Promise<PokemonFullData> {
-    const simpleData = this.getBasicPokemonDataById(pokemonId as number);
+  async getPokemonFullDataById(
+    pokemonId: string | number,
+  ): Promise<PokemonFullData> {
+    const simpleData = this.getPokemonSimpleDataById(pokemonId as number);
     const pokemon = await this.pokedex.getPokemonByName(pokemonId);
     const speciesId = extractIdFromUrl(pokemon.species.url);
     const species = await this.pokedex.getPokemonSpeciesByName(speciesId);
     const form = await this.pokedex.getPokemonFormByName(pokemon.forms[0].name);
 
-    // format data for pokemon page
-    const abilities = pokemon.abilities.map((ability) => {
-      {
-        return {
-          name: formatName(ability.ability.name),
-          url: null,
-        };
-      }
-    });
+    // Format data for pokemon page:
 
+    // Navigation Taps indexes
     var prevPokeapiId = 0;
     var nextPokeapiId = 0;
-    const endIndex = basicPokemonData.data.length;
+    const endIndex = this.pokemonSimpleDataDatabase.length;
     for (let i = 0; i < endIndex; i++) {
-      console.log(`${basicPokemonData.data[i].pokeapiId} vs ${pokemonId}`);
-      if (basicPokemonData.data[i].pokeapiId == (pokemonId as number)) {
+      if (
+        this.pokemonSimpleDataDatabase[i].pokeapiId == (pokemonId as number)
+      ) {
         if (i === 0) {
-          prevPokeapiId = basicPokemonData.data[endIndex - 1].pokeapiId;
-          nextPokeapiId = basicPokemonData.data[i + 1].pokeapiId;
+          prevPokeapiId =
+            this.pokemonSimpleDataDatabase[endIndex - 1].pokeapiId;
+          nextPokeapiId = this.pokemonSimpleDataDatabase[i + 1].pokeapiId;
         } else if (i === endIndex - 1) {
-          prevPokeapiId = basicPokemonData.data[i - 1].pokeapiId;
-          nextPokeapiId = basicPokemonData.data[0].pokeapiId;
+          prevPokeapiId = this.pokemonSimpleDataDatabase[i - 1].pokeapiId;
+          nextPokeapiId = this.pokemonSimpleDataDatabase[0].pokeapiId;
         } else {
-          prevPokeapiId = basicPokemonData.data[i - 1].pokeapiId;
-          nextPokeapiId = basicPokemonData.data[i + 1].pokeapiId;
+          prevPokeapiId = this.pokemonSimpleDataDatabase[i - 1].pokeapiId;
+          nextPokeapiId = this.pokemonSimpleDataDatabase[i + 1].pokeapiId;
         }
       }
     }
 
+    const abilities: DataLink[] = pokemon.abilities.map((ability) => {
+      {
+        return {
+          value: formatName(ability.ability.name),
+          url: ability.ability.url,
+        };
+      }
+    });
+
+    const heldItems: DataLink[] =
+      pokemon.held_items.length > 0
+        ? pokemon.held_items.map((item) => {
+            return {
+              value: formatName(item.item.name),
+              url: item.item.url,
+            };
+          })
+        : [{ value: "None", url: null }];
+
+    const evYield: DataLink[] = pokemon.stats
+      .filter((stat) => stat.effort > 0)
+      .map((stat) => {
+        return {
+          value: stat.effort + " " + statNameMap[stat.stat.name],
+          url: null,
+        };
+      });
+    const nameObj = species.names.find(
+      (nameObj) => nameObj.language.name === "en",
+    );
+    const formName = form.names.find((item) => item.language.name === "en");
+    const formatedName: string = formName?.name || nameObj?.name || "Unknown";
+
+    const weight: string = pokemon.weight / 10 + "kg";
+    const height: string = pokemon.height / 10 + "m";
+    const baseExp: number = pokemon?.base_experience || 0;
+    const pokedexEntry: string =
+      species?.flavor_text_entries
+        .slice()
+        .reverse()
+        .find((entry) => entry.language && entry.language.name === "en")
+        ?.flavor_text || "";
+
     const pageData: PokemonPageData = {
       prevPokeapiId,
       nextPokeapiId,
+      formatedName,
+      abilities,
+      weight,
+      height,
+      baseExp,
+      heldItems,
+      evYield,
+      pokedexEntry,
     };
 
     const pokemonFullData: PokemonFullData = {

@@ -32,7 +32,7 @@ export const Pokedex = () => {
 
   useEffect(() => {
     loadQueryParams();
-    const data = myPokedex.getAllBasicPokemonData();
+    const data = myPokedex.getAllPokemonSimpleData();
     setPokemonDataList(data);
     setFilterList(data);
     setIsLoading(false);

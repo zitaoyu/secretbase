@@ -35,7 +35,7 @@ export default function PokemonPage() {
     setIsLoading(true);
 
     myPokedex
-      .getPokemonData(pokemonId)
+      .getPokemonFullDataById(pokemonId)
       .then((fullData) => {
         setPokemonFullData(fullData);
         setIsLoading(false);
@@ -74,11 +74,7 @@ export default function PokemonPage() {
                 size="lg"
               />
               {/* Pokemon Basic Info Box */}
-              <BasicInfoBox
-                pokemonData={pokemonFullData.pokemon}
-                speciesData={pokemonFullData.species}
-                formData={pokemonFullData.form}
-              />
+              <BasicInfoBox pokemonFullData={pokemonFullData} />
             </div>
             <ResistanceTable
               types={pokemonFullData.pokemon.types.map(
