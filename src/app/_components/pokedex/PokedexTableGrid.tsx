@@ -98,7 +98,10 @@ export const PokedexTableGrid = ({
       </TableHeader>
       <TableBody>
         {pokemonData.slice(0, showPokemons).map((pokemon) => (
-          <TableRow key={pokemon.id} className="border-b-2 border-default">
+          <TableRow
+            key={pokemon.pokeapiId}
+            className="border-b-2 border-default"
+          >
             <TableCell
               className={
                 cellStyles + " border-l-0 " + `${isMobile && " hidden"}`
@@ -109,7 +112,7 @@ export const PokedexTableGrid = ({
             <TableCell className={cellStyles + `${isMobile && " border-l-0"}`}>
               <Link
                 className="flex flex-col items-center font-bold"
-                href={`/${pokemon.id}`}
+                href={`/${pokemon.pokeapiId}`}
               >
                 <div className="">
                   <PokemonSprite

@@ -25,7 +25,7 @@ export const PokedexGrid = ({
       {pokemonData
         ?.slice(0, showPokemons)
         .map((pokemon) => (
-          <PokemonCard key={pokemon.id} data={pokemon} isMini={isMini} />
+          <PokemonCard key={pokemon.pokeapiId} data={pokemon} isMini={isMini} />
         ))}
     </div>
   );

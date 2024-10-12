@@ -51,13 +51,17 @@ export default function PokemonPage() {
       <PokedexSidePanel />
       <Card className="mx-auto h-full min-h-screen w-full min-w-80 max-w-7xl rounded-none p-4">
         <ScrollToTop />
-        {/* Nav Menu */}
-        <NavMenu id={pokemonIdInt} dexId={pokemonFullData?.species.id} />
         {/* Display info after data is fully loaded */}
         {isLoading || !pokemonFullData ? (
           <PrimarySpinner className="m-auto" />
         ) : (
           <div className="flex flex-col items-center gap-10">
+            {/* Nav Menu */}
+            <NavMenu
+              prevPokeapiId={pokemonFullData.pageData.prevPokeapiId}
+              nextPokeapiId={pokemonFullData.pageData.nextPokeapiId}
+              dexId={pokemonFullData.simpleData.id}
+            />
             {/* Pokemon Info */}
             <div className="mt-6 flex w-full flex-col items-center">
               {/* Pokemon Image */}
