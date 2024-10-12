@@ -98,11 +98,36 @@ class PokeApiWrapper implements PokeApiWrapperInterface {
       }
     });
 
+    var prevPokeapiId = 0;
+    var nextPokeapiId = 0;
+    const endIndex = basicPokemonData.data.length;
+    for (let i = 0; i < endIndex; i++) {
+      console.log(`${basicPokemonData.data[i].pokeapiId} vs ${pokemonId}`);
+      if (basicPokemonData.data[i].pokeapiId == (pokemonId as number)) {
+        if (i === 1) {
+          prevPokeapiId = basicPokemonData.data[endIndex - 1].pokeapiId;
+          nextPokeapiId = basicPokemonData.data[i + 1].pokeapiId;
+        } else if (i === endIndex) {
+          prevPokeapiId = basicPokemonData.data[i - 1].pokeapiId;
+          nextPokeapiId = basicPokemonData.data[0].pokeapiId;
+        } else {
+          prevPokeapiId = basicPokemonData.data[i - 1].pokeapiId;
+          nextPokeapiId = basicPokemonData.data[i + 1].pokeapiId;
+        }
+      }
+    }
+
+    const pageData: PokemonPageData = {
+      prevPokeapiId,
+      nextPokeapiId,
+    };
+
     const pokemonFullData: PokemonFullData = {
       simpleData,
       pokemon,
       species,
       form,
+      pageData,
     };
 
     return pokemonFullData;

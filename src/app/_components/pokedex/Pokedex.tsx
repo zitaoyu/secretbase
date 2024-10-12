@@ -103,7 +103,7 @@ export const Pokedex = () => {
         (pokemon) =>
           indexFilter[0] <= pokemon.id && pokemon.id <= indexFilter[1],
       );
-
+      console.log(filteredData);
       setFilterList(filteredData);
       updateQueryParams();
     }

@@ -8,13 +8,15 @@ interface DataLink {
 
 // formatted page data
 export interface PokemonPageData {
-  abilities: DataLink[];
-  weight: string;
-  height: string;
-  baseExp: number;
-  heldItems: DataLink[];
-  evYield: string[];
-  pokedexEntry: string;
+  prevPokeapiId: number;
+  nextPokeapiId: number;
+  abilities?: DataLink[];
+  weight?: string;
+  height?: string;
+  baseExp?: number;
+  heldItems?: DataLink[];
+  evYield?: string[];
+  pokedexEntry?: string;
 }
 
 // TODO: create own model for pokemon page
@@ -23,5 +25,5 @@ export interface PokemonFullData {
   pokemon: Pokemon;
   species: PokemonSpecies;
   form: PokemonForm;
-  pageData?: PokemonPageData;
+  pageData: PokemonPageData;
 }
