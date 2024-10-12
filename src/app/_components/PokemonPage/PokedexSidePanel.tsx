@@ -73,7 +73,7 @@ export const PokedexSidePanel = () => {
   const [isShowOverlay, setIsShowOverlay] = useState(false);
 
   function onOpen() {
-    const data = myPokedex.getAllBasicPokemonData();
+    const data = myPokedex.getAllPokemonSimpleData();
     setPokemonData(data);
     setIsShowOverlay(true);
   }
