@@ -104,10 +104,10 @@ class PokeApiWrapper implements PokeApiWrapperInterface {
     for (let i = 0; i < endIndex; i++) {
       console.log(`${basicPokemonData.data[i].pokeapiId} vs ${pokemonId}`);
       if (basicPokemonData.data[i].pokeapiId == (pokemonId as number)) {
-        if (i === 1) {
+        if (i === 0) {
           prevPokeapiId = basicPokemonData.data[endIndex - 1].pokeapiId;
           nextPokeapiId = basicPokemonData.data[i + 1].pokeapiId;
-        } else if (i === endIndex) {
+        } else if (i === endIndex - 1) {
           prevPokeapiId = basicPokemonData.data[i - 1].pokeapiId;
           nextPokeapiId = basicPokemonData.data[0].pokeapiId;
         } else {
