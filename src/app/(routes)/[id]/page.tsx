@@ -77,9 +77,7 @@ export default function PokemonPage() {
               <BasicInfoBox pokemonFullData={pokemonFullData} />
             </div>
             <ResistanceTable
-              types={pokemonFullData.pokemon.types.map(
-                (type) => type.type.name as PokemonType,
-              )}
+              types={pokemonFullData.simpleData.types as PokemonType[]}
             />
             <StatsTable statsData={pokemonFullData.pokemon.stats || []} />
             <EvolutionTable speciesData={pokemonFullData.species} />
