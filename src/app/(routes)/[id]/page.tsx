@@ -79,8 +79,8 @@ export default function PokemonPage() {
             <ResistanceTable
               types={pokemonFullData.simpleData.types as PokemonType[]}
             />
-            <StatsTable statsData={pokemonFullData.pokemon.stats || []} />
-            <EvolutionTable speciesData={pokemonFullData.species} />
+            <StatsTable stats={pokemonFullData.simpleData.stats} />
+            <EvolutionTable evolutionChain={pokemonFullData.evolutionChain} />
             {/* Moves Table */}
             <MovesTable
               title="Level Up Moves"

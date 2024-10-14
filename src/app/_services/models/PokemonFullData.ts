@@ -1,3 +1,4 @@
+import { EvolutionChain } from "./EvolutionChain";
 import { PokemonSimpleData } from "./PokemonSimpleData";
 import { Pokemon, PokemonSpecies, PokemonForm } from "pokedex-promise-v2";
 
@@ -27,4 +28,5 @@ export interface PokemonFullData {
   species: PokemonSpecies;
   form: PokemonForm;
   pageData: PokemonPageData;
+  evolutionChain: EvolutionChain;
 }
