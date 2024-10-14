@@ -1464,6 +1464,14 @@
             "method": "Level 28",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
             "evolvesTo": []
+          },
+          {
+            "pokeapiId": 10115,
+            "name": "marowak-alola",
+            "friendlyName": "Alolan Marowak",
+            "method": "Level 28 (Alola at night)",
+            "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10115.png",
+            "evolvesTo": []
           }
         ]
       }
@@ -1747,6 +1755,14 @@
             "friendlyName": "Mr. Mime",
             "method": "Learn Mimic",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
+            "evolvesTo": []
+          },
+          {
+            "pokeapiId": 10168,
+            "name": "mr-mime-galar",
+            "friendlyName": "Galarian Mr. Mime",
+            "method": "Learn Mimic",
+            "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10168.png",
             "evolvesTo": [
               {
                 "pokeapiId": 866,
@@ -2288,6 +2304,14 @@
                 "friendlyName": "Typhlosion",
                 "method": "Level 36",
                 "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/157.png",
+                "evolvesTo": []
+              },
+              {
+                "pokeapiId": 10233,
+                "name": "typhlosion-hisui",
+                "friendlyName": "Hisuian Typhlosion",
+                "method": "Level 36 (Hisui)",
+                "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10233.png",
                 "evolvesTo": []
               }
             ]
@@ -2908,12 +2932,20 @@
         "friendlyName": "Qwilfish",
         "method": null,
         "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/211.png",
+        "evolvesTo": []
+      },
+      {
+        "pokeapiId": 10234,
+        "name": "qwilfish-hisui",
+        "friendlyName": "Hisuian Qwilfish",
+        "method": null,
+        "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10234.png",
         "evolvesTo": [
           {
             "pokeapiId": 904,
             "name": "overqwil",
             "friendlyName": "Overqwil",
-            "method": "?",
+            "method": "Learn Barb Barrage",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/904.png",
             "evolvesTo": []
           }
@@ -3485,6 +3517,23 @@
             "friendlyName": "Linoone",
             "method": "Level 20",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/264.png",
+            "evolvesTo": []
+          }
+        ]
+      },
+      {
+        "pokeapiId": 10174,
+        "name": "zigzagoon-galar",
+        "friendlyName": "Galarian Zigzagoon",
+        "method": null,
+        "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10174.png",
+        "evolvesTo": [
+          {
+            "pokeapiId": 10175,
+            "name": "linoone-galar",
+            "friendlyName": "Galarian Linoone",
+            "method": "Level 20",
+            "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10175.png",
             "evolvesTo": [
               {
                 "pokeapiId": 862,

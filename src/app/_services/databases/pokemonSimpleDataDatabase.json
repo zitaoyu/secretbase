@@ -2642,7 +2642,7 @@
   {
     "id": 105,
     "pokeapiId": 10115,
-    "name": "Marowak",
+    "name": "Alolan Marowak",
     "formName": "Alolan Form",
     "types": ["fire", "ghost"],
     "stats": {
@@ -2657,7 +2657,7 @@
     "shinySpriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10115.png",
     "animatedSpriteUrl": null,
     "animatedShinySpriteUrl": null,
-    "evolutionChainId": -1
+    "evolutionChainId": 46
   },
   {
     "id": 106,
@@ -3022,7 +3022,7 @@
   {
     "id": 122,
     "pokeapiId": 10168,
-    "name": "Mr. Mime",
+    "name": "Galarian Mr. Mime",
     "formName": "Galarian Form",
     "types": ["ice", "psychic"],
     "stats": {
@@ -3037,7 +3037,7 @@
     "shinySpriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10168.png",
     "animatedSpriteUrl": null,
     "animatedShinySpriteUrl": null,
-    "evolutionChainId": -1
+    "evolutionChainId": 57
   },
   {
     "id": 123,
@@ -3177,7 +3177,7 @@
     "shinySpriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10250.png",
     "animatedSpriteUrl": null,
     "animatedShinySpriteUrl": null,
-    "evolutionChainId": -1
+    "evolutionChainId": 63
   },
   {
     "id": 128,
@@ -3197,7 +3197,7 @@
     "shinySpriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10251.png",
     "animatedSpriteUrl": null,
     "animatedShinySpriteUrl": null,
-    "evolutionChainId": -1
+    "evolutionChainId": 63
   },
   {
     "id": 128,
@@ -3217,7 +3217,7 @@
     "shinySpriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10252.png",
     "animatedSpriteUrl": null,
     "animatedShinySpriteUrl": null,
-    "evolutionChainId": -1
+    "evolutionChainId": 63
   },
   {
     "id": 129,
@@ -3557,7 +3557,7 @@
     "shinySpriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10169.png",
     "animatedSpriteUrl": null,
     "animatedShinySpriteUrl": null,
-    "evolutionChainId": -1
+    "evolutionChainId": 73
   },
   {
     "id": 145,
@@ -3597,7 +3597,7 @@
     "shinySpriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10170.png",
     "animatedSpriteUrl": null,
     "animatedShinySpriteUrl": null,
-    "evolutionChainId": -1
+    "evolutionChainId": 74
   },
   {
     "id": 146,
@@ -3637,7 +3637,7 @@
     "shinySpriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10171.png",
     "animatedSpriteUrl": null,
     "animatedShinySpriteUrl": null,
-    "evolutionChainId": -1
+    "evolutionChainId": 75
   },
   {
     "id": 147,
@@ -3862,7 +3862,7 @@
   {
     "id": 157,
     "pokeapiId": 10233,
-    "name": "Typhlosion",
+    "name": "Hisuian Typhlosion",
     "formName": "Hisuian Form",
     "types": ["fire", "ghost"],
     "stats": {
@@ -3877,7 +3877,7 @@
     "shinySpriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10233.png",
     "animatedSpriteUrl": null,
     "animatedShinySpriteUrl": null,
-    "evolutionChainId": -1
+    "evolutionChainId": 80
   },
   {
     "id": 158,
@@ -5002,7 +5002,7 @@
   {
     "id": 211,
     "pokeapiId": 10234,
-    "name": "Qwilfish",
+    "name": "Hisuian Qwilfish",
     "formName": "Hisuian Form",
     "types": ["dark", "poison"],
     "stats": {
@@ -5017,7 +5017,7 @@
     "shinySpriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10234.png",
     "animatedSpriteUrl": null,
     "animatedShinySpriteUrl": null,
-    "evolutionChainId": -1
+    "evolutionChainId": 106
   },
   {
     "id": 212,
@@ -6102,7 +6102,7 @@
   {
     "id": 263,
     "pokeapiId": 10174,
-    "name": "Zigzagoon",
+    "name": "Galarian Zigzagoon",
     "formName": "Galarian Form",
     "types": ["dark", "normal"],
     "stats": {
@@ -6117,7 +6117,7 @@
     "shinySpriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10174.png",
     "animatedSpriteUrl": null,
     "animatedShinySpriteUrl": null,
-    "evolutionChainId": -1
+    "evolutionChainId": 134
   },
   {
     "id": 264,
@@ -6142,7 +6142,7 @@
   {
     "id": 264,
     "pokeapiId": 10175,
-    "name": "Linoone",
+    "name": "Galarian Linoone",
     "formName": "Galarian Form",
     "types": ["dark", "normal"],
     "stats": {
@@ -6157,7 +6157,7 @@
     "shinySpriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10175.png",
     "animatedSpriteUrl": null,
     "animatedShinySpriteUrl": null,
-    "evolutionChainId": -1
+    "evolutionChainId": 134
   },
   {
     "id": 265,
