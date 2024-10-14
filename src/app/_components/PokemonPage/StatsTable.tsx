@@ -1,29 +1,29 @@
 import { statColorMap, statNameMap } from "@/app/_utils/stats";
-import { StatElement } from "pokedex-promise-v2";
+import { PokemonStats } from "@/app/_services/models/PokemonSimpleData";
 import { SectionContainer } from "./SectionContainer";
 
 interface StatsTableProps {
-  statsData: StatElement[];
+  stats: PokemonStats;
 }
 
-export const StatsTable = ({ statsData }: StatsTableProps) => {
+export const StatsTable = ({ stats }: StatsTableProps) => {
   return (
     <SectionContainer title="Base Stats">
-      {statsData.map((stat) => (
+      {Object.entries(stats).map(([statName, baseStat]) => (
         <div
           className="grid grid-cols-4 border-b-2 border-default"
-          key={stat.stat.name}
+          key={statName}
         >
           <div className="flex justify-between border-r-2 border-default p-1 font-semibold">
-            <span>{statNameMap[stat.stat.name]}:</span>
-            <span>{stat.base_stat}</span>
+            <span>{statNameMap[statName]}:</span>
+            <span>{baseStat}</span>
           </div>
           <div className="col-span-3 py-[6px]">
             <div
               className="h-full rounded-e-md"
               style={{
-                backgroundColor: statColorMap[stat.stat.name],
-                width: `${(stat.base_stat / 255) * 100}%`,
+                backgroundColor: statColorMap[statName],
+                width: `${(baseStat / 255) * 100}%`,
               }}
             ></div>
           </div>
@@ -33,9 +33,10 @@ export const StatsTable = ({ statsData }: StatsTableProps) => {
         <div className="flex justify-between p-1 font-semibold">
           <span>Total:</span>
           <span>
-            {statsData
-              .map((stat) => stat.base_stat)
-              .reduce((acc, currentValue) => acc + currentValue, 0)}
+            {Object.values(stats).reduce(
+              (acc, currentValue) => acc + currentValue,
+              0,
+            )}
           </span>
         </div>
         <div className="col-span-3"></div>

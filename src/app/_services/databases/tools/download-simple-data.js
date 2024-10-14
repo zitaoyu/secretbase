@@ -46,7 +46,7 @@ const fetchPokemonData = async (url) => {
       ? englishNameObject.name
       : pokemonData.name;
 
-    const { id, name, order } = pokemonData;
+    const { id, name } = pokemonData;
     const types = [];
     pokemonData.types.forEach((value) => {
       if (value.type.name) {
@@ -62,7 +62,6 @@ const fetchPokemonData = async (url) => {
     const data = {
       id: id,
       pokeapiId: id,
-      order,
       name: englishName,
       formName: pokemonFormObject?.name || null,
       types,

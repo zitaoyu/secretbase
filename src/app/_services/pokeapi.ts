@@ -1,14 +1,16 @@
 import { PokeApiWrapperInterface } from "./pokeapi.interface";
 import Pokedex, { Move, PokemonSpecies } from "pokedex-promise-v2";
 import { PokemonSimpleData } from "./models/PokemonSimpleData";
-import pokemonSimpleDataDatabase from "./databases/pokemonSimpleDataDatabase";
-import { extractIdFromUrl, formatName } from "../_utils/format";
 import {
   DataLink,
   PokemonFullData,
   PokemonPageData,
 } from "./models/PokemonFullData";
+import { EvolutionChain } from "./models/EvolutionChain";
+import pokemonSimpleDataDatabase from "./databases/pokemonSimpleDataDatabase";
+import evolutionChainDatabase from "./databases/evolutionChainDatabase";
 import { statNameMap } from "../_utils/stats";
+import { extractIdFromUrl, formatName } from "../_utils/format";
 
 class PokeApiWrapper implements PokeApiWrapperInterface {
   private pokedex: Pokedex;
@@ -31,6 +33,16 @@ class PokeApiWrapper implements PokeApiWrapperInterface {
     );
   }
 
+  getEvolutionChainById(chainId: number): EvolutionChain {
+    const defaultChain: EvolutionChain = {
+      id: -1,
+      evolutionTrees: [],
+    };
+    return (
+      evolutionChainDatabase.find((item) => item.id == chainId) || defaultChain
+    );
+  }
+
   getAllPokemonSimpleData(): PokemonSimpleData[] {
     return this.pokemonSimpleDataDatabase;
   }
@@ -41,10 +53,6 @@ class PokeApiWrapper implements PokeApiWrapperInterface {
 
   getSpeciesByName(nameOrId: string | number): Promise<PokemonSpecies> {
     return this.pokedex.getPokemonSpeciesByName(nameOrId);
-  }
-
-  getEvolutionChainById(id: number): Promise<Pokedex.EvolutionChain> {
-    return this.pokedex.getEvolutionChainById(id);
   }
 
   // TODO: add all data proccesing here instead of in components
@@ -143,6 +151,7 @@ class PokeApiWrapper implements PokeApiWrapperInterface {
       species,
       form,
       pageData,
+      evolutionChain: this.getEvolutionChainById(simpleData.evolutionChainId),
     };
 
     return pokemonFullData;
