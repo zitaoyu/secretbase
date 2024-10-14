@@ -5102,7 +5102,7 @@
   {
     "id": 215,
     "pokeapiId": 10235,
-    "name": "Sneasel",
+    "name": "Hisuian Sneasel",
     "formName": "Hisuian Form",
     "types": ["fighting", "poison"],
     "stats": {
@@ -5117,7 +5117,7 @@
     "shinySpriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10235.png",
     "animatedSpriteUrl": null,
     "animatedShinySpriteUrl": null,
-    "evolutionChainId": -1
+    "evolutionChainId": 109
   },
   {
     "id": 216,
@@ -5262,7 +5262,7 @@
   {
     "id": 222,
     "pokeapiId": 10173,
-    "name": "Corsola",
+    "name": "Galarian Corsola",
     "formName": "Galarian Form",
     "types": ["ghost"],
     "stats": {
@@ -5277,7 +5277,7 @@
     "shinySpriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10173.png",
     "animatedSpriteUrl": null,
     "animatedShinySpriteUrl": null,
-    "evolutionChainId": -1
+    "evolutionChainId": 113
   },
   {
     "id": 223,
@@ -10942,7 +10942,7 @@
   {
     "id": 503,
     "pokeapiId": 10236,
-    "name": "Samurott",
+    "name": "Hisuian Samurott",
     "formName": "Hisuian Form",
     "types": ["water", "dark"],
     "stats": {
@@ -10957,7 +10957,7 @@
     "shinySpriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10236.png",
     "animatedSpriteUrl": null,
     "animatedShinySpriteUrl": null,
-    "evolutionChainId": -1
+    "evolutionChainId": 258
   },
   {
     "id": 504,
@@ -11882,7 +11882,7 @@
   {
     "id": 549,
     "pokeapiId": 10237,
-    "name": "Lilligant",
+    "name": "Hisuian Lilligant",
     "formName": "Hisuian Form",
     "types": ["grass", "fighting"],
     "stats": {
@@ -11897,7 +11897,7 @@
     "shinySpriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10237.png",
     "animatedSpriteUrl": null,
     "animatedShinySpriteUrl": null,
-    "evolutionChainId": -1
+    "evolutionChainId": 279
   },
   {
     "id": 550,
@@ -12002,7 +12002,7 @@
   {
     "id": 554,
     "pokeapiId": 10176,
-    "name": "Darumaka",
+    "name": "Galarian Darumaka",
     "formName": "Galarian Form",
     "types": ["ice"],
     "stats": {
@@ -12017,7 +12017,7 @@
     "shinySpriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10176.png",
     "animatedSpriteUrl": null,
     "animatedShinySpriteUrl": null,
-    "evolutionChainId": -1
+    "evolutionChainId": 282
   },
   {
     "id": 555,
@@ -12042,7 +12042,7 @@
   {
     "id": 555,
     "pokeapiId": 10177,
-    "name": "Darmanitan",
+    "name": "Galarian Darmanitan",
     "formName": "Galarian Form",
     "types": ["ice"],
     "stats": {
@@ -12057,7 +12057,7 @@
     "shinySpriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10177.png",
     "animatedSpriteUrl": null,
     "animatedShinySpriteUrl": null,
-    "evolutionChainId": -1
+    "evolutionChainId": 282
   },
   {
     "id": 556,
@@ -12202,7 +12202,7 @@
   {
     "id": 562,
     "pokeapiId": 10179,
-    "name": "Yamask",
+    "name": "Galarian Yamask",
     "formName": "Galarian Form",
     "types": ["ground", "ghost"],
     "stats": {
@@ -12217,7 +12217,7 @@
     "shinySpriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10179.png",
     "animatedSpriteUrl": null,
     "animatedShinySpriteUrl": null,
-    "evolutionChainId": -1
+    "evolutionChainId": 287
   },
   {
     "id": 563,
@@ -12382,7 +12382,7 @@
   {
     "id": 570,
     "pokeapiId": 10238,
-    "name": "Zorua",
+    "name": "Hisuian Zorua",
     "formName": "Hisuian Form",
     "types": ["normal", "ghost"],
     "stats": {
@@ -12397,7 +12397,7 @@
     "shinySpriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10238.png",
     "animatedSpriteUrl": null,
     "animatedShinySpriteUrl": null,
-    "evolutionChainId": -1
+    "evolutionChainId": 291
   },
   {
     "id": 571,
@@ -12422,7 +12422,7 @@
   {
     "id": 571,
     "pokeapiId": 10239,
-    "name": "Zoroark",
+    "name": "Hisuian Zoroark",
     "formName": "Hisuian Form",
     "types": ["normal", "ghost"],
     "stats": {
@@ -12437,7 +12437,7 @@
     "shinySpriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10239.png",
     "animatedSpriteUrl": null,
     "animatedShinySpriteUrl": null,
-    "evolutionChainId": -1
+    "evolutionChainId": 291
   },
   {
     "id": 572,
@@ -13382,7 +13382,7 @@
   {
     "id": 618,
     "pokeapiId": 10180,
-    "name": "Stunfisk",
+    "name": "Galarian Stunfisk",
     "formName": "Galarian Form",
     "types": ["ground", "steel"],
     "stats": {
@@ -13397,7 +13397,7 @@
     "shinySpriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10180.png",
     "animatedSpriteUrl": null,
     "animatedShinySpriteUrl": null,
-    "evolutionChainId": -1
+    "evolutionChainId": 313
   },
   {
     "id": 619,
@@ -13602,7 +13602,7 @@
   {
     "id": 628,
     "pokeapiId": 10240,
-    "name": "Braviary",
+    "name": "Hisuian Braviary",
     "formName": "Hisuian Form",
     "types": ["psychic", "flying"],
     "stats": {
@@ -13617,7 +13617,7 @@
     "shinySpriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10240.png",
     "animatedSpriteUrl": null,
     "animatedShinySpriteUrl": null,
-    "evolutionChainId": -1
+    "evolutionChainId": 319
   },
   {
     "id": 629,
@@ -15177,7 +15177,7 @@
     "shinySpriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10241.png",
     "animatedSpriteUrl": null,
     "animatedShinySpriteUrl": null,
-    "evolutionChainId": -1
+    "evolutionChainId": 362
   },
   {
     "id": 706,
@@ -15217,7 +15217,7 @@
     "shinySpriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10242.png",
     "animatedSpriteUrl": null,
     "animatedShinySpriteUrl": null,
-    "evolutionChainId": -1
+    "evolutionChainId": 362
   },
   {
     "id": 707,
@@ -15377,7 +15377,7 @@
     "shinySpriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10243.png",
     "animatedSpriteUrl": null,
     "animatedShinySpriteUrl": null,
-    "evolutionChainId": -1
+    "evolutionChainId": 366
   },
   {
     "id": 714,
@@ -15602,7 +15602,7 @@
   {
     "id": 724,
     "pokeapiId": 10244,
-    "name": "Decidueye",
+    "name": "Hisuian Decidueye",
     "formName": "Hisuian Form",
     "types": ["grass", "fighting"],
     "stats": {
@@ -15617,7 +15617,7 @@
     "shinySpriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10244.png",
     "animatedSpriteUrl": null,
     "animatedShinySpriteUrl": null,
-    "evolutionChainId": -1
+    "evolutionChainId": 374
   },
   {
     "id": 725,

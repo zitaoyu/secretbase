@@ -2996,7 +2996,16 @@
             "method": "Holding Razor Claw (Night)",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/461.png",
             "evolvesTo": []
-          },
+          }
+        ]
+      },
+      {
+        "pokeapiId": 10235,
+        "name": "sneasel-hisui",
+        "friendlyName": "Hisuian Sneasel",
+        "method": null,
+        "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10235.png",
+        "evolvesTo": [
           {
             "pokeapiId": 903,
             "name": "sneasler",
@@ -3102,6 +3111,14 @@
         "friendlyName": "Corsola",
         "method": null,
         "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/222.png",
+        "evolvesTo": []
+      },
+      {
+        "pokeapiId": 10173,
+        "name": "corsola-galar",
+        "friendlyName": "Galarian Corsola",
+        "method": null,
+        "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10173.png",
         "evolvesTo": [
           {
             "pokeapiId": 864,
@@ -5935,6 +5952,14 @@
                 "method": "Level 36",
                 "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/503.png",
                 "evolvesTo": []
+              },
+              {
+                "pokeapiId": 10236,
+                "name": "samurott-hisui",
+                "friendlyName": "Hisuian Samurott",
+                "method": "Level 36 (Hisui)",
+                "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10236.png",
+                "evolvesTo": []
               }
             ]
           }
@@ -6435,6 +6460,14 @@
             "method": "Sun Stone",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/549.png",
             "evolvesTo": []
+          },
+          {
+            "pokeapiId": 10237,
+            "name": "lilligant-hisui",
+            "friendlyName": "Hisuian Lilligant",
+            "method": "Sun Stone (Hisui)",
+            "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10237.png",
+            "evolvesTo": []
           }
         ]
       }
@@ -6509,6 +6542,23 @@
             "friendlyName": "Darmanitan",
             "method": "Level 35",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/555.png",
+            "evolvesTo": []
+          }
+        ]
+      },
+      {
+        "pokeapiId": 10176,
+        "name": "darumaka-galar",
+        "friendlyName": "Galarian Darumaka",
+        "method": null,
+        "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10176.png",
+        "evolvesTo": [
+          {
+            "pokeapiId": 10177,
+            "name": "darmanitan-galar",
+            "friendlyName": "Galarian Darmanitan",
+            "method": "Ice Stone",
+            "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10177.png",
             "evolvesTo": []
           }
         ]
@@ -6602,12 +6652,21 @@
             "method": "Level 34",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/563.png",
             "evolvesTo": []
-          },
+          }
+        ]
+      },
+      {
+        "pokeapiId": 10179,
+        "name": "yamask-garlar",
+        "friendlyName": "Galarian Yamask",
+        "method": null,
+        "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10179.png",
+        "evolvesTo": [
           {
             "pokeapiId": 867,
             "name": "runerigus",
             "friendlyName": "Runerigus",
-            "method": "?",
+            "method": "In Galar",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/867.png",
             "evolvesTo": []
           }
@@ -6697,6 +6756,23 @@
             "friendlyName": "Zoroark",
             "method": "Level 30",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/571.png",
+            "evolvesTo": []
+          }
+        ]
+      },
+      {
+        "pokeapiId": 10238,
+        "name": "zorua-hisui",
+        "friendlyName": "Hisuian Zorua",
+        "method": null,
+        "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10238.png",
+        "evolvesTo": [
+          {
+            "pokeapiId": 10239,
+            "name": "zoroark-hisui",
+            "friendlyName": "Hisuian Zoroark",
+            "method": "Level 30",
+            "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10239.png",
             "evolvesTo": []
           }
         ]
@@ -7331,6 +7407,14 @@
             "friendlyName": "Braviary",
             "method": "Level 54",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/628.png",
+            "evolvesTo": []
+          },
+          {
+            "pokeapiId": 10240,
+            "name": "braviary-hisui",
+            "friendlyName": "Hisuian Braviary",
+            "method": "Level 54 (Hisui)",
+            "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10240.png",
             "evolvesTo": []
           }
         ]
@@ -8192,8 +8276,25 @@
                 "pokeapiId": 706,
                 "name": "goodra",
                 "friendlyName": "Goodra",
-                "method": "Level 50",
+                "method": "Level 50 (Rain)",
                 "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/706.png",
+                "evolvesTo": []
+              }
+            ]
+          },
+          {
+            "pokeapiId": 10241,
+            "name": "sliggoo-hisui",
+            "friendlyName": "Hisuian Sliggoo",
+            "method": "Level 40 (Hisui)",
+            "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10241.png",
+            "evolvesTo": [
+              {
+                "pokeapiId": 706,
+                "name": "goodra-hisui",
+                "friendlyName": "Hisuian Goodra",
+                "method": "Level 50 (Rain)",
+                "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10242.png",
                 "evolvesTo": []
               }
             ]
@@ -8275,6 +8376,14 @@
             "friendlyName": "Avalugg",
             "method": "Level 37",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/713.png",
+            "evolvesTo": []
+          },
+          {
+            "pokeapiId": 10243,
+            "name": "avalugg-hisui",
+            "friendlyName": "Hisuian Avalugg",
+            "method": "Level 37 (Hisui)",
+            "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10243.png",
             "evolvesTo": []
           }
         ]
@@ -8404,6 +8513,14 @@
                 "friendlyName": "Decidueye",
                 "method": "Level 34",
                 "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/724.png",
+                "evolvesTo": []
+              },
+              {
+                "pokeapiId": 10244,
+                "name": "decidueye-hisui",
+                "friendlyName": "Hisuian Decidueye",
+                "method": "Level 34 (Hisui)",
+                "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10244.png",
                 "evolvesTo": []
               }
             ]
