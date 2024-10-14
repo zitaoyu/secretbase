@@ -78,7 +78,7 @@ export const EvolutionTable = ({ evolutionChain }: EvolutionTableProps) => {
 
   return (
     <SectionContainer className="flex w-full justify-center" title="Evolutions">
-      <div className="overflow-y-auto px-2 py-1 md:px-6 md:py-2">
+      <div className="overflow-y-auto px-2 py-2 md:px-6">
         {evolutionTrees?.map((tree) => (
           <EvolutionTreeDiagram key={tree.pokeapiId} tree={tree} />
         ))}

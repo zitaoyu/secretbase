@@ -294,7 +294,7 @@
                 "evolvesTo": []
               },
               {
-                "pokeapiId": 26,
+                "pokeapiId": 10100,
                 "name": "raichu-alola",
                 "friendlyName": "Alolan Raichu",
                 "method": "Thunder Stone (Alola)",
@@ -328,14 +328,14 @@
         ]
       },
       {
-        "pokeapiId": 27,
+        "pokeapiId": 10101,
         "name": "sandshrew-alola",
         "friendlyName": "Alolan Sandshrew",
         "method": null,
         "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10101.png",
         "evolvesTo": [
           {
-            "pokeapiId": 28,
+            "pokeapiId": 10102,
             "name": "sandslash-alola",
             "friendlyName": "Alolan Sandslash",
             "method": "Ice Stone",
@@ -683,14 +683,14 @@
         ]
       },
       {
-        "pokeapiId": 52,
+        "pokeapiId": 10107,
         "name": "meowth-aloa",
         "friendlyName": "Alolan Meowth",
         "method": null,
         "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10107.png",
         "evolvesTo": [
           {
-            "pokeapiId": 53,
+            "pokeapiId": 10108,
             "name": "persian-alola",
             "friendlyName": "Alolan Persian",
             "method": "Friendship",
@@ -2716,7 +2716,7 @@
         ]
       },
       {
-        "pokeapiId": 194,
+        "pokeapiId": 10253,
         "name": "wooper-paldea",
         "friendlyName": "Paldean Wooper",
         "method": null,
