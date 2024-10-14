@@ -16,7 +16,7 @@ const EvolutionStage = ({ data }: EvolutionStageProps) => {
   return (
     <div className="flex items-center justify-between gap-6 md:gap-8">
       {data.method && (
-        <div className="flex w-12 flex-col items-center">
+        <div className="flex flex-col items-center">
           <IoArrowForward className="fill-default text-default-500" size={32} />
           <span className="text-nowrap text-sm">{data.method}</span>
         </div>
@@ -26,7 +26,7 @@ const EvolutionStage = ({ data }: EvolutionStageProps) => {
         href={`/${data.pokeapiId}`}
       >
         <SpriteGallery size="sm" imageUrl={data.spriteUrl} />
-        <span className="font-medium">{data.name}</span>
+        <span className="font-medium">{data.friendlyName}</span>
       </Link>
     </div>
   );

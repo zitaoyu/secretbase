@@ -204,6 +204,23 @@
             "evolvesTo": []
           }
         ]
+      },
+      {
+        "pokeapiId": 10091,
+        "name": "rattata-alola",
+        "friendlyName": "Alolan Rattata",
+        "method": null,
+        "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10091.png",
+        "evolvesTo": [
+          {
+            "pokeapiId": 10092,
+            "name": "raticate-alola",
+            "friendlyName": "Alolan Raticate",
+            "method": "Level 20 (Night)",
+            "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10092.png",
+            "evolvesTo": []
+          }
+        ]
       }
     ]
   },
@@ -275,6 +292,14 @@
                 "method": "Thunder Stone",
                 "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
                 "evolvesTo": []
+              },
+              {
+                "pokeapiId": 26,
+                "name": "raichu-alola",
+                "friendlyName": "Alolan Raichu",
+                "method": "Thunder Stone (Alola)",
+                "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10100.png",
+                "evolvesTo": []
               }
             ]
           }
@@ -298,6 +323,23 @@
             "friendlyName": "Sandslash",
             "method": "Level 22",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
+            "evolvesTo": []
+          }
+        ]
+      },
+      {
+        "pokeapiId": 27,
+        "name": "sandshrew-alola",
+        "friendlyName": "Alolan Sandshrew",
+        "method": null,
+        "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10101.png",
+        "evolvesTo": [
+          {
+            "pokeapiId": 28,
+            "name": "sandslash-alola",
+            "friendlyName": "Alolan Sandslash",
+            "method": "Ice Stone",
+            "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10102.png",
             "evolvesTo": []
           }
         ]
@@ -413,6 +455,23 @@
             "friendlyName": "Ninetales",
             "method": "Fire Stone",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
+            "evolvesTo": []
+          }
+        ]
+      },
+      {
+        "pokeapiId": 10103,
+        "name": "vulpix-alola",
+        "friendlyName": "Alolan Vulpix",
+        "method": null,
+        "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10103.png",
+        "evolvesTo": [
+          {
+            "pokeapiId": 10104,
+            "name": "ninetales-alola",
+            "friendlyName": "Alolan Ninetales",
+            "method": "Ice Stone",
+            "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10104.png",
             "evolvesTo": []
           }
         ]
@@ -583,6 +642,23 @@
             "evolvesTo": []
           }
         ]
+      },
+      {
+        "pokeapiId": 10105,
+        "name": "diglett-alola",
+        "friendlyName": "Alolan Diglett",
+        "method": null,
+        "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10105.png",
+        "evolvesTo": [
+          {
+            "pokeapiId": 10106,
+            "name": "dugtrio-alola",
+            "friendlyName": "Alolan Dugtrio",
+            "method": "Level 26",
+            "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10106.png",
+            "evolvesTo": []
+          }
+        ]
       }
     ]
   },
@@ -603,7 +679,33 @@
             "method": "Level 28",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
             "evolvesTo": []
-          },
+          }
+        ]
+      },
+      {
+        "pokeapiId": 52,
+        "name": "meowth-aloa",
+        "friendlyName": "Alolan Meowth",
+        "method": null,
+        "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10107.png",
+        "evolvesTo": [
+          {
+            "pokeapiId": 53,
+            "name": "persian-alola",
+            "friendlyName": "Alolan Persian",
+            "method": "Friendship",
+            "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10108.png",
+            "evolvesTo": []
+          }
+        ]
+      },
+      {
+        "pokeapiId": 10161,
+        "name": "meowth-galar",
+        "friendlyName": "Galarian Meowth",
+        "method": null,
+        "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10161.png",
+        "evolvesTo": [
           {
             "pokeapiId": 863,
             "name": "perrserker",
@@ -685,6 +787,23 @@
             "friendlyName": "Arcanine",
             "method": "Fire Stone",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
+            "evolvesTo": []
+          }
+        ]
+      },
+      {
+        "pokeapiId": 10229,
+        "name": "growlithe-hisui",
+        "friendlyName": "Hisuian Growlithe",
+        "method": null,
+        "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10229.png",
+        "evolvesTo": [
+          {
+            "pokeapiId": 10230,
+            "name": "arcanine-hisui",
+            "friendlyName": "Hisuian Arcanine",
+            "method": "Fire Stone",
+            "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10230.png",
             "evolvesTo": []
           }
         ]
@@ -873,6 +992,32 @@
             ]
           }
         ]
+      },
+      {
+        "pokeapiId": 10109,
+        "name": "geodude-alola",
+        "friendlyName": "Alolan Geodude",
+        "method": null,
+        "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10109.png",
+        "evolvesTo": [
+          {
+            "pokeapiId": 10110,
+            "name": "graveler-alola",
+            "friendlyName": "Alolan Graveler",
+            "method": "Level 25",
+            "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10110.png",
+            "evolvesTo": [
+              {
+                "pokeapiId": 10111,
+                "name": "golem-alola",
+                "friendlyName": "Alolan Golem",
+                "method": "Trade",
+                "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10111.png",
+                "evolvesTo": []
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -892,6 +1037,23 @@
             "friendlyName": "Rapidash",
             "method": "Level 40",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
+            "evolvesTo": []
+          }
+        ]
+      },
+      {
+        "pokeapiId": 10162,
+        "name": "ponyta-galar",
+        "friendlyName": "Galarian Ponyta",
+        "method": null,
+        "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10162.png",
+        "evolvesTo": [
+          {
+            "pokeapiId": 10163,
+            "name": "rapidash-galar",
+            "friendlyName": "Galarian Rapidash",
+            "method": "Level 40",
+            "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10163.png",
             "evolvesTo": []
           }
         ]
@@ -922,6 +1084,31 @@
             "friendlyName": "Slowking",
             "method": "Trade (Kings Rock)",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/199.png",
+            "evolvesTo": []
+          }
+        ]
+      },
+      {
+        "pokeapiId": 10164,
+        "name": "slowpoke-galar",
+        "friendlyName": "Galarian Slowpoke",
+        "method": null,
+        "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10164.png",
+        "evolvesTo": [
+          {
+            "pokeapiId": 10165,
+            "name": "slowbro-galar",
+            "friendlyName": "Galarian Slowbro",
+            "method": "Galarica Cuff",
+            "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10165.png",
+            "evolvesTo": []
+          },
+          {
+            "pokeapiId": 10172,
+            "name": "slowking-galar",
+            "friendlyName": "Galarian Slowking",
+            "method": "Galarica Wreath",
+            "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10172.png",
             "evolvesTo": []
           }
         ]
@@ -968,12 +1155,20 @@
         "friendlyName": "Farfetch’d",
         "method": null,
         "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
+        "evolvesTo": []
+      },
+      {
+        "pokeapiId": 10166,
+        "name": "farfetchd-galar",
+        "friendlyName": "Galarian Farfetch’d",
+        "method": null,
+        "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10166.png",
         "evolvesTo": [
           {
             "pokeapiId": 865,
             "name": "sirfetchd",
             "friendlyName": "Sirfetch’d",
-            "method": "?",
+            "method": "3 critical hits in battle",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/865.png",
             "evolvesTo": []
           }
@@ -1041,6 +1236,23 @@
             "friendlyName": "Muk",
             "method": "Level 38",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
+            "evolvesTo": []
+          }
+        ]
+      },
+      {
+        "pokeapiId": 10112,
+        "name": "grimer-alola",
+        "friendlyName": "Alolan Grimer",
+        "method": null,
+        "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10112.png",
+        "evolvesTo": [
+          {
+            "pokeapiId": 10113,
+            "name": "muk-alola",
+            "friendlyName": "Alolan Muk",
+            "method": "Level 38",
+            "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10113.png",
             "evolvesTo": []
           }
         ]
@@ -1185,6 +1397,23 @@
             "evolvesTo": []
           }
         ]
+      },
+      {
+        "pokeapiId": 10231,
+        "name": "voltorb-hisui",
+        "friendlyName": "Hisuian Voltorb",
+        "method": null,
+        "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10231.png",
+        "evolvesTo": [
+          {
+            "pokeapiId": 10232,
+            "name": "electrode-hisui",
+            "friendlyName": "Hisuian Electrode",
+            "method": "Leaf Stone",
+            "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10232.png",
+            "evolvesTo": []
+          }
+        ]
       }
     ]
   },
@@ -1204,6 +1433,14 @@
             "friendlyName": "Exeggutor",
             "method": "Leaf Stone",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
+            "evolvesTo": []
+          },
+          {
+            "pokeapiId": 10114,
+            "name": "exeggutor-alola",
+            "friendlyName": "Alolan Exeggutor",
+            "method": "Leaf Stone (Alola)",
+            "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10114.png",
             "evolvesTo": []
           }
         ]
@@ -1308,6 +1545,14 @@
             "friendlyName": "Weezing",
             "method": "Level 35",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
+            "evolvesTo": []
+          },
+          {
+            "pokeapiId": 10167,
+            "name": "weezing-galar",
+            "friendlyName": "Galarian Weezing",
+            "method": "Level 35 (Galar)",
+            "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10167.png",
             "evolvesTo": []
           }
         ]
@@ -2443,7 +2688,16 @@
             "method": "Level 20",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/195.png",
             "evolvesTo": []
-          },
+          }
+        ]
+      },
+      {
+        "pokeapiId": 194,
+        "name": "wooper-paldea",
+        "friendlyName": "Paldean Wooper",
+        "method": null,
+        "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10253.png",
+        "evolvesTo": [
           {
             "pokeapiId": 980,
             "name": "clodsire",
