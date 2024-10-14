@@ -18,7 +18,7 @@ const EvolutionStage = ({ data }: EvolutionStageProps) => {
       {data.method && (
         <div className="flex flex-col items-center">
           <IoArrowForward className="fill-default text-default-500" size={32} />
-          <span className="text-nowrap text-sm">{data.method}</span>
+          <div className="min-w-14 text-sm">{data.method}</div>
         </div>
       )}
       <Link

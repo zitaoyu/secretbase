@@ -761,7 +761,7 @@
                 "pokeapiId": 979,
                 "name": "annihilape",
                 "friendlyName": "Annihilape",
-                "method": "?",
+                "method": "Rage Fist 20 times",
                 "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/979.png",
                 "evolvesTo": []
               }
@@ -3260,7 +3260,7 @@
             "pokeapiId": 899,
             "name": "wyrdeer",
             "friendlyName": "Wyrdeer",
-            "method": "?",
+            "method": "Use Psyshield Bash 20 times in agile style",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/899.png",
             "evolvesTo": []
           }
@@ -3856,7 +3856,7 @@
             "pokeapiId": 292,
             "name": "shedinja",
             "friendlyName": "Shedinja",
-            "method": "?",
+            "method": "Space In Party",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/292.png",
             "evolvesTo": []
           }
@@ -6487,7 +6487,7 @@
             "pokeapiId": 902,
             "name": "basculegion",
             "friendlyName": "Basculegion",
-            "method": "?",
+            "method": "Losing 294 HP from recoil",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/902.png",
             "evolvesTo": []
           }
@@ -7368,7 +7368,7 @@
                 "pokeapiId": 983,
                 "name": "kingambit",
                 "friendlyName": "Kingambit",
-                "method": "?",
+                "method": "Defeat 3 Bisharp that holds Leader's Crest",
                 "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/983.png",
                 "evolvesTo": []
               }
@@ -8689,7 +8689,7 @@
             "pokeapiId": 740,
             "name": "crabominable",
             "friendlyName": "Crabominable",
-            "method": "?",
+            "method": "Ice Stone",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/740.png",
             "evolvesTo": []
           }
@@ -10099,7 +10099,7 @@
             "pokeapiId": 869,
             "name": "alcremie",
             "friendlyName": "Alcremie",
-            "method": "?",
+            "method": "Spin",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869.png",
             "evolvesTo": []
           }
@@ -10387,7 +10387,7 @@
             "pokeapiId": 892,
             "name": "urshifu",
             "friendlyName": "Urshifu",
-            "method": "?",
+            "method": "Scroll of Darkness",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/892.png",
             "evolvesTo": []
           }
@@ -10666,7 +10666,7 @@
                 "pokeapiId": 923,
                 "name": "pawmot",
                 "friendlyName": "Pawmot",
-                "method": "?",
+                "method": "Walk 1000 steps",
                 "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/923.png",
                 "evolvesTo": []
               }
@@ -10690,7 +10690,7 @@
             "pokeapiId": 925,
             "name": "maushold",
             "friendlyName": "Maushold",
-            "method": "?",
+            "method": "Level 25",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/925.png",
             "evolvesTo": []
           }
@@ -10927,7 +10927,7 @@
             "pokeapiId": 947,
             "name": "brambleghast",
             "friendlyName": "Brambleghast",
-            "method": "?",
+            "method": "Walk 1000 steps",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/947.png",
             "evolvesTo": []
           }
@@ -11006,7 +11006,7 @@
             "pokeapiId": 954,
             "name": "rabsca",
             "friendlyName": "Rabsca",
-            "method": "?",
+            "method": "Walk 1000 steps",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/954.png",
             "evolvesTo": []
           }
@@ -11116,7 +11116,7 @@
             "pokeapiId": 964,
             "name": "palafin",
             "friendlyName": "Palafin",
-            "method": "?",
+            "method": "Level 38",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/964.png",
             "evolvesTo": []
           }
@@ -11491,7 +11491,7 @@
             "pokeapiId": 1000,
             "name": "gholdengo",
             "friendlyName": "Gholdengo",
-            "method": "?",
+            "method": "999 Coins",
             "spriteUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1000.png",
             "evolvesTo": []
           }
