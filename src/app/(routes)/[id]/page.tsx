@@ -22,6 +22,7 @@ import useScreenSize from "@/app/_hooks/useScreenSize";
 import UnknownPokemonSprite from "../../_assets/unknown_pokemon.png";
 import { PrimaryIconButton } from "@/app/_components/PrimaryIconButton";
 import { HiSparkles } from "react-icons/hi2";
+import { DetailPanel } from "@/app/_components/PokemonPage/DetailPanel";
 
 export default function PokemonPage() {
   const { id } = useParams();
@@ -32,6 +33,7 @@ export default function PokemonPage() {
   const pokemonIdInt: number = parseInt(pokemonId, 10);
   const [isLoading, setIsLoading] = useState(true);
   const [showShiny, setShowShiny] = useState<boolean>(false);
+  const [isDetailPanelOpen, setIsDetailPanelOpen] = useState(true);
   const [pokemonFullData, setPokemonFullData] = useState<PokemonFullData>();
 
   useEffect(() => {
@@ -70,6 +72,7 @@ export default function PokemonPage() {
       <PokedexSidePanel />
       <Card className="mx-auto h-full min-h-screen w-full min-w-80 max-w-7xl rounded-none p-4">
         <ScrollToTop />
+        {/* {isDetailPanelOpen && <DetailPanel setIsOpen={setIsDetailPanelOpen} />} */}
         {/* Display info after data is fully loaded */}
         {isLoading || !pokemonFullData ? (
           <PrimarySpinner className="m-auto" />
