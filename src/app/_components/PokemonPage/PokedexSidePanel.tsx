@@ -94,7 +94,12 @@ export const PokedexSidePanel = () => {
         {pokemonData ? (
           <div className="grid h-full w-full grid-cols-4 gap-2 overflow-y-scroll p-4 lg:grid-cols-5">
             {pokemonData.map((pokemon) => (
-              <PokemonCard key={pokemon.id} data={pokemon} isMini />
+              <PokemonCard
+                key={pokemon.id}
+                data={pokemon}
+                isMini
+                showShiny={false}
+              />
             ))}
           </div>
         ) : (
