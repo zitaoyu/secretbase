@@ -8,16 +8,36 @@ import { capitalizeFirstLetter } from "@/app/_utils/format";
 interface PokemonCardProps {
   data: PokemonSimpleData;
   isMini: boolean;
+  showShiny: boolean;
 }
 
-export const PokemonCard = ({ data, isMini = false }: PokemonCardProps) => {
+export const PokemonCard = ({
+  data,
+  isMini = false,
+  showShiny = false,
+}: PokemonCardProps) => {
   const [isHover, setIsHover] = useState(false);
 
   function getSpriteUrl() {
-    if (isHover && data.animatedSpriteUrl !== null) {
-      return data.animatedSpriteUrl;
+    if (showShiny) {
+      if (isHover && data.animatedShinySpriteUrl !== null) {
+        return data.animatedShinySpriteUrl;
+      }
+      return data.shinySpriteUrl as string;
+    } else {
+      if (isHover && data.animatedSpriteUrl !== null) {
+        return data.animatedSpriteUrl;
+      }
+      return data.spriteUrl as string;
     }
-    return data.spriteUrl as string;
+  }
+
+  function getMiniSpriteUrl(): string {
+    if (showShiny) {
+      return data.shinySpriteUrl as string;
+    } else {
+      return data.spriteUrl as string;
+    }
   }
 
   return (
@@ -36,7 +56,7 @@ export const PokemonCard = ({ data, isMini = false }: PokemonCardProps) => {
           {/* <PokemonSprite imageUrl={getSpriteUrl()} /> */}
           <img
             className={`sprite object-cover transition ${isMini ? "sprite scale-[1.5]" : "group-hover:scale-125"}`}
-            src={isMini ? (data.spriteUrl as string) : getSpriteUrl()}
+            src={isMini ? getMiniSpriteUrl() : getSpriteUrl()}
             alt={data.name + " sprite"}
           />
           {!isMini && <span className="absolute left-3 top-2">#{data.id}</span>}

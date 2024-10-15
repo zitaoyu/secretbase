@@ -7,6 +7,7 @@ import { PrimaryIconButton } from "../PrimaryIconButton";
 import { BsFillGridFill, BsGrid3X3GapFill } from "react-icons/bs";
 import { FaListUl } from "react-icons/fa";
 import { MdFilterAlt, MdFilterAltOff } from "react-icons/md";
+import { HiSparkles } from "react-icons/hi2";
 import { IconType } from "react-icons";
 import { Gen } from "@/app/_types/gen.type";
 import { PokemonType } from "@/app/_types/pokemon.type";
@@ -137,6 +138,8 @@ interface PokedexFilterProps {
   setType2Filter: React.Dispatch<React.SetStateAction<PokemonType | null>>;
   gridType: GridType;
   setGridType: React.Dispatch<React.SetStateAction<GridType>>;
+  showShiny: boolean;
+  setShowShiny: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 export const PokedexFilter = ({
@@ -150,6 +153,8 @@ export const PokedexFilter = ({
   setType2Filter,
   gridType,
   setGridType,
+  showShiny,
+  setShowShiny,
 }: PokedexFilterProps) => {
   const [isShowFilters, setIsShowFilters] = useState(false);
   const iconMap: Record<GridType, IconType> = {
@@ -228,6 +233,17 @@ export const PokedexFilter = ({
               listItems={genSelectorItems}
               defaultSelectedKey={genFilter}
               setter={setGenFilter}
+            />
+          </div>
+          {/* Shiny Toggle */}
+          <div className="h-14 w-14">
+            <PrimaryIconButton
+              className={`h-14 w-14 bg-content1 p-1 shadow-sm ${showShiny && "border-solid border-yellow-400 text-yellow-400"}`}
+              size="lg"
+              fullWidth
+              icon={HiSparkles}
+              onClick={() => setShowShiny((prevState) => !prevState)}
+              disableAnimation
             />
           </div>
           {/* Grid Layout Toggle */}

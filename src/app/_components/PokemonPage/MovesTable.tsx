@@ -10,7 +10,7 @@ import {
   Tabs,
 } from "@nextui-org/react";
 import { MoveElement } from "pokedex-promise-v2";
-import { formatName } from "@/app/_utils/format";
+import { extractIdFromUrl, formatName } from "@/app/_utils/format";
 import myPokedex from "@/app/_services/pokeapi";
 import { PrimarySpinner } from "../PrimarySpinner";
 import { PokemonTypeBox } from "../PokemonTypeBox";
@@ -222,7 +222,9 @@ export const MovesTable = ({ title, movesData, method }: MovesTableProps) => {
     await Promise.all(
       newRows.map(async (row) => {
         try {
-          const response = await myPokedex.getMoveByName(row.move);
+          // TODO: some url is invalid
+          const moveId = extractIdFromUrl(row.url);
+          const response = await myPokedex.getMoveByName(moveId);
           if (response.power) {
             row.power = response.power;
           }
@@ -236,7 +238,10 @@ export const MovesTable = ({ title, movesData, method }: MovesTableProps) => {
             // row.TMId = extractIdFromUrl(response.machines[0].machine.url);
           }
         } catch (error) {
-          throw new Error(error + ", try again later...");
+          // console.log(`method: ${method}`);
+          // console.log("newrow:", newRows);
+          // console.log(row);
+          // throw new Error(error + ", try again later...");
         }
       }),
     );
