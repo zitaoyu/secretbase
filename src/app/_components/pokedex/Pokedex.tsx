@@ -50,7 +50,7 @@ export const Pokedex = () => {
 
   useEffect(() => {
     handleFilterList();
-  }, [searchString, genFilter, type1filter, type2filter, gridType]);
+  }, [searchString, genFilter, type1filter, type2filter, gridType, showShiny]);
 
   function loadMorePokemonCards() {
     setShowPokemons((prev) => prev + 50);
@@ -104,7 +104,7 @@ export const Pokedex = () => {
         (pokemon) =>
           indexFilter[0] <= pokemon.id && pokemon.id <= indexFilter[1],
       );
-      console.log(filteredData);
+      // console.log(filteredData);
       setFilterList(filteredData);
       updateQueryParams();
     }
@@ -149,6 +149,9 @@ export const Pokedex = () => {
     }
     if (gridType !== "regular") {
       params.set("grid", gridType);
+    }
+    if (showShiny) {
+      params.set("shiny", "1");
     }
     router.push(pathname + "?" + params.toString());
   }
