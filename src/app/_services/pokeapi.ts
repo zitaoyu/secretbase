@@ -167,7 +167,7 @@ class PokeApiWrapper implements PokeApiWrapperInterface {
   async getDetailPanelDataByUrl(url: string): Promise<DetailPanelData> {
     let [type, id] = extractResourceAndId(url);
     type = type as DetailType;
-
+    console.log(type, id);
     let detailPanelData: DetailPanelData = {
       type: DetailType.UNKNOWN,
       friendlyName: "unknown",
@@ -176,6 +176,7 @@ class PokeApiWrapper implements PokeApiWrapperInterface {
 
     switch (type) {
       case DetailType.ABILITY:
+        console.log("get ability");
         const ability = await this.pokedex.getAbilityByName(id);
         detailPanelData.type = DetailType.ABILITY;
 
@@ -183,12 +184,28 @@ class PokeApiWrapper implements PokeApiWrapperInterface {
           (item) => item.language.name == "en",
         )?.name;
         if (friendlyName) detailPanelData.friendlyName = friendlyName;
-        
+
         const detail = ability.effect_entries.find(
           (item) => item.language.name == "en",
         )?.effect;
         if (detail) detailPanelData.detail = detail;
+        break;
       case DetailType.ITEM:
+        console.log("get item");
+        const item = await this.pokedex.getItemByName(id);
+        detailPanelData.type = DetailType.ITEM;
+
+        const itemFriendlyName = item.names.find(
+          (item) => item.language.name == "en",
+        )?.name;
+        if (itemFriendlyName) detailPanelData.friendlyName = itemFriendlyName;
+
+        const itemDetail = item.effect_entries.find(
+          (item) => item.language.name == "en",
+        )?.effect;
+        if (itemDetail) detailPanelData.detail = itemDetail;
+        if (item.sprites.default)
+          detailPanelData.spriteUrl = item.sprites.default;
         break;
       case DetailType.MOVE:
         break;

@@ -11,8 +11,9 @@ import { Overlay } from "../Overlay";
 import useToggleBodyScroll from "@/app/_hooks/useToggleBodyScroll";
 import { DetailPanelData } from "@/app/_services/models/DetailPanelData";
 import { PrimaryButton } from "../PrimaryButton";
-import { PrimaryIconButton } from "../PrimaryIconButton";
 import { capitalizeFirstLetter } from "@/app/_utils/format";
+import { SpriteGallery } from "./SpriteGallery";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 interface DetailPanelProps {
   detailPanelData: DetailPanelData;
@@ -29,8 +30,8 @@ export const DetailPanel = ({
     <div>
       <Overlay onClick={() => setIsOpen(false)} />
       <div
-        className="fixed left-1/2 z-50 flex h-[80vh] w-[98vw] -translate-x-1/2
-      flex-col justify-center overflow-hidden rounded-xl p-6 md:max-w-2xl"
+        className="fixed left-1/2 z-50 flex h-[90vh] max-h-[660px] w-[98vw]
+      -translate-x-1/2 flex-col justify-center overflow-hidden rounded-xl p-6 md:max-w-2xl"
       >
         {/* TODO: implement UI */}
         <Card className="flex h-full w-full p-4">
@@ -48,15 +49,33 @@ export const DetailPanel = ({
             </h1>
           </CardHeader>
           <Divider />
-          <CardBody className="gap-6 text-lg">
-            <p>Name: {detailPanelData.friendlyName}</p>
+          <CardBody className="gap-4 text-lg">
+            {detailPanelData.spriteUrl && (
+              <div className="flex justify-center">
+                {" "}
+                <SpriteGallery imageUrl={detailPanelData.spriteUrl} />
+              </div>
+            )}
             <p>
-              Detail: <p>{detailPanelData.detail}</p>
+              <span className="font-semibold">Name: </span>
+              {detailPanelData.friendlyName}
+            </p>
+            <p>
+              <span className="font-semibold">Detail:</span>
+              <p>{detailPanelData.detail}</p>
             </p>
           </CardBody>
           <Divider />
           <CardFooter className="justify-center">
-            <PrimaryButton>Full Detail on Bulbapedia</PrimaryButton>
+            <Link
+              href={`https://bulbapedia.bulbagarden.net/wiki/${detailPanelData.friendlyName}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <PrimaryButton>
+                Full Detail on Bulbapedia <FaExternalLinkAlt />
+              </PrimaryButton>
+            </Link>
           </CardFooter>
         </Card>
       </div>

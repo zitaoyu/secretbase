@@ -9,4 +9,5 @@ export interface DetailPanelData {
   type: DetailType;
   friendlyName: string;
   detail: string;
+  spriteUrl?: string;
 }
