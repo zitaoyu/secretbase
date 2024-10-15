@@ -20,6 +20,8 @@ import { PokemonFullData } from "@/app/_services/models/PokemonFullData";
 import useScrollPosition from "@/app/_hooks/useScrollPosition";
 import useScreenSize from "@/app/_hooks/useScreenSize";
 import UnknownPokemonSprite from "../../_assets/unknown_pokemon.png";
+import { PrimaryIconButton } from "@/app/_components/PrimaryIconButton";
+import { HiSparkles } from "react-icons/hi2";
 
 export default function PokemonPage() {
   const { id } = useParams();
@@ -29,6 +31,7 @@ export default function PokemonPage() {
   const pokemonId: string = Array.isArray(id) ? id[0] : id;
   const pokemonIdInt: number = parseInt(pokemonId, 10);
   const [isLoading, setIsLoading] = useState(true);
+  const [showShiny, setShowShiny] = useState<boolean>(false);
   const [pokemonFullData, setPokemonFullData] = useState<PokemonFullData>();
 
   useEffect(() => {
@@ -45,6 +48,22 @@ export default function PokemonPage() {
         throw Error("Unable to fetch pokemon details, try again later...");
       });
   }, [pokemonId]);
+
+  function getSpriteUrl() {
+    if (showShiny) {
+      return (
+        pokemonFullData?.simpleData.animatedShinySpriteUrl ||
+        pokemonFullData?.simpleData.shinySpriteUrl ||
+        UnknownPokemonSprite.src
+      );
+    } else {
+      return (
+        pokemonFullData?.simpleData.animatedSpriteUrl ||
+        pokemonFullData?.simpleData.spriteUrl ||
+        UnknownPokemonSprite.src
+      );
+    }
+  }
 
   return (
     <div className="relative min-h-screen w-full">
@@ -65,13 +84,14 @@ export default function PokemonPage() {
             {/* Pokemon Info */}
             <div className="mt-6 flex w-full flex-col items-center">
               {/* Pokemon Image */}
-              <SpriteGallery
-                imageUrl={
-                  pokemonFullData.simpleData?.animatedSpriteUrl ||
-                  pokemonFullData.simpleData.spriteUrl ||
-                  UnknownPokemonSprite.src
-                }
+              <SpriteGallery imageUrl={getSpriteUrl()} size="lg" />
+              <PrimaryIconButton
+                className={`absolute h-14 w-14 translate-x-[250%] translate-y-[260%] rounded-full  bg-content1 p-1 shadow-sm ${showShiny && "border-solid border-yellow-400 text-yellow-400"}`}
                 size="lg"
+                fullWidth
+                icon={HiSparkles}
+                onClick={() => setShowShiny((prevState) => !prevState)}
+                disableAnimation
               />
               {/* Pokemon Basic Info Box */}
               <BasicInfoBox pokemonFullData={pokemonFullData} />

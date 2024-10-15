@@ -16,11 +16,13 @@ import useScreenSize from "@/app/_hooks/useScreenSize";
 interface PokedexTableGridProps {
   pokemonData: PokemonSimpleData[];
   showPokemons: number;
+  showShiny: boolean;
 }
 
 export const PokedexTableGrid = ({
   pokemonData,
   showPokemons,
+  showShiny = false,
 }: PokedexTableGridProps) => {
   const screenSize = useScreenSize();
   const isMobile = screenSize.size === "xs";
@@ -75,7 +77,7 @@ export const PokedexTableGrid = ({
 
   return (
     <Table
-      className="max-w-5xl overflow-scroll rounded-xl p-1 outline outline-default sm:p-4"
+      className="max-w-5xl rounded-xl p-1 outline outline-default sm:p-4"
       removeWrapper
       selectionMode="none"
       aria-label="Moves Table"
@@ -117,7 +119,11 @@ export const PokedexTableGrid = ({
                 <div className="">
                   <PokemonSprite
                     className="transition"
-                    imageUrl={pokemon.spriteUrl || ""}
+                    imageUrl={
+                      (showShiny
+                        ? pokemon.shinySpriteUrl
+                        : pokemon.spriteUrl) || ""
+                    }
                   />
                 </div>
 

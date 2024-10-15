@@ -29,6 +29,7 @@ export const Pokedex = () => {
   const [type1filter, setType1Filter] = useState<PokemonType | null>(null);
   const [type2filter, setType2Filter] = useState<PokemonType | null>(null);
   const [gridType, setGridType] = useState<GridType>("regular");
+  const [showShiny, setShowShiny] = useState<boolean>(false);
 
   useEffect(() => {
     loadQueryParams();
@@ -173,17 +174,21 @@ export const Pokedex = () => {
         setType2Filter={setType2Filter}
         gridType={gridType}
         setGridType={setGridType}
+        showShiny={showShiny}
+        setShowShiny={setShowShiny}
       />
       {gridType === "table" ? (
         <PokedexTableGrid
           pokemonData={filteredList}
           showPokemons={showPokemons}
+          showShiny={showShiny}
         />
       ) : (
         <PokedexGrid
           pokemonData={filteredList}
           showPokemons={showPokemons}
           isMini={gridType === "mini"}
+          showShiny={showShiny}
         />
       )}
     </div>
