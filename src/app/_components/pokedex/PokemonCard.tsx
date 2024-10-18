@@ -54,11 +54,14 @@ export const PokemonCard = ({
       >
         <CardBody className="h-[116px] items-center justify-center overflow-hidden">
           {/* <PokemonSprite imageUrl={getSpriteUrl()} /> */}
-          <img
-            className={`sprite object-cover transition ${isMini ? "sprite scale-[1.5]" : "group-hover:scale-125"}`}
-            src={isMini ? getMiniSpriteUrl() : getSpriteUrl()}
-            alt={data.name + " sprite"}
-          />
+          <div className="flex h-24 w-24 items-center justify-center transition group-hover:scale-125">
+            <img
+              className={`sprite ${data.animatedSpriteUrl === null && "h-full w-full"}`}
+              src={isMini ? getMiniSpriteUrl() : getSpriteUrl()}
+              alt={data.name + " sprite"}
+            />
+          </div>
+
           {!isMini && <span className="absolute left-3 top-2">#{data.id}</span>}
         </CardBody>
         {!isMini && (
