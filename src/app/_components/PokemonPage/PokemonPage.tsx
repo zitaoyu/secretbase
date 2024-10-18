@@ -7,7 +7,6 @@ import { BasicInfoBox } from "@/app/_components/PokemonPage/BasicInfoBox";
 import { SpriteGallery } from "@/app/_components/PokemonPage/SpriteGallery";
 
 import { MovesTable } from "@/app/_components/PokemonPage/MovesTable";
-import myPokedex from "@/app/_services/pokeapi";
 import { StatsTable } from "@/app/_components/PokemonPage/StatsTable";
 import { ScrollToTop } from "@/app/_components/ScrollToTop";
 import { EvolutionTable } from "@/app/_components/PokemonPage/EvolutionTable";
@@ -26,6 +25,7 @@ import {
   DetailPanelProvider,
   useDetailPanelContext,
 } from "./DetailPanelContext";
+import nationalDex from "@/app/_services/national-pokedex-service";
 
 const PokemonPageContent = () => {
   const { id } = useParams();
@@ -45,7 +45,7 @@ const PokemonPageContent = () => {
   useEffect(() => {
     setIsLoading(true);
 
-    myPokedex
+    nationalDex
       .getPokemonFullDataById(pokemonId)
       .then((fullData) => {
         setPokemonFullData(fullData);
@@ -74,9 +74,8 @@ const PokemonPageContent = () => {
   }
 
   useEffect(() => {
-    console.log(detailPanelUrl);
     if (detailPanelUrl) {
-      myPokedex
+      nationalDex
         .getDetailPanelDataByUrl(detailPanelUrl)
         .then((data) => {
           setDetailPanelData(data);
