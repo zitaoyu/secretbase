@@ -40,7 +40,7 @@ export const DetailPanel = ({
               className="text-lg font-normal"
               onClick={() => setIsOpen(false)}
             >
-              Back
+              Close
             </PrimaryButton>
           </CardHeader>
           <CardHeader className="flex justify-center p-0 pb-1 sm:p-4">
@@ -73,7 +73,7 @@ export const DetailPanel = ({
               rel="noopener noreferrer"
             >
               <PrimaryButton>
-                Full Detail on Bulbapedia <FaExternalLinkAlt />
+                Full Detail <FaExternalLinkAlt />
               </PrimaryButton>
             </Link>
           </CardFooter>

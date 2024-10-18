@@ -40,7 +40,7 @@ const BasicInfoBoxItem = ({
           ) : (
             <span
               key={item.value}
-              className="hover:underline"
+              className="px-2 underline hover:cursor-pointer"
               onClick={() => {
                 setDetailPanelUrl(item.url as string);
                 setCounter(counter + 1);

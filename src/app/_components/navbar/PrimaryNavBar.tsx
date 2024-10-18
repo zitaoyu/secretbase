@@ -21,7 +21,8 @@ export const PrimaryNavBar = () => {
 
   const menuItems: { label: string; href: string }[] = [
     // { label: "Home", href: "/" },
-    { label: "Pokedex", href: "/" },
+    { label: "National Dex", href: "/" },
+    { label: "Seaglass Pokedex", href: "/seaglass/" },
     // { label: "About", href: "#" },
   ];
 
