@@ -160,6 +160,7 @@ const run = async () => {
     // override Seaglass data
     pokemon.id = Number(item.id);
     pokemon.name = item.friendlyName;
+    pokemon.types = item.types;
     pokemon.stats = {
       hp: Number(item.hp),
       attack: Number(item.attack),
