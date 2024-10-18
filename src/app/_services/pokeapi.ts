@@ -7,8 +7,8 @@ import {
   PokemonPageData,
 } from "./models/PokemonFullData";
 import { EvolutionChain } from "./models/EvolutionChain";
-import pokemonSimpleDataDatabase from "./databases/pokemonSimpleDataDatabase";
-import evolutionChainDatabase from "./databases/evolutionChainDatabase";
+import pokemonSimpleDataDatabase from "./databases/nationalDex/pokemonSimpleDataDatabase";
+import evolutionChainDatabase from "./databases/nationalDex/evolutionChainDatabase";
 import { statNameMap } from "../_utils/stats";
 import {
   extractIdFromUrl,
