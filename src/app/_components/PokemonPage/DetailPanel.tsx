@@ -30,12 +30,12 @@ export const DetailPanel = ({
     <div>
       <Overlay onClick={() => setIsOpen(false)} />
       <div
-        className="fixed left-1/2 z-50 flex h-[90vh] max-h-[660px] w-[98vw]
-      -translate-x-1/2 flex-col justify-center overflow-hidden rounded-xl p-6 md:max-w-2xl"
+        className="fixed left-1/2 z-50 flex h-[90vh] w-[98vw] -translate-x-1/2
+      flex-col justify-center overflow-hidden rounded-xl p-6 md:max-h-[660px] md:max-w-2xl"
       >
         {/* TODO: implement UI */}
         <Card className="flex h-full w-full p-4">
-          <CardHeader className="flex justify-end">
+          <CardHeader className="flex justify-end p-0 sm:p-4">
             <PrimaryButton
               className="text-lg font-normal"
               onClick={() => setIsOpen(false)}
@@ -43,7 +43,7 @@ export const DetailPanel = ({
               Back
             </PrimaryButton>
           </CardHeader>
-          <CardHeader className="flex justify-center">
+          <CardHeader className="flex justify-center p-0 pb-1 sm:p-4">
             <h1 className="text-4xl font-medium">
               {capitalizeFirstLetter(detailPanelData.type)}
             </h1>
