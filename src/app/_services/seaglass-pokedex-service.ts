@@ -14,7 +14,7 @@ import {
 } from "../_utils/format";
 import { DetailPanelData, DetailType } from "./models/DetailPanelData";
 import pokemonSimpleDataDatabaseSeaglass from "./databases/seaglass/pokemonSimpleDataDatabase-Seaglass";
-import evolutionChainDatabase from "./databases/nationalDex/evolutionChainDatabase";
+import evolutionChainDatabase from "./databases/seaglass/evolutionChainDatabase";
 import myPokedex from "./pokeapi";
 
 class SeaglassPokedexService implements IPokedexService {
