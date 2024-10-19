@@ -5,7 +5,6 @@ import {
   CardFooter,
   Divider,
   Link,
-  Image,
 } from "@nextui-org/react";
 import { Overlay } from "../Overlay";
 import useToggleBodyScroll from "@/app/_hooks/useToggleBodyScroll";
@@ -14,6 +13,31 @@ import { PrimaryButton } from "../PrimaryButton";
 import { capitalizeFirstLetter } from "@/app/_utils/format";
 import { SpriteGallery } from "./SpriteGallery";
 import { FaExternalLinkAlt } from "react-icons/fa";
+
+const splitParagraph = (text: string): string[] => {
+  // Define an array of keywords that should trigger a split
+  const keywords = ["Overworld:", "The following are unaffected"];
+
+  // Create a dynamic regex to match any of the keywords
+  const regex = new RegExp(`\\b(${keywords.join("|")})`, "g");
+
+  // Split the text at the keywords, keeping the keyword in the split result
+  const paragraphs = text.split(regex);
+
+  // Recombine the keyword and the following text into paragraphs
+  const result = [];
+  for (let i = 0; i < paragraphs.length; i++) {
+    // If this part is a keyword, combine it with the next part
+    if (keywords.includes(paragraphs[i])) {
+      result.push(`${paragraphs[i]} ${paragraphs[i + 1]}`.trim());
+      i++; // Skip the next part because it's already combined
+    } else {
+      result.push(paragraphs[i].trim());
+    }
+  }
+
+  return result.filter(Boolean); // Filter out any empty strings
+};
 
 interface DetailPanelProps {
   detailPanelData: DetailPanelData;
@@ -62,7 +86,11 @@ export const DetailPanel = ({
             </p>
             <p>
               <span className="font-semibold">Detail:</span>
-              <p>{detailPanelData.detail}</p>
+              {splitParagraph(detailPanelData.detail).map((value, index) => (
+                <p className="pb-1" key={index}>
+                  {value}
+                </p>
+              ))}
             </p>
           </CardBody>
           <Divider />

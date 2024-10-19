@@ -150,7 +150,7 @@ class SeaglassPokedexService implements IPokedexService {
   async getDetailPanelDataByUrl(url: string): Promise<DetailPanelData> {
     let [type, id] = extractResourceAndId(url);
     type = type as DetailType;
-    console.log(type, id);
+
     let detailPanelData: DetailPanelData = {
       type: DetailType.UNKNOWN,
       friendlyName: "unknown",

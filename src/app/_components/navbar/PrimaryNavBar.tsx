@@ -11,15 +11,19 @@ import {
 import { ThemeSwitcher } from "./ThemeSwitcher";
 import { SecretBaseLogo } from "./Logo";
 import Link from "next/link";
-import { useState } from "react";
+import { Link as NextLink } from "@nextui-org/react";
+import { useEffect, useState } from "react";
 import { CgClose } from "react-icons/cg";
 import { IoMenu } from "react-icons/io5";
 import { PrimaryIconButton } from "../PrimaryIconButton";
+import { usePathname } from "next/navigation";
 
 export const PrimaryNavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const menuItems: { label: string; href: string }[] = [
+  const isOnSeaglassRoute = usePathname().startsWith("/seaglass");
+
+  let menuItems: { label: string; href: string }[] = [
     // { label: "Home", href: "/" },
     { label: "National Dex", href: "/" },
     { label: "Seaglass Pokedex", href: "/seaglass/" },
@@ -51,6 +55,7 @@ export const PrimaryNavBar = () => {
             <Link
               className="group block transition hover:text-sb-primary"
               href={menuItem.href}
+              color="foreground"
             >
               <span>{menuItem.label}</span>
               <div className="h-[2px] rounded-full transition group-hover:bg-sb-primary"></div>

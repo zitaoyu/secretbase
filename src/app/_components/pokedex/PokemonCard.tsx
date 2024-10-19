@@ -54,7 +54,9 @@ export const PokemonCard = ({
       >
         <CardBody className="h-[116px] items-center justify-center overflow-hidden">
           {/* <PokemonSprite imageUrl={getSpriteUrl()} /> */}
-          <div className="flex h-24 w-24 items-center justify-center transition group-hover:scale-125">
+          <div
+            className={`flex h-24 w-24 items-center justify-center transition ${!isMini && "group-hover:scale-125"}`}
+          >
             <img
               className={`sprite ${data.animatedSpriteUrl === null && "h-full w-full"}`}
               src={isMini ? getMiniSpriteUrl() : getSpriteUrl()}

@@ -1,5 +1,5 @@
 import { Card } from "@nextui-org/react";
-import { useParams } from "next/navigation";
+import { useParams, usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { PrimarySpinner } from "@/app/_components/PrimarySpinner";
 import { NavMenu } from "@/app/_components/PokemonPage/NavMenu";
@@ -26,6 +26,8 @@ import {
   useDetailPanelContext,
 } from "./DetailPanelContext";
 import nationalDex from "@/app/_services/national-pokedex-service";
+import SeaglassPokedex from "@/app/_services/seaglass-pokedex-service";
+import { IPokedexService } from "@/app/_services/pokedex-service.interface";
 
 const PokemonPageContent = () => {
   const { id } = useParams();
@@ -42,10 +44,15 @@ const PokemonPageContent = () => {
 
   const { detailPanelUrl, counter } = useDetailPanelContext();
 
+  const isSeaglass = usePathname().includes("seaglass");
+
   useEffect(() => {
     setIsLoading(true);
-
-    nationalDex
+    let pokedex: IPokedexService = nationalDex;
+    if (isSeaglass) {
+      pokedex = SeaglassPokedex;
+    }
+    pokedex
       .getPokemonFullDataById(pokemonId)
       .then((fullData) => {
         setPokemonFullData(fullData);

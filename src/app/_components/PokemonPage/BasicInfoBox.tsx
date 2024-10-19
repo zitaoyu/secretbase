@@ -1,8 +1,5 @@
-import { Pokemon, PokemonForm, PokemonSpecies } from "pokedex-promise-v2";
-import Link from "next/link";
+import { Link } from "@nextui-org/react";
 import { getPokemonTypeColor } from "@/app/_utils/type-colors";
-import { formatName } from "@/app/_utils/format";
-import { statNameMap } from "@/app/_utils/stats";
 import { useEffect, useState } from "react";
 import { PrimarySpinner } from "../PrimarySpinner";
 import { PokemonTypeBoxes } from "../PokemonTypeBox";
@@ -38,16 +35,18 @@ const BasicInfoBoxItem = ({
           item.url === null ? (
             <span key={item.value}>{item.value}</span>
           ) : (
-            <span
+            <Link
               key={item.value}
-              className="px-2 underline hover:cursor-pointer"
+              className="px-2 font-medium hover:cursor-pointer hover:underline"
               onClick={() => {
                 setDetailPanelUrl(item.url as string);
                 setCounter(counter + 1);
               }}
+              isBlock
+              color="foreground"
             >
               {item.value}
-            </span>
+            </Link>
           ),
         )}
       </div>

@@ -29,6 +29,9 @@ const fetchPokemonData = async (url) => {
   try {
     const pokemonData = await fetchDataWithRetries(url);
     const pokemonSpecies = await fetchDataWithRetries(pokemonData.species.url);
+    const chain = await fetchDataWithRetries(
+      pokemonSpecies.evolution_chain.url,
+    );
     // Find the name with language code "en"
     const englishNameObject = pokemonSpecies.names.find(
       (obj) => obj.language.name === "en",
@@ -74,7 +77,7 @@ const fetchPokemonData = async (url) => {
       animatedShinySpriteUrl:
         pokemonData.sprites.versions["generation-v"]["black-white"].animated
           .front_shiny,
-      evolutionChainId: pokemonSpecies.id,
+      evolutionChainId: chain.id,
     };
     // Log success
     console.log(`Successfully fetched data for ${name} (ID: ${id})`);
@@ -87,7 +90,7 @@ const fetchPokemonData = async (url) => {
 const nationalDexUrl = "https://pokeapi.co/api/v2/pokemon?limit=1025&offset=0";
 const formsUrl = "https://pokeapi.co/api/v2/pokemon?limit=100000&offset=1025";
 
-const DownloadedData = [];
+let DownloadedData = [];
 
 // Function to fetch and process national Dex data
 const fetchNationalDex = async () => {
@@ -159,7 +162,7 @@ const run = async () => {
     );
     // override Seaglass data
     pokemon.id = Number(item.id);
-    pokemon.name = item.friendlyName;
+    // pokemon.name = item.friendlyName;
     pokemon.types = item.types;
     pokemon.stats = {
       hp: Number(item.hp),
@@ -176,7 +179,17 @@ const run = async () => {
     DownloadedData.push(pokemon);
     // console.log(pokemon);
   }
+  DownloadedData.sort((a, b) => a.id - b.id);
 
+  DownloadedData = DownloadedData.map((value) => {
+    if (value.formName === "Alolan Form") {
+      return {
+        ...value,
+        name: "Alolan " + value.name,
+      };
+    }
+    return value;
+  });
   // Save the collected data as a JSON file
   const jsonData = JSON.stringify(DownloadedData, null, 2);
   fs.writeFileSync("collectedData.json", jsonData);
