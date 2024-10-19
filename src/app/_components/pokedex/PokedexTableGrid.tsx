@@ -18,14 +18,12 @@ interface PokedexTableGridProps {
   pokemonData: PokemonSimpleData[];
   showPokemons: number;
   showShiny: boolean;
-  game: Game;
 }
 
 export const PokedexTableGrid = ({
   pokemonData,
   showPokemons,
   showShiny = false,
-  game = "main",
 }: PokedexTableGridProps) => {
   const screenSize = useScreenSize();
   const isMobile = screenSize.size === "xs";
@@ -117,7 +115,7 @@ export const PokedexTableGrid = ({
             <TableCell className={cellStyles + `${isMobile && " border-l-0"}`}>
               <Link
                 className="flex flex-col items-center font-bold"
-                href={`/seaglass/${pokemon.pokeapiId}`}
+                href={`${pokemon.pokeapiId}`}
               >
                 <div className="">
                   <PokemonSprite
