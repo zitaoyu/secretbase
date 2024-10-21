@@ -189,6 +189,7 @@ export const Pokedex = ({ game }: PokedexProps) => {
           pokemonData={filteredList}
           showPokemons={showPokemons}
           showShiny={showShiny}
+          game={game}
         />
       ) : (
         <PokedexGrid
@@ -196,6 +197,7 @@ export const Pokedex = ({ game }: PokedexProps) => {
           showPokemons={showPokemons}
           isMini={gridType === "mini"}
           showShiny={showShiny}
+          game={game}
         />
       )}
     </div>
