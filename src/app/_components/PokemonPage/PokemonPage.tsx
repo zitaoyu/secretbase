@@ -1,5 +1,5 @@
 import { Card } from "@nextui-org/react";
-import { useParams } from "next/navigation";
+import { useParams, usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { PrimarySpinner } from "@/app/_components/PrimarySpinner";
 import { NavMenu } from "@/app/_components/PokemonPage/NavMenu";
@@ -7,7 +7,6 @@ import { BasicInfoBox } from "@/app/_components/PokemonPage/BasicInfoBox";
 import { SpriteGallery } from "@/app/_components/PokemonPage/SpriteGallery";
 
 import { MovesTable } from "@/app/_components/PokemonPage/MovesTable";
-import myPokedex from "@/app/_services/pokeapi";
 import { StatsTable } from "@/app/_components/PokemonPage/StatsTable";
 import { ScrollToTop } from "@/app/_components/ScrollToTop";
 import { EvolutionTable } from "@/app/_components/PokemonPage/EvolutionTable";
@@ -26,6 +25,9 @@ import {
   DetailPanelProvider,
   useDetailPanelContext,
 } from "./DetailPanelContext";
+import nationalDex from "@/app/_services/national-pokedex-service";
+import SeaglassPokedex from "@/app/_services/seaglass-pokedex-service";
+import { IPokedexService } from "@/app/_services/pokedex-service.interface";
 
 const PokemonPageContent = () => {
   const { id } = useParams();
@@ -42,10 +44,15 @@ const PokemonPageContent = () => {
 
   const { detailPanelUrl, counter } = useDetailPanelContext();
 
+  const isSeaglass = usePathname().includes("seaglass");
+
   useEffect(() => {
     setIsLoading(true);
-
-    myPokedex
+    let pokedex: IPokedexService = nationalDex;
+    if (isSeaglass) {
+      pokedex = SeaglassPokedex;
+    }
+    pokedex
       .getPokemonFullDataById(pokemonId)
       .then((fullData) => {
         setPokemonFullData(fullData);
@@ -74,9 +81,8 @@ const PokemonPageContent = () => {
   }
 
   useEffect(() => {
-    console.log(detailPanelUrl);
     if (detailPanelUrl) {
-      myPokedex
+      nationalDex
         .getDetailPanelDataByUrl(detailPanelUrl)
         .then((data) => {
           setDetailPanelData(data);
@@ -91,7 +97,7 @@ const PokemonPageContent = () => {
 
   return (
     <div className="relative min-h-screen w-full">
-      <PokedexSidePanel />
+      <PokedexSidePanel game={isSeaglass ? "seaglass" : "main"} />
       <Card className="mx-auto h-full min-h-screen w-full min-w-80 max-w-7xl rounded-none p-4">
         <ScrollToTop />
         {isDetailPanelOpen && detailPanelData && (
@@ -110,6 +116,7 @@ const PokemonPageContent = () => {
               prevPokeapiId={pokemonFullData.pageData.prevPokeapiId}
               nextPokeapiId={pokemonFullData.pageData.nextPokeapiId}
               dexId={pokemonFullData.simpleData.id}
+              game={isSeaglass ? "seaglass" : "main"}
             />
             {/* Pokemon Info */}
             <div className="mt-6 flex w-full flex-col items-center">
@@ -126,11 +133,13 @@ const PokemonPageContent = () => {
               {/* Pokemon Basic Info Box */}
               <BasicInfoBox pokemonFullData={pokemonFullData} />
             </div>
+
+            <StatsTable stats={pokemonFullData.simpleData.stats} />
+            <EvolutionTable evolutionChain={pokemonFullData.evolutionChain} />
             <ResistanceTable
               types={pokemonFullData.simpleData.types as PokemonType[]}
             />
-            <StatsTable stats={pokemonFullData.simpleData.stats} />
-            <EvolutionTable evolutionChain={pokemonFullData.evolutionChain} />
+
             {/* Moves Table */}
             <MovesTable
               title="Level Up Moves"

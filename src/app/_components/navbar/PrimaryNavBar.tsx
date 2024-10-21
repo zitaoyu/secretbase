@@ -15,13 +15,22 @@ import { useState } from "react";
 import { CgClose } from "react-icons/cg";
 import { IoMenu } from "react-icons/io5";
 import { PrimaryIconButton } from "../PrimaryIconButton";
+import { usePathname } from "next/navigation";
 
 export const PrimaryNavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const menuItems: { label: string; href: string }[] = [
+  const isOnSeaglassRoute = usePathname().startsWith("/seaglass");
+
+  let menuItems: { label: string; href: string; newtab: boolean }[] = [
     // { label: "Home", href: "/" },
-    { label: "Pokedex", href: "/" },
+    { label: "National Dex", href: "/", newtab: false },
+    { label: "Seaglass Pokedex", href: "/seaglass/", newtab: false },
+    {
+      label: "Download Seaglass",
+      href: "https://ko-fi.com/s/4a1535f351",
+      newtab: true,
+    },
     // { label: "About", href: "#" },
   ];
 
@@ -50,6 +59,8 @@ export const PrimaryNavBar = () => {
             <Link
               className="group block transition hover:text-sb-primary"
               href={menuItem.href}
+              color="foreground"
+              target={menuItem.newtab ? "_blank" : ""}
             >
               <span>{menuItem.label}</span>
               <div className="h-[2px] rounded-full transition group-hover:bg-sb-primary"></div>

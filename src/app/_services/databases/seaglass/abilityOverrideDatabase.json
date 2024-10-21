@@ -1,0 +1,7544 @@
+[
+  {
+    "id": 1,
+    "pokeapiId": 252,
+    "abilities": [
+      {
+        "value": "Overgrow",
+        "url": "https://pokeapi.co/api/v2/ability/overgrow"
+      },
+      {
+        "value": "Unburden",
+        "url": "https://pokeapi.co/api/v2/ability/unburden"
+      },
+      {
+        "value": "Sharpness",
+        "url": "https://pokeapi.co/api/v2/ability/sharpness"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "pokeapiId": 253,
+    "abilities": [
+      {
+        "value": "Overgrow",
+        "url": "https://pokeapi.co/api/v2/ability/overgrow"
+      },
+      {
+        "value": "Unburden",
+        "url": "https://pokeapi.co/api/v2/ability/unburden"
+      },
+      {
+        "value": "Sharpness",
+        "url": "https://pokeapi.co/api/v2/ability/sharpness"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "pokeapiId": 254,
+    "abilities": [
+      {
+        "value": "Overgrow",
+        "url": "https://pokeapi.co/api/v2/ability/overgrow"
+      },
+      {
+        "value": "Unburden",
+        "url": "https://pokeapi.co/api/v2/ability/unburden"
+      },
+      {
+        "value": "Sharpness",
+        "url": "https://pokeapi.co/api/v2/ability/sharpness"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "pokeapiId": 255,
+    "abilities": [
+      {
+        "value": "Blaze",
+        "url": "https://pokeapi.co/api/v2/ability/blaze"
+      },
+      {
+        "value": "Defiant",
+        "url": "https://pokeapi.co/api/v2/ability/defiant"
+      },
+      {
+        "value": "Speed Boost",
+        "url": "https://pokeapi.co/api/v2/ability/speed-boost"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "pokeapiId": 256,
+    "abilities": [
+      {
+        "value": "Blaze",
+        "url": "https://pokeapi.co/api/v2/ability/blaze"
+      },
+      {
+        "value": "Defiant",
+        "url": "https://pokeapi.co/api/v2/ability/defiant"
+      },
+      {
+        "value": "Speed Boost",
+        "url": "https://pokeapi.co/api/v2/ability/speed-boost"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "pokeapiId": 257,
+    "abilities": [
+      {
+        "value": "Blaze",
+        "url": "https://pokeapi.co/api/v2/ability/blaze"
+      },
+      {
+        "value": "Defiant",
+        "url": "https://pokeapi.co/api/v2/ability/defiant"
+      },
+      {
+        "value": "Athletic",
+        "url": "https://pokeapi.co/api/v2/ability/athletic"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "pokeapiId": 258,
+    "abilities": [
+      {
+        "value": "Torrent",
+        "url": "https://pokeapi.co/api/v2/ability/torrent"
+      },
+      {
+        "value": "Damp",
+        "url": "https://pokeapi.co/api/v2/ability/damp"
+      },
+      {
+        "value": "Water Compaction ",
+        "url": "https://pokeapi.co/api/v2/ability/water-compaction-"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "pokeapiId": 259,
+    "abilities": [
+      {
+        "value": "Torrent",
+        "url": "https://pokeapi.co/api/v2/ability/torrent"
+      },
+      {
+        "value": "Damp",
+        "url": "https://pokeapi.co/api/v2/ability/damp"
+      },
+      {
+        "value": "Water Compaction ",
+        "url": "https://pokeapi.co/api/v2/ability/water-compaction-"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "pokeapiId": 260,
+    "abilities": [
+      {
+        "value": "Torrent",
+        "url": "https://pokeapi.co/api/v2/ability/torrent"
+      },
+      {
+        "value": "Damp",
+        "url": "https://pokeapi.co/api/v2/ability/damp"
+      },
+      {
+        "value": "Water Compaction ",
+        "url": "https://pokeapi.co/api/v2/ability/water-compaction-"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "pokeapiId": 261,
+    "abilities": [
+      {
+        "value": "Run Away",
+        "url": "https://pokeapi.co/api/v2/ability/run-away"
+      },
+      {
+        "value": "Quick Feet",
+        "url": "https://pokeapi.co/api/v2/ability/quick-feet"
+      },
+      {
+        "value": "Moxie",
+        "url": "https://pokeapi.co/api/v2/ability/moxie"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "pokeapiId": 262,
+    "abilities": [
+      {
+        "value": "Intimidate",
+        "url": "https://pokeapi.co/api/v2/ability/intimidate"
+      },
+      {
+        "value": "Quick Feet",
+        "url": "https://pokeapi.co/api/v2/ability/quick-feet"
+      },
+      {
+        "value": "Moxie",
+        "url": "https://pokeapi.co/api/v2/ability/moxie"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "pokeapiId": 263,
+    "abilities": [
+      {
+        "value": "Pickup",
+        "url": "https://pokeapi.co/api/v2/ability/pickup"
+      },
+      {
+        "value": "Gluttony",
+        "url": "https://pokeapi.co/api/v2/ability/gluttony"
+      },
+      {
+        "value": "Quick Feet",
+        "url": "https://pokeapi.co/api/v2/ability/quick-feet"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "pokeapiId": 264,
+    "abilities": [
+      {
+        "value": "Pickup",
+        "url": "https://pokeapi.co/api/v2/ability/pickup"
+      },
+      {
+        "value": "Gluttony",
+        "url": "https://pokeapi.co/api/v2/ability/gluttony"
+      },
+      {
+        "value": "Quick Feet",
+        "url": "https://pokeapi.co/api/v2/ability/quick-feet"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "pokeapiId": 265,
+    "abilities": [
+      {
+        "value": "Shield Dust",
+        "url": "https://pokeapi.co/api/v2/ability/shield-dust"
+      },
+      {
+        "value": "Run Away",
+        "url": "https://pokeapi.co/api/v2/ability/run-away"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "pokeapiId": 266,
+    "abilities": [
+      {
+        "value": "Shed Skin",
+        "url": "https://pokeapi.co/api/v2/ability/shed-skin"
+      },
+      {
+        "value": "N/A",
+        "url": "https://pokeapi.co/api/v2/ability/n/a"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "pokeapiId": 267,
+    "abilities": [
+      {
+        "value": "Swarm",
+        "url": "https://pokeapi.co/api/v2/ability/swarm"
+      },
+      {
+        "value": "Rivalry ",
+        "url": "https://pokeapi.co/api/v2/ability/rivalry-"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "pokeapiId": 268,
+    "abilities": [
+      {
+        "value": "Shed Skin",
+        "url": "https://pokeapi.co/api/v2/ability/shed-skin"
+      },
+      {
+        "value": "N/A",
+        "url": "https://pokeapi.co/api/v2/ability/n/a"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "pokeapiId": 269,
+    "abilities": [
+      {
+        "value": "Unaware",
+        "url": "https://pokeapi.co/api/v2/ability/unaware"
+      },
+      {
+        "value": "Compound Eyes",
+        "url": "https://pokeapi.co/api/v2/ability/compound-eyes"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "pokeapiId": 270,
+    "abilities": [
+      {
+        "value": "Swift Swim",
+        "url": "https://pokeapi.co/api/v2/ability/swift-swim"
+      },
+      {
+        "value": "Rain Dish",
+        "url": "https://pokeapi.co/api/v2/ability/rain-dish"
+      },
+      {
+        "value": "Own Tempo",
+        "url": "https://pokeapi.co/api/v2/ability/own-tempo"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "pokeapiId": 271,
+    "abilities": [
+      {
+        "value": "Swift Swim",
+        "url": "https://pokeapi.co/api/v2/ability/swift-swim"
+      },
+      {
+        "value": "Rain Dish",
+        "url": "https://pokeapi.co/api/v2/ability/rain-dish"
+      },
+      {
+        "value": "Grass Pelt",
+        "url": "https://pokeapi.co/api/v2/ability/grass-pelt"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "pokeapiId": 272,
+    "abilities": [
+      {
+        "value": "Swift Swim",
+        "url": "https://pokeapi.co/api/v2/ability/swift-swim"
+      },
+      {
+        "value": "Rain Dish",
+        "url": "https://pokeapi.co/api/v2/ability/rain-dish"
+      },
+      {
+        "value": "Grass Pelt",
+        "url": "https://pokeapi.co/api/v2/ability/grass-pelt"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "pokeapiId": 273,
+    "abilities": [
+      {
+        "value": "Chlorophyll",
+        "url": "https://pokeapi.co/api/v2/ability/chlorophyll"
+      },
+      {
+        "value": "Early Bird",
+        "url": "https://pokeapi.co/api/v2/ability/early-bird"
+      },
+      {
+        "value": "Pickpocket",
+        "url": "https://pokeapi.co/api/v2/ability/pickpocket"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "pokeapiId": 274,
+    "abilities": [
+      {
+        "value": "Chlorophyll",
+        "url": "https://pokeapi.co/api/v2/ability/chlorophyll"
+      },
+      {
+        "value": "Early Bird",
+        "url": "https://pokeapi.co/api/v2/ability/early-bird"
+      },
+      {
+        "value": "Pickpocket",
+        "url": "https://pokeapi.co/api/v2/ability/pickpocket"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "pokeapiId": 275,
+    "abilities": [
+      {
+        "value": "Chlorophyll",
+        "url": "https://pokeapi.co/api/v2/ability/chlorophyll"
+      },
+      {
+        "value": "Wind Rider",
+        "url": "https://pokeapi.co/api/v2/ability/wind-rider"
+      },
+      {
+        "value": "Pickpocket ",
+        "url": "https://pokeapi.co/api/v2/ability/pickpocket-"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "pokeapiId": 276,
+    "abilities": [
+      {
+        "value": "Guts",
+        "url": "https://pokeapi.co/api/v2/ability/guts"
+      },
+      {
+        "value": "Scrappy",
+        "url": "https://pokeapi.co/api/v2/ability/scrappy"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "pokeapiId": 277,
+    "abilities": [
+      {
+        "value": "Guts",
+        "url": "https://pokeapi.co/api/v2/ability/guts"
+      },
+      {
+        "value": "Scrappy",
+        "url": "https://pokeapi.co/api/v2/ability/scrappy"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "pokeapiId": 278,
+    "abilities": [
+      {
+        "value": "Keen Eye",
+        "url": "https://pokeapi.co/api/v2/ability/keen-eye"
+      },
+      {
+        "value": "Hydration",
+        "url": "https://pokeapi.co/api/v2/ability/hydration"
+      },
+      {
+        "value": "Rain Dish ",
+        "url": "https://pokeapi.co/api/v2/ability/rain-dish-"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "pokeapiId": 279,
+    "abilities": [
+      {
+        "value": "Keen Eye",
+        "url": "https://pokeapi.co/api/v2/ability/keen-eye"
+      },
+      {
+        "value": "Drizzle",
+        "url": "https://pokeapi.co/api/v2/ability/drizzle"
+      },
+      {
+        "value": "Rain Dish ",
+        "url": "https://pokeapi.co/api/v2/ability/rain-dish-"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "pokeapiId": 280,
+    "abilities": [
+      {
+        "value": "Synchronize",
+        "url": "https://pokeapi.co/api/v2/ability/synchronize"
+      },
+      {
+        "value": "Trace",
+        "url": "https://pokeapi.co/api/v2/ability/trace"
+      },
+      {
+        "value": "Telepathy ",
+        "url": "https://pokeapi.co/api/v2/ability/telepathy-"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "pokeapiId": 281,
+    "abilities": [
+      {
+        "value": "Synchronize",
+        "url": "https://pokeapi.co/api/v2/ability/synchronize"
+      },
+      {
+        "value": "Trace",
+        "url": "https://pokeapi.co/api/v2/ability/trace"
+      },
+      {
+        "value": "Telepathy",
+        "url": "https://pokeapi.co/api/v2/ability/telepathy"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "pokeapiId": 282,
+    "abilities": [
+      {
+        "value": "Synchronize",
+        "url": "https://pokeapi.co/api/v2/ability/synchronize"
+      },
+      {
+        "value": "Trace",
+        "url": "https://pokeapi.co/api/v2/ability/trace"
+      },
+      {
+        "value": "Telepathy ",
+        "url": "https://pokeapi.co/api/v2/ability/telepathy-"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "pokeapiId": 475,
+    "abilities": [
+      {
+        "value": "Steadfast",
+        "url": "https://pokeapi.co/api/v2/ability/steadfast"
+      },
+      {
+        "value": "Sharpness",
+        "url": "https://pokeapi.co/api/v2/ability/sharpness"
+      },
+      {
+        "value": "Justified",
+        "url": "https://pokeapi.co/api/v2/ability/justified"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "pokeapiId": 283,
+    "abilities": [
+      {
+        "value": "Swift Swim",
+        "url": "https://pokeapi.co/api/v2/ability/swift-swim"
+      },
+      {
+        "value": "Water Power",
+        "url": "https://pokeapi.co/api/v2/ability/water-power"
+      },
+      {
+        "value": "Rain Dish",
+        "url": "https://pokeapi.co/api/v2/ability/rain-dish"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "pokeapiId": 284,
+    "abilities": [
+      {
+        "value": "Intimidate",
+        "url": "https://pokeapi.co/api/v2/ability/intimidate"
+      },
+      {
+        "value": "Water Power",
+        "url": "https://pokeapi.co/api/v2/ability/water-power"
+      },
+      {
+        "value": "Rain Dish",
+        "url": "https://pokeapi.co/api/v2/ability/rain-dish"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "pokeapiId": 285,
+    "abilities": [
+      {
+        "value": "Effect Spore",
+        "url": "https://pokeapi.co/api/v2/ability/effect-spore"
+      },
+      {
+        "value": "Poison Heal",
+        "url": "https://pokeapi.co/api/v2/ability/poison-heal"
+      },
+      {
+        "value": "Quick Feet ",
+        "url": "https://pokeapi.co/api/v2/ability/quick-feet-"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "pokeapiId": 286,
+    "abilities": [
+      {
+        "value": "Effect Spore",
+        "url": "https://pokeapi.co/api/v2/ability/effect-spore"
+      },
+      {
+        "value": "Poison Heal",
+        "url": "https://pokeapi.co/api/v2/ability/poison-heal"
+      },
+      {
+        "value": "Technician ",
+        "url": "https://pokeapi.co/api/v2/ability/technician-"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "pokeapiId": 287,
+    "abilities": [
+      {
+        "value": "Truant",
+        "url": "https://pokeapi.co/api/v2/ability/truant"
+      },
+      {
+        "value": "Slow Start",
+        "url": "https://pokeapi.co/api/v2/ability/slow-start"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "pokeapiId": 288,
+    "abilities": [
+      {
+        "value": "Vital Spirit",
+        "url": "https://pokeapi.co/api/v2/ability/vital-spirit"
+      },
+      {
+        "value": "Mind's Eye",
+        "url": "https://pokeapi.co/api/v2/ability/mind's-eye"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "pokeapiId": 289,
+    "abilities": [
+      {
+        "value": "Truant",
+        "url": "https://pokeapi.co/api/v2/ability/truant"
+      },
+      {
+        "value": "Slow Start",
+        "url": "https://pokeapi.co/api/v2/ability/slow-start"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "pokeapiId": 290,
+    "abilities": [
+      {
+        "value": "Compound Eyes",
+        "url": "https://pokeapi.co/api/v2/ability/compound-eyes"
+      },
+      {
+        "value": "Run Away",
+        "url": "https://pokeapi.co/api/v2/ability/run-away"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "pokeapiId": 291,
+    "abilities": [
+      {
+        "value": "Speed Boost",
+        "url": "https://pokeapi.co/api/v2/ability/speed-boost"
+      },
+      {
+        "value": "Sharpness",
+        "url": "https://pokeapi.co/api/v2/ability/sharpness"
+      },
+      {
+        "value": "Infiltrator",
+        "url": "https://pokeapi.co/api/v2/ability/infiltrator"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "pokeapiId": 292,
+    "abilities": [
+      {
+        "value": "Wonder Guard",
+        "url": "https://pokeapi.co/api/v2/ability/wonder-guard"
+      },
+      {
+        "value": "N/A",
+        "url": "https://pokeapi.co/api/v2/ability/n/a"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "pokeapiId": 293,
+    "abilities": [
+      {
+        "value": "Soundproof",
+        "url": "https://pokeapi.co/api/v2/ability/soundproof"
+      },
+      {
+        "value": "Rattled",
+        "url": "https://pokeapi.co/api/v2/ability/rattled"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "pokeapiId": 294,
+    "abilities": [
+      {
+        "value": "Soundproof",
+        "url": "https://pokeapi.co/api/v2/ability/soundproof"
+      },
+      {
+        "value": "Scrappy",
+        "url": "https://pokeapi.co/api/v2/ability/scrappy"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "pokeapiId": 295,
+    "abilities": [
+      {
+        "value": "Soundproof",
+        "url": "https://pokeapi.co/api/v2/ability/soundproof"
+      },
+      {
+        "value": "Scrappy",
+        "url": "https://pokeapi.co/api/v2/ability/scrappy"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "pokeapiId": 296,
+    "abilities": [
+      {
+        "value": "Thick Fat",
+        "url": "https://pokeapi.co/api/v2/ability/thick-fat"
+      },
+      {
+        "value": "Guts",
+        "url": "https://pokeapi.co/api/v2/ability/guts"
+      },
+      {
+        "value": "Sheer Force",
+        "url": "https://pokeapi.co/api/v2/ability/sheer-force"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "pokeapiId": 297,
+    "abilities": [
+      {
+        "value": "Thick Fat",
+        "url": "https://pokeapi.co/api/v2/ability/thick-fat"
+      },
+      {
+        "value": "Guts",
+        "url": "https://pokeapi.co/api/v2/ability/guts"
+      },
+      {
+        "value": "Sheer Force ",
+        "url": "https://pokeapi.co/api/v2/ability/sheer-force-"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "pokeapiId": 299,
+    "abilities": [
+      {
+        "value": "Sturdy",
+        "url": "https://pokeapi.co/api/v2/ability/sturdy"
+      },
+      {
+        "value": "Magnet Pull",
+        "url": "https://pokeapi.co/api/v2/ability/magnet-pull"
+      },
+      {
+        "value": "Sand Force",
+        "url": "https://pokeapi.co/api/v2/ability/sand-force"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "pokeapiId": 476,
+    "abilities": [
+      {
+        "value": "Sturdy",
+        "url": "https://pokeapi.co/api/v2/ability/sturdy"
+      },
+      {
+        "value": "Magnet Pull",
+        "url": "https://pokeapi.co/api/v2/ability/magnet-pull"
+      },
+      {
+        "value": "Sand Force",
+        "url": "https://pokeapi.co/api/v2/ability/sand-force"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "pokeapiId": 300,
+    "abilities": [
+      {
+        "value": "Cute Charm",
+        "url": "https://pokeapi.co/api/v2/ability/cute-charm"
+      },
+      {
+        "value": "Normalize",
+        "url": "https://pokeapi.co/api/v2/ability/normalize"
+      },
+      {
+        "value": "Wonder Skin",
+        "url": "https://pokeapi.co/api/v2/ability/wonder-skin"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "pokeapiId": 301,
+    "abilities": [
+      {
+        "value": "Cute Charm",
+        "url": "https://pokeapi.co/api/v2/ability/cute-charm"
+      },
+      {
+        "value": "Normalize",
+        "url": "https://pokeapi.co/api/v2/ability/normalize"
+      },
+      {
+        "value": "Wonder Skin",
+        "url": "https://pokeapi.co/api/v2/ability/wonder-skin"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "pokeapiId": 302,
+    "abilities": [
+      {
+        "value": "Keen Eye",
+        "url": "https://pokeapi.co/api/v2/ability/keen-eye"
+      },
+      {
+        "value": "Stall",
+        "url": "https://pokeapi.co/api/v2/ability/stall"
+      },
+      {
+        "value": "Prankster",
+        "url": "https://pokeapi.co/api/v2/ability/prankster"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "pokeapiId": 303,
+    "abilities": [
+      {
+        "value": "Hyper Cutter",
+        "url": "https://pokeapi.co/api/v2/ability/hyper-cutter"
+      },
+      {
+        "value": "Intimidate",
+        "url": "https://pokeapi.co/api/v2/ability/intimidate"
+      },
+      {
+        "value": "Huge Power",
+        "url": "https://pokeapi.co/api/v2/ability/huge-power"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "pokeapiId": 304,
+    "abilities": [
+      {
+        "value": "Sturdy",
+        "url": "https://pokeapi.co/api/v2/ability/sturdy"
+      },
+      {
+        "value": "Rock Head",
+        "url": "https://pokeapi.co/api/v2/ability/rock-head"
+      },
+      {
+        "value": "Heavy Metal",
+        "url": "https://pokeapi.co/api/v2/ability/heavy-metal"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "pokeapiId": 305,
+    "abilities": [
+      {
+        "value": "Sturdy",
+        "url": "https://pokeapi.co/api/v2/ability/sturdy"
+      },
+      {
+        "value": "Rock Head",
+        "url": "https://pokeapi.co/api/v2/ability/rock-head"
+      },
+      {
+        "value": "Heavy Metal",
+        "url": "https://pokeapi.co/api/v2/ability/heavy-metal"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "pokeapiId": 306,
+    "abilities": [
+      {
+        "value": "Sturdy",
+        "url": "https://pokeapi.co/api/v2/ability/sturdy"
+      },
+      {
+        "value": "Rock Head",
+        "url": "https://pokeapi.co/api/v2/ability/rock-head"
+      },
+      {
+        "value": "Heavy Metal",
+        "url": "https://pokeapi.co/api/v2/ability/heavy-metal"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "pokeapiId": 307,
+    "abilities": [
+      {
+        "value": "Pure Power",
+        "url": "https://pokeapi.co/api/v2/ability/pure-power"
+      },
+      {
+        "value": "Telepathy ",
+        "url": "https://pokeapi.co/api/v2/ability/telepathy-"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "pokeapiId": 308,
+    "abilities": [
+      {
+        "value": "Athletic",
+        "url": "https://pokeapi.co/api/v2/ability/athletic"
+      },
+      {
+        "value": "Pure Power",
+        "url": "https://pokeapi.co/api/v2/ability/pure-power"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "pokeapiId": 309,
+    "abilities": [
+      {
+        "value": "Static",
+        "url": "https://pokeapi.co/api/v2/ability/static"
+      },
+      {
+        "value": "Lightning Rod",
+        "url": "https://pokeapi.co/api/v2/ability/lightning-rod"
+      },
+      {
+        "value": "Electric Surge",
+        "url": "https://pokeapi.co/api/v2/ability/electric-surge"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "pokeapiId": 310,
+    "abilities": [
+      {
+        "value": "Static",
+        "url": "https://pokeapi.co/api/v2/ability/static"
+      },
+      {
+        "value": "Lightning Rod",
+        "url": "https://pokeapi.co/api/v2/ability/lightning-rod"
+      },
+      {
+        "value": "Electric Surge",
+        "url": "https://pokeapi.co/api/v2/ability/electric-surge"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "pokeapiId": 311,
+    "abilities": [
+      {
+        "value": "Plus",
+        "url": "https://pokeapi.co/api/v2/ability/plus"
+      },
+      {
+        "value": "Lightning Rod",
+        "url": "https://pokeapi.co/api/v2/ability/lightning-rod"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "pokeapiId": 312,
+    "abilities": [
+      {
+        "value": "Minus",
+        "url": "https://pokeapi.co/api/v2/ability/minus"
+      },
+      {
+        "value": "Volt Absorb",
+        "url": "https://pokeapi.co/api/v2/ability/volt-absorb"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "pokeapiId": 313,
+    "abilities": [
+      {
+        "value": "Illuminate",
+        "url": "https://pokeapi.co/api/v2/ability/illuminate"
+      },
+      {
+        "value": "Swarm",
+        "url": "https://pokeapi.co/api/v2/ability/swarm"
+      },
+      {
+        "value": "Prankster ",
+        "url": "https://pokeapi.co/api/v2/ability/prankster-"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "pokeapiId": 314,
+    "abilities": [
+      {
+        "value": "Oblivious",
+        "url": "https://pokeapi.co/api/v2/ability/oblivious"
+      },
+      {
+        "value": "Tinted Lens",
+        "url": "https://pokeapi.co/api/v2/ability/tinted-lens"
+      },
+      {
+        "value": "Prankster ",
+        "url": "https://pokeapi.co/api/v2/ability/prankster-"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "pokeapiId": 406,
+    "abilities": [
+      {
+        "value": "Natural Cure",
+        "url": "https://pokeapi.co/api/v2/ability/natural-cure"
+      },
+      {
+        "value": "Poison Point",
+        "url": "https://pokeapi.co/api/v2/ability/poison-point"
+      },
+      {
+        "value": "Leaf Guard",
+        "url": "https://pokeapi.co/api/v2/ability/leaf-guard"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "pokeapiId": 315,
+    "abilities": [
+      {
+        "value": "Natural Cure",
+        "url": "https://pokeapi.co/api/v2/ability/natural-cure"
+      },
+      {
+        "value": "Poison Point",
+        "url": "https://pokeapi.co/api/v2/ability/poison-point"
+      },
+      {
+        "value": "Leaf Guard",
+        "url": "https://pokeapi.co/api/v2/ability/leaf-guard"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "pokeapiId": 407,
+    "abilities": [
+      {
+        "value": "Natural Cure",
+        "url": "https://pokeapi.co/api/v2/ability/natural-cure"
+      },
+      {
+        "value": "Poison Point",
+        "url": "https://pokeapi.co/api/v2/ability/poison-point"
+      },
+      {
+        "value": "Technician ",
+        "url": "https://pokeapi.co/api/v2/ability/technician-"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "pokeapiId": 316,
+    "abilities": [
+      {
+        "value": "Liquid Ooze",
+        "url": "https://pokeapi.co/api/v2/ability/liquid-ooze"
+      },
+      {
+        "value": "Sticky Hold",
+        "url": "https://pokeapi.co/api/v2/ability/sticky-hold"
+      },
+      {
+        "value": "Gluttony ",
+        "url": "https://pokeapi.co/api/v2/ability/gluttony-"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "pokeapiId": 317,
+    "abilities": [
+      {
+        "value": "Liquid Ooze",
+        "url": "https://pokeapi.co/api/v2/ability/liquid-ooze"
+      },
+      {
+        "value": "Sticky Hold",
+        "url": "https://pokeapi.co/api/v2/ability/sticky-hold"
+      },
+      {
+        "value": "Gluttony ",
+        "url": "https://pokeapi.co/api/v2/ability/gluttony-"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "pokeapiId": 318,
+    "abilities": [
+      {
+        "value": "Rough Skin",
+        "url": "https://pokeapi.co/api/v2/ability/rough-skin"
+      },
+      {
+        "value": "Speed Boost ",
+        "url": "https://pokeapi.co/api/v2/ability/speed-boost-"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "pokeapiId": 319,
+    "abilities": [
+      {
+        "value": "Rough Skin",
+        "url": "https://pokeapi.co/api/v2/ability/rough-skin"
+      },
+      {
+        "value": "Speed Boost ",
+        "url": "https://pokeapi.co/api/v2/ability/speed-boost-"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "pokeapiId": 320,
+    "abilities": [
+      {
+        "value": "Water Veil",
+        "url": "https://pokeapi.co/api/v2/ability/water-veil"
+      },
+      {
+        "value": "Oblivious",
+        "url": "https://pokeapi.co/api/v2/ability/oblivious"
+      },
+      {
+        "value": "Liquid Voice",
+        "url": "https://pokeapi.co/api/v2/ability/liquid-voice"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "pokeapiId": 321,
+    "abilities": [
+      {
+        "value": "Water Veil",
+        "url": "https://pokeapi.co/api/v2/ability/water-veil"
+      },
+      {
+        "value": "Oblivious",
+        "url": "https://pokeapi.co/api/v2/ability/oblivious"
+      },
+      {
+        "value": "Liquid Voice",
+        "url": "https://pokeapi.co/api/v2/ability/liquid-voice"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "pokeapiId": 322,
+    "abilities": [
+      {
+        "value": "Oblivious",
+        "url": "https://pokeapi.co/api/v2/ability/oblivious"
+      },
+      {
+        "value": "Simple",
+        "url": "https://pokeapi.co/api/v2/ability/simple"
+      },
+      {
+        "value": "Own Tempo",
+        "url": "https://pokeapi.co/api/v2/ability/own-tempo"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "pokeapiId": 323,
+    "abilities": [
+      {
+        "value": "Magma Armor",
+        "url": "https://pokeapi.co/api/v2/ability/magma-armor"
+      },
+      {
+        "value": "Solid Rock",
+        "url": "https://pokeapi.co/api/v2/ability/solid-rock"
+      },
+      {
+        "value": "Anger Point",
+        "url": "https://pokeapi.co/api/v2/ability/anger-point"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "pokeapiId": 324,
+    "abilities": [
+      {
+        "value": "White Smoke",
+        "url": "https://pokeapi.co/api/v2/ability/white-smoke"
+      },
+      {
+        "value": "Drought",
+        "url": "https://pokeapi.co/api/v2/ability/drought"
+      },
+      {
+        "value": "Shell Armor",
+        "url": "https://pokeapi.co/api/v2/ability/shell-armor"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "pokeapiId": 325,
+    "abilities": [
+      {
+        "value": "Thick Fat",
+        "url": "https://pokeapi.co/api/v2/ability/thick-fat"
+      },
+      {
+        "value": "Own Tempo",
+        "url": "https://pokeapi.co/api/v2/ability/own-tempo"
+      },
+      {
+        "value": "Gluttony ",
+        "url": "https://pokeapi.co/api/v2/ability/gluttony-"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "pokeapiId": 326,
+    "abilities": [
+      {
+        "value": "Thick Fat",
+        "url": "https://pokeapi.co/api/v2/ability/thick-fat"
+      },
+      {
+        "value": "Own Tempo",
+        "url": "https://pokeapi.co/api/v2/ability/own-tempo"
+      },
+      {
+        "value": "Gluttony ",
+        "url": "https://pokeapi.co/api/v2/ability/gluttony-"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "pokeapiId": 327,
+    "abilities": [
+      {
+        "value": "Own Tempo",
+        "url": "https://pokeapi.co/api/v2/ability/own-tempo"
+      },
+      {
+        "value": "Tangled Feet",
+        "url": "https://pokeapi.co/api/v2/ability/tangled-feet"
+      },
+      {
+        "value": "Contrary",
+        "url": "https://pokeapi.co/api/v2/ability/contrary"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "pokeapiId": 328,
+    "abilities": [
+      {
+        "value": "Hyper Cutter",
+        "url": "https://pokeapi.co/api/v2/ability/hyper-cutter"
+      },
+      {
+        "value": "Arena Trap",
+        "url": "https://pokeapi.co/api/v2/ability/arena-trap"
+      },
+      {
+        "value": "Sheer Force ",
+        "url": "https://pokeapi.co/api/v2/ability/sheer-force-"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "pokeapiId": 329,
+    "abilities": [
+      {
+        "value": "Levitate",
+        "url": "https://pokeapi.co/api/v2/ability/levitate"
+      },
+      {
+        "value": "Sheer Force ",
+        "url": "https://pokeapi.co/api/v2/ability/sheer-force-"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "pokeapiId": 330,
+    "abilities": [
+      {
+        "value": "Levitate",
+        "url": "https://pokeapi.co/api/v2/ability/levitate"
+      },
+      {
+        "value": "Sheer Force ",
+        "url": "https://pokeapi.co/api/v2/ability/sheer-force-"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "pokeapiId": 331,
+    "abilities": [
+      {
+        "value": "Sand Veil",
+        "url": "https://pokeapi.co/api/v2/ability/sand-veil"
+      },
+      {
+        "value": "Water Absorb",
+        "url": "https://pokeapi.co/api/v2/ability/water-absorb"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "pokeapiId": 332,
+    "abilities": [
+      {
+        "value": "Sand Veil",
+        "url": "https://pokeapi.co/api/v2/ability/sand-veil"
+      },
+      {
+        "value": "Water Absorb ",
+        "url": "https://pokeapi.co/api/v2/ability/water-absorb-"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "pokeapiId": 333,
+    "abilities": [
+      {
+        "value": "Natural Cure",
+        "url": "https://pokeapi.co/api/v2/ability/natural-cure"
+      },
+      {
+        "value": "Pixilate",
+        "url": "https://pokeapi.co/api/v2/ability/pixilate"
+      },
+      {
+        "value": "Fluffy",
+        "url": "https://pokeapi.co/api/v2/ability/fluffy"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "pokeapiId": 334,
+    "abilities": [
+      {
+        "value": "Natural Cure",
+        "url": "https://pokeapi.co/api/v2/ability/natural-cure"
+      },
+      {
+        "value": "Pixilate",
+        "url": "https://pokeapi.co/api/v2/ability/pixilate"
+      },
+      {
+        "value": "Fluffy",
+        "url": "https://pokeapi.co/api/v2/ability/fluffy"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "pokeapiId": 335,
+    "abilities": [
+      {
+        "value": "Immunity",
+        "url": "https://pokeapi.co/api/v2/ability/immunity"
+      },
+      {
+        "value": "Sharpness",
+        "url": "https://pokeapi.co/api/v2/ability/sharpness"
+      },
+      {
+        "value": "Toxic Boost",
+        "url": "https://pokeapi.co/api/v2/ability/toxic-boost"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "pokeapiId": 336,
+    "abilities": [
+      {
+        "value": "Shed Skin",
+        "url": "https://pokeapi.co/api/v2/ability/shed-skin"
+      },
+      {
+        "value": "Strong Jaw",
+        "url": "https://pokeapi.co/api/v2/ability/strong-jaw"
+      },
+      {
+        "value": "Infiltrator",
+        "url": "https://pokeapi.co/api/v2/ability/infiltrator"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "pokeapiId": 337,
+    "abilities": [
+      {
+        "value": "Levitate",
+        "url": "https://pokeapi.co/api/v2/ability/levitate"
+      },
+      {
+        "value": "N/A",
+        "url": "https://pokeapi.co/api/v2/ability/n/a"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "pokeapiId": 338,
+    "abilities": [
+      {
+        "value": "Levitate",
+        "url": "https://pokeapi.co/api/v2/ability/levitate"
+      },
+      {
+        "value": "N/A",
+        "url": "https://pokeapi.co/api/v2/ability/n/a"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "pokeapiId": 339,
+    "abilities": [
+      {
+        "value": "Oblivious",
+        "url": "https://pokeapi.co/api/v2/ability/oblivious"
+      },
+      {
+        "value": "Anticipation",
+        "url": "https://pokeapi.co/api/v2/ability/anticipation"
+      },
+      {
+        "value": "Hydration ",
+        "url": "https://pokeapi.co/api/v2/ability/hydration-"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "pokeapiId": 340,
+    "abilities": [
+      {
+        "value": "Oblivious",
+        "url": "https://pokeapi.co/api/v2/ability/oblivious"
+      },
+      {
+        "value": "Anticipation",
+        "url": "https://pokeapi.co/api/v2/ability/anticipation"
+      },
+      {
+        "value": "Hydration ",
+        "url": "https://pokeapi.co/api/v2/ability/hydration-"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "pokeapiId": 341,
+    "abilities": [
+      {
+        "value": "Hyper Cutter",
+        "url": "https://pokeapi.co/api/v2/ability/hyper-cutter"
+      },
+      {
+        "value": "Shell Armor",
+        "url": "https://pokeapi.co/api/v2/ability/shell-armor"
+      },
+      {
+        "value": "Adaptability ",
+        "url": "https://pokeapi.co/api/v2/ability/adaptability-"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "pokeapiId": 342,
+    "abilities": [
+      {
+        "value": "Hyper Cutter",
+        "url": "https://pokeapi.co/api/v2/ability/hyper-cutter"
+      },
+      {
+        "value": "Shell Armor",
+        "url": "https://pokeapi.co/api/v2/ability/shell-armor"
+      },
+      {
+        "value": "Adaptability ",
+        "url": "https://pokeapi.co/api/v2/ability/adaptability-"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "pokeapiId": 343,
+    "abilities": [
+      {
+        "value": "Levitate",
+        "url": "https://pokeapi.co/api/v2/ability/levitate"
+      },
+      {
+        "value": "Hustle",
+        "url": "https://pokeapi.co/api/v2/ability/hustle"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "pokeapiId": 344,
+    "abilities": [
+      {
+        "value": "Levitate",
+        "url": "https://pokeapi.co/api/v2/ability/levitate"
+      },
+      {
+        "value": "Huge Power",
+        "url": "https://pokeapi.co/api/v2/ability/huge-power"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "pokeapiId": 345,
+    "abilities": [
+      {
+        "value": "Suction Cups",
+        "url": "https://pokeapi.co/api/v2/ability/suction-cups"
+      },
+      {
+        "value": "Storm Drain",
+        "url": "https://pokeapi.co/api/v2/ability/storm-drain"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "pokeapiId": 346,
+    "abilities": [
+      {
+        "value": "Suction Cups",
+        "url": "https://pokeapi.co/api/v2/ability/suction-cups"
+      },
+      {
+        "value": "Storm Drain",
+        "url": "https://pokeapi.co/api/v2/ability/storm-drain"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "pokeapiId": 347,
+    "abilities": [
+      {
+        "value": "Battle Armor",
+        "url": "https://pokeapi.co/api/v2/ability/battle-armor"
+      },
+      {
+        "value": "Water Power",
+        "url": "https://pokeapi.co/api/v2/ability/water-power"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "pokeapiId": 348,
+    "abilities": [
+      {
+        "value": "Battle Armor",
+        "url": "https://pokeapi.co/api/v2/ability/battle-armor"
+      },
+      {
+        "value": "Water Power ",
+        "url": "https://pokeapi.co/api/v2/ability/water-power-"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "pokeapiId": 349,
+    "abilities": [
+      {
+        "value": "Swift Swim",
+        "url": "https://pokeapi.co/api/v2/ability/swift-swim"
+      },
+      {
+        "value": "Oblivious",
+        "url": "https://pokeapi.co/api/v2/ability/oblivious"
+      },
+      {
+        "value": "Adaptability ",
+        "url": "https://pokeapi.co/api/v2/ability/adaptability-"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "pokeapiId": 350,
+    "abilities": [
+      {
+        "value": "Marvel Scale",
+        "url": "https://pokeapi.co/api/v2/ability/marvel-scale"
+      },
+      {
+        "value": "Competitive",
+        "url": "https://pokeapi.co/api/v2/ability/competitive"
+      },
+      {
+        "value": "Cute Charm",
+        "url": "https://pokeapi.co/api/v2/ability/cute-charm"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "pokeapiId": 351,
+    "abilities": [
+      {
+        "value": "Forecast",
+        "url": "https://pokeapi.co/api/v2/ability/forecast"
+      },
+      {
+        "value": "N/A",
+        "url": "https://pokeapi.co/api/v2/ability/n/a"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "pokeapiId": 352,
+    "abilities": [
+      {
+        "value": "Color Change",
+        "url": "https://pokeapi.co/api/v2/ability/color-change"
+      },
+      {
+        "value": "Protean",
+        "url": "https://pokeapi.co/api/v2/ability/protean"
+      },
+      {
+        "value": "Prism Armor",
+        "url": "https://pokeapi.co/api/v2/ability/prism-armor"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "pokeapiId": 353,
+    "abilities": [
+      {
+        "value": "Insomnia",
+        "url": "https://pokeapi.co/api/v2/ability/insomnia"
+      },
+      {
+        "value": "Frisk",
+        "url": "https://pokeapi.co/api/v2/ability/frisk"
+      },
+      {
+        "value": "Cursed Body",
+        "url": "https://pokeapi.co/api/v2/ability/cursed-body"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "pokeapiId": 354,
+    "abilities": [
+      {
+        "value": "Insomnia",
+        "url": "https://pokeapi.co/api/v2/ability/insomnia"
+      },
+      {
+        "value": "Frisk",
+        "url": "https://pokeapi.co/api/v2/ability/frisk"
+      },
+      {
+        "value": "Cursed Body",
+        "url": "https://pokeapi.co/api/v2/ability/cursed-body"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "pokeapiId": 355,
+    "abilities": [
+      {
+        "value": "Levitate",
+        "url": "https://pokeapi.co/api/v2/ability/levitate"
+      },
+      {
+        "value": "Frisk",
+        "url": "https://pokeapi.co/api/v2/ability/frisk"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "pokeapiId": 356,
+    "abilities": [
+      {
+        "value": "Pressure",
+        "url": "https://pokeapi.co/api/v2/ability/pressure"
+      },
+      {
+        "value": "Frisk",
+        "url": "https://pokeapi.co/api/v2/ability/frisk"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "pokeapiId": 477,
+    "abilities": [
+      {
+        "value": "Pressure",
+        "url": "https://pokeapi.co/api/v2/ability/pressure"
+      },
+      {
+        "value": "Frisk",
+        "url": "https://pokeapi.co/api/v2/ability/frisk"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "pokeapiId": 357,
+    "abilities": [
+      {
+        "value": "Thick Fat",
+        "url": "https://pokeapi.co/api/v2/ability/thick-fat"
+      },
+      {
+        "value": "Solar Power",
+        "url": "https://pokeapi.co/api/v2/ability/solar-power"
+      },
+      {
+        "value": "Harvest",
+        "url": "https://pokeapi.co/api/v2/ability/harvest"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "pokeapiId": 433,
+    "abilities": [
+      {
+        "value": "Levitate",
+        "url": "https://pokeapi.co/api/v2/ability/levitate"
+      },
+      {
+        "value": "Toxic Debris",
+        "url": "https://pokeapi.co/api/v2/ability/toxic-debris"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "pokeapiId": 358,
+    "abilities": [
+      {
+        "value": "Levitate",
+        "url": "https://pokeapi.co/api/v2/ability/levitate"
+      },
+      {
+        "value": "Toxic Debris",
+        "url": "https://pokeapi.co/api/v2/ability/toxic-debris"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "pokeapiId": 359,
+    "abilities": [
+      {
+        "value": "Pressure",
+        "url": "https://pokeapi.co/api/v2/ability/pressure"
+      },
+      {
+        "value": "Super Luck",
+        "url": "https://pokeapi.co/api/v2/ability/super-luck"
+      },
+      {
+        "value": "Sharpness",
+        "url": "https://pokeapi.co/api/v2/ability/sharpness"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "pokeapiId": 361,
+    "abilities": [
+      {
+        "value": "Inner Focus",
+        "url": "https://pokeapi.co/api/v2/ability/inner-focus"
+      },
+      {
+        "value": "Ice Body",
+        "url": "https://pokeapi.co/api/v2/ability/ice-body"
+      },
+      {
+        "value": "Moody",
+        "url": "https://pokeapi.co/api/v2/ability/moody"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "pokeapiId": 362,
+    "abilities": [
+      {
+        "value": "Strong Jaw",
+        "url": "https://pokeapi.co/api/v2/ability/strong-jaw"
+      },
+      {
+        "value": "Ice Body",
+        "url": "https://pokeapi.co/api/v2/ability/ice-body"
+      },
+      {
+        "value": "Moody",
+        "url": "https://pokeapi.co/api/v2/ability/moody"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "pokeapiId": 478,
+    "abilities": [
+      {
+        "value": "Snow Cloak",
+        "url": "https://pokeapi.co/api/v2/ability/snow-cloak"
+      },
+      {
+        "value": "Soul-Heart",
+        "url": "https://pokeapi.co/api/v2/ability/soul-heart"
+      },
+      {
+        "value": "Cursed Body ",
+        "url": "https://pokeapi.co/api/v2/ability/cursed-body-"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "pokeapiId": 363,
+    "abilities": [
+      {
+        "value": "Thick Fat",
+        "url": "https://pokeapi.co/api/v2/ability/thick-fat"
+      },
+      {
+        "value": "Fur Coat",
+        "url": "https://pokeapi.co/api/v2/ability/fur-coat"
+      },
+      {
+        "value": "Ice Scales",
+        "url": "https://pokeapi.co/api/v2/ability/ice-scales"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "pokeapiId": 364,
+    "abilities": [
+      {
+        "value": "Thick Fat",
+        "url": "https://pokeapi.co/api/v2/ability/thick-fat"
+      },
+      {
+        "value": "Fur Coat",
+        "url": "https://pokeapi.co/api/v2/ability/fur-coat"
+      },
+      {
+        "value": "Ice Scales",
+        "url": "https://pokeapi.co/api/v2/ability/ice-scales"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "pokeapiId": 365,
+    "abilities": [
+      {
+        "value": "Thick Fat",
+        "url": "https://pokeapi.co/api/v2/ability/thick-fat"
+      },
+      {
+        "value": "Fur Coat",
+        "url": "https://pokeapi.co/api/v2/ability/fur-coat"
+      },
+      {
+        "value": "Ice Scales",
+        "url": "https://pokeapi.co/api/v2/ability/ice-scales"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "pokeapiId": 366,
+    "abilities": [
+      {
+        "value": "Shell Armor",
+        "url": "https://pokeapi.co/api/v2/ability/shell-armor"
+      },
+      {
+        "value": "Rattled",
+        "url": "https://pokeapi.co/api/v2/ability/rattled"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "pokeapiId": 367,
+    "abilities": [
+      {
+        "value": "Intimidate",
+        "url": "https://pokeapi.co/api/v2/ability/intimidate"
+      },
+      {
+        "value": "Water Veil",
+        "url": "https://pokeapi.co/api/v2/ability/water-veil"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "pokeapiId": 368,
+    "abilities": [
+      {
+        "value": "Regenerator",
+        "url": "https://pokeapi.co/api/v2/ability/regenerator"
+      },
+      {
+        "value": "Hydration ",
+        "url": "https://pokeapi.co/api/v2/ability/hydration-"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "pokeapiId": 369,
+    "abilities": [
+      {
+        "value": "Swift Swim",
+        "url": "https://pokeapi.co/api/v2/ability/swift-swim"
+      },
+      {
+        "value": "Rock Head",
+        "url": "https://pokeapi.co/api/v2/ability/rock-head"
+      },
+      {
+        "value": "Last Survivor",
+        "url": "https://pokeapi.co/api/v2/ability/last-survivor"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "pokeapiId": 370,
+    "abilities": [
+      {
+        "value": "Swift Swim",
+        "url": "https://pokeapi.co/api/v2/ability/swift-swim"
+      },
+      {
+        "value": "Soul-Heart",
+        "url": "https://pokeapi.co/api/v2/ability/soul-heart"
+      },
+      {
+        "value": "Hydration ",
+        "url": "https://pokeapi.co/api/v2/ability/hydration-"
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "pokeapiId": 371,
+    "abilities": [
+      {
+        "value": "Rock Head",
+        "url": "https://pokeapi.co/api/v2/ability/rock-head"
+      },
+      {
+        "value": "Sheer Force",
+        "url": "https://pokeapi.co/api/v2/ability/sheer-force"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "pokeapiId": 372,
+    "abilities": [
+      {
+        "value": "Rock Head",
+        "url": "https://pokeapi.co/api/v2/ability/rock-head"
+      },
+      {
+        "value": "Overcoat",
+        "url": "https://pokeapi.co/api/v2/ability/overcoat"
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "pokeapiId": 373,
+    "abilities": [
+      {
+        "value": "Intimidate",
+        "url": "https://pokeapi.co/api/v2/ability/intimidate"
+      },
+      {
+        "value": "Moxie",
+        "url": "https://pokeapi.co/api/v2/ability/moxie"
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "pokeapiId": 374,
+    "abilities": [
+      {
+        "value": "Clear Body",
+        "url": "https://pokeapi.co/api/v2/ability/clear-body"
+      },
+      {
+        "value": "Light Metal",
+        "url": "https://pokeapi.co/api/v2/ability/light-metal"
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "pokeapiId": 375,
+    "abilities": [
+      {
+        "value": "Clear Body",
+        "url": "https://pokeapi.co/api/v2/ability/clear-body"
+      },
+      {
+        "value": "Light Metal",
+        "url": "https://pokeapi.co/api/v2/ability/light-metal"
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "pokeapiId": 376,
+    "abilities": [
+      {
+        "value": "Clear Body",
+        "url": "https://pokeapi.co/api/v2/ability/clear-body"
+      },
+      {
+        "value": "Light Metal",
+        "url": "https://pokeapi.co/api/v2/ability/light-metal"
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "pokeapiId": 377,
+    "abilities": [
+      {
+        "value": "Clear Body",
+        "url": "https://pokeapi.co/api/v2/ability/clear-body"
+      },
+      {
+        "value": "Sturdy",
+        "url": "https://pokeapi.co/api/v2/ability/sturdy"
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "pokeapiId": 378,
+    "abilities": [
+      {
+        "value": "Clear Body",
+        "url": "https://pokeapi.co/api/v2/ability/clear-body"
+      },
+      {
+        "value": "Light Metal",
+        "url": "https://pokeapi.co/api/v2/ability/light-metal"
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "pokeapiId": 379,
+    "abilities": [
+      {
+        "value": "Clear Body",
+        "url": "https://pokeapi.co/api/v2/ability/clear-body"
+      },
+      {
+        "value": "Ice Body",
+        "url": "https://pokeapi.co/api/v2/ability/ice-body"
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "pokeapiId": 380,
+    "abilities": [
+      {
+        "value": "Levitate",
+        "url": "https://pokeapi.co/api/v2/ability/levitate"
+      },
+      {
+        "value": "N/A",
+        "url": "https://pokeapi.co/api/v2/ability/n/a"
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "pokeapiId": 381,
+    "abilities": [
+      {
+        "value": "Levitate",
+        "url": "https://pokeapi.co/api/v2/ability/levitate"
+      },
+      {
+        "value": "N/A",
+        "url": "https://pokeapi.co/api/v2/ability/n/a"
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "pokeapiId": 382,
+    "abilities": [
+      {
+        "value": "Drizzle",
+        "url": "https://pokeapi.co/api/v2/ability/drizzle"
+      },
+      {
+        "value": "N/A",
+        "url": "https://pokeapi.co/api/v2/ability/n/a"
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "pokeapiId": 383,
+    "abilities": [
+      {
+        "value": "Drought",
+        "url": "https://pokeapi.co/api/v2/ability/drought"
+      },
+      {
+        "value": "N/A",
+        "url": "https://pokeapi.co/api/v2/ability/n/a"
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "pokeapiId": 384,
+    "abilities": [
+      {
+        "value": "Air Lock",
+        "url": "https://pokeapi.co/api/v2/ability/air-lock"
+      },
+      {
+        "value": "N/A",
+        "url": "https://pokeapi.co/api/v2/ability/n/a"
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "pokeapiId": 385,
+    "abilities": [
+      {
+        "value": "Serene Grace",
+        "url": "https://pokeapi.co/api/v2/ability/serene-grace"
+      },
+      {
+        "value": "N/A",
+        "url": "https://pokeapi.co/api/v2/ability/n/a"
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "pokeapiId": 386,
+    "abilities": [
+      {
+        "value": "Pressure",
+        "url": "https://pokeapi.co/api/v2/ability/pressure"
+      },
+      {
+        "value": "N/A",
+        "url": "https://pokeapi.co/api/v2/ability/n/a"
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "pokeapiId": 1,
+    "abilities": [
+      {
+        "value": "Overgrow",
+        "url": "https://pokeapi.co/api/v2/ability/overgrow"
+      },
+      {
+        "value": "Chlorophyll",
+        "url": "https://pokeapi.co/api/v2/ability/chlorophyll"
+      },
+      {
+        "value": "Thick Fat",
+        "url": "https://pokeapi.co/api/v2/ability/thick-fat"
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "pokeapiId": 2,
+    "abilities": [
+      {
+        "value": "Overgrow",
+        "url": "https://pokeapi.co/api/v2/ability/overgrow"
+      },
+      {
+        "value": "Chlorophyll",
+        "url": "https://pokeapi.co/api/v2/ability/chlorophyll"
+      },
+      {
+        "value": "Thick Fat",
+        "url": "https://pokeapi.co/api/v2/ability/thick-fat"
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "pokeapiId": 3,
+    "abilities": [
+      {
+        "value": "Overgrow",
+        "url": "https://pokeapi.co/api/v2/ability/overgrow"
+      },
+      {
+        "value": "Chlorophyll",
+        "url": "https://pokeapi.co/api/v2/ability/chlorophyll"
+      },
+      {
+        "value": "Thick Fat",
+        "url": "https://pokeapi.co/api/v2/ability/thick-fat"
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "pokeapiId": 4,
+    "abilities": [
+      {
+        "value": "Blaze",
+        "url": "https://pokeapi.co/api/v2/ability/blaze"
+      },
+      {
+        "value": "Solar Power",
+        "url": "https://pokeapi.co/api/v2/ability/solar-power"
+      },
+      {
+        "value": "Drought",
+        "url": "https://pokeapi.co/api/v2/ability/drought"
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "pokeapiId": 5,
+    "abilities": [
+      {
+        "value": "Blaze",
+        "url": "https://pokeapi.co/api/v2/ability/blaze"
+      },
+      {
+        "value": "Solar Power",
+        "url": "https://pokeapi.co/api/v2/ability/solar-power"
+      },
+      {
+        "value": "Drought",
+        "url": "https://pokeapi.co/api/v2/ability/drought"
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "pokeapiId": 6,
+    "abilities": [
+      {
+        "value": "Blaze",
+        "url": "https://pokeapi.co/api/v2/ability/blaze"
+      },
+      {
+        "value": "Solar Power",
+        "url": "https://pokeapi.co/api/v2/ability/solar-power"
+      },
+      {
+        "value": "Drought",
+        "url": "https://pokeapi.co/api/v2/ability/drought"
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "pokeapiId": 7,
+    "abilities": [
+      {
+        "value": "Torrent",
+        "url": "https://pokeapi.co/api/v2/ability/torrent"
+      },
+      {
+        "value": "Rain DIsh",
+        "url": "https://pokeapi.co/api/v2/ability/rain-dish"
+      },
+      {
+        "value": "Mega Launcher",
+        "url": "https://pokeapi.co/api/v2/ability/mega-launcher"
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "pokeapiId": 8,
+    "abilities": [
+      {
+        "value": "Torrent",
+        "url": "https://pokeapi.co/api/v2/ability/torrent"
+      },
+      {
+        "value": "Rain DIsh",
+        "url": "https://pokeapi.co/api/v2/ability/rain-dish"
+      },
+      {
+        "value": "Mega Launcher",
+        "url": "https://pokeapi.co/api/v2/ability/mega-launcher"
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "pokeapiId": 9,
+    "abilities": [
+      {
+        "value": "Torrent",
+        "url": "https://pokeapi.co/api/v2/ability/torrent"
+      },
+      {
+        "value": "Rain DIsh",
+        "url": "https://pokeapi.co/api/v2/ability/rain-dish"
+      },
+      {
+        "value": "Mega Launcher",
+        "url": "https://pokeapi.co/api/v2/ability/mega-launcher"
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "pokeapiId": 10,
+    "abilities": [
+      {
+        "value": "Shield Dust",
+        "url": "https://pokeapi.co/api/v2/ability/shield-dust"
+      },
+      {
+        "value": "Run Away ",
+        "url": "https://pokeapi.co/api/v2/ability/run-away-"
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "pokeapiId": 11,
+    "abilities": [
+      {
+        "value": "Shed Skin",
+        "url": "https://pokeapi.co/api/v2/ability/shed-skin"
+      },
+      {
+        "value": "N/A",
+        "url": "https://pokeapi.co/api/v2/ability/n/a"
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "pokeapiId": 12,
+    "abilities": [
+      {
+        "value": "Compound Eyes",
+        "url": "https://pokeapi.co/api/v2/ability/compound-eyes"
+      },
+      {
+        "value": "Tinted Lens ",
+        "url": "https://pokeapi.co/api/v2/ability/tinted-lens-"
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "pokeapiId": 13,
+    "abilities": [
+      {
+        "value": "Shield Dust",
+        "url": "https://pokeapi.co/api/v2/ability/shield-dust"
+      },
+      {
+        "value": "Run Away ",
+        "url": "https://pokeapi.co/api/v2/ability/run-away-"
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "pokeapiId": 14,
+    "abilities": [
+      {
+        "value": "Shed Skin",
+        "url": "https://pokeapi.co/api/v2/ability/shed-skin"
+      },
+      {
+        "value": "N/A",
+        "url": "https://pokeapi.co/api/v2/ability/n/a"
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "pokeapiId": 15,
+    "abilities": [
+      {
+        "value": "Swarm",
+        "url": "https://pokeapi.co/api/v2/ability/swarm"
+      },
+      {
+        "value": "Sniper",
+        "url": "https://pokeapi.co/api/v2/ability/sniper"
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "pokeapiId": 16,
+    "abilities": [
+      {
+        "value": "Keen Eye",
+        "url": "https://pokeapi.co/api/v2/ability/keen-eye"
+      },
+      {
+        "value": "Big Pecks",
+        "url": "https://pokeapi.co/api/v2/ability/big-pecks"
+      },
+      {
+        "value": "No Guard",
+        "url": "https://pokeapi.co/api/v2/ability/no-guard"
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "pokeapiId": 17,
+    "abilities": [
+      {
+        "value": "Keen Eye",
+        "url": "https://pokeapi.co/api/v2/ability/keen-eye"
+      },
+      {
+        "value": "Big Pecks",
+        "url": "https://pokeapi.co/api/v2/ability/big-pecks"
+      },
+      {
+        "value": "No Guard",
+        "url": "https://pokeapi.co/api/v2/ability/no-guard"
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "pokeapiId": 18,
+    "abilities": [
+      {
+        "value": "Keen Eye",
+        "url": "https://pokeapi.co/api/v2/ability/keen-eye"
+      },
+      {
+        "value": "Big Pecks",
+        "url": "https://pokeapi.co/api/v2/ability/big-pecks"
+      },
+      {
+        "value": "No Guard",
+        "url": "https://pokeapi.co/api/v2/ability/no-guard"
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "pokeapiId": 19,
+    "abilities": [
+      {
+        "value": "Run Away",
+        "url": "https://pokeapi.co/api/v2/ability/run-away"
+      },
+      {
+        "value": "Guts",
+        "url": "https://pokeapi.co/api/v2/ability/guts"
+      },
+      {
+        "value": "Hustle",
+        "url": "https://pokeapi.co/api/v2/ability/hustle"
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "pokeapiId": 20,
+    "abilities": [
+      {
+        "value": "Run Away",
+        "url": "https://pokeapi.co/api/v2/ability/run-away"
+      },
+      {
+        "value": "Guts",
+        "url": "https://pokeapi.co/api/v2/ability/guts"
+      },
+      {
+        "value": "Hustle",
+        "url": "https://pokeapi.co/api/v2/ability/hustle"
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "pokeapiId": 21,
+    "abilities": [
+      {
+        "value": "Technician",
+        "url": "https://pokeapi.co/api/v2/ability/technician"
+      },
+      {
+        "value": "Sniper",
+        "url": "https://pokeapi.co/api/v2/ability/sniper"
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "pokeapiId": 22,
+    "abilities": [
+      {
+        "value": "Technician",
+        "url": "https://pokeapi.co/api/v2/ability/technician"
+      },
+      {
+        "value": "Sniper",
+        "url": "https://pokeapi.co/api/v2/ability/sniper"
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "pokeapiId": 23,
+    "abilities": [
+      {
+        "value": "Intimidate",
+        "url": "https://pokeapi.co/api/v2/ability/intimidate"
+      },
+      {
+        "value": "Shed Skin",
+        "url": "https://pokeapi.co/api/v2/ability/shed-skin"
+      },
+      {
+        "value": "Strong Jaw",
+        "url": "https://pokeapi.co/api/v2/ability/strong-jaw"
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "pokeapiId": 24,
+    "abilities": [
+      {
+        "value": "Intimidate",
+        "url": "https://pokeapi.co/api/v2/ability/intimidate"
+      },
+      {
+        "value": "Shed Skin",
+        "url": "https://pokeapi.co/api/v2/ability/shed-skin"
+      },
+      {
+        "value": "Strong Jaw",
+        "url": "https://pokeapi.co/api/v2/ability/strong-jaw"
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "pokeapiId": 172,
+    "abilities": [
+      {
+        "value": "Static",
+        "url": "https://pokeapi.co/api/v2/ability/static"
+      },
+      {
+        "value": "Lightning Rod",
+        "url": "https://pokeapi.co/api/v2/ability/lightning-rod"
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "pokeapiId": 25,
+    "abilities": [
+      {
+        "value": "Static",
+        "url": "https://pokeapi.co/api/v2/ability/static"
+      },
+      {
+        "value": "Lightning Rod",
+        "url": "https://pokeapi.co/api/v2/ability/lightning-rod"
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "pokeapiId": 26,
+    "abilities": [
+      {
+        "value": "Static",
+        "url": "https://pokeapi.co/api/v2/ability/static"
+      },
+      {
+        "value": "Lightning Rod",
+        "url": "https://pokeapi.co/api/v2/ability/lightning-rod"
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "pokeapiId": 27,
+    "abilities": [
+      {
+        "value": "Sand Veil",
+        "url": "https://pokeapi.co/api/v2/ability/sand-veil"
+      },
+      {
+        "value": "Sand Rush",
+        "url": "https://pokeapi.co/api/v2/ability/sand-rush"
+      },
+      {
+        "value": "Earth Eater",
+        "url": "https://pokeapi.co/api/v2/ability/earth-eater"
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "pokeapiId": 28,
+    "abilities": [
+      {
+        "value": "Sand Veil",
+        "url": "https://pokeapi.co/api/v2/ability/sand-veil"
+      },
+      {
+        "value": "Sand Rush",
+        "url": "https://pokeapi.co/api/v2/ability/sand-rush"
+      },
+      {
+        "value": "Earth Eater",
+        "url": "https://pokeapi.co/api/v2/ability/earth-eater"
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "pokeapiId": 29,
+    "abilities": [
+      {
+        "value": "Poison Point",
+        "url": "https://pokeapi.co/api/v2/ability/poison-point"
+      },
+      {
+        "value": "Rivalry",
+        "url": "https://pokeapi.co/api/v2/ability/rivalry"
+      },
+      {
+        "value": "Hustle",
+        "url": "https://pokeapi.co/api/v2/ability/hustle"
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "pokeapiId": 30,
+    "abilities": [
+      {
+        "value": "Poison Point",
+        "url": "https://pokeapi.co/api/v2/ability/poison-point"
+      },
+      {
+        "value": "Rivalry",
+        "url": "https://pokeapi.co/api/v2/ability/rivalry"
+      },
+      {
+        "value": "Hustle",
+        "url": "https://pokeapi.co/api/v2/ability/hustle"
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "pokeapiId": 31,
+    "abilities": [
+      {
+        "value": "Poison Point",
+        "url": "https://pokeapi.co/api/v2/ability/poison-point"
+      },
+      {
+        "value": "Rivalry",
+        "url": "https://pokeapi.co/api/v2/ability/rivalry"
+      },
+      {
+        "value": "Sheer Force",
+        "url": "https://pokeapi.co/api/v2/ability/sheer-force"
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "pokeapiId": 32,
+    "abilities": [
+      {
+        "value": "Poison Point",
+        "url": "https://pokeapi.co/api/v2/ability/poison-point"
+      },
+      {
+        "value": "Rivalry",
+        "url": "https://pokeapi.co/api/v2/ability/rivalry"
+      },
+      {
+        "value": "Hustle",
+        "url": "https://pokeapi.co/api/v2/ability/hustle"
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "pokeapiId": 33,
+    "abilities": [
+      {
+        "value": "Poison Point",
+        "url": "https://pokeapi.co/api/v2/ability/poison-point"
+      },
+      {
+        "value": "Rivalry",
+        "url": "https://pokeapi.co/api/v2/ability/rivalry"
+      },
+      {
+        "value": "Hustle",
+        "url": "https://pokeapi.co/api/v2/ability/hustle"
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "pokeapiId": 34,
+    "abilities": [
+      {
+        "value": "Poison Point",
+        "url": "https://pokeapi.co/api/v2/ability/poison-point"
+      },
+      {
+        "value": "Rivalry",
+        "url": "https://pokeapi.co/api/v2/ability/rivalry"
+      },
+      {
+        "value": "Sheer Force",
+        "url": "https://pokeapi.co/api/v2/ability/sheer-force"
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "pokeapiId": 173,
+    "abilities": [
+      {
+        "value": "Cute Charm",
+        "url": "https://pokeapi.co/api/v2/ability/cute-charm"
+      },
+      {
+        "value": "Magic Guard",
+        "url": "https://pokeapi.co/api/v2/ability/magic-guard"
+      },
+      {
+        "value": "Friend Guard",
+        "url": "https://pokeapi.co/api/v2/ability/friend-guard"
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "pokeapiId": 35,
+    "abilities": [
+      {
+        "value": "Cute Charm",
+        "url": "https://pokeapi.co/api/v2/ability/cute-charm"
+      },
+      {
+        "value": "Magic Guard",
+        "url": "https://pokeapi.co/api/v2/ability/magic-guard"
+      },
+      {
+        "value": "Friend Guard",
+        "url": "https://pokeapi.co/api/v2/ability/friend-guard"
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "pokeapiId": 36,
+    "abilities": [
+      {
+        "value": "Cute Charm",
+        "url": "https://pokeapi.co/api/v2/ability/cute-charm"
+      },
+      {
+        "value": "Magic Guard",
+        "url": "https://pokeapi.co/api/v2/ability/magic-guard"
+      },
+      {
+        "value": "Unaware",
+        "url": "https://pokeapi.co/api/v2/ability/unaware"
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "pokeapiId": 37,
+    "abilities": [
+      {
+        "value": "Flash Fire",
+        "url": "https://pokeapi.co/api/v2/ability/flash-fire"
+      },
+      {
+        "value": "Drought",
+        "url": "https://pokeapi.co/api/v2/ability/drought"
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "pokeapiId": 38,
+    "abilities": [
+      {
+        "value": "Flash Fire",
+        "url": "https://pokeapi.co/api/v2/ability/flash-fire"
+      },
+      {
+        "value": "Drought",
+        "url": "https://pokeapi.co/api/v2/ability/drought"
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "pokeapiId": 174,
+    "abilities": [
+      {
+        "value": "Cute CHarm",
+        "url": "https://pokeapi.co/api/v2/ability/cute-charm"
+      },
+      {
+        "value": "Competitive",
+        "url": "https://pokeapi.co/api/v2/ability/competitive"
+      },
+      {
+        "value": "Huge Power",
+        "url": "https://pokeapi.co/api/v2/ability/huge-power"
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "pokeapiId": 39,
+    "abilities": [
+      {
+        "value": "Cute CHarm",
+        "url": "https://pokeapi.co/api/v2/ability/cute-charm"
+      },
+      {
+        "value": "Competitive",
+        "url": "https://pokeapi.co/api/v2/ability/competitive"
+      },
+      {
+        "value": "Huge Power",
+        "url": "https://pokeapi.co/api/v2/ability/huge-power"
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "pokeapiId": 40,
+    "abilities": [
+      {
+        "value": "Cute Charm",
+        "url": "https://pokeapi.co/api/v2/ability/cute-charm"
+      },
+      {
+        "value": "Competitive",
+        "url": "https://pokeapi.co/api/v2/ability/competitive"
+      },
+      {
+        "value": "Huge Power",
+        "url": "https://pokeapi.co/api/v2/ability/huge-power"
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "pokeapiId": 41,
+    "abilities": [
+      {
+        "value": "Inner Focus",
+        "url": "https://pokeapi.co/api/v2/ability/inner-focus"
+      },
+      {
+        "value": "Infiltrator",
+        "url": "https://pokeapi.co/api/v2/ability/infiltrator"
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "pokeapiId": 42,
+    "abilities": [
+      {
+        "value": "Inner Focus",
+        "url": "https://pokeapi.co/api/v2/ability/inner-focus"
+      },
+      {
+        "value": "Infiltrator",
+        "url": "https://pokeapi.co/api/v2/ability/infiltrator"
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "pokeapiId": 169,
+    "abilities": [
+      {
+        "value": "Inner Focus",
+        "url": "https://pokeapi.co/api/v2/ability/inner-focus"
+      },
+      {
+        "value": "Infiltrator",
+        "url": "https://pokeapi.co/api/v2/ability/infiltrator"
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "pokeapiId": 43,
+    "abilities": [
+      {
+        "value": "Chlorophyll",
+        "url": "https://pokeapi.co/api/v2/ability/chlorophyll"
+      },
+      {
+        "value": "Run Away",
+        "url": "https://pokeapi.co/api/v2/ability/run-away"
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "pokeapiId": 44,
+    "abilities": [
+      {
+        "value": "Chlorophyll",
+        "url": "https://pokeapi.co/api/v2/ability/chlorophyll"
+      },
+      {
+        "value": "Stench ",
+        "url": "https://pokeapi.co/api/v2/ability/stench-"
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "pokeapiId": 45,
+    "abilities": [
+      {
+        "value": "Chlorophyll",
+        "url": "https://pokeapi.co/api/v2/ability/chlorophyll"
+      },
+      {
+        "value": "Effect Spore",
+        "url": "https://pokeapi.co/api/v2/ability/effect-spore"
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "pokeapiId": 182,
+    "abilities": [
+      {
+        "value": "Chlorophyll",
+        "url": "https://pokeapi.co/api/v2/ability/chlorophyll"
+      },
+      {
+        "value": "Healer",
+        "url": "https://pokeapi.co/api/v2/ability/healer"
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "pokeapiId": 46,
+    "abilities": [
+      {
+        "value": "Effect Spore",
+        "url": "https://pokeapi.co/api/v2/ability/effect-spore"
+      },
+      {
+        "value": "Damp",
+        "url": "https://pokeapi.co/api/v2/ability/damp"
+      },
+      {
+        "value": "Poison Touch",
+        "url": "https://pokeapi.co/api/v2/ability/poison-touch"
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "pokeapiId": 47,
+    "abilities": [
+      {
+        "value": "Effect Spore",
+        "url": "https://pokeapi.co/api/v2/ability/effect-spore"
+      },
+      {
+        "value": "Damp",
+        "url": "https://pokeapi.co/api/v2/ability/damp"
+      },
+      {
+        "value": "Poison Touch",
+        "url": "https://pokeapi.co/api/v2/ability/poison-touch"
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "pokeapiId": 48,
+    "abilities": [
+      {
+        "value": "Compound Eyes",
+        "url": "https://pokeapi.co/api/v2/ability/compound-eyes"
+      },
+      {
+        "value": "Tinted Lens",
+        "url": "https://pokeapi.co/api/v2/ability/tinted-lens"
+      },
+      {
+        "value": "Run Away",
+        "url": "https://pokeapi.co/api/v2/ability/run-away"
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "pokeapiId": 49,
+    "abilities": [
+      {
+        "value": "Compound Eyes",
+        "url": "https://pokeapi.co/api/v2/ability/compound-eyes"
+      },
+      {
+        "value": "Tinted Lens",
+        "url": "https://pokeapi.co/api/v2/ability/tinted-lens"
+      },
+      {
+        "value": "Wonder Skin",
+        "url": "https://pokeapi.co/api/v2/ability/wonder-skin"
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "pokeapiId": 50,
+    "abilities": [
+      {
+        "value": "Sand Veil",
+        "url": "https://pokeapi.co/api/v2/ability/sand-veil"
+      },
+      {
+        "value": "Arena Trap",
+        "url": "https://pokeapi.co/api/v2/ability/arena-trap"
+      },
+      {
+        "value": "Sand Force",
+        "url": "https://pokeapi.co/api/v2/ability/sand-force"
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "pokeapiId": 51,
+    "abilities": [
+      {
+        "value": "Sand Veil",
+        "url": "https://pokeapi.co/api/v2/ability/sand-veil"
+      },
+      {
+        "value": "Arena Trap",
+        "url": "https://pokeapi.co/api/v2/ability/arena-trap"
+      },
+      {
+        "value": "Sand Force",
+        "url": "https://pokeapi.co/api/v2/ability/sand-force"
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "pokeapiId": 52,
+    "abilities": [
+      {
+        "value": "Pickup",
+        "url": "https://pokeapi.co/api/v2/ability/pickup"
+      },
+      {
+        "value": "Technician",
+        "url": "https://pokeapi.co/api/v2/ability/technician"
+      },
+      {
+        "value": "Unnerve",
+        "url": "https://pokeapi.co/api/v2/ability/unnerve"
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "pokeapiId": 53,
+    "abilities": [
+      {
+        "value": "Limber",
+        "url": "https://pokeapi.co/api/v2/ability/limber"
+      },
+      {
+        "value": "Technician",
+        "url": "https://pokeapi.co/api/v2/ability/technician"
+      },
+      {
+        "value": "Unnerve",
+        "url": "https://pokeapi.co/api/v2/ability/unnerve"
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "pokeapiId": 54,
+    "abilities": [
+      {
+        "value": "Damp",
+        "url": "https://pokeapi.co/api/v2/ability/damp"
+      },
+      {
+        "value": "Cloud Nine",
+        "url": "https://pokeapi.co/api/v2/ability/cloud-nine"
+      },
+      {
+        "value": "Soundproof",
+        "url": "https://pokeapi.co/api/v2/ability/soundproof"
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "pokeapiId": 55,
+    "abilities": [
+      {
+        "value": "Damp",
+        "url": "https://pokeapi.co/api/v2/ability/damp"
+      },
+      {
+        "value": "Cloud Nine",
+        "url": "https://pokeapi.co/api/v2/ability/cloud-nine"
+      },
+      {
+        "value": "Punk Rock",
+        "url": "https://pokeapi.co/api/v2/ability/punk-rock"
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "pokeapiId": 56,
+    "abilities": [
+      {
+        "value": "Vital Spirit",
+        "url": "https://pokeapi.co/api/v2/ability/vital-spirit"
+      },
+      {
+        "value": "Anger Point",
+        "url": "https://pokeapi.co/api/v2/ability/anger-point"
+      },
+      {
+        "value": "Gorilla Tactics",
+        "url": "https://pokeapi.co/api/v2/ability/gorilla-tactics"
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "pokeapiId": 57,
+    "abilities": [
+      {
+        "value": "Vital Spirit",
+        "url": "https://pokeapi.co/api/v2/ability/vital-spirit"
+      },
+      {
+        "value": "Anger Point",
+        "url": "https://pokeapi.co/api/v2/ability/anger-point"
+      },
+      {
+        "value": "Gorilla Tactics",
+        "url": "https://pokeapi.co/api/v2/ability/gorilla-tactics"
+      }
+    ]
+  },
+  {
+    "id": 203,
+    "pokeapiId": 979,
+    "abilities": [
+      {
+        "value": "Vital Spriit",
+        "url": "https://pokeapi.co/api/v2/ability/vital-spriit"
+      },
+      {
+        "value": "Inner Focus",
+        "url": "https://pokeapi.co/api/v2/ability/inner-focus"
+      },
+      {
+        "value": "Gorilla Tactics",
+        "url": "https://pokeapi.co/api/v2/ability/gorilla-tactics"
+      }
+    ]
+  },
+  {
+    "id": 204,
+    "pokeapiId": 58,
+    "abilities": [
+      {
+        "value": "Intimidate",
+        "url": "https://pokeapi.co/api/v2/ability/intimidate"
+      },
+      {
+        "value": "Flash Fire",
+        "url": "https://pokeapi.co/api/v2/ability/flash-fire"
+      },
+      {
+        "value": "Fur Coat",
+        "url": "https://pokeapi.co/api/v2/ability/fur-coat"
+      }
+    ]
+  },
+  {
+    "id": 205,
+    "pokeapiId": 59,
+    "abilities": [
+      {
+        "value": "Intimidate",
+        "url": "https://pokeapi.co/api/v2/ability/intimidate"
+      },
+      {
+        "value": "Flash Fire",
+        "url": "https://pokeapi.co/api/v2/ability/flash-fire"
+      },
+      {
+        "value": "Fur Coat",
+        "url": "https://pokeapi.co/api/v2/ability/fur-coat"
+      }
+    ]
+  },
+  {
+    "id": 206,
+    "pokeapiId": 60,
+    "abilities": [
+      {
+        "value": "Water Absorb",
+        "url": "https://pokeapi.co/api/v2/ability/water-absorb"
+      },
+      {
+        "value": "Damp",
+        "url": "https://pokeapi.co/api/v2/ability/damp"
+      },
+      {
+        "value": "Swift Swim",
+        "url": "https://pokeapi.co/api/v2/ability/swift-swim"
+      }
+    ]
+  },
+  {
+    "id": 207,
+    "pokeapiId": 61,
+    "abilities": [
+      {
+        "value": "Water Absorb",
+        "url": "https://pokeapi.co/api/v2/ability/water-absorb"
+      },
+      {
+        "value": "Damp",
+        "url": "https://pokeapi.co/api/v2/ability/damp"
+      },
+      {
+        "value": "Swift Swim",
+        "url": "https://pokeapi.co/api/v2/ability/swift-swim"
+      }
+    ]
+  },
+  {
+    "id": 208,
+    "pokeapiId": 62,
+    "abilities": [
+      {
+        "value": "Water Absorb",
+        "url": "https://pokeapi.co/api/v2/ability/water-absorb"
+      },
+      {
+        "value": "Damp",
+        "url": "https://pokeapi.co/api/v2/ability/damp"
+      },
+      {
+        "value": "Swift Swim",
+        "url": "https://pokeapi.co/api/v2/ability/swift-swim"
+      }
+    ]
+  },
+  {
+    "id": 209,
+    "pokeapiId": 186,
+    "abilities": [
+      {
+        "value": "Water Absorb",
+        "url": "https://pokeapi.co/api/v2/ability/water-absorb"
+      },
+      {
+        "value": "Damp",
+        "url": "https://pokeapi.co/api/v2/ability/damp"
+      },
+      {
+        "value": "Drizzle",
+        "url": "https://pokeapi.co/api/v2/ability/drizzle"
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "pokeapiId": 63,
+    "abilities": [
+      {
+        "value": "Synchronize",
+        "url": "https://pokeapi.co/api/v2/ability/synchronize"
+      },
+      {
+        "value": "Inner Focus",
+        "url": "https://pokeapi.co/api/v2/ability/inner-focus"
+      },
+      {
+        "value": "Magic Guard",
+        "url": "https://pokeapi.co/api/v2/ability/magic-guard"
+      }
+    ]
+  },
+  {
+    "id": 211,
+    "pokeapiId": 64,
+    "abilities": [
+      {
+        "value": "Synchronize",
+        "url": "https://pokeapi.co/api/v2/ability/synchronize"
+      },
+      {
+        "value": "Inner Focus",
+        "url": "https://pokeapi.co/api/v2/ability/inner-focus"
+      },
+      {
+        "value": "Magic Guard",
+        "url": "https://pokeapi.co/api/v2/ability/magic-guard"
+      }
+    ]
+  },
+  {
+    "id": 212,
+    "pokeapiId": 65,
+    "abilities": [
+      {
+        "value": "Synchronize",
+        "url": "https://pokeapi.co/api/v2/ability/synchronize"
+      },
+      {
+        "value": "Inner Focus",
+        "url": "https://pokeapi.co/api/v2/ability/inner-focus"
+      },
+      {
+        "value": "Magic Guard",
+        "url": "https://pokeapi.co/api/v2/ability/magic-guard"
+      }
+    ]
+  },
+  {
+    "id": 213,
+    "pokeapiId": 66,
+    "abilities": [
+      {
+        "value": "Guts",
+        "url": "https://pokeapi.co/api/v2/ability/guts"
+      },
+      {
+        "value": "No Gaurd",
+        "url": "https://pokeapi.co/api/v2/ability/no-gaurd"
+      },
+      {
+        "value": "Steadfast",
+        "url": "https://pokeapi.co/api/v2/ability/steadfast"
+      }
+    ]
+  },
+  {
+    "id": 214,
+    "pokeapiId": 67,
+    "abilities": [
+      {
+        "value": "Guts",
+        "url": "https://pokeapi.co/api/v2/ability/guts"
+      },
+      {
+        "value": "No Gaurd",
+        "url": "https://pokeapi.co/api/v2/ability/no-gaurd"
+      },
+      {
+        "value": "Steadfast",
+        "url": "https://pokeapi.co/api/v2/ability/steadfast"
+      }
+    ]
+  },
+  {
+    "id": 215,
+    "pokeapiId": 68,
+    "abilities": [
+      {
+        "value": "Guts",
+        "url": "https://pokeapi.co/api/v2/ability/guts"
+      },
+      {
+        "value": "No Gaurd",
+        "url": "https://pokeapi.co/api/v2/ability/no-gaurd"
+      },
+      {
+        "value": "Steadfast",
+        "url": "https://pokeapi.co/api/v2/ability/steadfast"
+      }
+    ]
+  },
+  {
+    "id": 216,
+    "pokeapiId": 69,
+    "abilities": [
+      {
+        "value": "Chlorophyll",
+        "url": "https://pokeapi.co/api/v2/ability/chlorophyll"
+      },
+      {
+        "value": "Adaptability",
+        "url": "https://pokeapi.co/api/v2/ability/adaptability"
+      },
+      {
+        "value": "Gluttony",
+        "url": "https://pokeapi.co/api/v2/ability/gluttony"
+      }
+    ]
+  },
+  {
+    "id": 217,
+    "pokeapiId": 70,
+    "abilities": [
+      {
+        "value": "Chlorophyll",
+        "url": "https://pokeapi.co/api/v2/ability/chlorophyll"
+      },
+      {
+        "value": "Adaptability",
+        "url": "https://pokeapi.co/api/v2/ability/adaptability"
+      },
+      {
+        "value": "Gluttony",
+        "url": "https://pokeapi.co/api/v2/ability/gluttony"
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "pokeapiId": 71,
+    "abilities": [
+      {
+        "value": "Chlorophyll",
+        "url": "https://pokeapi.co/api/v2/ability/chlorophyll"
+      },
+      {
+        "value": "Adaptability",
+        "url": "https://pokeapi.co/api/v2/ability/adaptability"
+      },
+      {
+        "value": "Gluttony",
+        "url": "https://pokeapi.co/api/v2/ability/gluttony"
+      }
+    ]
+  },
+  {
+    "id": 219,
+    "pokeapiId": 72,
+    "abilities": [
+      {
+        "value": "Clear Body",
+        "url": "https://pokeapi.co/api/v2/ability/clear-body"
+      },
+      {
+        "value": "Liquid Ooze",
+        "url": "https://pokeapi.co/api/v2/ability/liquid-ooze"
+      },
+      {
+        "value": "Rain Dish",
+        "url": "https://pokeapi.co/api/v2/ability/rain-dish"
+      }
+    ]
+  },
+  {
+    "id": 220,
+    "pokeapiId": 73,
+    "abilities": [
+      {
+        "value": "Clear Body",
+        "url": "https://pokeapi.co/api/v2/ability/clear-body"
+      },
+      {
+        "value": "Liquid Ooze",
+        "url": "https://pokeapi.co/api/v2/ability/liquid-ooze"
+      },
+      {
+        "value": "Rain Dish",
+        "url": "https://pokeapi.co/api/v2/ability/rain-dish"
+      }
+    ]
+  },
+  {
+    "id": 221,
+    "pokeapiId": 74,
+    "abilities": [
+      {
+        "value": "Rock Head",
+        "url": "https://pokeapi.co/api/v2/ability/rock-head"
+      },
+      {
+        "value": "Sturdy",
+        "url": "https://pokeapi.co/api/v2/ability/sturdy"
+      },
+      {
+        "value": "Sand Veil",
+        "url": "https://pokeapi.co/api/v2/ability/sand-veil"
+      }
+    ]
+  },
+  {
+    "id": 222,
+    "pokeapiId": 75,
+    "abilities": [
+      {
+        "value": "Rock Head",
+        "url": "https://pokeapi.co/api/v2/ability/rock-head"
+      },
+      {
+        "value": "Sturdy",
+        "url": "https://pokeapi.co/api/v2/ability/sturdy"
+      },
+      {
+        "value": "Sand Veil",
+        "url": "https://pokeapi.co/api/v2/ability/sand-veil"
+      }
+    ]
+  },
+  {
+    "id": 223,
+    "pokeapiId": 76,
+    "abilities": [
+      {
+        "value": "Rock Head",
+        "url": "https://pokeapi.co/api/v2/ability/rock-head"
+      },
+      {
+        "value": "Sturdy",
+        "url": "https://pokeapi.co/api/v2/ability/sturdy"
+      },
+      {
+        "value": "Sand Veil",
+        "url": "https://pokeapi.co/api/v2/ability/sand-veil"
+      }
+    ]
+  },
+  {
+    "id": 224,
+    "pokeapiId": 77,
+    "abilities": [
+      {
+        "value": "Run Away",
+        "url": "https://pokeapi.co/api/v2/ability/run-away"
+      },
+      {
+        "value": "Flash FIre",
+        "url": "https://pokeapi.co/api/v2/ability/flash-fire"
+      },
+      {
+        "value": "Flame Body",
+        "url": "https://pokeapi.co/api/v2/ability/flame-body"
+      }
+    ]
+  },
+  {
+    "id": 225,
+    "pokeapiId": 78,
+    "abilities": [
+      {
+        "value": "Run Away",
+        "url": "https://pokeapi.co/api/v2/ability/run-away"
+      },
+      {
+        "value": "Flash FIre",
+        "url": "https://pokeapi.co/api/v2/ability/flash-fire"
+      },
+      {
+        "value": "Flame Body",
+        "url": "https://pokeapi.co/api/v2/ability/flame-body"
+      }
+    ]
+  },
+  {
+    "id": 226,
+    "pokeapiId": 79,
+    "abilities": [
+      {
+        "value": "Oblivious",
+        "url": "https://pokeapi.co/api/v2/ability/oblivious"
+      },
+      {
+        "value": "Own Tempo",
+        "url": "https://pokeapi.co/api/v2/ability/own-tempo"
+      },
+      {
+        "value": "Regenerator",
+        "url": "https://pokeapi.co/api/v2/ability/regenerator"
+      }
+    ]
+  },
+  {
+    "id": 227,
+    "pokeapiId": 80,
+    "abilities": [
+      {
+        "value": "Oblivious",
+        "url": "https://pokeapi.co/api/v2/ability/oblivious"
+      },
+      {
+        "value": "Own Tempo",
+        "url": "https://pokeapi.co/api/v2/ability/own-tempo"
+      },
+      {
+        "value": "Regenerator",
+        "url": "https://pokeapi.co/api/v2/ability/regenerator"
+      }
+    ]
+  },
+  {
+    "id": 228,
+    "pokeapiId": 199,
+    "abilities": [
+      {
+        "value": "Oblivious",
+        "url": "https://pokeapi.co/api/v2/ability/oblivious"
+      },
+      {
+        "value": "Own Tempo",
+        "url": "https://pokeapi.co/api/v2/ability/own-tempo"
+      },
+      {
+        "value": "Regenerator",
+        "url": "https://pokeapi.co/api/v2/ability/regenerator"
+      }
+    ]
+  },
+  {
+    "id": 229,
+    "pokeapiId": 81,
+    "abilities": [
+      {
+        "value": "Magnet Pull",
+        "url": "https://pokeapi.co/api/v2/ability/magnet-pull"
+      },
+      {
+        "value": "Sturdy",
+        "url": "https://pokeapi.co/api/v2/ability/sturdy"
+      },
+      {
+        "value": "Analytic",
+        "url": "https://pokeapi.co/api/v2/ability/analytic"
+      }
+    ]
+  },
+  {
+    "id": 230,
+    "pokeapiId": 82,
+    "abilities": [
+      {
+        "value": "Magnet Pull",
+        "url": "https://pokeapi.co/api/v2/ability/magnet-pull"
+      },
+      {
+        "value": "Sturdy",
+        "url": "https://pokeapi.co/api/v2/ability/sturdy"
+      },
+      {
+        "value": "Analytic",
+        "url": "https://pokeapi.co/api/v2/ability/analytic"
+      }
+    ]
+  },
+  {
+    "id": 231,
+    "pokeapiId": 462,
+    "abilities": [
+      {
+        "value": "Magnet Pull",
+        "url": "https://pokeapi.co/api/v2/ability/magnet-pull"
+      },
+      {
+        "value": "Sturdy",
+        "url": "https://pokeapi.co/api/v2/ability/sturdy"
+      },
+      {
+        "value": "Analytic",
+        "url": "https://pokeapi.co/api/v2/ability/analytic"
+      }
+    ]
+  },
+  {
+    "id": 232,
+    "pokeapiId": 83,
+    "abilities": [
+      {
+        "value": "Keen Eye",
+        "url": "https://pokeapi.co/api/v2/ability/keen-eye"
+      },
+      {
+        "value": "Inner Focus",
+        "url": "https://pokeapi.co/api/v2/ability/inner-focus"
+      },
+      {
+        "value": "Defiant",
+        "url": "https://pokeapi.co/api/v2/ability/defiant"
+      }
+    ]
+  },
+  {
+    "id": 233,
+    "pokeapiId": 84,
+    "abilities": [
+      {
+        "value": "Run Away",
+        "url": "https://pokeapi.co/api/v2/ability/run-away"
+      },
+      {
+        "value": "Early Bird",
+        "url": "https://pokeapi.co/api/v2/ability/early-bird"
+      },
+      {
+        "value": "Intimidate",
+        "url": "https://pokeapi.co/api/v2/ability/intimidate"
+      }
+    ]
+  },
+  {
+    "id": 234,
+    "pokeapiId": 85,
+    "abilities": [
+      {
+        "value": "Run Away",
+        "url": "https://pokeapi.co/api/v2/ability/run-away"
+      },
+      {
+        "value": "Early Bird",
+        "url": "https://pokeapi.co/api/v2/ability/early-bird"
+      },
+      {
+        "value": "Intimidate",
+        "url": "https://pokeapi.co/api/v2/ability/intimidate"
+      }
+    ]
+  },
+  {
+    "id": 235,
+    "pokeapiId": 86,
+    "abilities": [
+      {
+        "value": "Thick Fat",
+        "url": "https://pokeapi.co/api/v2/ability/thick-fat"
+      },
+      {
+        "value": "Ice Scales",
+        "url": "https://pokeapi.co/api/v2/ability/ice-scales"
+      },
+      {
+        "value": "Ice Body",
+        "url": "https://pokeapi.co/api/v2/ability/ice-body"
+      }
+    ]
+  },
+  {
+    "id": 236,
+    "pokeapiId": 87,
+    "abilities": [
+      {
+        "value": "Thick Fat",
+        "url": "https://pokeapi.co/api/v2/ability/thick-fat"
+      },
+      {
+        "value": "Ice Scales",
+        "url": "https://pokeapi.co/api/v2/ability/ice-scales"
+      },
+      {
+        "value": "Ice Body",
+        "url": "https://pokeapi.co/api/v2/ability/ice-body"
+      }
+    ]
+  },
+  {
+    "id": 237,
+    "pokeapiId": 88,
+    "abilities": [
+      {
+        "value": "Stench",
+        "url": "https://pokeapi.co/api/v2/ability/stench"
+      },
+      {
+        "value": "Sticky Hold",
+        "url": "https://pokeapi.co/api/v2/ability/sticky-hold"
+      },
+      {
+        "value": "Poison Touch",
+        "url": "https://pokeapi.co/api/v2/ability/poison-touch"
+      }
+    ]
+  },
+  {
+    "id": 238,
+    "pokeapiId": 89,
+    "abilities": [
+      {
+        "value": "Stench",
+        "url": "https://pokeapi.co/api/v2/ability/stench"
+      },
+      {
+        "value": "Sticky Hold",
+        "url": "https://pokeapi.co/api/v2/ability/sticky-hold"
+      },
+      {
+        "value": "Poison Touch",
+        "url": "https://pokeapi.co/api/v2/ability/poison-touch"
+      }
+    ]
+  },
+  {
+    "id": 239,
+    "pokeapiId": 90,
+    "abilities": [
+      {
+        "value": "Shell Armor",
+        "url": "https://pokeapi.co/api/v2/ability/shell-armor"
+      },
+      {
+        "value": "Skill Link",
+        "url": "https://pokeapi.co/api/v2/ability/skill-link"
+      },
+      {
+        "value": "Overcoat",
+        "url": "https://pokeapi.co/api/v2/ability/overcoat"
+      }
+    ]
+  },
+  {
+    "id": 240,
+    "pokeapiId": 91,
+    "abilities": [
+      {
+        "value": "Shell Armor",
+        "url": "https://pokeapi.co/api/v2/ability/shell-armor"
+      },
+      {
+        "value": "Skill Link",
+        "url": "https://pokeapi.co/api/v2/ability/skill-link"
+      },
+      {
+        "value": "Overcoat",
+        "url": "https://pokeapi.co/api/v2/ability/overcoat"
+      }
+    ]
+  },
+  {
+    "id": 241,
+    "pokeapiId": 92,
+    "abilities": [
+      {
+        "value": "Levitate",
+        "url": "https://pokeapi.co/api/v2/ability/levitate"
+      },
+      {
+        "value": "N/A",
+        "url": "https://pokeapi.co/api/v2/ability/n/a"
+      }
+    ]
+  },
+  {
+    "id": 242,
+    "pokeapiId": 93,
+    "abilities": [
+      {
+        "value": "Levitate",
+        "url": "https://pokeapi.co/api/v2/ability/levitate"
+      },
+      {
+        "value": "N/A",
+        "url": "https://pokeapi.co/api/v2/ability/n/a"
+      }
+    ]
+  },
+  {
+    "id": 243,
+    "pokeapiId": 94,
+    "abilities": [
+      {
+        "value": "Levitate",
+        "url": "https://pokeapi.co/api/v2/ability/levitate"
+      },
+      {
+        "value": "N/A",
+        "url": "https://pokeapi.co/api/v2/ability/n/a"
+      }
+    ]
+  },
+  {
+    "id": 244,
+    "pokeapiId": 95,
+    "abilities": [
+      {
+        "value": "Rock Head",
+        "url": "https://pokeapi.co/api/v2/ability/rock-head"
+      },
+      {
+        "value": "Sturdy",
+        "url": "https://pokeapi.co/api/v2/ability/sturdy"
+      },
+      {
+        "value": "Weak Armor",
+        "url": "https://pokeapi.co/api/v2/ability/weak-armor"
+      }
+    ]
+  },
+  {
+    "id": 245,
+    "pokeapiId": 96,
+    "abilities": [
+      {
+        "value": "Insomnia",
+        "url": "https://pokeapi.co/api/v2/ability/insomnia"
+      },
+      {
+        "value": "Forewarn",
+        "url": "https://pokeapi.co/api/v2/ability/forewarn"
+      },
+      {
+        "value": "Inner Focus",
+        "url": "https://pokeapi.co/api/v2/ability/inner-focus"
+      }
+    ]
+  },
+  {
+    "id": 246,
+    "pokeapiId": 97,
+    "abilities": [
+      {
+        "value": "Insomnia",
+        "url": "https://pokeapi.co/api/v2/ability/insomnia"
+      },
+      {
+        "value": "Forewarn",
+        "url": "https://pokeapi.co/api/v2/ability/forewarn"
+      },
+      {
+        "value": "Nasty Surprise",
+        "url": "https://pokeapi.co/api/v2/ability/nasty-surprise"
+      }
+    ]
+  },
+  {
+    "id": 247,
+    "pokeapiId": 98,
+    "abilities": [
+      {
+        "value": "Hyper Cutter",
+        "url": "https://pokeapi.co/api/v2/ability/hyper-cutter"
+      },
+      {
+        "value": "Shell Armor",
+        "url": "https://pokeapi.co/api/v2/ability/shell-armor"
+      },
+      {
+        "value": "Sheer Force",
+        "url": "https://pokeapi.co/api/v2/ability/sheer-force"
+      }
+    ]
+  },
+  {
+    "id": 248,
+    "pokeapiId": 99,
+    "abilities": [
+      {
+        "value": "Hyper Cutter",
+        "url": "https://pokeapi.co/api/v2/ability/hyper-cutter"
+      },
+      {
+        "value": "Shell Armor",
+        "url": "https://pokeapi.co/api/v2/ability/shell-armor"
+      },
+      {
+        "value": "Sheer Force",
+        "url": "https://pokeapi.co/api/v2/ability/sheer-force"
+      }
+    ]
+  },
+  {
+    "id": 249,
+    "pokeapiId": 100,
+    "abilities": [
+      {
+        "value": "Soundproof",
+        "url": "https://pokeapi.co/api/v2/ability/soundproof"
+      },
+      {
+        "value": "Static",
+        "url": "https://pokeapi.co/api/v2/ability/static"
+      },
+      {
+        "value": "Aftermath",
+        "url": "https://pokeapi.co/api/v2/ability/aftermath"
+      }
+    ]
+  },
+  {
+    "id": 250,
+    "pokeapiId": 101,
+    "abilities": [
+      {
+        "value": "Soundproof",
+        "url": "https://pokeapi.co/api/v2/ability/soundproof"
+      },
+      {
+        "value": "Static",
+        "url": "https://pokeapi.co/api/v2/ability/static"
+      },
+      {
+        "value": "Aftermath",
+        "url": "https://pokeapi.co/api/v2/ability/aftermath"
+      }
+    ]
+  },
+  {
+    "id": 251,
+    "pokeapiId": 102,
+    "abilities": [
+      {
+        "value": "Chlorophyll",
+        "url": "https://pokeapi.co/api/v2/ability/chlorophyll"
+      },
+      {
+        "value": "Harvest",
+        "url": "https://pokeapi.co/api/v2/ability/harvest"
+      }
+    ]
+  },
+  {
+    "id": 252,
+    "pokeapiId": 103,
+    "abilities": [
+      {
+        "value": "Chlorophyll",
+        "url": "https://pokeapi.co/api/v2/ability/chlorophyll"
+      },
+      {
+        "value": "Harvest",
+        "url": "https://pokeapi.co/api/v2/ability/harvest"
+      }
+    ]
+  },
+  {
+    "id": 253,
+    "pokeapiId": 104,
+    "abilities": [
+      {
+        "value": "Rock Head",
+        "url": "https://pokeapi.co/api/v2/ability/rock-head"
+      },
+      {
+        "value": "Skill Link",
+        "url": "https://pokeapi.co/api/v2/ability/skill-link"
+      },
+      {
+        "value": "Battle Armor",
+        "url": "https://pokeapi.co/api/v2/ability/battle-armor"
+      }
+    ]
+  },
+  {
+    "id": 254,
+    "pokeapiId": 105,
+    "abilities": [
+      {
+        "value": "Rock Head",
+        "url": "https://pokeapi.co/api/v2/ability/rock-head"
+      },
+      {
+        "value": "Skill Link",
+        "url": "https://pokeapi.co/api/v2/ability/skill-link"
+      },
+      {
+        "value": "Battle Armor",
+        "url": "https://pokeapi.co/api/v2/ability/battle-armor"
+      }
+    ]
+  },
+  {
+    "id": 255,
+    "pokeapiId": 236,
+    "abilities": [
+      {
+        "value": "Guts",
+        "url": "https://pokeapi.co/api/v2/ability/guts"
+      },
+      {
+        "value": "Steadfast",
+        "url": "https://pokeapi.co/api/v2/ability/steadfast"
+      },
+      {
+        "value": "Vital Spirit",
+        "url": "https://pokeapi.co/api/v2/ability/vital-spirit"
+      }
+    ]
+  },
+  {
+    "id": 256,
+    "pokeapiId": 106,
+    "abilities": [
+      {
+        "value": "Limber",
+        "url": "https://pokeapi.co/api/v2/ability/limber"
+      },
+      {
+        "value": "Long Reach",
+        "url": "https://pokeapi.co/api/v2/ability/long-reach"
+      },
+      {
+        "value": "Reckless",
+        "url": "https://pokeapi.co/api/v2/ability/reckless"
+      }
+    ]
+  },
+  {
+    "id": 257,
+    "pokeapiId": 107,
+    "abilities": [
+      {
+        "value": "Keen Eye",
+        "url": "https://pokeapi.co/api/v2/ability/keen-eye"
+      },
+      {
+        "value": "Iron Fist",
+        "url": "https://pokeapi.co/api/v2/ability/iron-fist"
+      },
+      {
+        "value": "Inner Focus",
+        "url": "https://pokeapi.co/api/v2/ability/inner-focus"
+      }
+    ]
+  },
+  {
+    "id": 258,
+    "pokeapiId": 237,
+    "abilities": [
+      {
+        "value": "Intimidate",
+        "url": "https://pokeapi.co/api/v2/ability/intimidate"
+      },
+      {
+        "value": "Technician",
+        "url": "https://pokeapi.co/api/v2/ability/technician"
+      },
+      {
+        "value": "Steadfast",
+        "url": "https://pokeapi.co/api/v2/ability/steadfast"
+      }
+    ]
+  },
+  {
+    "id": 259,
+    "pokeapiId": 108,
+    "abilities": [
+      {
+        "value": "Own Tempo",
+        "url": "https://pokeapi.co/api/v2/ability/own-tempo"
+      },
+      {
+        "value": "Oblivious",
+        "url": "https://pokeapi.co/api/v2/ability/oblivious"
+      },
+      {
+        "value": "Cloud Nine",
+        "url": "https://pokeapi.co/api/v2/ability/cloud-nine"
+      }
+    ]
+  },
+  {
+    "id": 260,
+    "pokeapiId": 463,
+    "abilities": [
+      {
+        "value": "Own Tempo",
+        "url": "https://pokeapi.co/api/v2/ability/own-tempo"
+      },
+      {
+        "value": "Oblivious",
+        "url": "https://pokeapi.co/api/v2/ability/oblivious"
+      },
+      {
+        "value": "Cloud Nine",
+        "url": "https://pokeapi.co/api/v2/ability/cloud-nine"
+      }
+    ]
+  },
+  {
+    "id": 261,
+    "pokeapiId": 109,
+    "abilities": [
+      {
+        "value": "Levitate",
+        "url": "https://pokeapi.co/api/v2/ability/levitate"
+      },
+      {
+        "value": "Neutralizing Gas",
+        "url": "https://pokeapi.co/api/v2/ability/neutralizing-gas"
+      },
+      {
+        "value": "Stench ",
+        "url": "https://pokeapi.co/api/v2/ability/stench-"
+      }
+    ]
+  },
+  {
+    "id": 262,
+    "pokeapiId": 110,
+    "abilities": [
+      {
+        "value": "Levitate",
+        "url": "https://pokeapi.co/api/v2/ability/levitate"
+      },
+      {
+        "value": "Neutralizing Gas",
+        "url": "https://pokeapi.co/api/v2/ability/neutralizing-gas"
+      },
+      {
+        "value": "Stench ",
+        "url": "https://pokeapi.co/api/v2/ability/stench-"
+      }
+    ]
+  },
+  {
+    "id": 263,
+    "pokeapiId": 111,
+    "abilities": [
+      {
+        "value": "Lightning Rod",
+        "url": "https://pokeapi.co/api/v2/ability/lightning-rod"
+      },
+      {
+        "value": "Rock Head",
+        "url": "https://pokeapi.co/api/v2/ability/rock-head"
+      },
+      {
+        "value": "Reckless",
+        "url": "https://pokeapi.co/api/v2/ability/reckless"
+      }
+    ]
+  },
+  {
+    "id": 264,
+    "pokeapiId": 112,
+    "abilities": [
+      {
+        "value": "Lightning Rod",
+        "url": "https://pokeapi.co/api/v2/ability/lightning-rod"
+      },
+      {
+        "value": "Rock Head",
+        "url": "https://pokeapi.co/api/v2/ability/rock-head"
+      },
+      {
+        "value": "Reckless",
+        "url": "https://pokeapi.co/api/v2/ability/reckless"
+      }
+    ]
+  },
+  {
+    "id": 265,
+    "pokeapiId": 464,
+    "abilities": [
+      {
+        "value": "Lightning Rod",
+        "url": "https://pokeapi.co/api/v2/ability/lightning-rod"
+      },
+      {
+        "value": "Solid Rock",
+        "url": "https://pokeapi.co/api/v2/ability/solid-rock"
+      },
+      {
+        "value": "Reckless",
+        "url": "https://pokeapi.co/api/v2/ability/reckless"
+      }
+    ]
+  },
+  {
+    "id": 266,
+    "pokeapiId": 440,
+    "abilities": [
+      {
+        "value": "Natural Cure",
+        "url": "https://pokeapi.co/api/v2/ability/natural-cure"
+      },
+      {
+        "value": "Serene Grace",
+        "url": "https://pokeapi.co/api/v2/ability/serene-grace"
+      },
+      {
+        "value": "Friend Guard",
+        "url": "https://pokeapi.co/api/v2/ability/friend-guard"
+      }
+    ]
+  },
+  {
+    "id": 267,
+    "pokeapiId": 113,
+    "abilities": [
+      {
+        "value": "Natural Cure",
+        "url": "https://pokeapi.co/api/v2/ability/natural-cure"
+      },
+      {
+        "value": "Serene Grace",
+        "url": "https://pokeapi.co/api/v2/ability/serene-grace"
+      },
+      {
+        "value": "Healer",
+        "url": "https://pokeapi.co/api/v2/ability/healer"
+      }
+    ]
+  },
+  {
+    "id": 268,
+    "pokeapiId": 242,
+    "abilities": [
+      {
+        "value": "Natural Cure",
+        "url": "https://pokeapi.co/api/v2/ability/natural-cure"
+      },
+      {
+        "value": "Serene Grace",
+        "url": "https://pokeapi.co/api/v2/ability/serene-grace"
+      },
+      {
+        "value": "Healer",
+        "url": "https://pokeapi.co/api/v2/ability/healer"
+      }
+    ]
+  },
+  {
+    "id": 269,
+    "pokeapiId": 114,
+    "abilities": [
+      {
+        "value": "Chlorophyll",
+        "url": "https://pokeapi.co/api/v2/ability/chlorophyll"
+      },
+      {
+        "value": "Leaf Guard",
+        "url": "https://pokeapi.co/api/v2/ability/leaf-guard"
+      },
+      {
+        "value": "Regenerator",
+        "url": "https://pokeapi.co/api/v2/ability/regenerator"
+      }
+    ]
+  },
+  {
+    "id": 270,
+    "pokeapiId": 465,
+    "abilities": [
+      {
+        "value": "Chlorophyll",
+        "url": "https://pokeapi.co/api/v2/ability/chlorophyll"
+      },
+      {
+        "value": "Leaf Guard",
+        "url": "https://pokeapi.co/api/v2/ability/leaf-guard"
+      },
+      {
+        "value": "Regenerator",
+        "url": "https://pokeapi.co/api/v2/ability/regenerator"
+      }
+    ]
+  },
+  {
+    "id": 271,
+    "pokeapiId": 115,
+    "abilities": [
+      {
+        "value": "Early Bird",
+        "url": "https://pokeapi.co/api/v2/ability/early-bird"
+      },
+      {
+        "value": "Scrappy",
+        "url": "https://pokeapi.co/api/v2/ability/scrappy"
+      },
+      {
+        "value": "Parental Bond",
+        "url": "https://pokeapi.co/api/v2/ability/parental-bond"
+      }
+    ]
+  },
+  {
+    "id": 272,
+    "pokeapiId": 116,
+    "abilities": [
+      {
+        "value": "Swift Swim",
+        "url": "https://pokeapi.co/api/v2/ability/swift-swim"
+      },
+      {
+        "value": "Sniper",
+        "url": "https://pokeapi.co/api/v2/ability/sniper"
+      },
+      {
+        "value": "Mega Launcher",
+        "url": "https://pokeapi.co/api/v2/ability/mega-launcher"
+      }
+    ]
+  },
+  {
+    "id": 273,
+    "pokeapiId": 117,
+    "abilities": [
+      {
+        "value": "Poison Point",
+        "url": "https://pokeapi.co/api/v2/ability/poison-point"
+      },
+      {
+        "value": "Sniper",
+        "url": "https://pokeapi.co/api/v2/ability/sniper"
+      },
+      {
+        "value": "Mega Launcher",
+        "url": "https://pokeapi.co/api/v2/ability/mega-launcher"
+      }
+    ]
+  },
+  {
+    "id": 274,
+    "pokeapiId": 230,
+    "abilities": [
+      {
+        "value": "Swift Swim",
+        "url": "https://pokeapi.co/api/v2/ability/swift-swim"
+      },
+      {
+        "value": "Sniper",
+        "url": "https://pokeapi.co/api/v2/ability/sniper"
+      },
+      {
+        "value": "Mega Launcher",
+        "url": "https://pokeapi.co/api/v2/ability/mega-launcher"
+      }
+    ]
+  },
+  {
+    "id": 275,
+    "pokeapiId": 118,
+    "abilities": [
+      {
+        "value": "Swift Swim",
+        "url": "https://pokeapi.co/api/v2/ability/swift-swim"
+      },
+      {
+        "value": "Sharpness",
+        "url": "https://pokeapi.co/api/v2/ability/sharpness"
+      },
+      {
+        "value": "Lightning Rod",
+        "url": "https://pokeapi.co/api/v2/ability/lightning-rod"
+      }
+    ]
+  },
+  {
+    "id": 276,
+    "pokeapiId": 119,
+    "abilities": [
+      {
+        "value": "Swift Swim",
+        "url": "https://pokeapi.co/api/v2/ability/swift-swim"
+      },
+      {
+        "value": "Sharpness",
+        "url": "https://pokeapi.co/api/v2/ability/sharpness"
+      },
+      {
+        "value": "Lightning Rod",
+        "url": "https://pokeapi.co/api/v2/ability/lightning-rod"
+      }
+    ]
+  },
+  {
+    "id": 277,
+    "pokeapiId": 120,
+    "abilities": [
+      {
+        "value": "Illuminate",
+        "url": "https://pokeapi.co/api/v2/ability/illuminate"
+      },
+      {
+        "value": "Natural Cure",
+        "url": "https://pokeapi.co/api/v2/ability/natural-cure"
+      },
+      {
+        "value": "Analytic",
+        "url": "https://pokeapi.co/api/v2/ability/analytic"
+      }
+    ]
+  },
+  {
+    "id": 278,
+    "pokeapiId": 121,
+    "abilities": [
+      {
+        "value": "Illuminate",
+        "url": "https://pokeapi.co/api/v2/ability/illuminate"
+      },
+      {
+        "value": "Natural Cure",
+        "url": "https://pokeapi.co/api/v2/ability/natural-cure"
+      },
+      {
+        "value": "Analytic",
+        "url": "https://pokeapi.co/api/v2/ability/analytic"
+      }
+    ]
+  },
+  {
+    "id": 279,
+    "pokeapiId": 439,
+    "abilities": [
+      {
+        "value": "Soundproof",
+        "url": "https://pokeapi.co/api/v2/ability/soundproof"
+      },
+      {
+        "value": "Filter",
+        "url": "https://pokeapi.co/api/v2/ability/filter"
+      },
+      {
+        "value": "Technician",
+        "url": "https://pokeapi.co/api/v2/ability/technician"
+      }
+    ]
+  },
+  {
+    "id": 280,
+    "pokeapiId": 122,
+    "abilities": [
+      {
+        "value": "Soundproof",
+        "url": "https://pokeapi.co/api/v2/ability/soundproof"
+      },
+      {
+        "value": "Filter",
+        "url": "https://pokeapi.co/api/v2/ability/filter"
+      },
+      {
+        "value": "Technician",
+        "url": "https://pokeapi.co/api/v2/ability/technician"
+      }
+    ]
+  },
+  {
+    "id": 281,
+    "pokeapiId": 123,
+    "abilities": [
+      {
+        "value": "Swarm",
+        "url": "https://pokeapi.co/api/v2/ability/swarm"
+      },
+      {
+        "value": "Technician",
+        "url": "https://pokeapi.co/api/v2/ability/technician"
+      },
+      {
+        "value": "Steadfast",
+        "url": "https://pokeapi.co/api/v2/ability/steadfast"
+      }
+    ]
+  },
+  {
+    "id": 282,
+    "pokeapiId": 212,
+    "abilities": [
+      {
+        "value": "Swarm",
+        "url": "https://pokeapi.co/api/v2/ability/swarm"
+      },
+      {
+        "value": "Technician",
+        "url": "https://pokeapi.co/api/v2/ability/technician"
+      },
+      {
+        "value": "Light Weight",
+        "url": "https://pokeapi.co/api/v2/ability/light-weight"
+      }
+    ]
+  },
+  {
+    "id": 283,
+    "pokeapiId": 900,
+    "abilities": [
+      {
+        "value": "Swarm",
+        "url": "https://pokeapi.co/api/v2/ability/swarm"
+      },
+      {
+        "value": "Technician",
+        "url": "https://pokeapi.co/api/v2/ability/technician"
+      },
+      {
+        "value": "Sharpness",
+        "url": "https://pokeapi.co/api/v2/ability/sharpness"
+      }
+    ]
+  },
+  {
+    "id": 284,
+    "pokeapiId": 238,
+    "abilities": [
+      {
+        "value": "Oblivious",
+        "url": "https://pokeapi.co/api/v2/ability/oblivious"
+      },
+      {
+        "value": "Forewarn",
+        "url": "https://pokeapi.co/api/v2/ability/forewarn"
+      },
+      {
+        "value": "Hydration",
+        "url": "https://pokeapi.co/api/v2/ability/hydration"
+      }
+    ]
+  },
+  {
+    "id": 285,
+    "pokeapiId": 124,
+    "abilities": [
+      {
+        "value": "Oblivious",
+        "url": "https://pokeapi.co/api/v2/ability/oblivious"
+      },
+      {
+        "value": "Forewarn",
+        "url": "https://pokeapi.co/api/v2/ability/forewarn"
+      },
+      {
+        "value": "Dry Skin",
+        "url": "https://pokeapi.co/api/v2/ability/dry-skin"
+      }
+    ]
+  },
+  {
+    "id": 286,
+    "pokeapiId": 239,
+    "abilities": [
+      {
+        "value": "Static",
+        "url": "https://pokeapi.co/api/v2/ability/static"
+      },
+      {
+        "value": "Vital Spirit",
+        "url": "https://pokeapi.co/api/v2/ability/vital-spirit"
+      }
+    ]
+  },
+  {
+    "id": 287,
+    "pokeapiId": 125,
+    "abilities": [
+      {
+        "value": "Static",
+        "url": "https://pokeapi.co/api/v2/ability/static"
+      },
+      {
+        "value": "Vital Spirit",
+        "url": "https://pokeapi.co/api/v2/ability/vital-spirit"
+      }
+    ]
+  },
+  {
+    "id": 288,
+    "pokeapiId": 466,
+    "abilities": [
+      {
+        "value": "Motor Drive",
+        "url": "https://pokeapi.co/api/v2/ability/motor-drive"
+      },
+      {
+        "value": "Vital Spirit",
+        "url": "https://pokeapi.co/api/v2/ability/vital-spirit"
+      }
+    ]
+  },
+  {
+    "id": 289,
+    "pokeapiId": 240,
+    "abilities": [
+      {
+        "value": "Flame Body",
+        "url": "https://pokeapi.co/api/v2/ability/flame-body"
+      },
+      {
+        "value": "Vital Spirit",
+        "url": "https://pokeapi.co/api/v2/ability/vital-spirit"
+      }
+    ]
+  },
+  {
+    "id": 290,
+    "pokeapiId": 126,
+    "abilities": [
+      {
+        "value": "Flame Body",
+        "url": "https://pokeapi.co/api/v2/ability/flame-body"
+      },
+      {
+        "value": "Vital Spirit",
+        "url": "https://pokeapi.co/api/v2/ability/vital-spirit"
+      }
+    ]
+  },
+  {
+    "id": 291,
+    "pokeapiId": 467,
+    "abilities": [
+      {
+        "value": "Flame Body",
+        "url": "https://pokeapi.co/api/v2/ability/flame-body"
+      },
+      {
+        "value": "Vital Spirit",
+        "url": "https://pokeapi.co/api/v2/ability/vital-spirit"
+      }
+    ]
+  },
+  {
+    "id": 292,
+    "pokeapiId": 127,
+    "abilities": [
+      {
+        "value": "Hyper Cutter",
+        "url": "https://pokeapi.co/api/v2/ability/hyper-cutter"
+      },
+      {
+        "value": "Mold Breaker",
+        "url": "https://pokeapi.co/api/v2/ability/mold-breaker"
+      },
+      {
+        "value": "Moxie",
+        "url": "https://pokeapi.co/api/v2/ability/moxie"
+      }
+    ]
+  },
+  {
+    "id": 293,
+    "pokeapiId": 128,
+    "abilities": [
+      {
+        "value": "Intimidate",
+        "url": "https://pokeapi.co/api/v2/ability/intimidate"
+      },
+      {
+        "value": "Anger Point",
+        "url": "https://pokeapi.co/api/v2/ability/anger-point"
+      },
+      {
+        "value": "Sheer Force",
+        "url": "https://pokeapi.co/api/v2/ability/sheer-force"
+      }
+    ]
+  },
+  {
+    "id": 294,
+    "pokeapiId": 129,
+    "abilities": [
+      {
+        "value": "Swift Swim",
+        "url": "https://pokeapi.co/api/v2/ability/swift-swim"
+      },
+      {
+        "value": "Rattled",
+        "url": "https://pokeapi.co/api/v2/ability/rattled"
+      }
+    ]
+  },
+  {
+    "id": 295,
+    "pokeapiId": 130,
+    "abilities": [
+      {
+        "value": "Intimidate",
+        "url": "https://pokeapi.co/api/v2/ability/intimidate"
+      },
+      {
+        "value": "Moxie",
+        "url": "https://pokeapi.co/api/v2/ability/moxie"
+      }
+    ]
+  },
+  {
+    "id": 296,
+    "pokeapiId": 131,
+    "abilities": [
+      {
+        "value": "Water Absorb",
+        "url": "https://pokeapi.co/api/v2/ability/water-absorb"
+      },
+      {
+        "value": "Shell Armor",
+        "url": "https://pokeapi.co/api/v2/ability/shell-armor"
+      },
+      {
+        "value": "Hydration",
+        "url": "https://pokeapi.co/api/v2/ability/hydration"
+      }
+    ]
+  },
+  {
+    "id": 297,
+    "pokeapiId": 132,
+    "abilities": [
+      {
+        "value": "Limber",
+        "url": "https://pokeapi.co/api/v2/ability/limber"
+      },
+      {
+        "value": "Imposter",
+        "url": "https://pokeapi.co/api/v2/ability/imposter"
+      }
+    ]
+  },
+  {
+    "id": 298,
+    "pokeapiId": 133,
+    "abilities": [
+      {
+        "value": "Run Away",
+        "url": "https://pokeapi.co/api/v2/ability/run-away"
+      },
+      {
+        "value": "Adaptability",
+        "url": "https://pokeapi.co/api/v2/ability/adaptability"
+      },
+      {
+        "value": "Anticipation",
+        "url": "https://pokeapi.co/api/v2/ability/anticipation"
+      }
+    ]
+  },
+  {
+    "id": 299,
+    "pokeapiId": 134,
+    "abilities": [
+      {
+        "value": "Water Absorb",
+        "url": "https://pokeapi.co/api/v2/ability/water-absorb"
+      },
+      {
+        "value": "Adaptability",
+        "url": "https://pokeapi.co/api/v2/ability/adaptability"
+      },
+      {
+        "value": "Hydration",
+        "url": "https://pokeapi.co/api/v2/ability/hydration"
+      }
+    ]
+  },
+  {
+    "id": 300,
+    "pokeapiId": 135,
+    "abilities": [
+      {
+        "value": "Volt Absorb",
+        "url": "https://pokeapi.co/api/v2/ability/volt-absorb"
+      },
+      {
+        "value": "Adaptability",
+        "url": "https://pokeapi.co/api/v2/ability/adaptability"
+      },
+      {
+        "value": "Athletic",
+        "url": "https://pokeapi.co/api/v2/ability/athletic"
+      }
+    ]
+  },
+  {
+    "id": 301,
+    "pokeapiId": 136,
+    "abilities": [
+      {
+        "value": "Flash Fire",
+        "url": "https://pokeapi.co/api/v2/ability/flash-fire"
+      },
+      {
+        "value": "Adaptability",
+        "url": "https://pokeapi.co/api/v2/ability/adaptability"
+      },
+      {
+        "value": "Athletic",
+        "url": "https://pokeapi.co/api/v2/ability/athletic"
+      }
+    ]
+  },
+  {
+    "id": 302,
+    "pokeapiId": 196,
+    "abilities": [
+      {
+        "value": "Synchronize",
+        "url": "https://pokeapi.co/api/v2/ability/synchronize"
+      },
+      {
+        "value": "Adaptability",
+        "url": "https://pokeapi.co/api/v2/ability/adaptability"
+      },
+      {
+        "value": "Magic Bounce",
+        "url": "https://pokeapi.co/api/v2/ability/magic-bounce"
+      }
+    ]
+  },
+  {
+    "id": 303,
+    "pokeapiId": 197,
+    "abilities": [
+      {
+        "value": "Synchronize",
+        "url": "https://pokeapi.co/api/v2/ability/synchronize"
+      },
+      {
+        "value": "Adaptability",
+        "url": "https://pokeapi.co/api/v2/ability/adaptability"
+      },
+      {
+        "value": "Inner Focus",
+        "url": "https://pokeapi.co/api/v2/ability/inner-focus"
+      }
+    ]
+  },
+  {
+    "id": 304,
+    "pokeapiId": 470,
+    "abilities": [
+      {
+        "value": "Leaf Guard",
+        "url": "https://pokeapi.co/api/v2/ability/leaf-guard"
+      },
+      {
+        "value": "Adaptability",
+        "url": "https://pokeapi.co/api/v2/ability/adaptability"
+      },
+      {
+        "value": "Chloropyhll",
+        "url": "https://pokeapi.co/api/v2/ability/chloropyhll"
+      }
+    ]
+  },
+  {
+    "id": 305,
+    "pokeapiId": 471,
+    "abilities": [
+      {
+        "value": "Snow Cloak",
+        "url": "https://pokeapi.co/api/v2/ability/snow-cloak"
+      },
+      {
+        "value": "Adaptability",
+        "url": "https://pokeapi.co/api/v2/ability/adaptability"
+      },
+      {
+        "value": "Ice Body",
+        "url": "https://pokeapi.co/api/v2/ability/ice-body"
+      }
+    ]
+  },
+  {
+    "id": 306,
+    "pokeapiId": 700,
+    "abilities": [
+      {
+        "value": "Cute Charm",
+        "url": "https://pokeapi.co/api/v2/ability/cute-charm"
+      },
+      {
+        "value": "Adaptability",
+        "url": "https://pokeapi.co/api/v2/ability/adaptability"
+      },
+      {
+        "value": "Pixilate",
+        "url": "https://pokeapi.co/api/v2/ability/pixilate"
+      }
+    ]
+  },
+  {
+    "id": 307,
+    "pokeapiId": 137,
+    "abilities": [
+      {
+        "value": "Trace",
+        "url": "https://pokeapi.co/api/v2/ability/trace"
+      },
+      {
+        "value": "Download",
+        "url": "https://pokeapi.co/api/v2/ability/download"
+      },
+      {
+        "value": "Analytic",
+        "url": "https://pokeapi.co/api/v2/ability/analytic"
+      }
+    ]
+  },
+  {
+    "id": 308,
+    "pokeapiId": 233,
+    "abilities": [
+      {
+        "value": "Trace",
+        "url": "https://pokeapi.co/api/v2/ability/trace"
+      },
+      {
+        "value": "Download",
+        "url": "https://pokeapi.co/api/v2/ability/download"
+      },
+      {
+        "value": "Analytic",
+        "url": "https://pokeapi.co/api/v2/ability/analytic"
+      }
+    ]
+  },
+  {
+    "id": 309,
+    "pokeapiId": 474,
+    "abilities": [
+      {
+        "value": "Adaptability",
+        "url": "https://pokeapi.co/api/v2/ability/adaptability"
+      },
+      {
+        "value": "Download",
+        "url": "https://pokeapi.co/api/v2/ability/download"
+      },
+      {
+        "value": "Analytic",
+        "url": "https://pokeapi.co/api/v2/ability/analytic"
+      }
+    ]
+  },
+  {
+    "id": 310,
+    "pokeapiId": 138,
+    "abilities": [
+      {
+        "value": "Skill Link",
+        "url": "https://pokeapi.co/api/v2/ability/skill-link"
+      },
+      {
+        "value": "Shell Armor",
+        "url": "https://pokeapi.co/api/v2/ability/shell-armor"
+      },
+      {
+        "value": "Weak Armor",
+        "url": "https://pokeapi.co/api/v2/ability/weak-armor"
+      }
+    ]
+  },
+  {
+    "id": 311,
+    "pokeapiId": 139,
+    "abilities": [
+      {
+        "value": "Skill Link",
+        "url": "https://pokeapi.co/api/v2/ability/skill-link"
+      },
+      {
+        "value": "Shell Armor",
+        "url": "https://pokeapi.co/api/v2/ability/shell-armor"
+      },
+      {
+        "value": "Weak Armor",
+        "url": "https://pokeapi.co/api/v2/ability/weak-armor"
+      }
+    ]
+  },
+  {
+    "id": 312,
+    "pokeapiId": 140,
+    "abilities": [
+      {
+        "value": "Sharpness",
+        "url": "https://pokeapi.co/api/v2/ability/sharpness"
+      },
+      {
+        "value": "Battle Armor",
+        "url": "https://pokeapi.co/api/v2/ability/battle-armor"
+      },
+      {
+        "value": "Weak Armor",
+        "url": "https://pokeapi.co/api/v2/ability/weak-armor"
+      }
+    ]
+  },
+  {
+    "id": 313,
+    "pokeapiId": 141,
+    "abilities": [
+      {
+        "value": "Sharpness",
+        "url": "https://pokeapi.co/api/v2/ability/sharpness"
+      },
+      {
+        "value": "Battle Armor",
+        "url": "https://pokeapi.co/api/v2/ability/battle-armor"
+      },
+      {
+        "value": "Weak Armor",
+        "url": "https://pokeapi.co/api/v2/ability/weak-armor"
+      }
+    ]
+  },
+  {
+    "id": 314,
+    "pokeapiId": 142,
+    "abilities": [
+      {
+        "value": "Rock Head",
+        "url": "https://pokeapi.co/api/v2/ability/rock-head"
+      },
+      {
+        "value": "Pressure",
+        "url": "https://pokeapi.co/api/v2/ability/pressure"
+      },
+      {
+        "value": "Strong Jaw",
+        "url": "https://pokeapi.co/api/v2/ability/strong-jaw"
+      }
+    ]
+  },
+  {
+    "id": 315,
+    "pokeapiId": 446,
+    "abilities": [
+      {
+        "value": "Pickup",
+        "url": "https://pokeapi.co/api/v2/ability/pickup"
+      },
+      {
+        "value": "Thick Fat",
+        "url": "https://pokeapi.co/api/v2/ability/thick-fat"
+      },
+      {
+        "value": "Gluttony",
+        "url": "https://pokeapi.co/api/v2/ability/gluttony"
+      }
+    ]
+  },
+  {
+    "id": 316,
+    "pokeapiId": 143,
+    "abilities": [
+      {
+        "value": "Immunity",
+        "url": "https://pokeapi.co/api/v2/ability/immunity"
+      },
+      {
+        "value": "Thick Fat",
+        "url": "https://pokeapi.co/api/v2/ability/thick-fat"
+      },
+      {
+        "value": "Gluttony",
+        "url": "https://pokeapi.co/api/v2/ability/gluttony"
+      }
+    ]
+  },
+  {
+    "id": 317,
+    "pokeapiId": 144,
+    "abilities": [
+      {
+        "value": "Pressure",
+        "url": "https://pokeapi.co/api/v2/ability/pressure"
+      },
+      {
+        "value": "Snow Cloak",
+        "url": "https://pokeapi.co/api/v2/ability/snow-cloak"
+      }
+    ]
+  },
+  {
+    "id": 318,
+    "pokeapiId": 145,
+    "abilities": [
+      {
+        "value": "Pressure",
+        "url": "https://pokeapi.co/api/v2/ability/pressure"
+      },
+      {
+        "value": "Static",
+        "url": "https://pokeapi.co/api/v2/ability/static"
+      }
+    ]
+  },
+  {
+    "id": 319,
+    "pokeapiId": 146,
+    "abilities": [
+      {
+        "value": "Pressure",
+        "url": "https://pokeapi.co/api/v2/ability/pressure"
+      },
+      {
+        "value": "Flame Body",
+        "url": "https://pokeapi.co/api/v2/ability/flame-body"
+      }
+    ]
+  },
+  {
+    "id": 320,
+    "pokeapiId": 147,
+    "abilities": [
+      {
+        "value": "Shed Skin",
+        "url": "https://pokeapi.co/api/v2/ability/shed-skin"
+      },
+      {
+        "value": "Marvel Scale",
+        "url": "https://pokeapi.co/api/v2/ability/marvel-scale"
+      }
+    ]
+  },
+  {
+    "id": 321,
+    "pokeapiId": 148,
+    "abilities": [
+      {
+        "value": "Shed Skin",
+        "url": "https://pokeapi.co/api/v2/ability/shed-skin"
+      },
+      {
+        "value": "Marvel Scale",
+        "url": "https://pokeapi.co/api/v2/ability/marvel-scale"
+      }
+    ]
+  },
+  {
+    "id": 322,
+    "pokeapiId": 149,
+    "abilities": [
+      {
+        "value": "Inner Focus",
+        "url": "https://pokeapi.co/api/v2/ability/inner-focus"
+      },
+      {
+        "value": "Multiscale",
+        "url": "https://pokeapi.co/api/v2/ability/multiscale"
+      }
+    ]
+  },
+  {
+    "id": 323,
+    "pokeapiId": 150,
+    "abilities": [
+      {
+        "value": "Pressure",
+        "url": "https://pokeapi.co/api/v2/ability/pressure"
+      },
+      {
+        "value": "Unnerve",
+        "url": "https://pokeapi.co/api/v2/ability/unnerve"
+      }
+    ]
+  },
+  {
+    "id": 324,
+    "pokeapiId": 151,
+    "abilities": [
+      {
+        "value": "Soul-Heart",
+        "url": "https://pokeapi.co/api/v2/ability/soul-heart"
+      },
+      {
+        "value": "N/A",
+        "url": "https://pokeapi.co/api/v2/ability/n/a"
+      }
+    ]
+  },
+  {
+    "id": 325,
+    "pokeapiId": 152,
+    "abilities": [
+      {
+        "value": "Overgrow",
+        "url": "https://pokeapi.co/api/v2/ability/overgrow"
+      },
+      {
+        "value": "Thick Fat",
+        "url": "https://pokeapi.co/api/v2/ability/thick-fat"
+      },
+      {
+        "value": "Triage",
+        "url": "https://pokeapi.co/api/v2/ability/triage"
+      }
+    ]
+  },
+  {
+    "id": 326,
+    "pokeapiId": 153,
+    "abilities": [
+      {
+        "value": "Overgrow",
+        "url": "https://pokeapi.co/api/v2/ability/overgrow"
+      },
+      {
+        "value": "Thick Fat",
+        "url": "https://pokeapi.co/api/v2/ability/thick-fat"
+      },
+      {
+        "value": "Triage",
+        "url": "https://pokeapi.co/api/v2/ability/triage"
+      }
+    ]
+  },
+  {
+    "id": 327,
+    "pokeapiId": 154,
+    "abilities": [
+      {
+        "value": "Overgrow",
+        "url": "https://pokeapi.co/api/v2/ability/overgrow"
+      },
+      {
+        "value": "Thick Fat",
+        "url": "https://pokeapi.co/api/v2/ability/thick-fat"
+      },
+      {
+        "value": "Triage",
+        "url": "https://pokeapi.co/api/v2/ability/triage"
+      }
+    ]
+  },
+  {
+    "id": 328,
+    "pokeapiId": 155,
+    "abilities": [
+      {
+        "value": "Blaze",
+        "url": "https://pokeapi.co/api/v2/ability/blaze"
+      },
+      {
+        "value": "Flash Fire",
+        "url": "https://pokeapi.co/api/v2/ability/flash-fire"
+      },
+      {
+        "value": "Stamina",
+        "url": "https://pokeapi.co/api/v2/ability/stamina"
+      }
+    ]
+  },
+  {
+    "id": 329,
+    "pokeapiId": 156,
+    "abilities": [
+      {
+        "value": "Blaze",
+        "url": "https://pokeapi.co/api/v2/ability/blaze"
+      },
+      {
+        "value": "Flash Fire",
+        "url": "https://pokeapi.co/api/v2/ability/flash-fire"
+      },
+      {
+        "value": "Stamina",
+        "url": "https://pokeapi.co/api/v2/ability/stamina"
+      }
+    ]
+  },
+  {
+    "id": 330,
+    "pokeapiId": 157,
+    "abilities": [
+      {
+        "value": "Blaze",
+        "url": "https://pokeapi.co/api/v2/ability/blaze"
+      },
+      {
+        "value": "Flash Fire",
+        "url": "https://pokeapi.co/api/v2/ability/flash-fire"
+      },
+      {
+        "value": "Stamina",
+        "url": "https://pokeapi.co/api/v2/ability/stamina"
+      }
+    ]
+  },
+  {
+    "id": 331,
+    "pokeapiId": 158,
+    "abilities": [
+      {
+        "value": "Torrent",
+        "url": "https://pokeapi.co/api/v2/ability/torrent"
+      },
+      {
+        "value": "Strong Jaw",
+        "url": "https://pokeapi.co/api/v2/ability/strong-jaw"
+      },
+      {
+        "value": "Sheer Force",
+        "url": "https://pokeapi.co/api/v2/ability/sheer-force"
+      }
+    ]
+  },
+  {
+    "id": 332,
+    "pokeapiId": 159,
+    "abilities": [
+      {
+        "value": "Torrent",
+        "url": "https://pokeapi.co/api/v2/ability/torrent"
+      },
+      {
+        "value": "Strong Jaw",
+        "url": "https://pokeapi.co/api/v2/ability/strong-jaw"
+      },
+      {
+        "value": "Sheer Force",
+        "url": "https://pokeapi.co/api/v2/ability/sheer-force"
+      }
+    ]
+  },
+  {
+    "id": 333,
+    "pokeapiId": 160,
+    "abilities": [
+      {
+        "value": "Torrent",
+        "url": "https://pokeapi.co/api/v2/ability/torrent"
+      },
+      {
+        "value": "Strong Jaw",
+        "url": "https://pokeapi.co/api/v2/ability/strong-jaw"
+      },
+      {
+        "value": "Sheer Force",
+        "url": "https://pokeapi.co/api/v2/ability/sheer-force"
+      }
+    ]
+  },
+  {
+    "id": 334,
+    "pokeapiId": 161,
+    "abilities": [
+      {
+        "value": "Run Away",
+        "url": "https://pokeapi.co/api/v2/ability/run-away"
+      },
+      {
+        "value": "Keen Eye",
+        "url": "https://pokeapi.co/api/v2/ability/keen-eye"
+      },
+      {
+        "value": "Fur Coat",
+        "url": "https://pokeapi.co/api/v2/ability/fur-coat"
+      }
+    ]
+  },
+  {
+    "id": 335,
+    "pokeapiId": 162,
+    "abilities": [
+      {
+        "value": "Run Away",
+        "url": "https://pokeapi.co/api/v2/ability/run-away"
+      },
+      {
+        "value": "Keen Eye",
+        "url": "https://pokeapi.co/api/v2/ability/keen-eye"
+      },
+      {
+        "value": "Fur Coat",
+        "url": "https://pokeapi.co/api/v2/ability/fur-coat"
+      }
+    ]
+  },
+  {
+    "id": 336,
+    "pokeapiId": 163,
+    "abilities": [
+      {
+        "value": "Analytic",
+        "url": "https://pokeapi.co/api/v2/ability/analytic"
+      },
+      {
+        "value": "Keen Eye",
+        "url": "https://pokeapi.co/api/v2/ability/keen-eye"
+      },
+      {
+        "value": "Tinted Lens",
+        "url": "https://pokeapi.co/api/v2/ability/tinted-lens"
+      }
+    ]
+  },
+  {
+    "id": 337,
+    "pokeapiId": 164,
+    "abilities": [
+      {
+        "value": "Analytic",
+        "url": "https://pokeapi.co/api/v2/ability/analytic"
+      },
+      {
+        "value": "Keen Eye",
+        "url": "https://pokeapi.co/api/v2/ability/keen-eye"
+      },
+      {
+        "value": "Tinted Lens",
+        "url": "https://pokeapi.co/api/v2/ability/tinted-lens"
+      }
+    ]
+  },
+  {
+    "id": 338,
+    "pokeapiId": 165,
+    "abilities": [
+      {
+        "value": "Swarm",
+        "url": "https://pokeapi.co/api/v2/ability/swarm"
+      },
+      {
+        "value": "Iron Fist",
+        "url": "https://pokeapi.co/api/v2/ability/iron-fist"
+      },
+      {
+        "value": "Technician",
+        "url": "https://pokeapi.co/api/v2/ability/technician"
+      }
+    ]
+  },
+  {
+    "id": 339,
+    "pokeapiId": 166,
+    "abilities": [
+      {
+        "value": "Swarm",
+        "url": "https://pokeapi.co/api/v2/ability/swarm"
+      },
+      {
+        "value": "Iron Fist",
+        "url": "https://pokeapi.co/api/v2/ability/iron-fist"
+      },
+      {
+        "value": "Technician",
+        "url": "https://pokeapi.co/api/v2/ability/technician"
+      }
+    ]
+  },
+  {
+    "id": 340,
+    "pokeapiId": 167,
+    "abilities": [
+      {
+        "value": "Swarm",
+        "url": "https://pokeapi.co/api/v2/ability/swarm"
+      },
+      {
+        "value": "Insomnia",
+        "url": "https://pokeapi.co/api/v2/ability/insomnia"
+      },
+      {
+        "value": "Sniper",
+        "url": "https://pokeapi.co/api/v2/ability/sniper"
+      }
+    ]
+  },
+  {
+    "id": 341,
+    "pokeapiId": 168,
+    "abilities": [
+      {
+        "value": "Swarm",
+        "url": "https://pokeapi.co/api/v2/ability/swarm"
+      },
+      {
+        "value": "Insomnia",
+        "url": "https://pokeapi.co/api/v2/ability/insomnia"
+      },
+      {
+        "value": "Sniper",
+        "url": "https://pokeapi.co/api/v2/ability/sniper"
+      }
+    ]
+  },
+  {
+    "id": 342,
+    "pokeapiId": 170,
+    "abilities": [
+      {
+        "value": "Volt Absorb",
+        "url": "https://pokeapi.co/api/v2/ability/volt-absorb"
+      },
+      {
+        "value": "Illuminate",
+        "url": "https://pokeapi.co/api/v2/ability/illuminate"
+      },
+      {
+        "value": "Water Absorb",
+        "url": "https://pokeapi.co/api/v2/ability/water-absorb"
+      }
+    ]
+  },
+  {
+    "id": 343,
+    "pokeapiId": 171,
+    "abilities": [
+      {
+        "value": "Volt Absorb",
+        "url": "https://pokeapi.co/api/v2/ability/volt-absorb"
+      },
+      {
+        "value": "Illuminate",
+        "url": "https://pokeapi.co/api/v2/ability/illuminate"
+      },
+      {
+        "value": "Water Absorb",
+        "url": "https://pokeapi.co/api/v2/ability/water-absorb"
+      }
+    ]
+  },
+  {
+    "id": 344,
+    "pokeapiId": 175,
+    "abilities": [
+      {
+        "value": "Serene Grace",
+        "url": "https://pokeapi.co/api/v2/ability/serene-grace"
+      },
+      {
+        "value": "Super Luck",
+        "url": "https://pokeapi.co/api/v2/ability/super-luck"
+      }
+    ]
+  },
+  {
+    "id": 345,
+    "pokeapiId": 176,
+    "abilities": [
+      {
+        "value": "Serene Grace",
+        "url": "https://pokeapi.co/api/v2/ability/serene-grace"
+      },
+      {
+        "value": "Super Luck",
+        "url": "https://pokeapi.co/api/v2/ability/super-luck"
+      }
+    ]
+  },
+  {
+    "id": 346,
+    "pokeapiId": 468,
+    "abilities": [
+      {
+        "value": "Serene Grace",
+        "url": "https://pokeapi.co/api/v2/ability/serene-grace"
+      },
+      {
+        "value": "Super Luck",
+        "url": "https://pokeapi.co/api/v2/ability/super-luck"
+      }
+    ]
+  },
+  {
+    "id": 347,
+    "pokeapiId": 177,
+    "abilities": [
+      {
+        "value": "Synchronize",
+        "url": "https://pokeapi.co/api/v2/ability/synchronize"
+      },
+      {
+        "value": "Early Bird",
+        "url": "https://pokeapi.co/api/v2/ability/early-bird"
+      },
+      {
+        "value": "Magic Bounce",
+        "url": "https://pokeapi.co/api/v2/ability/magic-bounce"
+      }
+    ]
+  },
+  {
+    "id": 348,
+    "pokeapiId": 178,
+    "abilities": [
+      {
+        "value": "Synchronize",
+        "url": "https://pokeapi.co/api/v2/ability/synchronize"
+      },
+      {
+        "value": "Early Bird",
+        "url": "https://pokeapi.co/api/v2/ability/early-bird"
+      },
+      {
+        "value": "Magic Bounce",
+        "url": "https://pokeapi.co/api/v2/ability/magic-bounce"
+      }
+    ]
+  },
+  {
+    "id": 349,
+    "pokeapiId": 179,
+    "abilities": [
+      {
+        "value": "Static",
+        "url": "https://pokeapi.co/api/v2/ability/static"
+      },
+      {
+        "value": "Dazzling",
+        "url": "https://pokeapi.co/api/v2/ability/dazzling"
+      }
+    ]
+  },
+  {
+    "id": 350,
+    "pokeapiId": 180,
+    "abilities": [
+      {
+        "value": "Static",
+        "url": "https://pokeapi.co/api/v2/ability/static"
+      },
+      {
+        "value": "Dazzling",
+        "url": "https://pokeapi.co/api/v2/ability/dazzling"
+      }
+    ]
+  },
+  {
+    "id": 351,
+    "pokeapiId": 181,
+    "abilities": [
+      {
+        "value": "Static",
+        "url": "https://pokeapi.co/api/v2/ability/static"
+      },
+      {
+        "value": "Dazzling",
+        "url": "https://pokeapi.co/api/v2/ability/dazzling"
+      }
+    ]
+  },
+  {
+    "id": 352,
+    "pokeapiId": 298,
+    "abilities": [
+      {
+        "value": "Thick Fat",
+        "url": "https://pokeapi.co/api/v2/ability/thick-fat"
+      },
+      {
+        "value": "Huge Power",
+        "url": "https://pokeapi.co/api/v2/ability/huge-power"
+      },
+      {
+        "value": "Sap Sipper",
+        "url": "https://pokeapi.co/api/v2/ability/sap-sipper"
+      }
+    ]
+  },
+  {
+    "id": 353,
+    "pokeapiId": 183,
+    "abilities": [
+      {
+        "value": "Thick Fat",
+        "url": "https://pokeapi.co/api/v2/ability/thick-fat"
+      },
+      {
+        "value": "Huge Power",
+        "url": "https://pokeapi.co/api/v2/ability/huge-power"
+      },
+      {
+        "value": "Sap Sipper",
+        "url": "https://pokeapi.co/api/v2/ability/sap-sipper"
+      }
+    ]
+  },
+  {
+    "id": 354,
+    "pokeapiId": 184,
+    "abilities": [
+      {
+        "value": "Thick Fat",
+        "url": "https://pokeapi.co/api/v2/ability/thick-fat"
+      },
+      {
+        "value": "Huge Power",
+        "url": "https://pokeapi.co/api/v2/ability/huge-power"
+      },
+      {
+        "value": "Sap Sipper",
+        "url": "https://pokeapi.co/api/v2/ability/sap-sipper"
+      }
+    ]
+  },
+  {
+    "id": 355,
+    "pokeapiId": 438,
+    "abilities": [
+      {
+        "value": "Sturdy",
+        "url": "https://pokeapi.co/api/v2/ability/sturdy"
+      },
+      {
+        "value": "Rock Head",
+        "url": "https://pokeapi.co/api/v2/ability/rock-head"
+      },
+      {
+        "value": "Solid Rock",
+        "url": "https://pokeapi.co/api/v2/ability/solid-rock"
+      }
+    ]
+  },
+  {
+    "id": 356,
+    "pokeapiId": 185,
+    "abilities": [
+      {
+        "value": "Sturdy",
+        "url": "https://pokeapi.co/api/v2/ability/sturdy"
+      },
+      {
+        "value": "Rock Head",
+        "url": "https://pokeapi.co/api/v2/ability/rock-head"
+      },
+      {
+        "value": "Solid Rock",
+        "url": "https://pokeapi.co/api/v2/ability/solid-rock"
+      }
+    ]
+  },
+  {
+    "id": 357,
+    "pokeapiId": 187,
+    "abilities": [
+      {
+        "value": "Chlorophyll",
+        "url": "https://pokeapi.co/api/v2/ability/chlorophyll"
+      },
+      {
+        "value": "Leaf Guard",
+        "url": "https://pokeapi.co/api/v2/ability/leaf-guard"
+      },
+      {
+        "value": "Hospitality ",
+        "url": "https://pokeapi.co/api/v2/ability/hospitality-"
+      }
+    ]
+  },
+  {
+    "id": 358,
+    "pokeapiId": 188,
+    "abilities": [
+      {
+        "value": "Chlorophyll",
+        "url": "https://pokeapi.co/api/v2/ability/chlorophyll"
+      },
+      {
+        "value": "Leaf Guard",
+        "url": "https://pokeapi.co/api/v2/ability/leaf-guard"
+      },
+      {
+        "value": "Hospitality",
+        "url": "https://pokeapi.co/api/v2/ability/hospitality"
+      }
+    ]
+  },
+  {
+    "id": 359,
+    "pokeapiId": 189,
+    "abilities": [
+      {
+        "value": "Chlorophyll",
+        "url": "https://pokeapi.co/api/v2/ability/chlorophyll"
+      },
+      {
+        "value": "Leaf Guard",
+        "url": "https://pokeapi.co/api/v2/ability/leaf-guard"
+      },
+      {
+        "value": "Hospitality ",
+        "url": "https://pokeapi.co/api/v2/ability/hospitality-"
+      }
+    ]
+  },
+  {
+    "id": 360,
+    "pokeapiId": 190,
+    "abilities": [
+      {
+        "value": "Technician",
+        "url": "https://pokeapi.co/api/v2/ability/technician"
+      },
+      {
+        "value": "Pickup",
+        "url": "https://pokeapi.co/api/v2/ability/pickup"
+      },
+      {
+        "value": "Skill Link",
+        "url": "https://pokeapi.co/api/v2/ability/skill-link"
+      }
+    ]
+  },
+  {
+    "id": 361,
+    "pokeapiId": 424,
+    "abilities": [
+      {
+        "value": "Technician",
+        "url": "https://pokeapi.co/api/v2/ability/technician"
+      },
+      {
+        "value": "Pickup",
+        "url": "https://pokeapi.co/api/v2/ability/pickup"
+      },
+      {
+        "value": "Skill Link",
+        "url": "https://pokeapi.co/api/v2/ability/skill-link"
+      }
+    ]
+  },
+  {
+    "id": 362,
+    "pokeapiId": 191,
+    "abilities": [
+      {
+        "value": "Chlorophyll",
+        "url": "https://pokeapi.co/api/v2/ability/chlorophyll"
+      },
+      {
+        "value": "Solar Power",
+        "url": "https://pokeapi.co/api/v2/ability/solar-power"
+      },
+      {
+        "value": "Drought",
+        "url": "https://pokeapi.co/api/v2/ability/drought"
+      }
+    ]
+  },
+  {
+    "id": 363,
+    "pokeapiId": 192,
+    "abilities": [
+      {
+        "value": "Chlorophyll",
+        "url": "https://pokeapi.co/api/v2/ability/chlorophyll"
+      },
+      {
+        "value": "Solar Power",
+        "url": "https://pokeapi.co/api/v2/ability/solar-power"
+      },
+      {
+        "value": "Drought",
+        "url": "https://pokeapi.co/api/v2/ability/drought"
+      }
+    ]
+  },
+  {
+    "id": 364,
+    "pokeapiId": 193,
+    "abilities": [
+      {
+        "value": "Speed Boost",
+        "url": "https://pokeapi.co/api/v2/ability/speed-boost"
+      },
+      {
+        "value": "Compound Eyes",
+        "url": "https://pokeapi.co/api/v2/ability/compound-eyes"
+      },
+      {
+        "value": "Wind Rider",
+        "url": "https://pokeapi.co/api/v2/ability/wind-rider"
+      }
+    ]
+  },
+  {
+    "id": 365,
+    "pokeapiId": 469,
+    "abilities": [
+      {
+        "value": "Speed Boost",
+        "url": "https://pokeapi.co/api/v2/ability/speed-boost"
+      },
+      {
+        "value": "Tinted Lens",
+        "url": "https://pokeapi.co/api/v2/ability/tinted-lens"
+      },
+      {
+        "value": "Wind Rider",
+        "url": "https://pokeapi.co/api/v2/ability/wind-rider"
+      }
+    ]
+  },
+  {
+    "id": 366,
+    "pokeapiId": 194,
+    "abilities": [
+      {
+        "value": "Damp",
+        "url": "https://pokeapi.co/api/v2/ability/damp"
+      },
+      {
+        "value": "Water Absorb",
+        "url": "https://pokeapi.co/api/v2/ability/water-absorb"
+      },
+      {
+        "value": "Unaware",
+        "url": "https://pokeapi.co/api/v2/ability/unaware"
+      }
+    ]
+  },
+  {
+    "id": 367,
+    "pokeapiId": 195,
+    "abilities": [
+      {
+        "value": "Damp",
+        "url": "https://pokeapi.co/api/v2/ability/damp"
+      },
+      {
+        "value": "Water Absorb",
+        "url": "https://pokeapi.co/api/v2/ability/water-absorb"
+      },
+      {
+        "value": "Unaware",
+        "url": "https://pokeapi.co/api/v2/ability/unaware"
+      }
+    ]
+  },
+  {
+    "id": 368,
+    "pokeapiId": 198,
+    "abilities": [
+      {
+        "value": "Insomnia",
+        "url": "https://pokeapi.co/api/v2/ability/insomnia"
+      },
+      {
+        "value": "Super Luck",
+        "url": "https://pokeapi.co/api/v2/ability/super-luck"
+      },
+      {
+        "value": "Prankster",
+        "url": "https://pokeapi.co/api/v2/ability/prankster"
+      }
+    ]
+  },
+  {
+    "id": 369,
+    "pokeapiId": 430,
+    "abilities": [
+      {
+        "value": "Moxie",
+        "url": "https://pokeapi.co/api/v2/ability/moxie"
+      },
+      {
+        "value": "Super Luck",
+        "url": "https://pokeapi.co/api/v2/ability/super-luck"
+      },
+      {
+        "value": "Prankster",
+        "url": "https://pokeapi.co/api/v2/ability/prankster"
+      }
+    ]
+  },
+  {
+    "id": 370,
+    "pokeapiId": 200,
+    "abilities": [
+      {
+        "value": "Levitate",
+        "url": "https://pokeapi.co/api/v2/ability/levitate"
+      },
+      {
+        "value": "N/A",
+        "url": "https://pokeapi.co/api/v2/ability/n/a"
+      }
+    ]
+  },
+  {
+    "id": 371,
+    "pokeapiId": 429,
+    "abilities": [
+      {
+        "value": "Levitate",
+        "url": "https://pokeapi.co/api/v2/ability/levitate"
+      },
+      {
+        "value": "N/A",
+        "url": "https://pokeapi.co/api/v2/ability/n/a"
+      }
+    ]
+  },
+  {
+    "id": 372,
+    "pokeapiId": 201,
+    "abilities": [
+      {
+        "value": "Levitate",
+        "url": "https://pokeapi.co/api/v2/ability/levitate"
+      },
+      {
+        "value": "N/A",
+        "url": "https://pokeapi.co/api/v2/ability/n/a"
+      }
+    ]
+  },
+  {
+    "id": 373,
+    "pokeapiId": 360,
+    "abilities": [
+      {
+        "value": "Shadow Tag",
+        "url": "https://pokeapi.co/api/v2/ability/shadow-tag"
+      },
+      {
+        "value": "Telepathy",
+        "url": "https://pokeapi.co/api/v2/ability/telepathy"
+      }
+    ]
+  },
+  {
+    "id": 374,
+    "pokeapiId": 202,
+    "abilities": [
+      {
+        "value": "Shadow Tag",
+        "url": "https://pokeapi.co/api/v2/ability/shadow-tag"
+      },
+      {
+        "value": "Telepathy",
+        "url": "https://pokeapi.co/api/v2/ability/telepathy"
+      }
+    ]
+  },
+  {
+    "id": 375,
+    "pokeapiId": 203,
+    "abilities": [
+      {
+        "value": "Inner Focus",
+        "url": "https://pokeapi.co/api/v2/ability/inner-focus"
+      },
+      {
+        "value": "Early Bird",
+        "url": "https://pokeapi.co/api/v2/ability/early-bird"
+      },
+      {
+        "value": "Sap Sipper",
+        "url": "https://pokeapi.co/api/v2/ability/sap-sipper"
+      }
+    ]
+  },
+  {
+    "id": 376,
+    "pokeapiId": 981,
+    "abilities": [
+      {
+        "value": "Cud Chew",
+        "url": "https://pokeapi.co/api/v2/ability/cud-chew"
+      },
+      {
+        "value": "Armor Tail",
+        "url": "https://pokeapi.co/api/v2/ability/armor-tail"
+      },
+      {
+        "value": "Sap Sipper",
+        "url": "https://pokeapi.co/api/v2/ability/sap-sipper"
+      }
+    ]
+  },
+  {
+    "id": 377,
+    "pokeapiId": 204,
+    "abilities": [
+      {
+        "value": "Sturdy",
+        "url": "https://pokeapi.co/api/v2/ability/sturdy"
+      },
+      {
+        "value": "Overcoat",
+        "url": "https://pokeapi.co/api/v2/ability/overcoat"
+      }
+    ]
+  },
+  {
+    "id": 378,
+    "pokeapiId": 205,
+    "abilities": [
+      {
+        "value": "Sturdy",
+        "url": "https://pokeapi.co/api/v2/ability/sturdy"
+      },
+      {
+        "value": "Overcoat",
+        "url": "https://pokeapi.co/api/v2/ability/overcoat"
+      }
+    ]
+  },
+  {
+    "id": 379,
+    "pokeapiId": 206,
+    "abilities": [
+      {
+        "value": "Serene Grace",
+        "url": "https://pokeapi.co/api/v2/ability/serene-grace"
+      },
+      {
+        "value": "Run Away",
+        "url": "https://pokeapi.co/api/v2/ability/run-away"
+      },
+      {
+        "value": "Earth Eater",
+        "url": "https://pokeapi.co/api/v2/ability/earth-eater"
+      }
+    ]
+  },
+  {
+    "id": 380,
+    "pokeapiId": 982,
+    "abilities": [
+      {
+        "value": "Serene Grace",
+        "url": "https://pokeapi.co/api/v2/ability/serene-grace"
+      },
+      {
+        "value": "Run Away",
+        "url": "https://pokeapi.co/api/v2/ability/run-away"
+      },
+      {
+        "value": "Earth Eater",
+        "url": "https://pokeapi.co/api/v2/ability/earth-eater"
+      }
+    ]
+  },
+  {
+    "id": 381,
+    "pokeapiId": 207,
+    "abilities": [
+      {
+        "value": "Hyper Cutter",
+        "url": "https://pokeapi.co/api/v2/ability/hyper-cutter"
+      },
+      {
+        "value": "Sand Veil",
+        "url": "https://pokeapi.co/api/v2/ability/sand-veil"
+      },
+      {
+        "value": "Immunity",
+        "url": "https://pokeapi.co/api/v2/ability/immunity"
+      }
+    ]
+  },
+  {
+    "id": 382,
+    "pokeapiId": 472,
+    "abilities": [
+      {
+        "value": "Hyper Cutter",
+        "url": "https://pokeapi.co/api/v2/ability/hyper-cutter"
+      },
+      {
+        "value": "Sand Veil",
+        "url": "https://pokeapi.co/api/v2/ability/sand-veil"
+      },
+      {
+        "value": "Poison Heal",
+        "url": "https://pokeapi.co/api/v2/ability/poison-heal"
+      }
+    ]
+  },
+  {
+    "id": 383,
+    "pokeapiId": 208,
+    "abilities": [
+      {
+        "value": "Rock Head",
+        "url": "https://pokeapi.co/api/v2/ability/rock-head"
+      },
+      {
+        "value": "Sturdy",
+        "url": "https://pokeapi.co/api/v2/ability/sturdy"
+      },
+      {
+        "value": "Strong Jaw",
+        "url": "https://pokeapi.co/api/v2/ability/strong-jaw"
+      }
+    ]
+  },
+  {
+    "id": 384,
+    "pokeapiId": 209,
+    "abilities": [
+      {
+        "value": "Intimidate",
+        "url": "https://pokeapi.co/api/v2/ability/intimidate"
+      },
+      {
+        "value": "Strong Jaw",
+        "url": "https://pokeapi.co/api/v2/ability/strong-jaw"
+      },
+      {
+        "value": "Gorilla Tactics",
+        "url": "https://pokeapi.co/api/v2/ability/gorilla-tactics"
+      }
+    ]
+  },
+  {
+    "id": 385,
+    "pokeapiId": 210,
+    "abilities": [
+      {
+        "value": "Intimidate",
+        "url": "https://pokeapi.co/api/v2/ability/intimidate"
+      },
+      {
+        "value": "Strong Jaw",
+        "url": "https://pokeapi.co/api/v2/ability/strong-jaw"
+      },
+      {
+        "value": "Gorilla Tactics",
+        "url": "https://pokeapi.co/api/v2/ability/gorilla-tactics"
+      }
+    ]
+  },
+  {
+    "id": 386,
+    "pokeapiId": 211,
+    "abilities": [
+      {
+        "value": "Poison Point",
+        "url": "https://pokeapi.co/api/v2/ability/poison-point"
+      },
+      {
+        "value": "Rough Skin",
+        "url": "https://pokeapi.co/api/v2/ability/rough-skin"
+      },
+      {
+        "value": "Intimidate",
+        "url": "https://pokeapi.co/api/v2/ability/intimidate"
+      }
+    ]
+  },
+  {
+    "id": 387,
+    "pokeapiId": 213,
+    "abilities": [
+      {
+        "value": "Sturdy",
+        "url": "https://pokeapi.co/api/v2/ability/sturdy"
+      },
+      {
+        "value": "Gluttony",
+        "url": "https://pokeapi.co/api/v2/ability/gluttony"
+      },
+      {
+        "value": "Contrary",
+        "url": "https://pokeapi.co/api/v2/ability/contrary"
+      }
+    ]
+  },
+  {
+    "id": 388,
+    "pokeapiId": 214,
+    "abilities": [
+      {
+        "value": "Swarm",
+        "url": "https://pokeapi.co/api/v2/ability/swarm"
+      },
+      {
+        "value": "Guts",
+        "url": "https://pokeapi.co/api/v2/ability/guts"
+      },
+      {
+        "value": "Moxie",
+        "url": "https://pokeapi.co/api/v2/ability/moxie"
+      }
+    ]
+  },
+  {
+    "id": 389,
+    "pokeapiId": 215,
+    "abilities": [
+      {
+        "value": "Inner Focus",
+        "url": "https://pokeapi.co/api/v2/ability/inner-focus"
+      },
+      {
+        "value": "Keen Eye",
+        "url": "https://pokeapi.co/api/v2/ability/keen-eye"
+      },
+      {
+        "value": "Pickpocket",
+        "url": "https://pokeapi.co/api/v2/ability/pickpocket"
+      }
+    ]
+  },
+  {
+    "id": 390,
+    "pokeapiId": 461,
+    "abilities": [
+      {
+        "value": "Pressure",
+        "url": "https://pokeapi.co/api/v2/ability/pressure"
+      },
+      {
+        "value": "Pickpocket",
+        "url": "https://pokeapi.co/api/v2/ability/pickpocket"
+      }
+    ]
+  },
+  {
+    "id": 391,
+    "pokeapiId": 216,
+    "abilities": [
+      {
+        "value": "Pickup",
+        "url": "https://pokeapi.co/api/v2/ability/pickup"
+      },
+      {
+        "value": "Quick Feet",
+        "url": "https://pokeapi.co/api/v2/ability/quick-feet"
+      },
+      {
+        "value": "Honey Gather",
+        "url": "https://pokeapi.co/api/v2/ability/honey-gather"
+      }
+    ]
+  },
+  {
+    "id": 392,
+    "pokeapiId": 217,
+    "abilities": [
+      {
+        "value": "Guts",
+        "url": "https://pokeapi.co/api/v2/ability/guts"
+      },
+      {
+        "value": "Quick Feet",
+        "url": "https://pokeapi.co/api/v2/ability/quick-feet"
+      },
+      {
+        "value": "Unnerve",
+        "url": "https://pokeapi.co/api/v2/ability/unnerve"
+      }
+    ]
+  },
+  {
+    "id": 393,
+    "pokeapiId": 901,
+    "abilities": [
+      {
+        "value": "Guts",
+        "url": "https://pokeapi.co/api/v2/ability/guts"
+      },
+      {
+        "value": "Bulletproof",
+        "url": "https://pokeapi.co/api/v2/ability/bulletproof"
+      },
+      {
+        "value": "Unnerve",
+        "url": "https://pokeapi.co/api/v2/ability/unnerve"
+      }
+    ]
+  },
+  {
+    "id": 394,
+    "pokeapiId": 218,
+    "abilities": [
+      {
+        "value": "Magma Armor",
+        "url": "https://pokeapi.co/api/v2/ability/magma-armor"
+      },
+      {
+        "value": "Flame Body",
+        "url": "https://pokeapi.co/api/v2/ability/flame-body"
+      },
+      {
+        "value": "Weak Armor",
+        "url": "https://pokeapi.co/api/v2/ability/weak-armor"
+      }
+    ]
+  },
+  {
+    "id": 395,
+    "pokeapiId": 219,
+    "abilities": [
+      {
+        "value": "Rocky Payload",
+        "url": "https://pokeapi.co/api/v2/ability/rocky-payload"
+      },
+      {
+        "value": "Flame Body",
+        "url": "https://pokeapi.co/api/v2/ability/flame-body"
+      },
+      {
+        "value": "Weak Armor",
+        "url": "https://pokeapi.co/api/v2/ability/weak-armor"
+      }
+    ]
+  },
+  {
+    "id": 396,
+    "pokeapiId": 220,
+    "abilities": [
+      {
+        "value": "Oblivious",
+        "url": "https://pokeapi.co/api/v2/ability/oblivious"
+      },
+      {
+        "value": "Thick Fat",
+        "url": "https://pokeapi.co/api/v2/ability/thick-fat"
+      },
+      {
+        "value": "Fur Coat",
+        "url": "https://pokeapi.co/api/v2/ability/fur-coat"
+      }
+    ]
+  },
+  {
+    "id": 397,
+    "pokeapiId": 221,
+    "abilities": [
+      {
+        "value": "Oblivious",
+        "url": "https://pokeapi.co/api/v2/ability/oblivious"
+      },
+      {
+        "value": "Thick Fat",
+        "url": "https://pokeapi.co/api/v2/ability/thick-fat"
+      },
+      {
+        "value": "Fur Coat",
+        "url": "https://pokeapi.co/api/v2/ability/fur-coat"
+      }
+    ]
+  },
+  {
+    "id": 398,
+    "pokeapiId": 473,
+    "abilities": [
+      {
+        "value": "Oblivious",
+        "url": "https://pokeapi.co/api/v2/ability/oblivious"
+      },
+      {
+        "value": "Thick Fat",
+        "url": "https://pokeapi.co/api/v2/ability/thick-fat"
+      },
+      {
+        "value": "Fur Coat",
+        "url": "https://pokeapi.co/api/v2/ability/fur-coat"
+      }
+    ]
+  },
+  {
+    "id": 399,
+    "pokeapiId": 222,
+    "abilities": [
+      {
+        "value": "Skill Link",
+        "url": "https://pokeapi.co/api/v2/ability/skill-link"
+      },
+      {
+        "value": "Natural Cure",
+        "url": "https://pokeapi.co/api/v2/ability/natural-cure"
+      },
+      {
+        "value": "Regenerator",
+        "url": "https://pokeapi.co/api/v2/ability/regenerator"
+      }
+    ]
+  },
+  {
+    "id": 400,
+    "pokeapiId": 223,
+    "abilities": [
+      {
+        "value": "Mega Launcher",
+        "url": "https://pokeapi.co/api/v2/ability/mega-launcher"
+      },
+      {
+        "value": "Sniper",
+        "url": "https://pokeapi.co/api/v2/ability/sniper"
+      },
+      {
+        "value": "Moody",
+        "url": "https://pokeapi.co/api/v2/ability/moody"
+      }
+    ]
+  },
+  {
+    "id": 401,
+    "pokeapiId": 224,
+    "abilities": [
+      {
+        "value": "Mega Launcher",
+        "url": "https://pokeapi.co/api/v2/ability/mega-launcher"
+      },
+      {
+        "value": "Sniper",
+        "url": "https://pokeapi.co/api/v2/ability/sniper"
+      },
+      {
+        "value": "Moody",
+        "url": "https://pokeapi.co/api/v2/ability/moody"
+      }
+    ]
+  },
+  {
+    "id": 402,
+    "pokeapiId": 225,
+    "abilities": [
+      {
+        "value": "Vital Spirit",
+        "url": "https://pokeapi.co/api/v2/ability/vital-spirit"
+      },
+      {
+        "value": "Hustle",
+        "url": "https://pokeapi.co/api/v2/ability/hustle"
+      },
+      {
+        "value": "Insomnia",
+        "url": "https://pokeapi.co/api/v2/ability/insomnia"
+      }
+    ]
+  },
+  {
+    "id": 403,
+    "pokeapiId": 458,
+    "abilities": [
+      {
+        "value": "Swift Swim",
+        "url": "https://pokeapi.co/api/v2/ability/swift-swim"
+      },
+      {
+        "value": "Water Absorb",
+        "url": "https://pokeapi.co/api/v2/ability/water-absorb"
+      },
+      {
+        "value": "Water Veil",
+        "url": "https://pokeapi.co/api/v2/ability/water-veil"
+      }
+    ]
+  },
+  {
+    "id": 404,
+    "pokeapiId": 226,
+    "abilities": [
+      {
+        "value": "Swift Swim",
+        "url": "https://pokeapi.co/api/v2/ability/swift-swim"
+      },
+      {
+        "value": "Water Absorb",
+        "url": "https://pokeapi.co/api/v2/ability/water-absorb"
+      },
+      {
+        "value": "Water Veil",
+        "url": "https://pokeapi.co/api/v2/ability/water-veil"
+      }
+    ]
+  },
+  {
+    "id": 405,
+    "pokeapiId": 227,
+    "abilities": [
+      {
+        "value": "Gale Wings",
+        "url": "https://pokeapi.co/api/v2/ability/gale-wings"
+      },
+      {
+        "value": "Sturdy",
+        "url": "https://pokeapi.co/api/v2/ability/sturdy"
+      },
+      {
+        "value": "Weak Armor",
+        "url": "https://pokeapi.co/api/v2/ability/weak-armor"
+      }
+    ]
+  },
+  {
+    "id": 406,
+    "pokeapiId": 228,
+    "abilities": [
+      {
+        "value": "Unnerve",
+        "url": "https://pokeapi.co/api/v2/ability/unnerve"
+      },
+      {
+        "value": "Flash Fire",
+        "url": "https://pokeapi.co/api/v2/ability/flash-fire"
+      },
+      {
+        "value": "Dark Aura",
+        "url": "https://pokeapi.co/api/v2/ability/dark-aura"
+      }
+    ]
+  },
+  {
+    "id": 407,
+    "pokeapiId": 229,
+    "abilities": [
+      {
+        "value": "Unnerve",
+        "url": "https://pokeapi.co/api/v2/ability/unnerve"
+      },
+      {
+        "value": "Flash Fire",
+        "url": "https://pokeapi.co/api/v2/ability/flash-fire"
+      },
+      {
+        "value": "Dark Aura",
+        "url": "https://pokeapi.co/api/v2/ability/dark-aura"
+      }
+    ]
+  },
+  {
+    "id": 408,
+    "pokeapiId": 231,
+    "abilities": [
+      {
+        "value": "Pickup",
+        "url": "https://pokeapi.co/api/v2/ability/pickup"
+      },
+      {
+        "value": "Stamina",
+        "url": "https://pokeapi.co/api/v2/ability/stamina"
+      },
+      {
+        "value": "Sand Veil",
+        "url": "https://pokeapi.co/api/v2/ability/sand-veil"
+      }
+    ]
+  },
+  {
+    "id": 409,
+    "pokeapiId": 232,
+    "abilities": [
+      {
+        "value": "Sturdy",
+        "url": "https://pokeapi.co/api/v2/ability/sturdy"
+      },
+      {
+        "value": "Stamina",
+        "url": "https://pokeapi.co/api/v2/ability/stamina"
+      },
+      {
+        "value": "Sand Veil",
+        "url": "https://pokeapi.co/api/v2/ability/sand-veil"
+      }
+    ]
+  },
+  {
+    "id": 410,
+    "pokeapiId": 234,
+    "abilities": [
+      {
+        "value": "Intimidate",
+        "url": "https://pokeapi.co/api/v2/ability/intimidate"
+      },
+      {
+        "value": "Sap Sipper",
+        "url": "https://pokeapi.co/api/v2/ability/sap-sipper"
+      },
+      {
+        "value": "Frisk",
+        "url": "https://pokeapi.co/api/v2/ability/frisk"
+      }
+    ]
+  },
+  {
+    "id": 411,
+    "pokeapiId": 899,
+    "abilities": [
+      {
+        "value": "Intimidate",
+        "url": "https://pokeapi.co/api/v2/ability/intimidate"
+      },
+      {
+        "value": "Sap Sipper",
+        "url": "https://pokeapi.co/api/v2/ability/sap-sipper"
+      },
+      {
+        "value": "Fur Coat",
+        "url": "https://pokeapi.co/api/v2/ability/fur-coat"
+      }
+    ]
+  },
+  {
+    "id": 412,
+    "pokeapiId": 235,
+    "abilities": [
+      {
+        "value": "Own Tempo",
+        "url": "https://pokeapi.co/api/v2/ability/own-tempo"
+      },
+      {
+        "value": "Technician",
+        "url": "https://pokeapi.co/api/v2/ability/technician"
+      },
+      {
+        "value": "Moody",
+        "url": "https://pokeapi.co/api/v2/ability/moody"
+      }
+    ]
+  },
+  {
+    "id": 413,
+    "pokeapiId": 241,
+    "abilities": [
+      {
+        "value": "Thick Fat",
+        "url": "https://pokeapi.co/api/v2/ability/thick-fat"
+      },
+      {
+        "value": "Scrappy",
+        "url": "https://pokeapi.co/api/v2/ability/scrappy"
+      },
+      {
+        "value": "Sap Sipper",
+        "url": "https://pokeapi.co/api/v2/ability/sap-sipper"
+      }
+    ]
+  },
+  {
+    "id": 414,
+    "pokeapiId": 243,
+    "abilities": [
+      {
+        "value": "Pressure",
+        "url": "https://pokeapi.co/api/v2/ability/pressure"
+      },
+      {
+        "value": "Inner Focus",
+        "url": "https://pokeapi.co/api/v2/ability/inner-focus"
+      }
+    ]
+  },
+  {
+    "id": 415,
+    "pokeapiId": 244,
+    "abilities": [
+      {
+        "value": "Pressure",
+        "url": "https://pokeapi.co/api/v2/ability/pressure"
+      },
+      {
+        "value": "Inner Focus",
+        "url": "https://pokeapi.co/api/v2/ability/inner-focus"
+      }
+    ]
+  },
+  {
+    "id": 416,
+    "pokeapiId": 245,
+    "abilities": [
+      {
+        "value": "Pressure",
+        "url": "https://pokeapi.co/api/v2/ability/pressure"
+      },
+      {
+        "value": "Inner Focus",
+        "url": "https://pokeapi.co/api/v2/ability/inner-focus"
+      }
+    ]
+  },
+  {
+    "id": 417,
+    "pokeapiId": 246,
+    "abilities": [
+      {
+        "value": "Guts",
+        "url": "https://pokeapi.co/api/v2/ability/guts"
+      },
+      {
+        "value": "Sand Veil",
+        "url": "https://pokeapi.co/api/v2/ability/sand-veil"
+      }
+    ]
+  },
+  {
+    "id": 418,
+    "pokeapiId": 247,
+    "abilities": [
+      {
+        "value": "Shed Skin",
+        "url": "https://pokeapi.co/api/v2/ability/shed-skin"
+      },
+      {
+        "value": "N/A",
+        "url": "https://pokeapi.co/api/v2/ability/n/a"
+      }
+    ]
+  },
+  {
+    "id": 419,
+    "pokeapiId": 248,
+    "abilities": [
+      {
+        "value": "Sand Stream",
+        "url": "https://pokeapi.co/api/v2/ability/sand-stream"
+      },
+      {
+        "value": "Earth Eater",
+        "url": "https://pokeapi.co/api/v2/ability/earth-eater"
+      }
+    ]
+  },
+  {
+    "id": 420,
+    "pokeapiId": 249,
+    "abilities": [
+      {
+        "value": "Water Power",
+        "url": "https://pokeapi.co/api/v2/ability/water-power"
+      },
+      {
+        "value": "Multiscale",
+        "url": "https://pokeapi.co/api/v2/ability/multiscale"
+      }
+    ]
+  },
+  {
+    "id": 421,
+    "pokeapiId": 250,
+    "abilities": [
+      {
+        "value": "Soul-Heart",
+        "url": "https://pokeapi.co/api/v2/ability/soul-heart"
+      },
+      {
+        "value": "Regenerator",
+        "url": "https://pokeapi.co/api/v2/ability/regenerator"
+      }
+    ]
+  },
+  {
+    "id": 422,
+    "pokeapiId": 251,
+    "abilities": [
+      {
+        "value": "Natural Cure",
+        "url": "https://pokeapi.co/api/v2/ability/natural-cure"
+      },
+      {
+        "value": "Regenerator",
+        "url": "https://pokeapi.co/api/v2/ability/regenerator"
+      },
+      {
+        "value": "N/A",
+        "url": "https://pokeapi.co/api/v2/ability/n/a"
+      }
+    ]
+  },
+  {
+    "id": 423,
+    "pokeapiId": 840,
+    "abilities": [
+      {
+        "value": "Ripen",
+        "url": "https://pokeapi.co/api/v2/ability/ripen"
+      },
+      {
+        "value": "Gluttony",
+        "url": "https://pokeapi.co/api/v2/ability/gluttony"
+      },
+      {
+        "value": "Bulletproof",
+        "url": "https://pokeapi.co/api/v2/ability/bulletproof"
+      }
+    ]
+  },
+  {
+    "id": 424,
+    "pokeapiId": 841,
+    "abilities": [
+      {
+        "value": "Ripen",
+        "url": "https://pokeapi.co/api/v2/ability/ripen"
+      },
+      {
+        "value": "Gluttony",
+        "url": "https://pokeapi.co/api/v2/ability/gluttony"
+      },
+      {
+        "value": "Hustle",
+        "url": "https://pokeapi.co/api/v2/ability/hustle"
+      }
+    ]
+  },
+  {
+    "id": 425,
+    "pokeapiId": 842,
+    "abilities": [
+      {
+        "value": "Ripen",
+        "url": "https://pokeapi.co/api/v2/ability/ripen"
+      },
+      {
+        "value": "Gluttony",
+        "url": "https://pokeapi.co/api/v2/ability/gluttony"
+      },
+      {
+        "value": "Thick Fat",
+        "url": "https://pokeapi.co/api/v2/ability/thick-fat"
+      }
+    ]
+  },
+  {
+    "id": 426,
+    "pokeapiId": 1011,
+    "abilities": [
+      {
+        "value": "Supersweet Syrup",
+        "url": "https://pokeapi.co/api/v2/ability/supersweet-syrup"
+      },
+      {
+        "value": "Gluttony",
+        "url": "https://pokeapi.co/api/v2/ability/gluttony"
+      },
+      {
+        "value": "Sticky Hold",
+        "url": "https://pokeapi.co/api/v2/ability/sticky-hold"
+      }
+    ]
+  },
+  {
+    "id": 427,
+    "pokeapiId": 1019,
+    "abilities": [
+      {
+        "value": "Supersweet Syrup",
+        "url": "https://pokeapi.co/api/v2/ability/supersweet-syrup"
+      },
+      {
+        "value": "Regenerator",
+        "url": "https://pokeapi.co/api/v2/ability/regenerator"
+      },
+      {
+        "value": "Sticky Hold",
+        "url": "https://pokeapi.co/api/v2/ability/sticky-hold"
+      }
+    ]
+  },
+  {
+    "id": 428,
+    "pokeapiId": 957,
+    "abilities": [
+      {
+        "value": "Mold Breaker",
+        "url": "https://pokeapi.co/api/v2/ability/mold-breaker"
+      },
+      {
+        "value": "Unaware",
+        "url": "https://pokeapi.co/api/v2/ability/unaware"
+      },
+      {
+        "value": "Huge Power",
+        "url": "https://pokeapi.co/api/v2/ability/huge-power"
+      }
+    ]
+  },
+  {
+    "id": 429,
+    "pokeapiId": 958,
+    "abilities": [
+      {
+        "value": "Mold Breaker",
+        "url": "https://pokeapi.co/api/v2/ability/mold-breaker"
+      },
+      {
+        "value": "Unaware",
+        "url": "https://pokeapi.co/api/v2/ability/unaware"
+      },
+      {
+        "value": "Huge Power",
+        "url": "https://pokeapi.co/api/v2/ability/huge-power"
+      }
+    ]
+  },
+  {
+    "id": 430,
+    "pokeapiId": 959,
+    "abilities": [
+      {
+        "value": "Mold Breaker",
+        "url": "https://pokeapi.co/api/v2/ability/mold-breaker"
+      },
+      {
+        "value": "Unaware",
+        "url": "https://pokeapi.co/api/v2/ability/unaware"
+      },
+      {
+        "value": "Huge Power",
+        "url": "https://pokeapi.co/api/v2/ability/huge-power"
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "pokeapiId": 172,
+    "abilities": [
+      {
+        "value": "Technician",
+        "url": "https://pokeapi.co/api/v2/ability/technician"
+      },
+      {
+        "value": "Lightning Rod",
+        "url": "https://pokeapi.co/api/v2/ability/lightning-rod"
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "pokeapiId": 10100,
+    "abilities": [
+      {
+        "value": "Surge Surfer",
+        "url": "https://pokeapi.co/api/v2/ability/surge-surfer"
+      },
+      {
+        "value": "Levitate",
+        "url": "https://pokeapi.co/api/v2/ability/levitate"
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "pokeapiId": 10101,
+    "abilities": [
+      {
+        "value": "Slush Rush",
+        "url": "https://pokeapi.co/api/v2/ability/slush-rush"
+      },
+      {
+        "value": "Snow Cloak",
+        "url": "https://pokeapi.co/api/v2/ability/snow-cloak"
+      },
+      {
+        "value": "Ice Scales",
+        "url": "https://pokeapi.co/api/v2/ability/ice-scales"
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "pokeapiId": 10102,
+    "abilities": [
+      {
+        "value": "Slush Rush",
+        "url": "https://pokeapi.co/api/v2/ability/slush-rush"
+      },
+      {
+        "value": "Snow Cloak",
+        "url": "https://pokeapi.co/api/v2/ability/snow-cloak"
+      },
+      {
+        "value": "Ice Scales",
+        "url": "https://pokeapi.co/api/v2/ability/ice-scales"
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "pokeapiId": 10103,
+    "abilities": [
+      {
+        "value": "Snow Cloak",
+        "url": "https://pokeapi.co/api/v2/ability/snow-cloak"
+      },
+      {
+        "value": "Snow Warning",
+        "url": "https://pokeapi.co/api/v2/ability/snow-warning"
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "pokeapiId": 10104,
+    "abilities": [
+      {
+        "value": "Snow Cloak",
+        "url": "https://pokeapi.co/api/v2/ability/snow-cloak"
+      },
+      {
+        "value": "Snow Warning",
+        "url": "https://pokeapi.co/api/v2/ability/snow-warning"
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "pokeapiId": 10105,
+    "abilities": [
+      {
+        "value": "Tangling Hair",
+        "url": "https://pokeapi.co/api/v2/ability/tangling-hair"
+      },
+      {
+        "value": "Sand Veil",
+        "url": "https://pokeapi.co/api/v2/ability/sand-veil"
+      },
+      {
+        "value": "Sand Force",
+        "url": "https://pokeapi.co/api/v2/ability/sand-force"
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "pokeapiId": 10106,
+    "abilities": [
+      {
+        "value": "Tangling Hair",
+        "url": "https://pokeapi.co/api/v2/ability/tangling-hair"
+      },
+      {
+        "value": "Sand Veil",
+        "url": "https://pokeapi.co/api/v2/ability/sand-veil"
+      },
+      {
+        "value": "Sand Force",
+        "url": "https://pokeapi.co/api/v2/ability/sand-force"
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "pokeapiId": 10107,
+    "abilities": [
+      {
+        "value": "Pickup",
+        "url": "https://pokeapi.co/api/v2/ability/pickup"
+      },
+      {
+        "value": "Technician",
+        "url": "https://pokeapi.co/api/v2/ability/technician"
+      },
+      {
+        "value": "Rattled",
+        "url": "https://pokeapi.co/api/v2/ability/rattled"
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "pokeapiId": 10108,
+    "abilities": [
+      {
+        "value": "Fur Coat",
+        "url": "https://pokeapi.co/api/v2/ability/fur-coat"
+      },
+      {
+        "value": "Technician",
+        "url": "https://pokeapi.co/api/v2/ability/technician"
+      },
+      {
+        "value": "Rattled",
+        "url": "https://pokeapi.co/api/v2/ability/rattled"
+      }
+    ]
+  },
+  {
+    "id": 221,
+    "pokeapiId": 10109,
+    "abilities": [
+      {
+        "value": "Magnet Pull",
+        "url": "https://pokeapi.co/api/v2/ability/magnet-pull"
+      },
+      {
+        "value": "Sturdy",
+        "url": "https://pokeapi.co/api/v2/ability/sturdy"
+      },
+      {
+        "value": "Galvanize",
+        "url": "https://pokeapi.co/api/v2/ability/galvanize"
+      }
+    ]
+  },
+  {
+    "id": 222,
+    "pokeapiId": 10110,
+    "abilities": [
+      {
+        "value": "Magnet Pull",
+        "url": "https://pokeapi.co/api/v2/ability/magnet-pull"
+      },
+      {
+        "value": "Sturdy",
+        "url": "https://pokeapi.co/api/v2/ability/sturdy"
+      },
+      {
+        "value": "Galvanize",
+        "url": "https://pokeapi.co/api/v2/ability/galvanize"
+      }
+    ]
+  },
+  {
+    "id": 223,
+    "pokeapiId": 10111,
+    "abilities": [
+      {
+        "value": "Magnet Pull",
+        "url": "https://pokeapi.co/api/v2/ability/magnet-pull"
+      },
+      {
+        "value": "Sturdy",
+        "url": "https://pokeapi.co/api/v2/ability/sturdy"
+      },
+      {
+        "value": "Galvanize",
+        "url": "https://pokeapi.co/api/v2/ability/galvanize"
+      }
+    ]
+  },
+  {
+    "id": 237,
+    "pokeapiId": 10112,
+    "abilities": [
+      {
+        "value": "Gluttony",
+        "url": "https://pokeapi.co/api/v2/ability/gluttony"
+      },
+      {
+        "value": "Poison Touch",
+        "url": "https://pokeapi.co/api/v2/ability/poison-touch"
+      },
+      {
+        "value": "Power of Alchemy",
+        "url": "https://pokeapi.co/api/v2/ability/power-of-alchemy"
+      }
+    ]
+  },
+  {
+    "id": 238,
+    "pokeapiId": 10113,
+    "abilities": [
+      {
+        "value": "Gluttony",
+        "url": "https://pokeapi.co/api/v2/ability/gluttony"
+      },
+      {
+        "value": "Poison Touch",
+        "url": "https://pokeapi.co/api/v2/ability/poison-touch"
+      },
+      {
+        "value": "Power of Alchemy",
+        "url": "https://pokeapi.co/api/v2/ability/power-of-alchemy"
+      }
+    ]
+  },
+  {
+    "id": 252,
+    "pokeapiId": 10114,
+    "abilities": [
+      {
+        "value": "Frisk",
+        "url": "https://pokeapi.co/api/v2/ability/frisk"
+      },
+      {
+        "value": "Long Reach",
+        "url": "https://pokeapi.co/api/v2/ability/long-reach"
+      },
+      {
+        "value": "Harvest",
+        "url": "https://pokeapi.co/api/v2/ability/harvest"
+      }
+    ]
+  },
+  {
+    "id": 254,
+    "pokeapiId": 10115,
+    "abilities": [
+      {
+        "value": "Cursed Body",
+        "url": "https://pokeapi.co/api/v2/ability/cursed-body"
+      },
+      {
+        "value": "Lighting Rod",
+        "url": "https://pokeapi.co/api/v2/ability/lighting-rod"
+      },
+      {
+        "value": "Rock Head",
+        "url": "https://pokeapi.co/api/v2/ability/rock-head"
+      }
+    ]
+  }
+]

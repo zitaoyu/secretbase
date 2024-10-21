@@ -3,7 +3,6 @@
 import React, { useEffect, useState } from "react";
 import { PrimarySpinner } from "../PrimarySpinner";
 import { PokemonSimpleData } from "@/app/_services/models/PokemonSimpleData";
-import myPokedex from "@/app/_services/pokeapi";
 import { PokemonType } from "@/app/_types/pokemon.type";
 import { isNumber, stringToInt } from "@/app/_utils/format";
 import { GridType, defaultGenIndexFilter, genIndexMap } from "./Pokedex.type";
@@ -12,8 +11,13 @@ import { PokedexGrid } from "./PokedexGrid";
 import { PokedexTableGrid } from "./PokedexTableGrid";
 import { Gen } from "@/app/_types/gen.type";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { Game, pokedexMap } from "@/app/_services/pokedex-mapping";
 
-export const Pokedex = () => {
+interface PokedexProps {
+  game: Game;
+}
+
+export const Pokedex = ({ game }: PokedexProps) => {
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
@@ -33,7 +37,7 @@ export const Pokedex = () => {
 
   useEffect(() => {
     loadQueryParams();
-    const data = myPokedex.getAllPokemonSimpleData();
+    const data = pokedexMap[game].getAllPokemonSimpleData();
     setPokemonDataList(data);
     setFilterList(data);
     setIsLoading(false);
@@ -185,6 +189,7 @@ export const Pokedex = () => {
           pokemonData={filteredList}
           showPokemons={showPokemons}
           showShiny={showShiny}
+          game={game}
         />
       ) : (
         <PokedexGrid
@@ -192,6 +197,7 @@ export const Pokedex = () => {
           showPokemons={showPokemons}
           isMini={gridType === "mini"}
           showShiny={showShiny}
+          game={game}
         />
       )}
     </div>

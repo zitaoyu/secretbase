@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { PrimarySpinner } from "@/app/_components/PrimarySpinner";
-import myPokedex from "@/app/_services/pokeapi";
 import { PokemonSimpleData } from "@/app/_services/models/PokemonSimpleData";
 import { PokemonCard } from "@/app/_components/pokedex/PokemonCard";
 import {
@@ -8,6 +7,7 @@ import {
   MdKeyboardDoubleArrowRight,
 } from "react-icons/md";
 import WrapperProps from "@/app/_components/Wrapper";
+import { Game, pokedexMap } from "@/app/_services/pokedex-mapping";
 
 interface SidePanelProps extends WrapperProps {
   isLeft?: boolean;
@@ -68,12 +68,16 @@ const SidePanel = ({
   );
 };
 
-export const PokedexSidePanel = () => {
+interface PokedexSidePanelProps {
+  game: Game;
+}
+
+export const PokedexSidePanel = ({ game = "main" }: PokedexSidePanelProps) => {
   const [pokemonData, setPokemonData] = useState<PokemonSimpleData[]>();
   const [isShowOverlay, setIsShowOverlay] = useState(false);
 
   function onOpen() {
-    const data = myPokedex.getAllPokemonSimpleData();
+    const data = pokedexMap[game].getAllPokemonSimpleData();
     setPokemonData(data);
     setIsShowOverlay(true);
   }
@@ -99,6 +103,7 @@ export const PokedexSidePanel = () => {
                 data={pokemon}
                 isMini
                 showShiny={false}
+                game={game}
               />
             ))}
           </div>
