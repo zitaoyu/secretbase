@@ -193,7 +193,6 @@ class SeaglassPokedexService implements IPokedexService {
         if (detail) detailPanelData.detail = detail;
         break;
       case DetailType.ITEM:
-        console.log("get item");
         const item = await myPokedex.getItemByName(id);
         detailPanelData.type = DetailType.ITEM;
 
@@ -212,7 +211,7 @@ class SeaglassPokedexService implements IPokedexService {
       case DetailType.MOVE:
         break;
     }
-
+    console.log(`Detail Panel data: ${detailPanelData}`);
     return detailPanelData;
   }
 }

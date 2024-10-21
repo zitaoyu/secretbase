@@ -159,7 +159,6 @@ class NationalPokedexService implements IPokedexService {
 
     switch (type) {
       case DetailType.ABILITY:
-        console.log("get ability");
         const ability = await myPokedex.getAbilityByName(id);
         detailPanelData.type = DetailType.ABILITY;
 
@@ -174,7 +173,6 @@ class NationalPokedexService implements IPokedexService {
         if (detail) detailPanelData.detail = detail;
         break;
       case DetailType.ITEM:
-        console.log("get item");
         const item = await myPokedex.getItemByName(id);
         detailPanelData.type = DetailType.ITEM;
 
@@ -193,7 +191,7 @@ class NationalPokedexService implements IPokedexService {
       case DetailType.MOVE:
         break;
     }
-
+    console.log(`Detail Panel data: ${JSON.stringify(detailPanelData)}`);
     return detailPanelData;
   }
 }

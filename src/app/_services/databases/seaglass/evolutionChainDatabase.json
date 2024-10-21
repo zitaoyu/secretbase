@@ -9641,14 +9641,14 @@
             "pokeapiId": 1011,
             "name": "dipplin",
             "friendlyName": "Dipplin",
-            "method": null,
+            "method": "Candy Apple",
             "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/1011.png",
             "evolvesTo": [
               {
                 "pokeapiId": 1019,
                 "name": "hydrapple",
                 "friendlyName": "Hydrapple",
-                "method": null,
+                "method": "Level 40",
                 "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/1019.png",
                 "evolvesTo": []
               }
