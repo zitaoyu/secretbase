@@ -97,7 +97,7 @@ const PokemonPageContent = () => {
 
   return (
     <div className="relative min-h-screen w-full">
-      <PokedexSidePanel />
+      <PokedexSidePanel game={isSeaglass ? "seaglass" : "main"} />
       <Card className="mx-auto h-full min-h-screen w-full min-w-80 max-w-7xl rounded-none p-4">
         <ScrollToTop />
         {isDetailPanelOpen && detailPanelData && (
@@ -133,11 +133,13 @@ const PokemonPageContent = () => {
               {/* Pokemon Basic Info Box */}
               <BasicInfoBox pokemonFullData={pokemonFullData} />
             </div>
+
+            <StatsTable stats={pokemonFullData.simpleData.stats} />
+            <EvolutionTable evolutionChain={pokemonFullData.evolutionChain} />
             <ResistanceTable
               types={pokemonFullData.simpleData.types as PokemonType[]}
             />
-            <StatsTable stats={pokemonFullData.simpleData.stats} />
-            <EvolutionTable evolutionChain={pokemonFullData.evolutionChain} />
+
             {/* Moves Table */}
             <MovesTable
               title="Level Up Moves"
