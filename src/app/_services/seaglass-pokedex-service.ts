@@ -15,6 +15,7 @@ import {
 import { DetailPanelData, DetailType } from "./models/DetailPanelData";
 import pokemonSimpleDataDatabaseSeaglass from "./databases/seaglass/pokemonSimpleDataDatabase-Seaglass";
 import evolutionChainDatabase from "./databases/seaglass/evolutionChainDatabase";
+import abilityOverrideDatabase from "./databases/seaglass/abilityOverrideDatabase";
 import myPokedex from "./pokeapi";
 
 class SeaglassPokedexService implements IPokedexService {
@@ -79,14 +80,33 @@ class SeaglassPokedexService implements IPokedexService {
       }
     }
 
-    const abilities: DataLink[] = pokemon.abilities.map((ability) => {
-      {
-        return {
-          value: formatName(ability.ability.name),
-          url: ability.ability.url,
-        };
-      }
-    });
+    let abilities: DataLink[];
+    const overrideAbility = abilityOverrideDatabase.find(
+      (item) => item.pokeapiId == (pokemonId as number),
+    );
+    console.log(overrideAbility);
+    if (overrideAbility) {
+      abilities = overrideAbility.abilities;
+      console.log("in here");
+    } else {
+      abilities = pokemon.abilities.map((ability) => {
+        {
+          return {
+            value: formatName(ability.ability.name),
+            url: ability.ability.url,
+          };
+        }
+      });
+    }
+
+    // const abilities: DataLink[] = pokemon.abilities.map((ability) => {
+    //   {
+    //     return {
+    //       value: formatName(ability.ability.name),
+    //       url: ability.ability.url,
+    //     };
+    //   }
+    // });
 
     const heldItems: DataLink[] =
       pokemon.held_items.length > 0
@@ -159,7 +179,6 @@ class SeaglassPokedexService implements IPokedexService {
 
     switch (type) {
       case DetailType.ABILITY:
-        console.log("get ability");
         const ability = await myPokedex.getAbilityByName(id);
         detailPanelData.type = DetailType.ABILITY;
 

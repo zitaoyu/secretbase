@@ -698,23 +698,6 @@
             "evolvesTo": []
           }
         ]
-      },
-      {
-        "pokeapiId": 10161,
-        "name": "meowth-galar",
-        "friendlyName": "Galarian Meowth",
-        "method": null,
-        "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/10161.png",
-        "evolvesTo": [
-          {
-            "pokeapiId": 863,
-            "name": "perrserker",
-            "friendlyName": "Perrserker",
-            "method": "Level 28",
-            "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/863.png",
-            "evolvesTo": []
-          }
-        ]
       }
     ]
   },
@@ -790,23 +773,6 @@
             "evolvesTo": []
           }
         ]
-      },
-      {
-        "pokeapiId": 10229,
-        "name": "growlithe-hisui",
-        "friendlyName": "Hisuian Growlithe",
-        "method": null,
-        "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/10229.png",
-        "evolvesTo": [
-          {
-            "pokeapiId": 10230,
-            "name": "arcanine-hisui",
-            "friendlyName": "Hisuian Arcanine",
-            "method": "Fire Stone",
-            "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/10230.png",
-            "evolvesTo": []
-          }
-        ]
       }
     ]
   },
@@ -839,7 +805,7 @@
                 "pokeapiId": 186,
                 "name": "politoed",
                 "friendlyName": "Politoed",
-                "method": "Trade (Kings Rock)",
+                "method": "Kings Rock",
                 "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/186.png",
                 "evolvesTo": []
               }
@@ -870,7 +836,7 @@
                 "pokeapiId": 65,
                 "name": "alakazam",
                 "friendlyName": "Alakazam",
-                "method": "Trade",
+                "method": "Linking Cord",
                 "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/65.png",
                 "evolvesTo": []
               }
@@ -901,7 +867,7 @@
                 "pokeapiId": 68,
                 "name": "machamp",
                 "friendlyName": "Machamp",
-                "method": "Trade",
+                "method": "Linking Cord",
                 "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/68.png",
                 "evolvesTo": []
               }
@@ -985,7 +951,7 @@
                 "pokeapiId": 76,
                 "name": "golem",
                 "friendlyName": "Golem",
-                "method": "Trade",
+                "method": "Linking Cord",
                 "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/76.png",
                 "evolvesTo": []
               }
@@ -1011,7 +977,7 @@
                 "pokeapiId": 10111,
                 "name": "golem-alola",
                 "friendlyName": "Alolan Golem",
-                "method": "Trade",
+                "method": "Linking Cord",
                 "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/10111.png",
                 "evolvesTo": []
               }
@@ -1040,23 +1006,6 @@
             "evolvesTo": []
           }
         ]
-      },
-      {
-        "pokeapiId": 10162,
-        "name": "ponyta-galar",
-        "friendlyName": "Galarian Ponyta",
-        "method": null,
-        "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/10162.png",
-        "evolvesTo": [
-          {
-            "pokeapiId": 10163,
-            "name": "rapidash-galar",
-            "friendlyName": "Galarian Rapidash",
-            "method": "Level 40",
-            "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/10163.png",
-            "evolvesTo": []
-          }
-        ]
       }
     ]
   },
@@ -1082,33 +1031,8 @@
             "pokeapiId": 199,
             "name": "slowking",
             "friendlyName": "Slowking",
-            "method": "Trade (Kings Rock)",
+            "method": "Kings Rock",
             "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/199.png",
-            "evolvesTo": []
-          }
-        ]
-      },
-      {
-        "pokeapiId": 10164,
-        "name": "slowpoke-galar",
-        "friendlyName": "Galarian Slowpoke",
-        "method": null,
-        "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/10164.png",
-        "evolvesTo": [
-          {
-            "pokeapiId": 10165,
-            "name": "slowbro-galar",
-            "friendlyName": "Galarian Slowbro",
-            "method": "Galarica Cuff",
-            "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/10165.png",
-            "evolvesTo": []
-          },
-          {
-            "pokeapiId": 10172,
-            "name": "slowking-galar",
-            "friendlyName": "Galarian Slowking",
-            "method": "Galarica Wreath",
-            "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/10172.png",
             "evolvesTo": []
           }
         ]
@@ -1156,23 +1080,6 @@
         "method": null,
         "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/83.png",
         "evolvesTo": []
-      },
-      {
-        "pokeapiId": 10166,
-        "name": "farfetchd-galar",
-        "friendlyName": "Galarian Farfetch’d",
-        "method": null,
-        "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/10166.png",
-        "evolvesTo": [
-          {
-            "pokeapiId": 865,
-            "name": "sirfetchd",
-            "friendlyName": "Sirfetch’d",
-            "method": "3 critical hits in battle",
-            "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/865.png",
-            "evolvesTo": []
-          }
-        ]
       }
     ]
   },
@@ -1302,7 +1209,7 @@
                 "pokeapiId": 94,
                 "name": "gengar",
                 "friendlyName": "Gengar",
-                "method": "Trade",
+                "method": "Linking Cord",
                 "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/94.png",
                 "evolvesTo": []
               }
@@ -1326,7 +1233,7 @@
             "pokeapiId": 208,
             "name": "steelix",
             "friendlyName": "Steelix",
-            "method": "Trade (Metal Coat)",
+            "method": "Metal Coat",
             "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/208.png",
             "evolvesTo": []
           }
@@ -1394,23 +1301,6 @@
             "friendlyName": "Electrode",
             "method": "Level 30",
             "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/101.png",
-            "evolvesTo": []
-          }
-        ]
-      },
-      {
-        "pokeapiId": 10231,
-        "name": "voltorb-hisui",
-        "friendlyName": "Hisuian Voltorb",
-        "method": null,
-        "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/10231.png",
-        "evolvesTo": [
-          {
-            "pokeapiId": 10232,
-            "name": "electrode-hisui",
-            "friendlyName": "Hisuian Electrode",
-            "method": "Leaf Stone",
-            "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/10232.png",
             "evolvesTo": []
           }
         ]
@@ -1554,14 +1444,6 @@
             "method": "Level 35",
             "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/110.png",
             "evolvesTo": []
-          },
-          {
-            "pokeapiId": 10167,
-            "name": "weezing-galar",
-            "friendlyName": "Galarian Weezing",
-            "method": "Level 35 (Galar)",
-            "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/10167.png",
-            "evolvesTo": []
           }
         ]
       }
@@ -1588,7 +1470,7 @@
                 "pokeapiId": 464,
                 "name": "rhyperior",
                 "friendlyName": "Rhyperior",
-                "method": "Trade (Protector)",
+                "method": "Protector",
                 "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/464.png",
                 "evolvesTo": []
               }
@@ -1685,7 +1567,7 @@
                 "pokeapiId": 230,
                 "name": "kingdra",
                 "friendlyName": "Kingdra",
-                "method": "Trade (Dragon Scale)",
+                "method": "Dragon Scale",
                 "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/230.png",
                 "evolvesTo": []
               }
@@ -1756,23 +1638,6 @@
             "method": "Learn Mimic",
             "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/122.png",
             "evolvesTo": []
-          },
-          {
-            "pokeapiId": 10168,
-            "name": "mr-mime-galar",
-            "friendlyName": "Galarian Mr. Mime",
-            "method": "Learn Mimic",
-            "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/10168.png",
-            "evolvesTo": [
-              {
-                "pokeapiId": 866,
-                "name": "mr-rime",
-                "friendlyName": "Mr. Rime",
-                "method": "Level 42",
-                "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/866.png",
-                "evolvesTo": []
-              }
-            ]
           }
         ]
       }
@@ -1792,7 +1657,7 @@
             "pokeapiId": 212,
             "name": "scizor",
             "friendlyName": "Scizor",
-            "method": "Trade (Metal Coat)",
+            "method": "Metal Coat",
             "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/212.png",
             "evolvesTo": []
           },
@@ -1851,7 +1716,7 @@
                 "pokeapiId": 466,
                 "name": "electivire",
                 "friendlyName": "Electivire",
-                "method": "Trade (Electirizer)",
+                "method": "Electirizer",
                 "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/466.png",
                 "evolvesTo": []
               }
@@ -1882,7 +1747,7 @@
                 "pokeapiId": 467,
                 "name": "magmortar",
                 "friendlyName": "Magmortar",
-                "method": "Trade (Magmarizer)",
+                "method": "Magmarizer",
                 "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/467.png",
                 "evolvesTo": []
               }
@@ -2004,7 +1869,7 @@
             "pokeapiId": 196,
             "name": "espeon",
             "friendlyName": "Espeon",
-            "method": "Friendship (Day)",
+            "method": "Sun Stone",
             "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/196.png",
             "evolvesTo": []
           },
@@ -2012,7 +1877,7 @@
             "pokeapiId": 197,
             "name": "umbreon",
             "friendlyName": "Umbreon",
-            "method": "Friendship (Night)",
+            "method": "Moon Stone",
             "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/197.png",
             "evolvesTo": []
           },
@@ -2036,7 +1901,7 @@
             "pokeapiId": 700,
             "name": "sylveon",
             "friendlyName": "Sylveon",
-            "method": "Level up",
+            "method": "Shiny Stone",
             "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/700.png",
             "evolvesTo": []
           }
@@ -2058,14 +1923,14 @@
             "pokeapiId": 233,
             "name": "porygon2",
             "friendlyName": "Porygon2",
-            "method": "Trade (Up Grade)",
+            "method": "Up Grade",
             "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/233.png",
             "evolvesTo": [
               {
                 "pokeapiId": 474,
                 "name": "porygon-z",
                 "friendlyName": "Porygon-Z",
-                "method": "Trade (Dubious Disc)",
+                "method": "Dubious Disc",
                 "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/474.png",
                 "evolvesTo": []
               }
@@ -2304,14 +2169,6 @@
                 "friendlyName": "Typhlosion",
                 "method": "Level 36",
                 "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/157.png",
-                "evolvesTo": []
-              },
-              {
-                "pokeapiId": 10233,
-                "name": "typhlosion-hisui",
-                "friendlyName": "Hisuian Typhlosion",
-                "method": "Level 36 (Hisui)",
-                "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/10233.png",
                 "evolvesTo": []
               }
             ]
@@ -2933,23 +2790,6 @@
         "method": null,
         "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/211.png",
         "evolvesTo": []
-      },
-      {
-        "pokeapiId": 10234,
-        "name": "qwilfish-hisui",
-        "friendlyName": "Hisuian Qwilfish",
-        "method": null,
-        "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/10234.png",
-        "evolvesTo": [
-          {
-            "pokeapiId": 904,
-            "name": "overqwil",
-            "friendlyName": "Overqwil",
-            "method": "Learn Barb Barrage",
-            "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/904.png",
-            "evolvesTo": []
-          }
-        ]
       }
     ]
   },
@@ -2993,25 +2833,8 @@
             "pokeapiId": 461,
             "name": "weavile",
             "friendlyName": "Weavile",
-            "method": "Holding Razor Claw (Night)",
+            "method": "Razor Claw",
             "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/461.png",
-            "evolvesTo": []
-          }
-        ]
-      },
-      {
-        "pokeapiId": 10235,
-        "name": "sneasel-hisui",
-        "friendlyName": "Hisuian Sneasel",
-        "method": null,
-        "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/10235.png",
-        "evolvesTo": [
-          {
-            "pokeapiId": 903,
-            "name": "sneasler",
-            "friendlyName": "Sneasler",
-            "method": "Holding Razor Claw (Day)",
-            "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/903.png",
             "evolvesTo": []
           }
         ]
@@ -3112,23 +2935,6 @@
         "method": null,
         "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/222.png",
         "evolvesTo": []
-      },
-      {
-        "pokeapiId": 10173,
-        "name": "corsola-galar",
-        "friendlyName": "Galarian Corsola",
-        "method": null,
-        "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/10173.png",
-        "evolvesTo": [
-          {
-            "pokeapiId": 864,
-            "name": "cursola",
-            "friendlyName": "Cursola",
-            "method": "Level 38",
-            "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/864.png",
-            "evolvesTo": []
-          }
-        ]
       }
     ]
   },
@@ -3535,32 +3341,6 @@
             "method": "Level 20",
             "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/264.png",
             "evolvesTo": []
-          }
-        ]
-      },
-      {
-        "pokeapiId": 10174,
-        "name": "zigzagoon-galar",
-        "friendlyName": "Galarian Zigzagoon",
-        "method": null,
-        "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/10174.png",
-        "evolvesTo": [
-          {
-            "pokeapiId": 10175,
-            "name": "linoone-galar",
-            "friendlyName": "Galarian Linoone",
-            "method": "Level 20",
-            "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/10175.png",
-            "evolvesTo": [
-              {
-                "pokeapiId": 862,
-                "name": "obstagoon",
-                "friendlyName": "Obstagoon",
-                "method": "Level 35 (Night)",
-                "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/862.png",
-                "evolvesTo": []
-              }
-            ]
           }
         ]
       }
@@ -4609,7 +4389,7 @@
                 "pokeapiId": 477,
                 "name": "dusknoir",
                 "friendlyName": "Dusknoir",
-                "method": "Trade (Reaper Cloth)",
+                "method": "Reaper Cloth",
                 "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/477.png",
                 "evolvesTo": []
               }
@@ -4742,7 +4522,7 @@
             "pokeapiId": 367,
             "name": "huntail",
             "friendlyName": "Huntail",
-            "method": "Trade (Deep Sea Tooth)",
+            "method": "Deep Sea Tooth",
             "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/367.png",
             "evolvesTo": []
           },
@@ -4750,7 +4530,7 @@
             "pokeapiId": 368,
             "name": "gorebyss",
             "friendlyName": "Gorebyss",
-            "method": "Trade (Deep Sea Scale)",
+            "method": "Deep Sea Scale",
             "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/368.png",
             "evolvesTo": []
           }
@@ -6204,7 +5984,7 @@
                 "pokeapiId": 526,
                 "name": "gigalith",
                 "friendlyName": "Gigalith",
-                "method": "Trade",
+                "method": "Linking Cord",
                 "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/526.png",
                 "evolvesTo": []
               }
@@ -6292,7 +6072,7 @@
                 "pokeapiId": 534,
                 "name": "conkeldurr",
                 "friendlyName": "Conkeldurr",
-                "method": "Trade",
+                "method": "Linking Cord",
                 "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/534.png",
                 "evolvesTo": []
               }
@@ -6965,7 +6745,7 @@
             "pokeapiId": 589,
             "name": "escavalier",
             "friendlyName": "Escavalier",
-            "method": "Trade",
+            "method": "Linking Cord",
             "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/589.png",
             "evolvesTo": []
           }
@@ -7269,7 +7049,7 @@
             "pokeapiId": 617,
             "name": "accelgor",
             "friendlyName": "Accelgor",
-            "method": "Trade",
+            "method": "Linking Cord",
             "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/617.png",
             "evolvesTo": []
           }
@@ -8032,7 +7812,7 @@
             "pokeapiId": 683,
             "name": "aromatisse",
             "friendlyName": "Aromatisse",
-            "method": "Trade (Sachet)",
+            "method": "Linking Cord (Sachet)",
             "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/683.png",
             "evolvesTo": []
           }
@@ -8054,7 +7834,7 @@
             "pokeapiId": 685,
             "name": "slurpuff",
             "friendlyName": "Slurpuff",
-            "method": "Trade (Whipped Dream)",
+            "method": "Linking Cord (Whipped Dream)",
             "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/685.png",
             "evolvesTo": []
           }
@@ -8330,7 +8110,7 @@
             "pokeapiId": 709,
             "name": "trevenant",
             "friendlyName": "Trevenant",
-            "method": "Trade",
+            "method": "Linking Cord",
             "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/709.png",
             "evolvesTo": []
           }
@@ -8352,7 +8132,7 @@
             "pokeapiId": 711,
             "name": "gourgeist",
             "friendlyName": "Gourgeist",
-            "method": "Trade",
+            "method": "Linking Cord",
             "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/711.png",
             "evolvesTo": []
           }

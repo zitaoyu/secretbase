@@ -4,9 +4,7 @@
     "pokeapiId": 252,
     "name": "Treecko",
     "formName": null,
-    "types": [
-      "grass"
-    ],
+    "types": ["grass"],
     "stats": {
       "hp": 40,
       "attack": 65,
@@ -26,10 +24,7 @@
     "pokeapiId": 253,
     "name": "Grovyle",
     "formName": null,
-    "types": [
-      "grass",
-      "dragon"
-    ],
+    "types": ["grass", "dragon"],
     "stats": {
       "hp": 50,
       "attack": 85,
@@ -49,10 +44,7 @@
     "pokeapiId": 254,
     "name": "Sceptile",
     "formName": null,
-    "types": [
-      "grass",
-      "dragon"
-    ],
+    "types": ["grass", "dragon"],
     "stats": {
       "hp": 70,
       "attack": 110,
@@ -72,9 +64,7 @@
     "pokeapiId": 255,
     "name": "Torchic",
     "formName": null,
-    "types": [
-      "fire"
-    ],
+    "types": ["fire"],
     "stats": {
       "hp": 45,
       "attack": 60,
@@ -94,10 +84,7 @@
     "pokeapiId": 256,
     "name": "Combusken",
     "formName": null,
-    "types": [
-      "fire",
-      "fighting"
-    ],
+    "types": ["fire", "fighting"],
     "stats": {
       "hp": 60,
       "attack": 85,
@@ -117,10 +104,7 @@
     "pokeapiId": 257,
     "name": "Blaziken",
     "formName": null,
-    "types": [
-      "fire",
-      "fighting"
-    ],
+    "types": ["fire", "fighting"],
     "stats": {
       "hp": 80,
       "attack": 120,
@@ -140,9 +124,7 @@
     "pokeapiId": 258,
     "name": "Mudkip",
     "formName": null,
-    "types": [
-      "water"
-    ],
+    "types": ["water"],
     "stats": {
       "hp": 50,
       "attack": 70,
@@ -162,10 +144,7 @@
     "pokeapiId": 259,
     "name": "Marshtomp",
     "formName": null,
-    "types": [
-      "water",
-      "ground"
-    ],
+    "types": ["water", "ground"],
     "stats": {
       "hp": 70,
       "attack": 85,
@@ -185,10 +164,7 @@
     "pokeapiId": 260,
     "name": "Swampert",
     "formName": null,
-    "types": [
-      "water",
-      "ground"
-    ],
+    "types": ["water", "ground"],
     "stats": {
       "hp": 100,
       "attack": 110,
@@ -208,9 +184,7 @@
     "pokeapiId": 261,
     "name": "Poochyena",
     "formName": null,
-    "types": [
-      "dark"
-    ],
+    "types": ["dark"],
     "stats": {
       "hp": 35,
       "attack": 55,
@@ -230,9 +204,7 @@
     "pokeapiId": 262,
     "name": "Mightyena",
     "formName": null,
-    "types": [
-      "dark"
-    ],
+    "types": ["dark"],
     "stats": {
       "hp": 76,
       "attack": 100,
@@ -252,9 +224,7 @@
     "pokeapiId": 263,
     "name": "Zigzagoon",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 38,
       "attack": 30,
@@ -274,9 +244,7 @@
     "pokeapiId": 264,
     "name": "Linoone",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 78,
       "attack": 75,
@@ -296,9 +264,7 @@
     "pokeapiId": 265,
     "name": "Wurmple",
     "formName": null,
-    "types": [
-      "bug"
-    ],
+    "types": ["bug"],
     "stats": {
       "hp": 45,
       "attack": 45,
@@ -318,9 +284,7 @@
     "pokeapiId": 266,
     "name": "Silcoon",
     "formName": null,
-    "types": [
-      "bug"
-    ],
+    "types": ["bug"],
     "stats": {
       "hp": 50,
       "attack": 35,
@@ -340,10 +304,7 @@
     "pokeapiId": 267,
     "name": "Beautifly",
     "formName": null,
-    "types": [
-      "bug",
-      "flying"
-    ],
+    "types": ["bug", "flying"],
     "stats": {
       "hp": 60,
       "attack": 50,
@@ -363,9 +324,7 @@
     "pokeapiId": 268,
     "name": "Cascoon",
     "formName": null,
-    "types": [
-      "bug"
-    ],
+    "types": ["bug"],
     "stats": {
       "hp": 50,
       "attack": 35,
@@ -385,10 +344,7 @@
     "pokeapiId": 269,
     "name": "Dustox",
     "formName": null,
-    "types": [
-      "bug",
-      "poison"
-    ],
+    "types": ["bug", "poison"],
     "stats": {
       "hp": 80,
       "attack": 65,
@@ -408,10 +364,7 @@
     "pokeapiId": 270,
     "name": "Lotad",
     "formName": null,
-    "types": [
-      "water",
-      "grass"
-    ],
+    "types": ["water", "grass"],
     "stats": {
       "hp": 40,
       "attack": 30,
@@ -431,10 +384,7 @@
     "pokeapiId": 271,
     "name": "Lombre",
     "formName": null,
-    "types": [
-      "water",
-      "grass"
-    ],
+    "types": ["water", "grass"],
     "stats": {
       "hp": 60,
       "attack": 50,
@@ -454,10 +404,7 @@
     "pokeapiId": 272,
     "name": "Ludicolo",
     "formName": null,
-    "types": [
-      "water",
-      "grass"
-    ],
+    "types": ["water", "grass"],
     "stats": {
       "hp": 100,
       "attack": 70,
@@ -477,9 +424,7 @@
     "pokeapiId": 273,
     "name": "Seedot",
     "formName": null,
-    "types": [
-      "grass"
-    ],
+    "types": ["grass"],
     "stats": {
       "hp": 40,
       "attack": 40,
@@ -499,10 +444,7 @@
     "pokeapiId": 274,
     "name": "Nuzleaf",
     "formName": null,
-    "types": [
-      "gras",
-      "dark"
-    ],
+    "types": ["gras", "dark"],
     "stats": {
       "hp": 70,
       "attack": 70,
@@ -522,10 +464,7 @@
     "pokeapiId": 275,
     "name": "Shiftry",
     "formName": null,
-    "types": [
-      "grass",
-      "dark"
-    ],
+    "types": ["grass", "dark"],
     "stats": {
       "hp": 100,
       "attack": 100,
@@ -545,10 +484,7 @@
     "pokeapiId": 276,
     "name": "Taillow",
     "formName": null,
-    "types": [
-      "normal",
-      "flying"
-    ],
+    "types": ["normal", "flying"],
     "stats": {
       "hp": 40,
       "attack": 55,
@@ -568,10 +504,7 @@
     "pokeapiId": 277,
     "name": "Swellow",
     "formName": null,
-    "types": [
-      "normal",
-      "flying"
-    ],
+    "types": ["normal", "flying"],
     "stats": {
       "hp": 60,
       "attack": 90,
@@ -591,10 +524,7 @@
     "pokeapiId": 278,
     "name": "Wingull",
     "formName": null,
-    "types": [
-      "water",
-      "flying"
-    ],
+    "types": ["water", "flying"],
     "stats": {
       "hp": 40,
       "attack": 30,
@@ -614,10 +544,7 @@
     "pokeapiId": 279,
     "name": "Pelipper",
     "formName": null,
-    "types": [
-      "water",
-      "flying"
-    ],
+    "types": ["water", "flying"],
     "stats": {
       "hp": 75,
       "attack": 50,
@@ -637,10 +564,7 @@
     "pokeapiId": 280,
     "name": "Ralts",
     "formName": null,
-    "types": [
-      "psychic",
-      "fairy"
-    ],
+    "types": ["psychic", "fairy"],
     "stats": {
       "hp": 28,
       "attack": 25,
@@ -660,10 +584,7 @@
     "pokeapiId": 281,
     "name": "Kirlia",
     "formName": null,
-    "types": [
-      "psychic",
-      "fairy"
-    ],
+    "types": ["psychic", "fairy"],
     "stats": {
       "hp": 38,
       "attack": 35,
@@ -683,10 +604,7 @@
     "pokeapiId": 282,
     "name": "Gardevoir",
     "formName": null,
-    "types": [
-      "psychic",
-      "fairy"
-    ],
+    "types": ["psychic", "fairy"],
     "stats": {
       "hp": 68,
       "attack": 65,
@@ -706,10 +624,7 @@
     "pokeapiId": 475,
     "name": "Gallade",
     "formName": null,
-    "types": [
-      "psychic",
-      "fighting"
-    ],
+    "types": ["psychic", "fighting"],
     "stats": {
       "hp": 68,
       "attack": 125,
@@ -729,10 +644,7 @@
     "pokeapiId": 283,
     "name": "Surskit",
     "formName": null,
-    "types": [
-      "bug",
-      "water"
-    ],
+    "types": ["bug", "water"],
     "stats": {
       "hp": 45,
       "attack": 30,
@@ -752,10 +664,7 @@
     "pokeapiId": 284,
     "name": "Masquerain",
     "formName": null,
-    "types": [
-      "bug",
-      "water"
-    ],
+    "types": ["bug", "water"],
     "stats": {
       "hp": 80,
       "attack": 60,
@@ -775,9 +684,7 @@
     "pokeapiId": 285,
     "name": "Shroomish",
     "formName": null,
-    "types": [
-      "grass"
-    ],
+    "types": ["grass"],
     "stats": {
       "hp": 60,
       "attack": 40,
@@ -797,10 +704,7 @@
     "pokeapiId": 286,
     "name": "Breloom",
     "formName": null,
-    "types": [
-      "grass",
-      "fighting"
-    ],
+    "types": ["grass", "fighting"],
     "stats": {
       "hp": 60,
       "attack": 120,
@@ -820,9 +724,7 @@
     "pokeapiId": 287,
     "name": "Slakoth",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 60,
       "attack": 60,
@@ -842,9 +744,7 @@
     "pokeapiId": 288,
     "name": "Vigoroth",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 95,
       "attack": 85,
@@ -864,9 +764,7 @@
     "pokeapiId": 289,
     "name": "Slaking",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 150,
       "attack": 160,
@@ -886,10 +784,7 @@
     "pokeapiId": 290,
     "name": "Nincada",
     "formName": null,
-    "types": [
-      "bug",
-      "ground"
-    ],
+    "types": ["bug", "ground"],
     "stats": {
       "hp": 31,
       "attack": 45,
@@ -909,10 +804,7 @@
     "pokeapiId": 291,
     "name": "Ninjask",
     "formName": null,
-    "types": [
-      "bug",
-      "dark"
-    ],
+    "types": ["bug", "dark"],
     "stats": {
       "hp": 61,
       "attack": 90,
@@ -932,10 +824,7 @@
     "pokeapiId": 292,
     "name": "Shedinja",
     "formName": null,
-    "types": [
-      "bug",
-      "ghost"
-    ],
+    "types": ["bug", "ghost"],
     "stats": {
       "hp": 1,
       "attack": 90,
@@ -955,9 +844,7 @@
     "pokeapiId": 293,
     "name": "Whismur",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 64,
       "attack": 46,
@@ -977,9 +864,7 @@
     "pokeapiId": 294,
     "name": "Loudred",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 84,
       "attack": 66,
@@ -999,9 +884,7 @@
     "pokeapiId": 295,
     "name": "Exploud",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 104,
       "attack": 81,
@@ -1021,9 +904,7 @@
     "pokeapiId": 296,
     "name": "Makuhita",
     "formName": null,
-    "types": [
-      "fighting"
-    ],
+    "types": ["fighting"],
     "stats": {
       "hp": 72,
       "attack": 60,
@@ -1043,9 +924,7 @@
     "pokeapiId": 297,
     "name": "Hariyama",
     "formName": null,
-    "types": [
-      "fighting"
-    ],
+    "types": ["fighting"],
     "stats": {
       "hp": 144,
       "attack": 120,
@@ -1065,9 +944,7 @@
     "pokeapiId": 299,
     "name": "Nosepass",
     "formName": null,
-    "types": [
-      "rock"
-    ],
+    "types": ["rock"],
     "stats": {
       "hp": 30,
       "attack": 45,
@@ -1087,10 +964,7 @@
     "pokeapiId": 476,
     "name": "Probopass",
     "formName": null,
-    "types": [
-      "rock",
-      "steel"
-    ],
+    "types": ["rock", "steel"],
     "stats": {
       "hp": 60,
       "attack": 50,
@@ -1110,9 +984,7 @@
     "pokeapiId": 300,
     "name": "Skitty",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 65,
       "attack": 45,
@@ -1132,9 +1004,7 @@
     "pokeapiId": 301,
     "name": "Delcatty",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 95,
       "attack": 55,
@@ -1154,10 +1024,7 @@
     "pokeapiId": 302,
     "name": "Sableye",
     "formName": null,
-    "types": [
-      "dark",
-      "ghost"
-    ],
+    "types": ["dark", "ghost"],
     "stats": {
       "hp": 60,
       "attack": 85,
@@ -1177,10 +1044,7 @@
     "pokeapiId": 303,
     "name": "Mawile",
     "formName": null,
-    "types": [
-      "steel",
-      "fairy"
-    ],
+    "types": ["steel", "fairy"],
     "stats": {
       "hp": 50,
       "attack": 85,
@@ -1200,10 +1064,7 @@
     "pokeapiId": 304,
     "name": "Aron",
     "formName": null,
-    "types": [
-      "steel",
-      "rock"
-    ],
+    "types": ["steel", "rock"],
     "stats": {
       "hp": 50,
       "attack": 70,
@@ -1223,10 +1084,7 @@
     "pokeapiId": 305,
     "name": "Lairon",
     "formName": null,
-    "types": [
-      "steel",
-      "rock"
-    ],
+    "types": ["steel", "rock"],
     "stats": {
       "hp": 60,
       "attack": 90,
@@ -1246,10 +1104,7 @@
     "pokeapiId": 306,
     "name": "Aggron",
     "formName": null,
-    "types": [
-      "steel",
-      "dragon"
-    ],
+    "types": ["steel", "dragon"],
     "stats": {
       "hp": 70,
       "attack": 110,
@@ -1269,10 +1124,7 @@
     "pokeapiId": 307,
     "name": "Meditite",
     "formName": null,
-    "types": [
-      "fighting",
-      "psychic"
-    ],
+    "types": ["fighting", "psychic"],
     "stats": {
       "hp": 40,
       "attack": 40,
@@ -1292,10 +1144,7 @@
     "pokeapiId": 308,
     "name": "Medicham",
     "formName": null,
-    "types": [
-      "fighting",
-      "psychic"
-    ],
+    "types": ["fighting", "psychic"],
     "stats": {
       "hp": 80,
       "attack": 63,
@@ -1315,9 +1164,7 @@
     "pokeapiId": 309,
     "name": "Electrike",
     "formName": null,
-    "types": [
-      "electric"
-    ],
+    "types": ["electric"],
     "stats": {
       "hp": 40,
       "attack": 45,
@@ -1337,9 +1184,7 @@
     "pokeapiId": 310,
     "name": "Manectric",
     "formName": null,
-    "types": [
-      "electric"
-    ],
+    "types": ["electric"],
     "stats": {
       "hp": 70,
       "attack": 85,
@@ -1359,9 +1204,7 @@
     "pokeapiId": 311,
     "name": "Plusle",
     "formName": null,
-    "types": [
-      "electric"
-    ],
+    "types": ["electric"],
     "stats": {
       "hp": 80,
       "attack": 40,
@@ -1381,9 +1224,7 @@
     "pokeapiId": 312,
     "name": "Minun",
     "formName": null,
-    "types": [
-      "electric"
-    ],
+    "types": ["electric"],
     "stats": {
       "hp": 60,
       "attack": 40,
@@ -1403,10 +1244,7 @@
     "pokeapiId": 313,
     "name": "Volbeat",
     "formName": null,
-    "types": [
-      "bug",
-      "electric"
-    ],
+    "types": ["bug", "electric"],
     "stats": {
       "hp": 70,
       "attack": 83,
@@ -1426,10 +1264,7 @@
     "pokeapiId": 314,
     "name": "Illumise",
     "formName": null,
-    "types": [
-      "bug",
-      "fairy"
-    ],
+    "types": ["bug", "fairy"],
     "stats": {
       "hp": 75,
       "attack": 47,
@@ -1449,10 +1284,7 @@
     "pokeapiId": 406,
     "name": "Budew",
     "formName": null,
-    "types": [
-      "grass",
-      "poison"
-    ],
+    "types": ["grass", "poison"],
     "stats": {
       "hp": 40,
       "attack": 30,
@@ -1472,10 +1304,7 @@
     "pokeapiId": 315,
     "name": "Roselia",
     "formName": null,
-    "types": [
-      "grass",
-      "poison"
-    ],
+    "types": ["grass", "poison"],
     "stats": {
       "hp": 50,
       "attack": 60,
@@ -1495,10 +1324,7 @@
     "pokeapiId": 407,
     "name": "Roserade",
     "formName": null,
-    "types": [
-      "grass",
-      "poison"
-    ],
+    "types": ["grass", "poison"],
     "stats": {
       "hp": 75,
       "attack": 80,
@@ -1518,9 +1344,7 @@
     "pokeapiId": 316,
     "name": "Gulpin",
     "formName": null,
-    "types": [
-      "poison"
-    ],
+    "types": ["poison"],
     "stats": {
       "hp": 70,
       "attack": 43,
@@ -1540,9 +1364,7 @@
     "pokeapiId": 317,
     "name": "Swalot",
     "formName": null,
-    "types": [
-      "poison"
-    ],
+    "types": ["poison"],
     "stats": {
       "hp": 110,
       "attack": 73,
@@ -1562,10 +1384,7 @@
     "pokeapiId": 318,
     "name": "Carvanha",
     "formName": null,
-    "types": [
-      "water",
-      "dark"
-    ],
+    "types": ["water", "dark"],
     "stats": {
       "hp": 45,
       "attack": 90,
@@ -1585,10 +1404,7 @@
     "pokeapiId": 319,
     "name": "Sharpedo",
     "formName": null,
-    "types": [
-      "water",
-      "dark"
-    ],
+    "types": ["water", "dark"],
     "stats": {
       "hp": 70,
       "attack": 120,
@@ -1608,9 +1424,7 @@
     "pokeapiId": 320,
     "name": "Wailmer",
     "formName": null,
-    "types": [
-      "water"
-    ],
+    "types": ["water"],
     "stats": {
       "hp": 130,
       "attack": 70,
@@ -1630,9 +1444,7 @@
     "pokeapiId": 321,
     "name": "Wailord",
     "formName": null,
-    "types": [
-      "water"
-    ],
+    "types": ["water"],
     "stats": {
       "hp": 170,
       "attack": 85,
@@ -1652,10 +1464,7 @@
     "pokeapiId": 322,
     "name": "Numel",
     "formName": null,
-    "types": [
-      "fire",
-      "ground"
-    ],
+    "types": ["fire", "ground"],
     "stats": {
       "hp": 60,
       "attack": 60,
@@ -1675,10 +1484,7 @@
     "pokeapiId": 323,
     "name": "Camerupt",
     "formName": null,
-    "types": [
-      "fire",
-      "ground"
-    ],
+    "types": ["fire", "ground"],
     "stats": {
       "hp": 85,
       "attack": 95,
@@ -1698,9 +1504,7 @@
     "pokeapiId": 324,
     "name": "Torkoal",
     "formName": null,
-    "types": [
-      "fire"
-    ],
+    "types": ["fire"],
     "stats": {
       "hp": 70,
       "attack": 85,
@@ -1720,9 +1524,7 @@
     "pokeapiId": 325,
     "name": "Spoink",
     "formName": null,
-    "types": [
-      "psychic"
-    ],
+    "types": ["psychic"],
     "stats": {
       "hp": 65,
       "attack": 25,
@@ -1742,9 +1544,7 @@
     "pokeapiId": 326,
     "name": "Grumpig",
     "formName": null,
-    "types": [
-      "psychic"
-    ],
+    "types": ["psychic"],
     "stats": {
       "hp": 95,
       "attack": 45,
@@ -1764,9 +1564,7 @@
     "pokeapiId": 327,
     "name": "Spinda",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 75,
       "attack": 60,
@@ -1786,9 +1584,7 @@
     "pokeapiId": 328,
     "name": "Trapinch",
     "formName": null,
-    "types": [
-      "ground"
-    ],
+    "types": ["ground"],
     "stats": {
       "hp": 45,
       "attack": 100,
@@ -1808,10 +1604,7 @@
     "pokeapiId": 329,
     "name": "Vibrava",
     "formName": null,
-    "types": [
-      "ground",
-      "dragon"
-    ],
+    "types": ["ground", "dragon"],
     "stats": {
       "hp": 50,
       "attack": 75,
@@ -1831,10 +1624,7 @@
     "pokeapiId": 330,
     "name": "Flygon",
     "formName": null,
-    "types": [
-      "ground",
-      "dragon"
-    ],
+    "types": ["ground", "dragon"],
     "stats": {
       "hp": 80,
       "attack": 110,
@@ -1854,9 +1644,7 @@
     "pokeapiId": 331,
     "name": "Cacnea",
     "formName": null,
-    "types": [
-      "grass"
-    ],
+    "types": ["grass"],
     "stats": {
       "hp": 50,
       "attack": 85,
@@ -1876,10 +1664,7 @@
     "pokeapiId": 332,
     "name": "Cacturne",
     "formName": null,
-    "types": [
-      "grass",
-      "dark"
-    ],
+    "types": ["grass", "dark"],
     "stats": {
       "hp": 70,
       "attack": 115,
@@ -1899,10 +1684,7 @@
     "pokeapiId": 333,
     "name": "Swablu",
     "formName": null,
-    "types": [
-      "flying",
-      "fairy"
-    ],
+    "types": ["flying", "fairy"],
     "stats": {
       "hp": 50,
       "attack": 40,
@@ -1922,10 +1704,7 @@
     "pokeapiId": 334,
     "name": "Altaria",
     "formName": null,
-    "types": [
-      "dragon",
-      "fairy"
-    ],
+    "types": ["dragon", "fairy"],
     "stats": {
       "hp": 95,
       "attack": 75,
@@ -1945,9 +1724,7 @@
     "pokeapiId": 335,
     "name": "Zangoose",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 80,
       "attack": 125,
@@ -1967,9 +1744,7 @@
     "pokeapiId": 336,
     "name": "Seviper",
     "formName": null,
-    "types": [
-      "poison"
-    ],
+    "types": ["poison"],
     "stats": {
       "hp": 73,
       "attack": 100,
@@ -1989,10 +1764,7 @@
     "pokeapiId": 337,
     "name": "Lunatone",
     "formName": null,
-    "types": [
-      "rock",
-      "psychic"
-    ],
+    "types": ["rock", "psychic"],
     "stats": {
       "hp": 90,
       "attack": 55,
@@ -2012,10 +1784,7 @@
     "pokeapiId": 338,
     "name": "Solrock",
     "formName": null,
-    "types": [
-      "rock",
-      "psychic"
-    ],
+    "types": ["rock", "psychic"],
     "stats": {
       "hp": 90,
       "attack": 105,
@@ -2035,10 +1804,7 @@
     "pokeapiId": 339,
     "name": "Barboach",
     "formName": null,
-    "types": [
-      "water",
-      "ground"
-    ],
+    "types": ["water", "ground"],
     "stats": {
       "hp": 50,
       "attack": 48,
@@ -2058,10 +1824,7 @@
     "pokeapiId": 340,
     "name": "Whiscash",
     "formName": null,
-    "types": [
-      "water",
-      "ground"
-    ],
+    "types": ["water", "ground"],
     "stats": {
       "hp": 110,
       "attack": 78,
@@ -2081,9 +1844,7 @@
     "pokeapiId": 341,
     "name": "Corphish",
     "formName": null,
-    "types": [
-      "water"
-    ],
+    "types": ["water"],
     "stats": {
       "hp": 43,
       "attack": 60,
@@ -2103,10 +1864,7 @@
     "pokeapiId": 342,
     "name": "Crawdaunt",
     "formName": null,
-    "types": [
-      "water",
-      "dark"
-    ],
+    "types": ["water", "dark"],
     "stats": {
       "hp": 63,
       "attack": 120,
@@ -2126,10 +1884,7 @@
     "pokeapiId": 343,
     "name": "Baltoy",
     "formName": null,
-    "types": [
-      "ground",
-      "psychic"
-    ],
+    "types": ["ground", "psychic"],
     "stats": {
       "hp": 50,
       "attack": 40,
@@ -2149,10 +1904,7 @@
     "pokeapiId": 344,
     "name": "Claydol",
     "formName": null,
-    "types": [
-      "ground",
-      "psychic"
-    ],
+    "types": ["ground", "psychic"],
     "stats": {
       "hp": 75,
       "attack": 65,
@@ -2172,10 +1924,7 @@
     "pokeapiId": 345,
     "name": "Lileep",
     "formName": null,
-    "types": [
-      "rock",
-      "grass"
-    ],
+    "types": ["rock", "grass"],
     "stats": {
       "hp": 71,
       "attack": 41,
@@ -2195,10 +1944,7 @@
     "pokeapiId": 346,
     "name": "Cradily",
     "formName": null,
-    "types": [
-      "rock",
-      "grass"
-    ],
+    "types": ["rock", "grass"],
     "stats": {
       "hp": 96,
       "attack": 81,
@@ -2218,10 +1964,7 @@
     "pokeapiId": 347,
     "name": "Anorith",
     "formName": null,
-    "types": [
-      "rock",
-      "bug"
-    ],
+    "types": ["rock", "bug"],
     "stats": {
       "hp": 50,
       "attack": 95,
@@ -2241,10 +1984,7 @@
     "pokeapiId": 348,
     "name": "Armaldo",
     "formName": null,
-    "types": [
-      "rock",
-      "bug"
-    ],
+    "types": ["rock", "bug"],
     "stats": {
       "hp": 85,
       "attack": 125,
@@ -2264,9 +2004,7 @@
     "pokeapiId": 349,
     "name": "Feebas",
     "formName": null,
-    "types": [
-      "water"
-    ],
+    "types": ["water"],
     "stats": {
       "hp": 20,
       "attack": 15,
@@ -2286,10 +2024,7 @@
     "pokeapiId": 350,
     "name": "Milotic",
     "formName": null,
-    "types": [
-      "water",
-      "fairy"
-    ],
+    "types": ["water", "fairy"],
     "stats": {
       "hp": 105,
       "attack": 60,
@@ -2309,9 +2044,7 @@
     "pokeapiId": 351,
     "name": "Castform",
     "formName": "Normal",
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 80,
       "attack": 80,
@@ -2331,9 +2064,7 @@
     "pokeapiId": 352,
     "name": "Kecleon",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 75,
       "attack": 90,
@@ -2353,10 +2084,7 @@
     "pokeapiId": 353,
     "name": "Shuppet",
     "formName": null,
-    "types": [
-      "ghost",
-      "normal"
-    ],
+    "types": ["ghost", "normal"],
     "stats": {
       "hp": 54,
       "attack": 75,
@@ -2376,10 +2104,7 @@
     "pokeapiId": 354,
     "name": "Banette",
     "formName": null,
-    "types": [
-      "ghost",
-      "normal"
-    ],
+    "types": ["ghost", "normal"],
     "stats": {
       "hp": 74,
       "attack": 115,
@@ -2399,9 +2124,7 @@
     "pokeapiId": 355,
     "name": "Duskull",
     "formName": null,
-    "types": [
-      "ghost"
-    ],
+    "types": ["ghost"],
     "stats": {
       "hp": 20,
       "attack": 40,
@@ -2421,9 +2144,7 @@
     "pokeapiId": 356,
     "name": "Dusclops",
     "formName": null,
-    "types": [
-      "ghost"
-    ],
+    "types": ["ghost"],
     "stats": {
       "hp": 50,
       "attack": 70,
@@ -2443,9 +2164,7 @@
     "pokeapiId": 477,
     "name": "Dusknoir",
     "formName": null,
-    "types": [
-      "ghost"
-    ],
+    "types": ["ghost"],
     "stats": {
       "hp": 60,
       "attack": 100,
@@ -2465,10 +2184,7 @@
     "pokeapiId": 357,
     "name": "Tropius",
     "formName": null,
-    "types": [
-      "grass",
-      "flying"
-    ],
+    "types": ["grass", "flying"],
     "stats": {
       "hp": 109,
       "attack": 84,
@@ -2488,10 +2204,7 @@
     "pokeapiId": 433,
     "name": "Chingling",
     "formName": null,
-    "types": [
-      "psychic",
-      "steel"
-    ],
+    "types": ["psychic", "steel"],
     "stats": {
       "hp": 45,
       "attack": 30,
@@ -2511,10 +2224,7 @@
     "pokeapiId": 358,
     "name": "Chimecho",
     "formName": null,
-    "types": [
-      "psychic",
-      "steel"
-    ],
+    "types": ["psychic", "steel"],
     "stats": {
       "hp": 75,
       "attack": 50,
@@ -2534,9 +2244,7 @@
     "pokeapiId": 359,
     "name": "Absol",
     "formName": null,
-    "types": [
-      "dark"
-    ],
+    "types": ["dark"],
     "stats": {
       "hp": 65,
       "attack": 130,
@@ -2556,9 +2264,7 @@
     "pokeapiId": 361,
     "name": "Snorunt",
     "formName": null,
-    "types": [
-      "ice"
-    ],
+    "types": ["ice"],
     "stats": {
       "hp": 50,
       "attack": 50,
@@ -2578,9 +2284,7 @@
     "pokeapiId": 362,
     "name": "Glalie",
     "formName": null,
-    "types": [
-      "ice"
-    ],
+    "types": ["ice"],
     "stats": {
       "hp": 90,
       "attack": 80,
@@ -2600,10 +2304,7 @@
     "pokeapiId": 478,
     "name": "Froslass",
     "formName": null,
-    "types": [
-      "ice",
-      "ghost"
-    ],
+    "types": ["ice", "ghost"],
     "stats": {
       "hp": 80,
       "attack": 75,
@@ -2623,10 +2324,7 @@
     "pokeapiId": 363,
     "name": "Spheal",
     "formName": null,
-    "types": [
-      "ice",
-      "water"
-    ],
+    "types": ["ice", "water"],
     "stats": {
       "hp": 75,
       "attack": 45,
@@ -2646,10 +2344,7 @@
     "pokeapiId": 364,
     "name": "Sealeo",
     "formName": null,
-    "types": [
-      "ice",
-      "water"
-    ],
+    "types": ["ice", "water"],
     "stats": {
       "hp": 95,
       "attack": 60,
@@ -2669,10 +2364,7 @@
     "pokeapiId": 365,
     "name": "Walrein",
     "formName": null,
-    "types": [
-      "ice",
-      "water"
-    ],
+    "types": ["ice", "water"],
     "stats": {
       "hp": 120,
       "attack": 85,
@@ -2692,9 +2384,7 @@
     "pokeapiId": 366,
     "name": "Clamperl",
     "formName": null,
-    "types": [
-      "water"
-    ],
+    "types": ["water"],
     "stats": {
       "hp": 35,
       "attack": 64,
@@ -2714,10 +2404,7 @@
     "pokeapiId": 367,
     "name": "Huntail",
     "formName": null,
-    "types": [
-      "water",
-      "dragon"
-    ],
+    "types": ["water", "dragon"],
     "stats": {
       "hp": 55,
       "attack": 119,
@@ -2737,10 +2424,7 @@
     "pokeapiId": 368,
     "name": "Gorebyss",
     "formName": null,
-    "types": [
-      "water",
-      "fairy"
-    ],
+    "types": ["water", "fairy"],
     "stats": {
       "hp": 75,
       "attack": 74,
@@ -2760,10 +2444,7 @@
     "pokeapiId": 369,
     "name": "Relicanth",
     "formName": null,
-    "types": [
-      "water",
-      "rock"
-    ],
+    "types": ["water", "rock"],
     "stats": {
       "hp": 100,
       "attack": 90,
@@ -2783,9 +2464,7 @@
     "pokeapiId": 370,
     "name": "Luvdisc",
     "formName": null,
-    "types": [
-      "water"
-    ],
+    "types": ["water"],
     "stats": {
       "hp": 53,
       "attack": 30,
@@ -2805,9 +2484,7 @@
     "pokeapiId": 371,
     "name": "Bagon",
     "formName": null,
-    "types": [
-      "dragon "
-    ],
+    "types": ["dragon "],
     "stats": {
       "hp": 45,
       "attack": 75,
@@ -2827,9 +2504,7 @@
     "pokeapiId": 372,
     "name": "Shelgon",
     "formName": null,
-    "types": [
-      "dragon"
-    ],
+    "types": ["dragon"],
     "stats": {
       "hp": 65,
       "attack": 95,
@@ -2849,10 +2524,7 @@
     "pokeapiId": 373,
     "name": "Salamence",
     "formName": null,
-    "types": [
-      "dragon",
-      "flying"
-    ],
+    "types": ["dragon", "flying"],
     "stats": {
       "hp": 95,
       "attack": 135,
@@ -2872,10 +2544,7 @@
     "pokeapiId": 374,
     "name": "Beldum",
     "formName": null,
-    "types": [
-      "steel",
-      "psychic"
-    ],
+    "types": ["steel", "psychic"],
     "stats": {
       "hp": 40,
       "attack": 55,
@@ -2895,10 +2564,7 @@
     "pokeapiId": 375,
     "name": "Metang",
     "formName": null,
-    "types": [
-      "steel",
-      "psychic"
-    ],
+    "types": ["steel", "psychic"],
     "stats": {
       "hp": 60,
       "attack": 75,
@@ -2918,10 +2584,7 @@
     "pokeapiId": 376,
     "name": "Metagross",
     "formName": null,
-    "types": [
-      "steel",
-      "psychic"
-    ],
+    "types": ["steel", "psychic"],
     "stats": {
       "hp": 80,
       "attack": 135,
@@ -2941,9 +2604,7 @@
     "pokeapiId": 377,
     "name": "Regirock",
     "formName": null,
-    "types": [
-      "rock"
-    ],
+    "types": ["rock"],
     "stats": {
       "hp": 80,
       "attack": 100,
@@ -2963,9 +2624,7 @@
     "pokeapiId": 378,
     "name": "Regice",
     "formName": null,
-    "types": [
-      "ice"
-    ],
+    "types": ["ice"],
     "stats": {
       "hp": 80,
       "attack": 50,
@@ -2985,9 +2644,7 @@
     "pokeapiId": 379,
     "name": "Registeel",
     "formName": null,
-    "types": [
-      "steel"
-    ],
+    "types": ["steel"],
     "stats": {
       "hp": 80,
       "attack": 75,
@@ -3007,10 +2664,7 @@
     "pokeapiId": 380,
     "name": "Latias",
     "formName": null,
-    "types": [
-      "dragon",
-      "psychic"
-    ],
+    "types": ["dragon", "psychic"],
     "stats": {
       "hp": 80,
       "attack": 80,
@@ -3030,10 +2684,7 @@
     "pokeapiId": 381,
     "name": "Latios",
     "formName": null,
-    "types": [
-      "dragon",
-      "psychic"
-    ],
+    "types": ["dragon", "psychic"],
     "stats": {
       "hp": 80,
       "attack": 90,
@@ -3053,9 +2704,7 @@
     "pokeapiId": 382,
     "name": "Kyogre",
     "formName": "Kyogre",
-    "types": [
-      "water"
-    ],
+    "types": ["water"],
     "stats": {
       "hp": 100,
       "attack": 100,
@@ -3075,9 +2724,7 @@
     "pokeapiId": 383,
     "name": "Groudon",
     "formName": "Groudon",
-    "types": [
-      "ground"
-    ],
+    "types": ["ground"],
     "stats": {
       "hp": 100,
       "attack": 150,
@@ -3097,10 +2744,7 @@
     "pokeapiId": 384,
     "name": "Rayquaza",
     "formName": null,
-    "types": [
-      "dragon",
-      "flying"
-    ],
+    "types": ["dragon", "flying"],
     "stats": {
       "hp": 105,
       "attack": 150,
@@ -3120,10 +2764,7 @@
     "pokeapiId": 385,
     "name": "Jirachi",
     "formName": null,
-    "types": [
-      "steel",
-      "psychic"
-    ],
+    "types": ["steel", "psychic"],
     "stats": {
       "hp": 100,
       "attack": 100,
@@ -3143,9 +2784,7 @@
     "pokeapiId": 386,
     "name": "Deoxys",
     "formName": "Normal Forme",
-    "types": [
-      "psychic"
-    ],
+    "types": ["psychic"],
     "stats": {
       "hp": 50,
       "attack": 150,
@@ -3165,10 +2804,7 @@
     "pokeapiId": 1,
     "name": "Bulbasaur",
     "formName": null,
-    "types": [
-      "grass",
-      "poison"
-    ],
+    "types": ["grass", "poison"],
     "stats": {
       "hp": 45,
       "attack": 49,
@@ -3188,10 +2824,7 @@
     "pokeapiId": 2,
     "name": "Ivysaur",
     "formName": null,
-    "types": [
-      "grass",
-      "poison"
-    ],
+    "types": ["grass", "poison"],
     "stats": {
       "hp": 60,
       "attack": 62,
@@ -3211,10 +2844,7 @@
     "pokeapiId": 3,
     "name": "Venusaur",
     "formName": null,
-    "types": [
-      "grass",
-      "poison"
-    ],
+    "types": ["grass", "poison"],
     "stats": {
       "hp": 80,
       "attack": 82,
@@ -3234,9 +2864,7 @@
     "pokeapiId": 4,
     "name": "Charmander",
     "formName": null,
-    "types": [
-      "fire"
-    ],
+    "types": ["fire"],
     "stats": {
       "hp": 39,
       "attack": 52,
@@ -3256,9 +2884,7 @@
     "pokeapiId": 5,
     "name": "Charmeleon",
     "formName": null,
-    "types": [
-      "fire"
-    ],
+    "types": ["fire"],
     "stats": {
       "hp": 58,
       "attack": 64,
@@ -3278,10 +2904,7 @@
     "pokeapiId": 6,
     "name": "Charizard",
     "formName": null,
-    "types": [
-      "fire",
-      "flying"
-    ],
+    "types": ["fire", "flying"],
     "stats": {
       "hp": 78,
       "attack": 84,
@@ -3301,9 +2924,7 @@
     "pokeapiId": 7,
     "name": "Squirtle",
     "formName": null,
-    "types": [
-      "water"
-    ],
+    "types": ["water"],
     "stats": {
       "hp": 44,
       "attack": 48,
@@ -3323,9 +2944,7 @@
     "pokeapiId": 8,
     "name": "Wartortle",
     "formName": null,
-    "types": [
-      "water"
-    ],
+    "types": ["water"],
     "stats": {
       "hp": 59,
       "attack": 63,
@@ -3345,10 +2964,7 @@
     "pokeapiId": 9,
     "name": "Blastoise",
     "formName": null,
-    "types": [
-      "water",
-      "steel"
-    ],
+    "types": ["water", "steel"],
     "stats": {
       "hp": 79,
       "attack": 83,
@@ -3368,9 +2984,7 @@
     "pokeapiId": 10,
     "name": "Caterpie",
     "formName": null,
-    "types": [
-      "bug"
-    ],
+    "types": ["bug"],
     "stats": {
       "hp": 45,
       "attack": 30,
@@ -3390,9 +3004,7 @@
     "pokeapiId": 11,
     "name": "Metapod",
     "formName": null,
-    "types": [
-      "bug"
-    ],
+    "types": ["bug"],
     "stats": {
       "hp": 50,
       "attack": 20,
@@ -3412,10 +3024,7 @@
     "pokeapiId": 12,
     "name": "Butterfree",
     "formName": null,
-    "types": [
-      "bug",
-      "psychic"
-    ],
+    "types": ["bug", "psychic"],
     "stats": {
       "hp": 60,
       "attack": 45,
@@ -3435,10 +3044,7 @@
     "pokeapiId": 13,
     "name": "Weedle",
     "formName": null,
-    "types": [
-      "bug",
-      "poison"
-    ],
+    "types": ["bug", "poison"],
     "stats": {
       "hp": 40,
       "attack": 35,
@@ -3458,10 +3064,7 @@
     "pokeapiId": 14,
     "name": "Kakuna",
     "formName": null,
-    "types": [
-      "bug",
-      "poison"
-    ],
+    "types": ["bug", "poison"],
     "stats": {
       "hp": 45,
       "attack": 25,
@@ -3481,10 +3084,7 @@
     "pokeapiId": 15,
     "name": "Beedrill",
     "formName": null,
-    "types": [
-      "bug",
-      "poison"
-    ],
+    "types": ["bug", "poison"],
     "stats": {
       "hp": 65,
       "attack": 95,
@@ -3504,9 +3104,7 @@
     "pokeapiId": 16,
     "name": "Pidgey",
     "formName": null,
-    "types": [
-      "flying "
-    ],
+    "types": ["flying "],
     "stats": {
       "hp": 40,
       "attack": 45,
@@ -3526,9 +3124,7 @@
     "pokeapiId": 17,
     "name": "Pidgeotto",
     "formName": null,
-    "types": [
-      "flying"
-    ],
+    "types": ["flying"],
     "stats": {
       "hp": 68,
       "attack": 60,
@@ -3548,9 +3144,7 @@
     "pokeapiId": 18,
     "name": "Pidgeot",
     "formName": null,
-    "types": [
-      "flying"
-    ],
+    "types": ["flying"],
     "stats": {
       "hp": 88,
       "attack": 80,
@@ -3570,9 +3164,7 @@
     "pokeapiId": 19,
     "name": "Rattata",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 30,
       "attack": 56,
@@ -3592,9 +3184,7 @@
     "pokeapiId": 20,
     "name": "Raticate",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 55,
       "attack": 81,
@@ -3614,10 +3204,7 @@
     "pokeapiId": 21,
     "name": "Spearow",
     "formName": null,
-    "types": [
-      "normal",
-      "flying"
-    ],
+    "types": ["normal", "flying"],
     "stats": {
       "hp": 40,
       "attack": 60,
@@ -3637,10 +3224,7 @@
     "pokeapiId": 22,
     "name": "Fearow",
     "formName": null,
-    "types": [
-      "normal",
-      "flying"
-    ],
+    "types": ["normal", "flying"],
     "stats": {
       "hp": 65,
       "attack": 90,
@@ -3660,10 +3244,7 @@
     "pokeapiId": 23,
     "name": "Ekans",
     "formName": null,
-    "types": [
-      "poison",
-      "dark"
-    ],
+    "types": ["poison", "dark"],
     "stats": {
       "hp": 35,
       "attack": 60,
@@ -3683,10 +3264,7 @@
     "pokeapiId": 24,
     "name": "Arbok",
     "formName": null,
-    "types": [
-      "poison",
-      "dark"
-    ],
+    "types": ["poison", "dark"],
     "stats": {
       "hp": 70,
       "attack": 95,
@@ -3706,9 +3284,7 @@
     "pokeapiId": 172,
     "name": "Pichu",
     "formName": null,
-    "types": [
-      "electric"
-    ],
+    "types": ["electric"],
     "stats": {
       "hp": 20,
       "attack": 40,
@@ -3724,13 +3300,11 @@
     "evolutionChainId": 10
   },
   {
-    "id": 165,
+    "id": 99999,
     "pokeapiId": 172,
-    "name": "Pichu",
+    "name": "Spiky-eared Pichu",
     "formName": null,
-    "types": [
-      "electric"
-    ],
+    "types": ["electric"],
     "stats": {
       "hp": 55,
       "attack": 55,
@@ -3739,20 +3313,18 @@
       "special-defense": 60,
       "speed": 115
     },
-    "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/172.png",
-    "shinySpriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front_shiny/172.png",
+    "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/99999.png",
+    "shinySpriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front_shiny/99999.png",
     "animatedSpriteUrl": null,
     "animatedShinySpriteUrl": null,
-    "evolutionChainId": 10
+    "evolutionChainId": 99999
   },
   {
     "id": 166,
     "pokeapiId": 25,
     "name": "Pikachu",
     "formName": null,
-    "types": [
-      "electric"
-    ],
+    "types": ["electric"],
     "stats": {
       "hp": 35,
       "attack": 55,
@@ -3772,9 +3344,7 @@
     "pokeapiId": 26,
     "name": "Raichu",
     "formName": null,
-    "types": [
-      "electric"
-    ],
+    "types": ["electric"],
     "stats": {
       "hp": 70,
       "attack": 90,
@@ -3794,10 +3364,7 @@
     "pokeapiId": 10100,
     "name": "Alolan Raichu",
     "formName": "Alolan Form",
-    "types": [
-      "electric",
-      "psychic"
-    ],
+    "types": ["electric", "psychic"],
     "stats": {
       "hp": 70,
       "attack": 85,
@@ -3817,9 +3384,7 @@
     "pokeapiId": 27,
     "name": "Sandshrew",
     "formName": null,
-    "types": [
-      "ground"
-    ],
+    "types": ["ground"],
     "stats": {
       "hp": 50,
       "attack": 75,
@@ -3839,10 +3404,7 @@
     "pokeapiId": 10101,
     "name": "Alolan Sandshrew",
     "formName": "Alolan Form",
-    "types": [
-      "ice",
-      "steel"
-    ],
+    "types": ["ice", "steel"],
     "stats": {
       "hp": 50,
       "attack": 75,
@@ -3862,9 +3424,7 @@
     "pokeapiId": 28,
     "name": "Sandslash",
     "formName": null,
-    "types": [
-      "ground"
-    ],
+    "types": ["ground"],
     "stats": {
       "hp": 85,
       "attack": 100,
@@ -3884,10 +3444,7 @@
     "pokeapiId": 10102,
     "name": "Alolan Sandslash",
     "formName": "Alolan Form",
-    "types": [
-      "ice",
-      "steel"
-    ],
+    "types": ["ice", "steel"],
     "stats": {
       "hp": 80,
       "attack": 110,
@@ -3907,9 +3464,7 @@
     "pokeapiId": 29,
     "name": "Nidoran♀",
     "formName": null,
-    "types": [
-      "poison"
-    ],
+    "types": ["poison"],
     "stats": {
       "hp": 55,
       "attack": 47,
@@ -3929,9 +3484,7 @@
     "pokeapiId": 30,
     "name": "Nidorina",
     "formName": null,
-    "types": [
-      "poison"
-    ],
+    "types": ["poison"],
     "stats": {
       "hp": 70,
       "attack": 62,
@@ -3951,10 +3504,7 @@
     "pokeapiId": 31,
     "name": "Nidoqueen",
     "formName": null,
-    "types": [
-      "poison",
-      "ground"
-    ],
+    "types": ["poison", "ground"],
     "stats": {
       "hp": 90,
       "attack": 92,
@@ -3974,9 +3524,7 @@
     "pokeapiId": 32,
     "name": "Nidoran♂",
     "formName": null,
-    "types": [
-      "poison"
-    ],
+    "types": ["poison"],
     "stats": {
       "hp": 46,
       "attack": 57,
@@ -3996,9 +3544,7 @@
     "pokeapiId": 33,
     "name": "Nidorino",
     "formName": null,
-    "types": [
-      "poison"
-    ],
+    "types": ["poison"],
     "stats": {
       "hp": 61,
       "attack": 72,
@@ -4018,10 +3564,7 @@
     "pokeapiId": 34,
     "name": "Nidoking",
     "formName": null,
-    "types": [
-      "poison",
-      "ground"
-    ],
+    "types": ["poison", "ground"],
     "stats": {
       "hp": 81,
       "attack": 102,
@@ -4041,9 +3584,7 @@
     "pokeapiId": 173,
     "name": "Cleffa",
     "formName": null,
-    "types": [
-      "fairy"
-    ],
+    "types": ["fairy"],
     "stats": {
       "hp": 50,
       "attack": 25,
@@ -4063,9 +3604,7 @@
     "pokeapiId": 35,
     "name": "Clefairy",
     "formName": null,
-    "types": [
-      "fairy"
-    ],
+    "types": ["fairy"],
     "stats": {
       "hp": 70,
       "attack": 45,
@@ -4085,9 +3624,7 @@
     "pokeapiId": 36,
     "name": "Clefable",
     "formName": null,
-    "types": [
-      "fairy"
-    ],
+    "types": ["fairy"],
     "stats": {
       "hp": 95,
       "attack": 70,
@@ -4107,10 +3644,7 @@
     "pokeapiId": 37,
     "name": "Vulpix",
     "formName": null,
-    "types": [
-      "fire",
-      "fairy"
-    ],
+    "types": ["fire", "fairy"],
     "stats": {
       "hp": 38,
       "attack": 41,
@@ -4130,10 +3664,7 @@
     "pokeapiId": 10103,
     "name": "Alolan Vulpix",
     "formName": "Alolan Form",
-    "types": [
-      "ice",
-      "fairy"
-    ],
+    "types": ["ice", "fairy"],
     "stats": {
       "hp": 38,
       "attack": 41,
@@ -4153,10 +3684,7 @@
     "pokeapiId": 38,
     "name": "Ninetales",
     "formName": null,
-    "types": [
-      "fire",
-      "fairy"
-    ],
+    "types": ["fire", "fairy"],
     "stats": {
       "hp": 73,
       "attack": 76,
@@ -4176,10 +3704,7 @@
     "pokeapiId": 10104,
     "name": "Alolan Ninetales",
     "formName": "Alolan Form",
-    "types": [
-      "ice",
-      "fairy"
-    ],
+    "types": ["ice", "fairy"],
     "stats": {
       "hp": 83,
       "attack": 67,
@@ -4199,10 +3724,7 @@
     "pokeapiId": 174,
     "name": "Igglybuff",
     "formName": null,
-    "types": [
-      "normal",
-      "fairy"
-    ],
+    "types": ["normal", "fairy"],
     "stats": {
       "hp": 90,
       "attack": 30,
@@ -4222,10 +3744,7 @@
     "pokeapiId": 39,
     "name": "Jigglypuff",
     "formName": null,
-    "types": [
-      "normal",
-      "fairy"
-    ],
+    "types": ["normal", "fairy"],
     "stats": {
       "hp": 115,
       "attack": 45,
@@ -4245,10 +3764,7 @@
     "pokeapiId": 40,
     "name": "Wigglytuff",
     "formName": null,
-    "types": [
-      "normal",
-      "fairy"
-    ],
+    "types": ["normal", "fairy"],
     "stats": {
       "hp": 140,
       "attack": 60,
@@ -4268,10 +3784,7 @@
     "pokeapiId": 41,
     "name": "Zubat",
     "formName": null,
-    "types": [
-      "poison",
-      "flying"
-    ],
+    "types": ["poison", "flying"],
     "stats": {
       "hp": 40,
       "attack": 45,
@@ -4291,10 +3804,7 @@
     "pokeapiId": 42,
     "name": "Golbat",
     "formName": null,
-    "types": [
-      "poison",
-      "flying"
-    ],
+    "types": ["poison", "flying"],
     "stats": {
       "hp": 75,
       "attack": 80,
@@ -4314,10 +3824,7 @@
     "pokeapiId": 169,
     "name": "Crobat",
     "formName": null,
-    "types": [
-      "poison",
-      "flying"
-    ],
+    "types": ["poison", "flying"],
     "stats": {
       "hp": 85,
       "attack": 90,
@@ -4337,10 +3844,7 @@
     "pokeapiId": 43,
     "name": "Oddish",
     "formName": null,
-    "types": [
-      "grass",
-      "poison"
-    ],
+    "types": ["grass", "poison"],
     "stats": {
       "hp": 45,
       "attack": 50,
@@ -4360,10 +3864,7 @@
     "pokeapiId": 44,
     "name": "Gloom",
     "formName": null,
-    "types": [
-      "grass",
-      "poison"
-    ],
+    "types": ["grass", "poison"],
     "stats": {
       "hp": 60,
       "attack": 65,
@@ -4383,10 +3884,7 @@
     "pokeapiId": 45,
     "name": "Vileplume",
     "formName": null,
-    "types": [
-      "grass",
-      "poison"
-    ],
+    "types": ["grass", "poison"],
     "stats": {
       "hp": 75,
       "attack": 80,
@@ -4406,10 +3904,7 @@
     "pokeapiId": 182,
     "name": "Bellossom",
     "formName": null,
-    "types": [
-      "grass",
-      "fairy"
-    ],
+    "types": ["grass", "fairy"],
     "stats": {
       "hp": 75,
       "attack": 80,
@@ -4429,10 +3924,7 @@
     "pokeapiId": 46,
     "name": "Paras",
     "formName": null,
-    "types": [
-      "bug",
-      "grass"
-    ],
+    "types": ["bug", "grass"],
     "stats": {
       "hp": 35,
       "attack": 70,
@@ -4452,10 +3944,7 @@
     "pokeapiId": 47,
     "name": "Parasect",
     "formName": null,
-    "types": [
-      "bug",
-      "ghost"
-    ],
+    "types": ["bug", "ghost"],
     "stats": {
       "hp": 70,
       "attack": 95,
@@ -4475,10 +3964,7 @@
     "pokeapiId": 48,
     "name": "Venonat",
     "formName": null,
-    "types": [
-      "bug",
-      "poison"
-    ],
+    "types": ["bug", "poison"],
     "stats": {
       "hp": 60,
       "attack": 55,
@@ -4498,10 +3984,7 @@
     "pokeapiId": 49,
     "name": "Venomoth",
     "formName": null,
-    "types": [
-      "bug",
-      "poison"
-    ],
+    "types": ["bug", "poison"],
     "stats": {
       "hp": 70,
       "attack": 65,
@@ -4521,9 +4004,7 @@
     "pokeapiId": 50,
     "name": "Diglett",
     "formName": null,
-    "types": [
-      "ground"
-    ],
+    "types": ["ground"],
     "stats": {
       "hp": 10,
       "attack": 55,
@@ -4543,10 +4024,7 @@
     "pokeapiId": 10105,
     "name": "Alolan Diglett",
     "formName": "Alolan Form",
-    "types": [
-      "ground",
-      "steel"
-    ],
+    "types": ["ground", "steel"],
     "stats": {
       "hp": 10,
       "attack": 55,
@@ -4566,9 +4044,7 @@
     "pokeapiId": 51,
     "name": "Dugtrio",
     "formName": null,
-    "types": [
-      "ground"
-    ],
+    "types": ["ground"],
     "stats": {
       "hp": 35,
       "attack": 100,
@@ -4588,10 +4064,7 @@
     "pokeapiId": 10106,
     "name": "Alolan Dugtrio",
     "formName": "Alolan Form",
-    "types": [
-      "ground",
-      "steel"
-    ],
+    "types": ["ground", "steel"],
     "stats": {
       "hp": 35,
       "attack": 100,
@@ -4611,9 +4084,7 @@
     "pokeapiId": 52,
     "name": "Meowth",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 40,
       "attack": 50,
@@ -4633,9 +4104,7 @@
     "pokeapiId": 10107,
     "name": "Alolan Meowth",
     "formName": "Alolan Form",
-    "types": [
-      "dark"
-    ],
+    "types": ["dark"],
     "stats": {
       "hp": 40,
       "attack": 45,
@@ -4655,9 +4124,7 @@
     "pokeapiId": 53,
     "name": "Persian",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 75,
       "attack": 75,
@@ -4677,9 +4144,7 @@
     "pokeapiId": 10108,
     "name": "Alolan Persian",
     "formName": "Alolan Form",
-    "types": [
-      "dark"
-    ],
+    "types": ["dark"],
     "stats": {
       "hp": 85,
       "attack": 75,
@@ -4699,9 +4164,7 @@
     "pokeapiId": 54,
     "name": "Psyduck",
     "formName": null,
-    "types": [
-      "water"
-    ],
+    "types": ["water"],
     "stats": {
       "hp": 50,
       "attack": 52,
@@ -4721,10 +4184,7 @@
     "pokeapiId": 55,
     "name": "Golduck",
     "formName": null,
-    "types": [
-      "water",
-      "psychic"
-    ],
+    "types": ["water", "psychic"],
     "stats": {
       "hp": 80,
       "attack": 82,
@@ -4744,9 +4204,7 @@
     "pokeapiId": 56,
     "name": "Mankey",
     "formName": null,
-    "types": [
-      "fighting"
-    ],
+    "types": ["fighting"],
     "stats": {
       "hp": 40,
       "attack": 80,
@@ -4766,9 +4224,7 @@
     "pokeapiId": 57,
     "name": "Primeape",
     "formName": null,
-    "types": [
-      "fighting"
-    ],
+    "types": ["fighting"],
     "stats": {
       "hp": 65,
       "attack": 105,
@@ -4788,10 +4244,7 @@
     "pokeapiId": 979,
     "name": "Annihilape",
     "formName": null,
-    "types": [
-      "fighting",
-      "ghost"
-    ],
+    "types": ["fighting", "ghost"],
     "stats": {
       "hp": 110,
       "attack": 115,
@@ -4811,9 +4264,7 @@
     "pokeapiId": 58,
     "name": "Growlithe",
     "formName": null,
-    "types": [
-      "fire"
-    ],
+    "types": ["fire"],
     "stats": {
       "hp": 55,
       "attack": 70,
@@ -4833,9 +4284,7 @@
     "pokeapiId": 59,
     "name": "Arcanine",
     "formName": null,
-    "types": [
-      "fire"
-    ],
+    "types": ["fire"],
     "stats": {
       "hp": 90,
       "attack": 110,
@@ -4855,9 +4304,7 @@
     "pokeapiId": 60,
     "name": "Poliwag",
     "formName": null,
-    "types": [
-      "water"
-    ],
+    "types": ["water"],
     "stats": {
       "hp": 40,
       "attack": 50,
@@ -4877,9 +4324,7 @@
     "pokeapiId": 61,
     "name": "Poliwhirl",
     "formName": null,
-    "types": [
-      "water"
-    ],
+    "types": ["water"],
     "stats": {
       "hp": 65,
       "attack": 65,
@@ -4899,10 +4344,7 @@
     "pokeapiId": 62,
     "name": "Poliwrath",
     "formName": null,
-    "types": [
-      "water",
-      "fighting"
-    ],
+    "types": ["water", "fighting"],
     "stats": {
       "hp": 95,
       "attack": 110,
@@ -4922,10 +4364,7 @@
     "pokeapiId": 186,
     "name": "Politoed",
     "formName": null,
-    "types": [
-      "water",
-      "normal"
-    ],
+    "types": ["water", "normal"],
     "stats": {
       "hp": 100,
       "attack": 75,
@@ -4945,9 +4384,7 @@
     "pokeapiId": 63,
     "name": "Abra",
     "formName": null,
-    "types": [
-      "psychic"
-    ],
+    "types": ["psychic"],
     "stats": {
       "hp": 25,
       "attack": 20,
@@ -4967,9 +4404,7 @@
     "pokeapiId": 64,
     "name": "Kadabra",
     "formName": null,
-    "types": [
-      "psychic"
-    ],
+    "types": ["psychic"],
     "stats": {
       "hp": 40,
       "attack": 35,
@@ -4989,9 +4424,7 @@
     "pokeapiId": 65,
     "name": "Alakazam",
     "formName": null,
-    "types": [
-      "psychic"
-    ],
+    "types": ["psychic"],
     "stats": {
       "hp": 55,
       "attack": 50,
@@ -5011,9 +4444,7 @@
     "pokeapiId": 66,
     "name": "Machop",
     "formName": null,
-    "types": [
-      "fighting"
-    ],
+    "types": ["fighting"],
     "stats": {
       "hp": 70,
       "attack": 80,
@@ -5033,9 +4464,7 @@
     "pokeapiId": 67,
     "name": "Machoke",
     "formName": null,
-    "types": [
-      "fighting"
-    ],
+    "types": ["fighting"],
     "stats": {
       "hp": 80,
       "attack": 100,
@@ -5055,9 +4484,7 @@
     "pokeapiId": 68,
     "name": "Machamp",
     "formName": null,
-    "types": [
-      "fighting"
-    ],
+    "types": ["fighting"],
     "stats": {
       "hp": 90,
       "attack": 130,
@@ -5077,10 +4504,7 @@
     "pokeapiId": 69,
     "name": "Bellsprout",
     "formName": null,
-    "types": [
-      "grass",
-      "poison"
-    ],
+    "types": ["grass", "poison"],
     "stats": {
       "hp": 50,
       "attack": 75,
@@ -5100,10 +4524,7 @@
     "pokeapiId": 70,
     "name": "Weepinbell",
     "formName": null,
-    "types": [
-      "grass",
-      "poison"
-    ],
+    "types": ["grass", "poison"],
     "stats": {
       "hp": 65,
       "attack": 90,
@@ -5123,10 +4544,7 @@
     "pokeapiId": 71,
     "name": "Victreebel",
     "formName": null,
-    "types": [
-      "grass",
-      "poison"
-    ],
+    "types": ["grass", "poison"],
     "stats": {
       "hp": 80,
       "attack": 105,
@@ -5146,10 +4564,7 @@
     "pokeapiId": 72,
     "name": "Tentacool",
     "formName": null,
-    "types": [
-      "water",
-      "poison"
-    ],
+    "types": ["water", "poison"],
     "stats": {
       "hp": 40,
       "attack": 40,
@@ -5169,10 +4584,7 @@
     "pokeapiId": 73,
     "name": "Tentacruel",
     "formName": null,
-    "types": [
-      "water",
-      "poison"
-    ],
+    "types": ["water", "poison"],
     "stats": {
       "hp": 80,
       "attack": 70,
@@ -5192,10 +4604,7 @@
     "pokeapiId": 74,
     "name": "Geodude",
     "formName": null,
-    "types": [
-      "rock",
-      "ground"
-    ],
+    "types": ["rock", "ground"],
     "stats": {
       "hp": 40,
       "attack": 80,
@@ -5215,10 +4624,7 @@
     "pokeapiId": 10109,
     "name": "Alolan Geodude",
     "formName": "Alolan Form",
-    "types": [
-      "rock",
-      "electric"
-    ],
+    "types": ["rock", "electric"],
     "stats": {
       "hp": 40,
       "attack": 80,
@@ -5238,10 +4644,7 @@
     "pokeapiId": 75,
     "name": "Graveler",
     "formName": null,
-    "types": [
-      "rock",
-      "ground"
-    ],
+    "types": ["rock", "ground"],
     "stats": {
       "hp": 55,
       "attack": 95,
@@ -5261,10 +4664,7 @@
     "pokeapiId": 10110,
     "name": "Alolan Graveler",
     "formName": "Alolan Form",
-    "types": [
-      "rock",
-      "electric"
-    ],
+    "types": ["rock", "electric"],
     "stats": {
       "hp": 55,
       "attack": 95,
@@ -5284,10 +4684,7 @@
     "pokeapiId": 76,
     "name": "Golem",
     "formName": null,
-    "types": [
-      "rock",
-      "ground"
-    ],
+    "types": ["rock", "ground"],
     "stats": {
       "hp": 80,
       "attack": 120,
@@ -5307,10 +4704,7 @@
     "pokeapiId": 10111,
     "name": "Alolan Golem",
     "formName": "Alolan Form",
-    "types": [
-      "rock",
-      "electric"
-    ],
+    "types": ["rock", "electric"],
     "stats": {
       "hp": 85,
       "attack": 120,
@@ -5330,9 +4724,7 @@
     "pokeapiId": 77,
     "name": "Ponyta",
     "formName": null,
-    "types": [
-      "fire"
-    ],
+    "types": ["fire"],
     "stats": {
       "hp": 50,
       "attack": 85,
@@ -5352,9 +4744,7 @@
     "pokeapiId": 78,
     "name": "Rapidash",
     "formName": null,
-    "types": [
-      "fire"
-    ],
+    "types": ["fire"],
     "stats": {
       "hp": 65,
       "attack": 100,
@@ -5374,10 +4764,7 @@
     "pokeapiId": 79,
     "name": "Slowpoke",
     "formName": null,
-    "types": [
-      "water",
-      "psychic"
-    ],
+    "types": ["water", "psychic"],
     "stats": {
       "hp": 90,
       "attack": 65,
@@ -5397,10 +4784,7 @@
     "pokeapiId": 80,
     "name": "Slowbro",
     "formName": null,
-    "types": [
-      "water",
-      "psychic"
-    ],
+    "types": ["water", "psychic"],
     "stats": {
       "hp": 95,
       "attack": 75,
@@ -5420,10 +4804,7 @@
     "pokeapiId": 199,
     "name": "Slowking",
     "formName": null,
-    "types": [
-      "water",
-      "psychic"
-    ],
+    "types": ["water", "psychic"],
     "stats": {
       "hp": 105,
       "attack": 75,
@@ -5443,10 +4824,7 @@
     "pokeapiId": 81,
     "name": "Magnemite",
     "formName": null,
-    "types": [
-      "electric",
-      "steel"
-    ],
+    "types": ["electric", "steel"],
     "stats": {
       "hp": 25,
       "attack": 35,
@@ -5466,10 +4844,7 @@
     "pokeapiId": 82,
     "name": "Magneton",
     "formName": null,
-    "types": [
-      "electric",
-      "steel"
-    ],
+    "types": ["electric", "steel"],
     "stats": {
       "hp": 50,
       "attack": 60,
@@ -5489,10 +4864,7 @@
     "pokeapiId": 462,
     "name": "Magnezone",
     "formName": null,
-    "types": [
-      "electric",
-      "steel"
-    ],
+    "types": ["electric", "steel"],
     "stats": {
       "hp": 70,
       "attack": 70,
@@ -5512,10 +4884,7 @@
     "pokeapiId": 83,
     "name": "Farfetch’d",
     "formName": null,
-    "types": [
-      "fighting",
-      "flying"
-    ],
+    "types": ["fighting", "flying"],
     "stats": {
       "hp": 57,
       "attack": 95,
@@ -5535,10 +4904,7 @@
     "pokeapiId": 84,
     "name": "Doduo",
     "formName": null,
-    "types": [
-      "ground",
-      "flying"
-    ],
+    "types": ["ground", "flying"],
     "stats": {
       "hp": 35,
       "attack": 85,
@@ -5558,10 +4924,7 @@
     "pokeapiId": 85,
     "name": "Dodrio",
     "formName": null,
-    "types": [
-      "ground",
-      "flying"
-    ],
+    "types": ["ground", "flying"],
     "stats": {
       "hp": 70,
       "attack": 110,
@@ -5581,9 +4944,7 @@
     "pokeapiId": 86,
     "name": "Seel",
     "formName": null,
-    "types": [
-      "water"
-    ],
+    "types": ["water"],
     "stats": {
       "hp": 70,
       "attack": 45,
@@ -5603,10 +4964,7 @@
     "pokeapiId": 87,
     "name": "Dewgong",
     "formName": null,
-    "types": [
-      "water",
-      "ice"
-    ],
+    "types": ["water", "ice"],
     "stats": {
       "hp": 105,
       "attack": 75,
@@ -5626,9 +4984,7 @@
     "pokeapiId": 88,
     "name": "Grimer",
     "formName": null,
-    "types": [
-      "poison"
-    ],
+    "types": ["poison"],
     "stats": {
       "hp": 80,
       "attack": 80,
@@ -5648,10 +5004,7 @@
     "pokeapiId": 10112,
     "name": "Alolan Grimer",
     "formName": "Alolan Form",
-    "types": [
-      "poison",
-      "dark"
-    ],
+    "types": ["poison", "dark"],
     "stats": {
       "hp": 80,
       "attack": 80,
@@ -5671,9 +5024,7 @@
     "pokeapiId": 89,
     "name": "Muk",
     "formName": null,
-    "types": [
-      "poison"
-    ],
+    "types": ["poison"],
     "stats": {
       "hp": 105,
       "attack": 105,
@@ -5693,10 +5044,7 @@
     "pokeapiId": 10113,
     "name": "Alolan Muk",
     "formName": "Alolan Form",
-    "types": [
-      "poison",
-      "dark"
-    ],
+    "types": ["poison", "dark"],
     "stats": {
       "hp": 105,
       "attack": 105,
@@ -5716,9 +5064,7 @@
     "pokeapiId": 90,
     "name": "Shellder",
     "formName": null,
-    "types": [
-      "water"
-    ],
+    "types": ["water"],
     "stats": {
       "hp": 30,
       "attack": 65,
@@ -5738,10 +5084,7 @@
     "pokeapiId": 91,
     "name": "Cloyster",
     "formName": null,
-    "types": [
-      "water",
-      "ice"
-    ],
+    "types": ["water", "ice"],
     "stats": {
       "hp": 50,
       "attack": 95,
@@ -5761,10 +5104,7 @@
     "pokeapiId": 92,
     "name": "Gastly",
     "formName": null,
-    "types": [
-      "ghost",
-      "poison"
-    ],
+    "types": ["ghost", "poison"],
     "stats": {
       "hp": 30,
       "attack": 35,
@@ -5784,10 +5124,7 @@
     "pokeapiId": 93,
     "name": "Haunter",
     "formName": null,
-    "types": [
-      "ghost",
-      "poison"
-    ],
+    "types": ["ghost", "poison"],
     "stats": {
       "hp": 45,
       "attack": 50,
@@ -5807,10 +5144,7 @@
     "pokeapiId": 94,
     "name": "Gengar",
     "formName": null,
-    "types": [
-      "ghost",
-      "poison"
-    ],
+    "types": ["ghost", "poison"],
     "stats": {
       "hp": 60,
       "attack": 65,
@@ -5830,10 +5164,7 @@
     "pokeapiId": 95,
     "name": "Onix",
     "formName": null,
-    "types": [
-      "rock",
-      "ground"
-    ],
+    "types": ["rock", "ground"],
     "stats": {
       "hp": 35,
       "attack": 60,
@@ -5853,9 +5184,7 @@
     "pokeapiId": 96,
     "name": "Drowzee",
     "formName": null,
-    "types": [
-      "psychic"
-    ],
+    "types": ["psychic"],
     "stats": {
       "hp": 60,
       "attack": 48,
@@ -5875,10 +5204,7 @@
     "pokeapiId": 97,
     "name": "Hypno",
     "formName": null,
-    "types": [
-      "psychic",
-      "dark"
-    ],
+    "types": ["psychic", "dark"],
     "stats": {
       "hp": 90,
       "attack": 73,
@@ -5898,9 +5224,7 @@
     "pokeapiId": 98,
     "name": "Krabby",
     "formName": null,
-    "types": [
-      "water"
-    ],
+    "types": ["water"],
     "stats": {
       "hp": 30,
       "attack": 105,
@@ -5920,9 +5244,7 @@
     "pokeapiId": 99,
     "name": "Kingler",
     "formName": null,
-    "types": [
-      "water"
-    ],
+    "types": ["water"],
     "stats": {
       "hp": 55,
       "attack": 130,
@@ -5942,9 +5264,7 @@
     "pokeapiId": 100,
     "name": "Voltorb",
     "formName": null,
-    "types": [
-      "electric"
-    ],
+    "types": ["electric"],
     "stats": {
       "hp": 40,
       "attack": 30,
@@ -5964,9 +5284,7 @@
     "pokeapiId": 101,
     "name": "Electrode",
     "formName": null,
-    "types": [
-      "electric"
-    ],
+    "types": ["electric"],
     "stats": {
       "hp": 60,
       "attack": 50,
@@ -5986,10 +5304,7 @@
     "pokeapiId": 102,
     "name": "Exeggcute",
     "formName": null,
-    "types": [
-      "grass",
-      "psychic"
-    ],
+    "types": ["grass", "psychic"],
     "stats": {
       "hp": 60,
       "attack": 40,
@@ -6009,10 +5324,7 @@
     "pokeapiId": 103,
     "name": "Exeggutor",
     "formName": null,
-    "types": [
-      "grass",
-      "psychic"
-    ],
+    "types": ["grass", "psychic"],
     "stats": {
       "hp": 105,
       "attack": 95,
@@ -6032,10 +5344,7 @@
     "pokeapiId": 10114,
     "name": "Alolan Exeggutor",
     "formName": "Alolan Form",
-    "types": [
-      "grass",
-      "dragon"
-    ],
+    "types": ["grass", "dragon"],
     "stats": {
       "hp": 105,
       "attack": 105,
@@ -6055,9 +5364,7 @@
     "pokeapiId": 104,
     "name": "Cubone",
     "formName": null,
-    "types": [
-      "ground"
-    ],
+    "types": ["ground"],
     "stats": {
       "hp": 50,
       "attack": 50,
@@ -6077,9 +5384,7 @@
     "pokeapiId": 105,
     "name": "Marowak",
     "formName": null,
-    "types": [
-      "ground"
-    ],
+    "types": ["ground"],
     "stats": {
       "hp": 75,
       "attack": 80,
@@ -6099,10 +5404,7 @@
     "pokeapiId": 10115,
     "name": "Alolan Marowak",
     "formName": "Alolan Form",
-    "types": [
-      "fire",
-      "ghost"
-    ],
+    "types": ["fire", "ghost"],
     "stats": {
       "hp": 75,
       "attack": 100,
@@ -6122,9 +5424,7 @@
     "pokeapiId": 236,
     "name": "Tyrogue",
     "formName": null,
-    "types": [
-      "fighting"
-    ],
+    "types": ["fighting"],
     "stats": {
       "hp": 35,
       "attack": 45,
@@ -6144,9 +5444,7 @@
     "pokeapiId": 106,
     "name": "Hitmonlee",
     "formName": null,
-    "types": [
-      "fighting"
-    ],
+    "types": ["fighting"],
     "stats": {
       "hp": 60,
       "attack": 120,
@@ -6166,9 +5464,7 @@
     "pokeapiId": 107,
     "name": "Hitmonchan",
     "formName": null,
-    "types": [
-      "fighting"
-    ],
+    "types": ["fighting"],
     "stats": {
       "hp": 60,
       "attack": 105,
@@ -6188,9 +5484,7 @@
     "pokeapiId": 237,
     "name": "Hitmontop",
     "formName": null,
-    "types": [
-      "fighting"
-    ],
+    "types": ["fighting"],
     "stats": {
       "hp": 60,
       "attack": 95,
@@ -6210,9 +5504,7 @@
     "pokeapiId": 108,
     "name": "Lickitung",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 90,
       "attack": 55,
@@ -6232,9 +5524,7 @@
     "pokeapiId": 463,
     "name": "Lickilicky",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 110,
       "attack": 85,
@@ -6254,9 +5544,7 @@
     "pokeapiId": 109,
     "name": "Koffing",
     "formName": null,
-    "types": [
-      "poison"
-    ],
+    "types": ["poison"],
     "stats": {
       "hp": 40,
       "attack": 65,
@@ -6276,9 +5564,7 @@
     "pokeapiId": 110,
     "name": "Weezing",
     "formName": null,
-    "types": [
-      "poison"
-    ],
+    "types": ["poison"],
     "stats": {
       "hp": 65,
       "attack": 90,
@@ -6298,10 +5584,7 @@
     "pokeapiId": 111,
     "name": "Rhyhorn",
     "formName": null,
-    "types": [
-      "ground",
-      "rock"
-    ],
+    "types": ["ground", "rock"],
     "stats": {
       "hp": 80,
       "attack": 85,
@@ -6321,10 +5604,7 @@
     "pokeapiId": 112,
     "name": "Rhydon",
     "formName": null,
-    "types": [
-      "ground",
-      "rock"
-    ],
+    "types": ["ground", "rock"],
     "stats": {
       "hp": 105,
       "attack": 130,
@@ -6344,10 +5624,7 @@
     "pokeapiId": 464,
     "name": "Rhyperior",
     "formName": null,
-    "types": [
-      "ground",
-      "rock"
-    ],
+    "types": ["ground", "rock"],
     "stats": {
       "hp": 115,
       "attack": 140,
@@ -6367,9 +5644,7 @@
     "pokeapiId": 440,
     "name": "Happiny",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 100,
       "attack": 5,
@@ -6389,9 +5664,7 @@
     "pokeapiId": 113,
     "name": "Chansey",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 250,
       "attack": 5,
@@ -6411,9 +5684,7 @@
     "pokeapiId": 242,
     "name": "Blissey",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 255,
       "attack": 10,
@@ -6433,9 +5704,7 @@
     "pokeapiId": 114,
     "name": "Tangela",
     "formName": null,
-    "types": [
-      "grass"
-    ],
+    "types": ["grass"],
     "stats": {
       "hp": 65,
       "attack": 55,
@@ -6455,9 +5724,7 @@
     "pokeapiId": 465,
     "name": "Tangrowth",
     "formName": null,
-    "types": [
-      "grass"
-    ],
+    "types": ["grass"],
     "stats": {
       "hp": 100,
       "attack": 100,
@@ -6477,9 +5744,7 @@
     "pokeapiId": 115,
     "name": "Kangaskhan",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 105,
       "attack": 115,
@@ -6499,9 +5764,7 @@
     "pokeapiId": 116,
     "name": "Horsea",
     "formName": null,
-    "types": [
-      "water"
-    ],
+    "types": ["water"],
     "stats": {
       "hp": 30,
       "attack": 40,
@@ -6521,9 +5784,7 @@
     "pokeapiId": 117,
     "name": "Seadra",
     "formName": null,
-    "types": [
-      "water"
-    ],
+    "types": ["water"],
     "stats": {
       "hp": 55,
       "attack": 65,
@@ -6543,10 +5804,7 @@
     "pokeapiId": 230,
     "name": "Kingdra",
     "formName": null,
-    "types": [
-      "water",
-      "dragon"
-    ],
+    "types": ["water", "dragon"],
     "stats": {
       "hp": 80,
       "attack": 85,
@@ -6566,9 +5824,7 @@
     "pokeapiId": 118,
     "name": "Goldeen",
     "formName": null,
-    "types": [
-      "water"
-    ],
+    "types": ["water"],
     "stats": {
       "hp": 65,
       "attack": 67,
@@ -6588,9 +5844,7 @@
     "pokeapiId": 119,
     "name": "Seaking",
     "formName": null,
-    "types": [
-      "water"
-    ],
+    "types": ["water"],
     "stats": {
       "hp": 100,
       "attack": 102,
@@ -6610,9 +5864,7 @@
     "pokeapiId": 120,
     "name": "Staryu",
     "formName": null,
-    "types": [
-      "water"
-    ],
+    "types": ["water"],
     "stats": {
       "hp": 30,
       "attack": 45,
@@ -6632,10 +5884,7 @@
     "pokeapiId": 121,
     "name": "Starmie",
     "formName": null,
-    "types": [
-      "water",
-      "psychic"
-    ],
+    "types": ["water", "psychic"],
     "stats": {
       "hp": 60,
       "attack": 75,
@@ -6655,10 +5904,7 @@
     "pokeapiId": 439,
     "name": "Mime Jr.",
     "formName": null,
-    "types": [
-      "psychic",
-      "fairy"
-    ],
+    "types": ["psychic", "fairy"],
     "stats": {
       "hp": 20,
       "attack": 25,
@@ -6678,10 +5924,7 @@
     "pokeapiId": 122,
     "name": "Mr. Mime",
     "formName": null,
-    "types": [
-      "psychic",
-      "fairy"
-    ],
+    "types": ["psychic", "fairy"],
     "stats": {
       "hp": 40,
       "attack": 45,
@@ -6701,10 +5944,7 @@
     "pokeapiId": 123,
     "name": "Scyther",
     "formName": null,
-    "types": [
-      "bug",
-      "flying"
-    ],
+    "types": ["bug", "flying"],
     "stats": {
       "hp": 70,
       "attack": 110,
@@ -6724,10 +5964,7 @@
     "pokeapiId": 212,
     "name": "Scizor",
     "formName": null,
-    "types": [
-      "bug",
-      "steel"
-    ],
+    "types": ["bug", "steel"],
     "stats": {
       "hp": 70,
       "attack": 130,
@@ -6747,10 +5984,7 @@
     "pokeapiId": 900,
     "name": "Kleavor",
     "formName": null,
-    "types": [
-      "bug",
-      "rock"
-    ],
+    "types": ["bug", "rock"],
     "stats": {
       "hp": 70,
       "attack": 135,
@@ -6770,10 +6004,7 @@
     "pokeapiId": 238,
     "name": "Smoochum",
     "formName": null,
-    "types": [
-      "ice",
-      "psychic"
-    ],
+    "types": ["ice", "psychic"],
     "stats": {
       "hp": 45,
       "attack": 30,
@@ -6793,10 +6024,7 @@
     "pokeapiId": 124,
     "name": "Jynx",
     "formName": null,
-    "types": [
-      "ice",
-      "psychic"
-    ],
+    "types": ["ice", "psychic"],
     "stats": {
       "hp": 75,
       "attack": 50,
@@ -6816,9 +6044,7 @@
     "pokeapiId": 239,
     "name": "Elekid",
     "formName": null,
-    "types": [
-      "electric"
-    ],
+    "types": ["electric"],
     "stats": {
       "hp": 45,
       "attack": 63,
@@ -6838,9 +6064,7 @@
     "pokeapiId": 125,
     "name": "Electabuzz",
     "formName": null,
-    "types": [
-      "electric"
-    ],
+    "types": ["electric"],
     "stats": {
       "hp": 65,
       "attack": 95,
@@ -6860,10 +6084,7 @@
     "pokeapiId": 466,
     "name": "Electivire",
     "formName": null,
-    "types": [
-      "electric",
-      "fighting"
-    ],
+    "types": ["electric", "fighting"],
     "stats": {
       "hp": 75,
       "attack": 123,
@@ -6883,9 +6104,7 @@
     "pokeapiId": 240,
     "name": "Magby",
     "formName": null,
-    "types": [
-      "fire"
-    ],
+    "types": ["fire"],
     "stats": {
       "hp": 45,
       "attack": 75,
@@ -6905,9 +6124,7 @@
     "pokeapiId": 126,
     "name": "Magmar",
     "formName": null,
-    "types": [
-      "fire"
-    ],
+    "types": ["fire"],
     "stats": {
       "hp": 65,
       "attack": 95,
@@ -6927,10 +6144,7 @@
     "pokeapiId": 467,
     "name": "Magmortar",
     "formName": null,
-    "types": [
-      "fire",
-      "dark"
-    ],
+    "types": ["fire", "dark"],
     "stats": {
       "hp": 75,
       "attack": 95,
@@ -6950,9 +6164,7 @@
     "pokeapiId": 127,
     "name": "Pinsir",
     "formName": null,
-    "types": [
-      "bug"
-    ],
+    "types": ["bug"],
     "stats": {
       "hp": 65,
       "attack": 125,
@@ -6972,9 +6184,7 @@
     "pokeapiId": 128,
     "name": "Tauros",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 75,
       "attack": 110,
@@ -6994,9 +6204,7 @@
     "pokeapiId": 129,
     "name": "Magikarp",
     "formName": null,
-    "types": [
-      "water"
-    ],
+    "types": ["water"],
     "stats": {
       "hp": 20,
       "attack": 10,
@@ -7016,10 +6224,7 @@
     "pokeapiId": 130,
     "name": "Gyarados",
     "formName": null,
-    "types": [
-      "water",
-      "flying"
-    ],
+    "types": ["water", "flying"],
     "stats": {
       "hp": 95,
       "attack": 125,
@@ -7039,10 +6244,7 @@
     "pokeapiId": 131,
     "name": "Lapras",
     "formName": null,
-    "types": [
-      "water",
-      "ice"
-    ],
+    "types": ["water", "ice"],
     "stats": {
       "hp": 130,
       "attack": 75,
@@ -7062,9 +6264,7 @@
     "pokeapiId": 132,
     "name": "Ditto",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 48,
       "attack": 48,
@@ -7084,9 +6284,7 @@
     "pokeapiId": 133,
     "name": "Eevee",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 55,
       "attack": 55,
@@ -7106,9 +6304,7 @@
     "pokeapiId": 134,
     "name": "Vaporeon",
     "formName": null,
-    "types": [
-      "water"
-    ],
+    "types": ["water"],
     "stats": {
       "hp": 135,
       "attack": 65,
@@ -7128,9 +6324,7 @@
     "pokeapiId": 135,
     "name": "Jolteon",
     "formName": null,
-    "types": [
-      "electric"
-    ],
+    "types": ["electric"],
     "stats": {
       "hp": 65,
       "attack": 95,
@@ -7150,9 +6344,7 @@
     "pokeapiId": 136,
     "name": "Flareon",
     "formName": null,
-    "types": [
-      "fire"
-    ],
+    "types": ["fire"],
     "stats": {
       "hp": 75,
       "attack": 130,
@@ -7172,9 +6364,7 @@
     "pokeapiId": 196,
     "name": "Espeon",
     "formName": null,
-    "types": [
-      "psychic"
-    ],
+    "types": ["psychic"],
     "stats": {
       "hp": 75,
       "attack": 65,
@@ -7194,9 +6384,7 @@
     "pokeapiId": 197,
     "name": "Umbreon",
     "formName": null,
-    "types": [
-      "dark"
-    ],
+    "types": ["dark"],
     "stats": {
       "hp": 95,
       "attack": 70,
@@ -7216,9 +6404,7 @@
     "pokeapiId": 470,
     "name": "Leafeon",
     "formName": null,
-    "types": [
-      "grass"
-    ],
+    "types": ["grass"],
     "stats": {
       "hp": 70,
       "attack": 110,
@@ -7238,9 +6424,7 @@
     "pokeapiId": 471,
     "name": "Glaceon",
     "formName": null,
-    "types": [
-      "ice"
-    ],
+    "types": ["ice"],
     "stats": {
       "hp": 65,
       "attack": 60,
@@ -7260,9 +6444,7 @@
     "pokeapiId": 700,
     "name": "Sylveon",
     "formName": null,
-    "types": [
-      "fairy"
-    ],
+    "types": ["fairy"],
     "stats": {
       "hp": 105,
       "attack": 65,
@@ -7282,9 +6464,7 @@
     "pokeapiId": 137,
     "name": "Porygon",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 65,
       "attack": 60,
@@ -7304,9 +6484,7 @@
     "pokeapiId": 233,
     "name": "Porygon2",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 85,
       "attack": 80,
@@ -7326,10 +6504,7 @@
     "pokeapiId": 474,
     "name": "Porygon-Z",
     "formName": null,
-    "types": [
-      "normal",
-      "electric"
-    ],
+    "types": ["normal", "electric"],
     "stats": {
       "hp": 85,
       "attack": 80,
@@ -7349,10 +6524,7 @@
     "pokeapiId": 138,
     "name": "Omanyte",
     "formName": null,
-    "types": [
-      "rock",
-      "water"
-    ],
+    "types": ["rock", "water"],
     "stats": {
       "hp": 35,
       "attack": 50,
@@ -7372,10 +6544,7 @@
     "pokeapiId": 139,
     "name": "Omastar",
     "formName": null,
-    "types": [
-      "rock",
-      "water"
-    ],
+    "types": ["rock", "water"],
     "stats": {
       "hp": 70,
       "attack": 70,
@@ -7395,10 +6564,7 @@
     "pokeapiId": 140,
     "name": "Kabuto",
     "formName": null,
-    "types": [
-      "rock",
-      "water"
-    ],
+    "types": ["rock", "water"],
     "stats": {
       "hp": 30,
       "attack": 80,
@@ -7418,10 +6584,7 @@
     "pokeapiId": 141,
     "name": "Kabutops",
     "formName": null,
-    "types": [
-      "rock",
-      "water"
-    ],
+    "types": ["rock", "water"],
     "stats": {
       "hp": 60,
       "attack": 120,
@@ -7441,10 +6604,7 @@
     "pokeapiId": 142,
     "name": "Aerodactyl",
     "formName": null,
-    "types": [
-      "rock",
-      "flying"
-    ],
+    "types": ["rock", "flying"],
     "stats": {
       "hp": 80,
       "attack": 105,
@@ -7464,9 +6624,7 @@
     "pokeapiId": 446,
     "name": "Munchlax",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 135,
       "attack": 85,
@@ -7486,9 +6644,7 @@
     "pokeapiId": 143,
     "name": "Snorlax",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 160,
       "attack": 110,
@@ -7508,10 +6664,7 @@
     "pokeapiId": 144,
     "name": "Articuno",
     "formName": null,
-    "types": [
-      "ice",
-      "flying"
-    ],
+    "types": ["ice", "flying"],
     "stats": {
       "hp": 90,
       "attack": 95,
@@ -7531,10 +6684,7 @@
     "pokeapiId": 145,
     "name": "Zapdos",
     "formName": null,
-    "types": [
-      "electric",
-      "flying"
-    ],
+    "types": ["electric", "flying"],
     "stats": {
       "hp": 90,
       "attack": 100,
@@ -7554,10 +6704,7 @@
     "pokeapiId": 146,
     "name": "Moltres",
     "formName": null,
-    "types": [
-      "fire",
-      "flying"
-    ],
+    "types": ["fire", "flying"],
     "stats": {
       "hp": 90,
       "attack": 110,
@@ -7577,9 +6724,7 @@
     "pokeapiId": 147,
     "name": "Dratini",
     "formName": null,
-    "types": [
-      "dragon"
-    ],
+    "types": ["dragon"],
     "stats": {
       "hp": 41,
       "attack": 64,
@@ -7599,9 +6744,7 @@
     "pokeapiId": 148,
     "name": "Dragonair",
     "formName": null,
-    "types": [
-      "dragon"
-    ],
+    "types": ["dragon"],
     "stats": {
       "hp": 61,
       "attack": 84,
@@ -7621,10 +6764,7 @@
     "pokeapiId": 149,
     "name": "Dragonite",
     "formName": null,
-    "types": [
-      "dragon",
-      "flying"
-    ],
+    "types": ["dragon", "flying"],
     "stats": {
       "hp": 91,
       "attack": 134,
@@ -7644,9 +6784,7 @@
     "pokeapiId": 150,
     "name": "Mewtwo",
     "formName": null,
-    "types": [
-      "psychic"
-    ],
+    "types": ["psychic"],
     "stats": {
       "hp": 106,
       "attack": 110,
@@ -7666,9 +6804,7 @@
     "pokeapiId": 151,
     "name": "Mew",
     "formName": null,
-    "types": [
-      "psychic"
-    ],
+    "types": ["psychic"],
     "stats": {
       "hp": 100,
       "attack": 100,
@@ -7688,9 +6824,7 @@
     "pokeapiId": 152,
     "name": "Chikorita",
     "formName": null,
-    "types": [
-      "grass"
-    ],
+    "types": ["grass"],
     "stats": {
       "hp": 50,
       "attack": 49,
@@ -7710,9 +6844,7 @@
     "pokeapiId": 153,
     "name": "Bayleef",
     "formName": null,
-    "types": [
-      "grass"
-    ],
+    "types": ["grass"],
     "stats": {
       "hp": 70,
       "attack": 62,
@@ -7732,10 +6864,7 @@
     "pokeapiId": 154,
     "name": "Meganium",
     "formName": null,
-    "types": [
-      "grass",
-      "fairy"
-    ],
+    "types": ["grass", "fairy"],
     "stats": {
       "hp": 100,
       "attack": 82,
@@ -7755,9 +6884,7 @@
     "pokeapiId": 155,
     "name": "Cyndaquil",
     "formName": null,
-    "types": [
-      "fire"
-    ],
+    "types": ["fire"],
     "stats": {
       "hp": 39,
       "attack": 52,
@@ -7777,9 +6904,7 @@
     "pokeapiId": 156,
     "name": "Quilava",
     "formName": null,
-    "types": [
-      "fire"
-    ],
+    "types": ["fire"],
     "stats": {
       "hp": 58,
       "attack": 64,
@@ -7799,10 +6924,7 @@
     "pokeapiId": 157,
     "name": "Typhlosion",
     "formName": null,
-    "types": [
-      "fire",
-      "ground"
-    ],
+    "types": ["fire", "ground"],
     "stats": {
       "hp": 83,
       "attack": 90,
@@ -7822,9 +6944,7 @@
     "pokeapiId": 158,
     "name": "Totodile",
     "formName": null,
-    "types": [
-      "water"
-    ],
+    "types": ["water"],
     "stats": {
       "hp": 50,
       "attack": 70,
@@ -7844,9 +6964,7 @@
     "pokeapiId": 159,
     "name": "Croconaw",
     "formName": null,
-    "types": [
-      "water"
-    ],
+    "types": ["water"],
     "stats": {
       "hp": 65,
       "attack": 90,
@@ -7866,10 +6984,7 @@
     "pokeapiId": 160,
     "name": "Feraligatr",
     "formName": null,
-    "types": [
-      "water",
-      "dark"
-    ],
+    "types": ["water", "dark"],
     "stats": {
       "hp": 90,
       "attack": 121,
@@ -7889,9 +7004,7 @@
     "pokeapiId": 161,
     "name": "Sentret",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 35,
       "attack": 46,
@@ -7911,9 +7024,7 @@
     "pokeapiId": 162,
     "name": "Furret",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 95,
       "attack": 81,
@@ -7933,10 +7044,7 @@
     "pokeapiId": 163,
     "name": "Hoothoot",
     "formName": null,
-    "types": [
-      "normal",
-      "flying"
-    ],
+    "types": ["normal", "flying"],
     "stats": {
       "hp": 60,
       "attack": 30,
@@ -7956,10 +7064,7 @@
     "pokeapiId": 164,
     "name": "Noctowl",
     "formName": null,
-    "types": [
-      "ghost",
-      "flying"
-    ],
+    "types": ["ghost", "flying"],
     "stats": {
       "hp": 100,
       "attack": 50,
@@ -7979,10 +7084,7 @@
     "pokeapiId": 165,
     "name": "Ledyba",
     "formName": null,
-    "types": [
-      "bug",
-      "flying"
-    ],
+    "types": ["bug", "flying"],
     "stats": {
       "hp": 40,
       "attack": 40,
@@ -8002,10 +7104,7 @@
     "pokeapiId": 166,
     "name": "Ledian",
     "formName": null,
-    "types": [
-      "bug",
-      "flying"
-    ],
+    "types": ["bug", "flying"],
     "stats": {
       "hp": 55,
       "attack": 75,
@@ -8025,10 +7124,7 @@
     "pokeapiId": 167,
     "name": "Spinarak",
     "formName": null,
-    "types": [
-      "bug",
-      "poison"
-    ],
+    "types": ["bug", "poison"],
     "stats": {
       "hp": 40,
       "attack": 60,
@@ -8048,10 +7144,7 @@
     "pokeapiId": 168,
     "name": "Ariados",
     "formName": null,
-    "types": [
-      "bug",
-      "poison"
-    ],
+    "types": ["bug", "poison"],
     "stats": {
       "hp": 90,
       "attack": 100,
@@ -8071,10 +7164,7 @@
     "pokeapiId": 170,
     "name": "Chinchou",
     "formName": null,
-    "types": [
-      "water",
-      "electric"
-    ],
+    "types": ["water", "electric"],
     "stats": {
       "hp": 75,
       "attack": 38,
@@ -8094,10 +7184,7 @@
     "pokeapiId": 171,
     "name": "Lanturn",
     "formName": null,
-    "types": [
-      "water",
-      "electric"
-    ],
+    "types": ["water", "electric"],
     "stats": {
       "hp": 125,
       "attack": 58,
@@ -8117,9 +7204,7 @@
     "pokeapiId": 175,
     "name": "Togepi",
     "formName": null,
-    "types": [
-      "fairy"
-    ],
+    "types": ["fairy"],
     "stats": {
       "hp": 35,
       "attack": 20,
@@ -8139,10 +7224,7 @@
     "pokeapiId": 176,
     "name": "Togetic",
     "formName": null,
-    "types": [
-      "fairy",
-      "flying"
-    ],
+    "types": ["fairy", "flying"],
     "stats": {
       "hp": 65,
       "attack": 40,
@@ -8162,10 +7244,7 @@
     "pokeapiId": 468,
     "name": "Togekiss",
     "formName": null,
-    "types": [
-      "fairy",
-      "flying"
-    ],
+    "types": ["fairy", "flying"],
     "stats": {
       "hp": 95,
       "attack": 50,
@@ -8185,10 +7264,7 @@
     "pokeapiId": 177,
     "name": "Natu",
     "formName": null,
-    "types": [
-      "psychic",
-      "flying"
-    ],
+    "types": ["psychic", "flying"],
     "stats": {
       "hp": 40,
       "attack": 50,
@@ -8208,10 +7284,7 @@
     "pokeapiId": 178,
     "name": "Xatu",
     "formName": null,
-    "types": [
-      "psychic",
-      "flying"
-    ],
+    "types": ["psychic", "flying"],
     "stats": {
       "hp": 75,
       "attack": 75,
@@ -8231,9 +7304,7 @@
     "pokeapiId": 179,
     "name": "Mareep",
     "formName": null,
-    "types": [
-      "electric"
-    ],
+    "types": ["electric"],
     "stats": {
       "hp": 55,
       "attack": 40,
@@ -8253,9 +7324,7 @@
     "pokeapiId": 180,
     "name": "Flaaffy",
     "formName": null,
-    "types": [
-      "electric"
-    ],
+    "types": ["electric"],
     "stats": {
       "hp": 70,
       "attack": 55,
@@ -8275,9 +7344,7 @@
     "pokeapiId": 181,
     "name": "Ampharos",
     "formName": null,
-    "types": [
-      "electric"
-    ],
+    "types": ["electric"],
     "stats": {
       "hp": 90,
       "attack": 75,
@@ -8297,10 +7364,7 @@
     "pokeapiId": 298,
     "name": "Azurill",
     "formName": null,
-    "types": [
-      "normal",
-      "fairy"
-    ],
+    "types": ["normal", "fairy"],
     "stats": {
       "hp": 50,
       "attack": 20,
@@ -8320,10 +7384,7 @@
     "pokeapiId": 183,
     "name": "Marill",
     "formName": null,
-    "types": [
-      "water",
-      "fairy"
-    ],
+    "types": ["water", "fairy"],
     "stats": {
       "hp": 70,
       "attack": 25,
@@ -8343,10 +7404,7 @@
     "pokeapiId": 184,
     "name": "Azumarill",
     "formName": null,
-    "types": [
-      "water",
-      "fairy"
-    ],
+    "types": ["water", "fairy"],
     "stats": {
       "hp": 100,
       "attack": 50,
@@ -8366,9 +7424,7 @@
     "pokeapiId": 438,
     "name": "Bonsly",
     "formName": null,
-    "types": [
-      "rock"
-    ],
+    "types": ["rock"],
     "stats": {
       "hp": 50,
       "attack": 80,
@@ -8388,9 +7444,7 @@
     "pokeapiId": 185,
     "name": "Sudowoodo",
     "formName": null,
-    "types": [
-      "rock"
-    ],
+    "types": ["rock"],
     "stats": {
       "hp": 70,
       "attack": 100,
@@ -8410,10 +7464,7 @@
     "pokeapiId": 187,
     "name": "Hoppip",
     "formName": null,
-    "types": [
-      "grass",
-      "flying"
-    ],
+    "types": ["grass", "flying"],
     "stats": {
       "hp": 35,
       "attack": 35,
@@ -8433,10 +7484,7 @@
     "pokeapiId": 188,
     "name": "Skiploom",
     "formName": null,
-    "types": [
-      "grass",
-      "flying"
-    ],
+    "types": ["grass", "flying"],
     "stats": {
       "hp": 65,
       "attack": 45,
@@ -8456,10 +7504,7 @@
     "pokeapiId": 189,
     "name": "Jumpluff",
     "formName": null,
-    "types": [
-      "grass",
-      "flying"
-    ],
+    "types": ["grass", "flying"],
     "stats": {
       "hp": 85,
       "attack": 55,
@@ -8479,9 +7524,7 @@
     "pokeapiId": 190,
     "name": "Aipom",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 55,
       "attack": 70,
@@ -8501,9 +7544,7 @@
     "pokeapiId": 424,
     "name": "Ambipom",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 75,
       "attack": 100,
@@ -8523,9 +7564,7 @@
     "pokeapiId": 191,
     "name": "Sunkern",
     "formName": null,
-    "types": [
-      "grass"
-    ],
+    "types": ["grass"],
     "stats": {
       "hp": 50,
       "attack": 30,
@@ -8545,10 +7584,7 @@
     "pokeapiId": 192,
     "name": "Sunflora",
     "formName": null,
-    "types": [
-      "grass",
-      "fire"
-    ],
+    "types": ["grass", "fire"],
     "stats": {
       "hp": 90,
       "attack": 55,
@@ -8568,10 +7604,7 @@
     "pokeapiId": 193,
     "name": "Yanma",
     "formName": null,
-    "types": [
-      "bug",
-      "flying"
-    ],
+    "types": ["bug", "flying"],
     "stats": {
       "hp": 65,
       "attack": 65,
@@ -8591,10 +7624,7 @@
     "pokeapiId": 469,
     "name": "Yanmega",
     "formName": null,
-    "types": [
-      "bug",
-      "dragon"
-    ],
+    "types": ["bug", "dragon"],
     "stats": {
       "hp": 86,
       "attack": 86,
@@ -8614,10 +7644,7 @@
     "pokeapiId": 194,
     "name": "Wooper",
     "formName": null,
-    "types": [
-      "water",
-      "ground"
-    ],
+    "types": ["water", "ground"],
     "stats": {
       "hp": 60,
       "attack": 45,
@@ -8637,10 +7664,7 @@
     "pokeapiId": 195,
     "name": "Quagsire",
     "formName": null,
-    "types": [
-      "water",
-      "ground"
-    ],
+    "types": ["water", "ground"],
     "stats": {
       "hp": 115,
       "attack": 85,
@@ -8660,10 +7684,7 @@
     "pokeapiId": 198,
     "name": "Murkrow",
     "formName": null,
-    "types": [
-      "dark",
-      "flying"
-    ],
+    "types": ["dark", "flying"],
     "stats": {
       "hp": 65,
       "attack": 85,
@@ -8683,10 +7704,7 @@
     "pokeapiId": 430,
     "name": "Honchkrow",
     "formName": null,
-    "types": [
-      "dark",
-      "flying"
-    ],
+    "types": ["dark", "flying"],
     "stats": {
       "hp": 100,
       "attack": 125,
@@ -8706,9 +7724,7 @@
     "pokeapiId": 200,
     "name": "Misdreavus",
     "formName": null,
-    "types": [
-      "ghost"
-    ],
+    "types": ["ghost"],
     "stats": {
       "hp": 60,
       "attack": 60,
@@ -8728,10 +7744,7 @@
     "pokeapiId": 429,
     "name": "Mismagius",
     "formName": null,
-    "types": [
-      "ghost",
-      "fairy"
-    ],
+    "types": ["ghost", "fairy"],
     "stats": {
       "hp": 70,
       "attack": 60,
@@ -8751,9 +7764,7 @@
     "pokeapiId": 201,
     "name": "Unown",
     "formName": "A",
-    "types": [
-      "psychic"
-    ],
+    "types": ["psychic"],
     "stats": {
       "hp": 58,
       "attack": 82,
@@ -8773,9 +7784,7 @@
     "pokeapiId": 360,
     "name": "Wynaut",
     "formName": null,
-    "types": [
-      "psychic"
-    ],
+    "types": ["psychic"],
     "stats": {
       "hp": 95,
       "attack": 23,
@@ -8795,9 +7804,7 @@
     "pokeapiId": 202,
     "name": "Wobbuffet",
     "formName": null,
-    "types": [
-      "psychic"
-    ],
+    "types": ["psychic"],
     "stats": {
       "hp": 190,
       "attack": 33,
@@ -8817,10 +7824,7 @@
     "pokeapiId": 203,
     "name": "Girafarig",
     "formName": null,
-    "types": [
-      "normal",
-      "psychic"
-    ],
+    "types": ["normal", "psychic"],
     "stats": {
       "hp": 70,
       "attack": 80,
@@ -8840,10 +7844,7 @@
     "pokeapiId": 981,
     "name": "Farigiraf",
     "formName": null,
-    "types": [
-      "normal",
-      "psychic"
-    ],
+    "types": ["normal", "psychic"],
     "stats": {
       "hp": 120,
       "attack": 90,
@@ -8863,9 +7864,7 @@
     "pokeapiId": 204,
     "name": "Pineco",
     "formName": null,
-    "types": [
-      "bug"
-    ],
+    "types": ["bug"],
     "stats": {
       "hp": 50,
       "attack": 65,
@@ -8885,10 +7884,7 @@
     "pokeapiId": 205,
     "name": "Forretress",
     "formName": null,
-    "types": [
-      "bug",
-      "steel"
-    ],
+    "types": ["bug", "steel"],
     "stats": {
       "hp": 75,
       "attack": 90,
@@ -8908,9 +7904,7 @@
     "pokeapiId": 206,
     "name": "Dunsparce",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 100,
       "attack": 70,
@@ -8930,9 +7924,7 @@
     "pokeapiId": 982,
     "name": "Dudunsparce",
     "formName": "Two-Segment Form",
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 125,
       "attack": 95,
@@ -8952,10 +7944,7 @@
     "pokeapiId": 207,
     "name": "Gligar",
     "formName": null,
-    "types": [
-      "ground",
-      "flying"
-    ],
+    "types": ["ground", "flying"],
     "stats": {
       "hp": 75,
       "attack": 75,
@@ -8975,10 +7964,7 @@
     "pokeapiId": 472,
     "name": "Gliscor",
     "formName": null,
-    "types": [
-      "ground",
-      "flying"
-    ],
+    "types": ["ground", "flying"],
     "stats": {
       "hp": 85,
       "attack": 95,
@@ -8998,10 +7984,7 @@
     "pokeapiId": 208,
     "name": "Steelix",
     "formName": null,
-    "types": [
-      "steel",
-      "ground"
-    ],
+    "types": ["steel", "ground"],
     "stats": {
       "hp": 75,
       "attack": 85,
@@ -9021,9 +8004,7 @@
     "pokeapiId": 209,
     "name": "Snubbull",
     "formName": null,
-    "types": [
-      "fairy"
-    ],
+    "types": ["fairy"],
     "stats": {
       "hp": 60,
       "attack": 80,
@@ -9043,10 +8024,7 @@
     "pokeapiId": 210,
     "name": "Granbull",
     "formName": null,
-    "types": [
-      "fairy",
-      "fighting"
-    ],
+    "types": ["fairy", "fighting"],
     "stats": {
       "hp": 95,
       "attack": 125,
@@ -9066,10 +8044,7 @@
     "pokeapiId": 211,
     "name": "Qwilfish",
     "formName": null,
-    "types": [
-      "water",
-      "poison"
-    ],
+    "types": ["water", "poison"],
     "stats": {
       "hp": 75,
       "attack": 95,
@@ -9089,10 +8064,7 @@
     "pokeapiId": 213,
     "name": "Shuckle",
     "formName": null,
-    "types": [
-      "bug",
-      "rock"
-    ],
+    "types": ["bug", "rock"],
     "stats": {
       "hp": 20,
       "attack": 20,
@@ -9112,10 +8084,7 @@
     "pokeapiId": 214,
     "name": "Heracross",
     "formName": null,
-    "types": [
-      "bug",
-      "fighting"
-    ],
+    "types": ["bug", "fighting"],
     "stats": {
       "hp": 85,
       "attack": 125,
@@ -9135,10 +8104,7 @@
     "pokeapiId": 215,
     "name": "Sneasel",
     "formName": null,
-    "types": [
-      "dark",
-      "ice"
-    ],
+    "types": ["dark", "ice"],
     "stats": {
       "hp": 55,
       "attack": 95,
@@ -9158,10 +8124,7 @@
     "pokeapiId": 461,
     "name": "Weavile",
     "formName": null,
-    "types": [
-      "dark",
-      "ice"
-    ],
+    "types": ["dark", "ice"],
     "stats": {
       "hp": 70,
       "attack": 120,
@@ -9181,9 +8144,7 @@
     "pokeapiId": 216,
     "name": "Teddiursa",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 60,
       "attack": 80,
@@ -9203,9 +8164,7 @@
     "pokeapiId": 217,
     "name": "Ursaring",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 90,
       "attack": 130,
@@ -9225,10 +8184,7 @@
     "pokeapiId": 901,
     "name": "Ursaluna",
     "formName": null,
-    "types": [
-      "ground",
-      "normal"
-    ],
+    "types": ["ground", "normal"],
     "stats": {
       "hp": 130,
       "attack": 140,
@@ -9248,9 +8204,7 @@
     "pokeapiId": 218,
     "name": "Slugma",
     "formName": null,
-    "types": [
-      "fire"
-    ],
+    "types": ["fire"],
     "stats": {
       "hp": 55,
       "attack": 40,
@@ -9270,10 +8224,7 @@
     "pokeapiId": 219,
     "name": "Magcargo",
     "formName": null,
-    "types": [
-      "fire",
-      "rock"
-    ],
+    "types": ["fire", "rock"],
     "stats": {
       "hp": 75,
       "attack": 50,
@@ -9293,10 +8244,7 @@
     "pokeapiId": 220,
     "name": "Swinub",
     "formName": null,
-    "types": [
-      "ice",
-      "ground"
-    ],
+    "types": ["ice", "ground"],
     "stats": {
       "hp": 60,
       "attack": 50,
@@ -9316,10 +8264,7 @@
     "pokeapiId": 221,
     "name": "Piloswine",
     "formName": null,
-    "types": [
-      "ice",
-      "ground"
-    ],
+    "types": ["ice", "ground"],
     "stats": {
       "hp": 110,
       "attack": 100,
@@ -9339,10 +8284,7 @@
     "pokeapiId": 473,
     "name": "Mamoswine",
     "formName": null,
-    "types": [
-      "ice",
-      "ground"
-    ],
+    "types": ["ice", "ground"],
     "stats": {
       "hp": 120,
       "attack": 130,
@@ -9362,10 +8304,7 @@
     "pokeapiId": 222,
     "name": "Corsola",
     "formName": null,
-    "types": [
-      "water",
-      "rock"
-    ],
+    "types": ["water", "rock"],
     "stats": {
       "hp": 65,
       "attack": 55,
@@ -9385,9 +8324,7 @@
     "pokeapiId": 223,
     "name": "Remoraid",
     "formName": null,
-    "types": [
-      "water"
-    ],
+    "types": ["water"],
     "stats": {
       "hp": 35,
       "attack": 55,
@@ -9407,10 +8344,7 @@
     "pokeapiId": 224,
     "name": "Octillery",
     "formName": null,
-    "types": [
-      "water",
-      "fire"
-    ],
+    "types": ["water", "fire"],
     "stats": {
       "hp": 110,
       "attack": 95,
@@ -9430,10 +8364,7 @@
     "pokeapiId": 225,
     "name": "Delibird",
     "formName": null,
-    "types": [
-      "ice",
-      "flying"
-    ],
+    "types": ["ice", "flying"],
     "stats": {
       "hp": 85,
       "attack": 80,
@@ -9453,10 +8384,7 @@
     "pokeapiId": 458,
     "name": "Mantyke",
     "formName": null,
-    "types": [
-      "water",
-      "flying"
-    ],
+    "types": ["water", "flying"],
     "stats": {
       "hp": 55,
       "attack": 20,
@@ -9476,10 +8404,7 @@
     "pokeapiId": 226,
     "name": "Mantine",
     "formName": null,
-    "types": [
-      "water",
-      "flying"
-    ],
+    "types": ["water", "flying"],
     "stats": {
       "hp": 95,
       "attack": 40,
@@ -9499,10 +8424,7 @@
     "pokeapiId": 227,
     "name": "Skarmory",
     "formName": null,
-    "types": [
-      "steel",
-      "flying"
-    ],
+    "types": ["steel", "flying"],
     "stats": {
       "hp": 65,
       "attack": 90,
@@ -9522,10 +8444,7 @@
     "pokeapiId": 228,
     "name": "Houndour",
     "formName": null,
-    "types": [
-      "dark",
-      "fire"
-    ],
+    "types": ["dark", "fire"],
     "stats": {
       "hp": 45,
       "attack": 60,
@@ -9545,10 +8464,7 @@
     "pokeapiId": 229,
     "name": "Houndoom",
     "formName": null,
-    "types": [
-      "dark",
-      "fire"
-    ],
+    "types": ["dark", "fire"],
     "stats": {
       "hp": 75,
       "attack": 90,
@@ -9568,9 +8484,7 @@
     "pokeapiId": 231,
     "name": "Phanpy",
     "formName": null,
-    "types": [
-      "ground"
-    ],
+    "types": ["ground"],
     "stats": {
       "hp": 90,
       "attack": 60,
@@ -9590,9 +8504,7 @@
     "pokeapiId": 232,
     "name": "Donphan",
     "formName": null,
-    "types": [
-      "ground"
-    ],
+    "types": ["ground"],
     "stats": {
       "hp": 110,
       "attack": 120,
@@ -9612,9 +8524,7 @@
     "pokeapiId": 234,
     "name": "Stantler",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 73,
       "attack": 85,
@@ -9634,10 +8544,7 @@
     "pokeapiId": 899,
     "name": "Wyrdeer",
     "formName": null,
-    "types": [
-      "normal",
-      "psychic"
-    ],
+    "types": ["normal", "psychic"],
     "stats": {
       "hp": 103,
       "attack": 100,
@@ -9657,9 +8564,7 @@
     "pokeapiId": 235,
     "name": "Smeargle",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 85,
       "attack": 60,
@@ -9679,9 +8584,7 @@
     "pokeapiId": 241,
     "name": "Miltank",
     "formName": null,
-    "types": [
-      "normal"
-    ],
+    "types": ["normal"],
     "stats": {
       "hp": 95,
       "attack": 80,
@@ -9701,9 +8604,7 @@
     "pokeapiId": 243,
     "name": "Raikou",
     "formName": null,
-    "types": [
-      "electric"
-    ],
+    "types": ["electric"],
     "stats": {
       "hp": 90,
       "attack": 85,
@@ -9723,9 +8624,7 @@
     "pokeapiId": 244,
     "name": "Entei",
     "formName": null,
-    "types": [
-      "fire"
-    ],
+    "types": ["fire"],
     "stats": {
       "hp": 115,
       "attack": 115,
@@ -9745,9 +8644,7 @@
     "pokeapiId": 245,
     "name": "Suicune",
     "formName": null,
-    "types": [
-      "water"
-    ],
+    "types": ["water"],
     "stats": {
       "hp": 100,
       "attack": 75,
@@ -9767,10 +8664,7 @@
     "pokeapiId": 246,
     "name": "Larvitar",
     "formName": null,
-    "types": [
-      "rock",
-      "ground"
-    ],
+    "types": ["rock", "ground"],
     "stats": {
       "hp": 50,
       "attack": 64,
@@ -9790,10 +8684,7 @@
     "pokeapiId": 247,
     "name": "Pupitar",
     "formName": null,
-    "types": [
-      "rock",
-      "ground"
-    ],
+    "types": ["rock", "ground"],
     "stats": {
       "hp": 70,
       "attack": 84,
@@ -9813,10 +8704,7 @@
     "pokeapiId": 248,
     "name": "Tyranitar",
     "formName": null,
-    "types": [
-      "rock",
-      "dark"
-    ],
+    "types": ["rock", "dark"],
     "stats": {
       "hp": 100,
       "attack": 134,
@@ -9836,10 +8724,7 @@
     "pokeapiId": 249,
     "name": "Lugia",
     "formName": null,
-    "types": [
-      "psychic",
-      "flying"
-    ],
+    "types": ["psychic", "flying"],
     "stats": {
       "hp": 106,
       "attack": 90,
@@ -9859,10 +8744,7 @@
     "pokeapiId": 250,
     "name": "Ho-Oh",
     "formName": null,
-    "types": [
-      "fire",
-      "flying"
-    ],
+    "types": ["fire", "flying"],
     "stats": {
       "hp": 106,
       "attack": 130,
@@ -9882,10 +8764,7 @@
     "pokeapiId": 251,
     "name": "Celebi",
     "formName": null,
-    "types": [
-      "psychic",
-      "grass"
-    ],
+    "types": ["psychic", "grass"],
     "stats": {
       "hp": 100,
       "attack": 100,
@@ -9905,10 +8784,7 @@
     "pokeapiId": 840,
     "name": "Applin",
     "formName": null,
-    "types": [
-      "grass",
-      "dragon"
-    ],
+    "types": ["grass", "dragon"],
     "stats": {
       "hp": 40,
       "attack": 40,
@@ -9928,10 +8804,7 @@
     "pokeapiId": 841,
     "name": "Flapple",
     "formName": null,
-    "types": [
-      "grass",
-      "dragon"
-    ],
+    "types": ["grass", "dragon"],
     "stats": {
       "hp": 70,
       "attack": 114,
@@ -9951,10 +8824,7 @@
     "pokeapiId": 842,
     "name": "Appletun",
     "formName": null,
-    "types": [
-      "grass",
-      "dragon"
-    ],
+    "types": ["grass", "dragon"],
     "stats": {
       "hp": 125,
       "attack": 85,
@@ -9974,10 +8844,7 @@
     "pokeapiId": 1011,
     "name": "Dipplin",
     "formName": null,
-    "types": [
-      "grass",
-      "dragon"
-    ],
+    "types": ["grass", "dragon"],
     "stats": {
       "hp": 90,
       "attack": 80,
@@ -9997,10 +8864,7 @@
     "pokeapiId": 1019,
     "name": "Hydrapple",
     "formName": null,
-    "types": [
-      "grass",
-      "dragon"
-    ],
+    "types": ["grass", "dragon"],
     "stats": {
       "hp": 116,
       "attack": 80,
@@ -10020,10 +8884,7 @@
     "pokeapiId": 957,
     "name": "Tinkatink",
     "formName": null,
-    "types": [
-      "fairy",
-      "steel"
-    ],
+    "types": ["fairy", "steel"],
     "stats": {
       "hp": 50,
       "attack": 45,
@@ -10043,10 +8904,7 @@
     "pokeapiId": 958,
     "name": "Tinkatuff",
     "formName": null,
-    "types": [
-      "fairy",
-      "steel"
-    ],
+    "types": ["fairy", "steel"],
     "stats": {
       "hp": 65,
       "attack": 65,
@@ -10066,10 +8924,7 @@
     "pokeapiId": 959,
     "name": "Tinkaton",
     "formName": null,
-    "types": [
-      "fairy",
-      "steel"
-    ],
+    "types": ["fairy", "steel"],
     "stats": {
       "hp": 90,
       "attack": 75,

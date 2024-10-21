@@ -100,8 +100,8 @@ export const DetailPanel = ({
               target="_blank"
               rel="noopener noreferrer"
             >
-              <PrimaryButton>
-                Full Detail <FaExternalLinkAlt />
+              <PrimaryButton> 
+                Full Detail at Bulbapedia <FaExternalLinkAlt />
               </PrimaryButton>
             </Link>
           </CardFooter>

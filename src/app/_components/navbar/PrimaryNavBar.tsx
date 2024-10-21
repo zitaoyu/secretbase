@@ -11,8 +11,7 @@ import {
 import { ThemeSwitcher } from "./ThemeSwitcher";
 import { SecretBaseLogo } from "./Logo";
 import Link from "next/link";
-import { Link as NextLink } from "@nextui-org/react";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { CgClose } from "react-icons/cg";
 import { IoMenu } from "react-icons/io5";
 import { PrimaryIconButton } from "../PrimaryIconButton";
@@ -23,10 +22,15 @@ export const PrimaryNavBar = () => {
 
   const isOnSeaglassRoute = usePathname().startsWith("/seaglass");
 
-  let menuItems: { label: string; href: string }[] = [
+  let menuItems: { label: string; href: string; newtab: boolean }[] = [
     // { label: "Home", href: "/" },
-    { label: "National Dex", href: "/" },
-    { label: "Seaglass Pokedex", href: "/seaglass/" },
+    { label: "National Dex", href: "/", newtab: false },
+    { label: "Seaglass Pokedex", href: "/seaglass/", newtab: false },
+    {
+      label: "Download Seaglass",
+      href: "https://ko-fi.com/s/4a1535f351",
+      newtab: true,
+    },
     // { label: "About", href: "#" },
   ];
 
@@ -56,6 +60,7 @@ export const PrimaryNavBar = () => {
               className="group block transition hover:text-sb-primary"
               href={menuItem.href}
               color="foreground"
+              target={menuItem.newtab ? "_blank" : ""}
             >
               <span>{menuItem.label}</span>
               <div className="h-[2px] rounded-full transition group-hover:bg-sb-primary"></div>

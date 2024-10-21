@@ -87,11 +87,6 @@ const fetchPokemonData = async (url) => {
   }
 };
 
-const nationalDexUrl = "https://pokeapi.co/api/v2/pokemon?limit=1025&offset=0";
-const formsUrl = "https://pokeapi.co/api/v2/pokemon?limit=100000&offset=1025";
-
-let DownloadedData = [];
-
 // Function to fetch and process national Dex data
 const fetchNationalDex = async () => {
   try {
@@ -151,6 +146,13 @@ const fetchFormsData = async () => {
   }
 };
 
+const nationalDexUrl = "https://pokeapi.co/api/v2/pokemon?limit=1025&offset=0";
+const formsUrl = "https://pokeapi.co/api/v2/pokemon?limit=100000&offset=1025";
+
+let DownloadedData = [];
+let AbilitiesOverrideData = [];
+let EvolutionChainOverrideData = [];
+
 // Main function to run the entire process synchronously
 const run = async () => {
   const extractData = JSON.parse(fs.readFileSync("./output.json", "utf-8"));
@@ -178,6 +180,22 @@ const run = async () => {
     pokemon.animatedShinySpriteUrl = null;
     DownloadedData.push(pokemon);
     // console.log(pokemon);
+
+    // Abiliti override:
+    const abilitiesArray = [...item.abilities, item.hiddenAbility].map(
+      (ability) => {
+        const abilityId = ability.toLowerCase().replace(/\s+/g, "-");
+        return {
+          value: ability,
+          url: `https://pokeapi.co/api/v2/ability/${abilityId}`,
+        };
+      },
+    );
+    AbilitiesOverrideData.push({
+      id: pokemon.id,
+      pokeapiId: pokemon.pokeapiId,
+      abilities: abilitiesArray,
+    });
   }
   DownloadedData.sort((a, b) => a.id - b.id);
 
@@ -193,7 +211,8 @@ const run = async () => {
   // Save the collected data as a JSON file
   const jsonData = JSON.stringify(DownloadedData, null, 2);
   fs.writeFileSync("collectedData.json", jsonData);
-
+  const jsonData2 = JSON.stringify(AbilitiesOverrideData, null, 2);
+  fs.writeFileSync("collectedAbilityOverrideData.json", jsonData2);
   console.log("Data collected and saved successfully!");
 };
 
