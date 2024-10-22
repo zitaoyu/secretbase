@@ -84,10 +84,9 @@ class SeaglassPokedexService implements IPokedexService {
     const overrideAbility = abilityOverrideDatabase.find(
       (item) => item.pokeapiId == (pokemonId as number),
     );
-    console.log(overrideAbility);
+    // console.log("Override abilities:", overrideAbility);
     if (overrideAbility) {
       abilities = overrideAbility.abilities;
-      console.log("in here");
     } else {
       abilities = pokemon.abilities.map((ability) => {
         {
@@ -193,7 +192,6 @@ class SeaglassPokedexService implements IPokedexService {
         if (detail) detailPanelData.detail = detail;
         break;
       case DetailType.ITEM:
-        console.log("get item");
         const item = await myPokedex.getItemByName(id);
         detailPanelData.type = DetailType.ITEM;
 
@@ -212,7 +210,6 @@ class SeaglassPokedexService implements IPokedexService {
       case DetailType.MOVE:
         break;
     }
-
     return detailPanelData;
   }
 }

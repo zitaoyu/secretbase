@@ -18,7 +18,9 @@ export const NavMenu = ({
 }: NavMenuProps) => {
   return (
     <nav className="flex w-full items-center justify-between sm:justify-center sm:gap-20">
-      <Link href={`/${prevPokeapiId}`}>
+      <Link
+        href={`${game === "seaglass" ? "/seaglass/" : ""}/${prevPokeapiId}`}
+      >
         <PrimaryButton className="text-2xl">
           <IoIosArrowBack />
         </PrimaryButton>

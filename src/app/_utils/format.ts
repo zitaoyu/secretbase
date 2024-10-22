@@ -18,10 +18,12 @@ export function extractIdFromUrl(url: string): number {
 }
 
 export function extractResourceAndId(url: string): [string, string] {
-  const match = url.match(/\/(\w+)\/(\d+)\//);
-  if (match) {
-    const [, resource, id] = match;
-    return [resource, id];
+  const parts = url.split("/").filter(Boolean);
+  const lastTwo = parts.slice(-2);
+  const type = lastTwo[0];
+  const id = lastTwo[1];
+  if (type && id) {
+    return [type, id];
   }
   return ["ability", "1"];
 }

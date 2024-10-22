@@ -153,12 +153,15 @@ let DownloadedData = [];
 let AbilitiesOverrideData = [];
 let EvolutionChainOverrideData = [];
 
+const downloadAbility = true;
+
 // Main function to run the entire process synchronously
 const run = async () => {
   const extractData = JSON.parse(fs.readFileSync("./output.json", "utf-8"));
   for (const i in extractData) {
     const item = extractData[i];
-    console.log(`fetching data for ${item.pokeapiId}`);
+
+    // console.log(`fetching data for ${item.pokeapiId}`);
     const pokemon = await fetchPokemonData(
       `https://pokeapi.co/api/v2/pokemon/${item.pokeapiId}`,
     );
@@ -181,21 +184,32 @@ const run = async () => {
     DownloadedData.push(pokemon);
     // console.log(pokemon);
 
-    // Abiliti override:
-    const abilitiesArray = [...item.abilities, item.hiddenAbility].map(
-      (ability) => {
+    if (downloadAbility) {
+      // Abiliti override:
+      const abilitiesArray = [];
+      for (const ability of [...item.abilities, item.hiddenAbility].filter(
+        (value) => value !== "N/A",
+      )) {
         const abilityId = ability.toLowerCase().replace(/\s+/g, "-");
-        return {
+        const abilityData = await fetchDataWithRetries(
+          `https://pokeapi.co/api/v2/ability/${abilityId}/`,
+          (maxRetries = 5),
+        );
+
+        console.log(`AbilityId = ${abilityId}`);
+        console.log(`https://pokeapi.co/api/v2/ability/${abilityId}/`);
+
+        abilitiesArray.push({
           value: ability,
-          url: `https://pokeapi.co/api/v2/ability/${abilityId}`,
-        };
-      },
-    );
-    AbilitiesOverrideData.push({
-      id: pokemon.id,
-      pokeapiId: pokemon.pokeapiId,
-      abilities: abilitiesArray,
-    });
+          url: `https://pokeapi.co/api/v2/ability/${abilityData.id}/`,
+        });
+      }
+      AbilitiesOverrideData.push({
+        id: pokemon.id,
+        pokeapiId: pokemon.pokeapiId,
+        abilities: abilitiesArray,
+      });
+    }
   }
   DownloadedData.sort((a, b) => a.id - b.id);
 
@@ -208,11 +222,14 @@ const run = async () => {
     }
     return value;
   });
+
   // Save the collected data as a JSON file
   const jsonData = JSON.stringify(DownloadedData, null, 2);
   fs.writeFileSync("collectedData.json", jsonData);
+
   const jsonData2 = JSON.stringify(AbilitiesOverrideData, null, 2);
   fs.writeFileSync("collectedAbilityOverrideData.json", jsonData2);
+
   console.log("Data collected and saved successfully!");
 };
 
