@@ -150,7 +150,7 @@ class NationalPokedexService implements IPokedexService {
   async getDetailPanelDataByUrl(url: string): Promise<DetailPanelData> {
     let [type, id] = extractResourceAndId(url);
     type = type as DetailType;
-    console.log(type, id);
+
     let detailPanelData: DetailPanelData = {
       type: DetailType.UNKNOWN,
       friendlyName: "unknown",
@@ -161,7 +161,7 @@ class NationalPokedexService implements IPokedexService {
       case DetailType.ABILITY:
         const ability = await myPokedex.getAbilityByName(id);
         detailPanelData.type = DetailType.ABILITY;
-
+        console.log(JSON.stringify(ability));
         const friendlyName = ability.names.find(
           (item) => item.language.name == "en",
         )?.name;

@@ -54,7 +54,7 @@ export const DetailPanel = ({
     <div>
       <Overlay onClick={() => setIsOpen(false)} />
       <div
-        className="fixed left-1/2 z-50 flex h-[90vh] w-[98vw] -translate-x-1/2
+        className="fixed left-1/2 top-[5vh] z-50 flex h-[90vh] w-[98vw] -translate-x-1/2
       flex-col justify-center overflow-hidden rounded-xl p-6 md:max-h-[660px] md:max-w-2xl"
       >
         {/* TODO: implement UI */}
@@ -84,14 +84,14 @@ export const DetailPanel = ({
               <span className="font-semibold">Name: </span>
               {detailPanelData.friendlyName}
             </p>
-            <p>
+            <div>
               <span className="font-semibold">Detail:</span>
               {splitParagraph(detailPanelData.detail).map((value, index) => (
                 <p className="pb-1" key={index}>
                   {value}
                 </p>
               ))}
-            </p>
+            </div>
           </CardBody>
           <Divider />
           <CardFooter className="justify-center">
@@ -100,7 +100,7 @@ export const DetailPanel = ({
               target="_blank"
               rel="noopener noreferrer"
             >
-              <PrimaryButton> 
+              <PrimaryButton>
                 Full Detail at Bulbapedia <FaExternalLinkAlt />
               </PrimaryButton>
             </Link>
