@@ -13,9 +13,12 @@ import {
   formatName,
 } from "../_utils/format";
 import { DetailPanelData, DetailType } from "./models/DetailPanelData";
-import pokemonSimpleDataDatabaseSeaglass from "./databases/seaglass/pokemonSimpleDataDatabase-Seaglass";
-import evolutionChainDatabase from "./databases/seaglass/evolutionChainDatabase";
-import abilityOverrideDatabase from "./databases/seaglass/abilityOverrideDatabase";
+import {
+  pokemonSimpleDataDatabaseSeaglass,
+  evolutionChainDatabase,
+  abilityOverrideDatabase,
+  fakemonDatabase
+} from "./databases/seaglass/index";
 import myPokedex from "./pokeapi";
 
 class SeaglassPokedexService implements IPokedexService {
@@ -50,6 +53,11 @@ class SeaglassPokedexService implements IPokedexService {
   async getPokemonFullDataById(
     pokemonId: string | number,
   ): Promise<PokemonFullData> {
+    if ((pokemonId as number) >= 99999) {
+      return fakemonDatabase.find((pokemonFullData) => 
+        pokemonFullData.simpleData.id === pokemonId) || fakemonDatabase[0]
+    }
+
     const simpleData = this.getPokemonSimpleDataById(pokemonId as number);
     const pokemon = await myPokedex.getPokemonByName(pokemonId);
     const speciesId = extractIdFromUrl(pokemon.species.url);
@@ -110,11 +118,11 @@ class SeaglassPokedexService implements IPokedexService {
     const heldItems: DataLink[] =
       pokemon.held_items.length > 0
         ? pokemon.held_items.map((item) => {
-            return {
-              value: formatName(item.item.name),
-              url: item.item.url,
-            };
-          })
+          return {
+            value: formatName(item.item.name),
+            url: item.item.url,
+          };
+        })
         : [{ value: "None", url: null }];
 
     const evYield: DataLink[] = pokemon.stats

@@ -57,6 +57,7 @@ const PokemonPageContent = () => {
       .then((fullData) => {
         setPokemonFullData(fullData);
         setIsLoading(false);
+        console.log(fullData);
       })
       .catch(() => {
         setIsLoading(false);
