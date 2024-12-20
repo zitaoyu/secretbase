@@ -13,8 +13,10 @@ import {
   formatName,
 } from "../_utils/format";
 import { DetailPanelData, DetailType } from "./models/DetailPanelData";
-import pokemonSimpleDataDatabase from "./databases/nationalDex/pokemonSimpleDataDatabase";
-import evolutionChainDatabase from "./databases/nationalDex/evolutionChainDatabase";
+import {
+  pokemonSimpleDataDatabase, 
+  evolutionChainDatabase
+} from "./databases/nationalDex/index";
 import myPokedex from "./pokeapi";
 
 class NationalPokedexService implements IPokedexService {

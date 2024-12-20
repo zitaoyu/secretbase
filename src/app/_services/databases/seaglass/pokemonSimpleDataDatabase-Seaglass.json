@@ -3300,8 +3300,8 @@
     "evolutionChainId": 10
   },
   {
-    "id": 99999,
-    "pokeapiId": 172,
+    "id": 165,
+    "pokeapiId": 99999,
     "name": "Spiky-eared Pichu",
     "formName": null,
     "types": ["electric"],

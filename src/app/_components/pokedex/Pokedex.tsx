@@ -41,6 +41,7 @@ export const Pokedex = ({ game }: PokedexProps) => {
     setPokemonDataList(data);
     setFilterList(data);
     setIsLoading(false);
+    // console.log(data);
   }, []);
 
   useEffect(() => {
