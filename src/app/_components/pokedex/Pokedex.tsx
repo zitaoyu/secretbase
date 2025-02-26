@@ -41,7 +41,6 @@ export const Pokedex = ({ game }: PokedexProps) => {
     setPokemonDataList(data);
     setFilterList(data);
     setIsLoading(false);
-    // console.log(data);
   }, []);
 
   useEffect(() => {
@@ -109,7 +108,6 @@ export const Pokedex = ({ game }: PokedexProps) => {
         (pokemon) =>
           indexFilter[0] <= pokemon.id && pokemon.id <= indexFilter[1],
       );
-      // console.log(filteredData);
       setFilterList(filteredData);
       updateQueryParams();
     }
@@ -135,6 +133,10 @@ export const Pokedex = ({ game }: PokedexProps) => {
     const grid = searchParams.get("grid") as GridType;
     if (grid) {
       setGridType(grid);
+    }
+    const shiny = searchParams.get("shiny");
+    if (shiny) {
+      setShowShiny(true);
     }
   }
 
