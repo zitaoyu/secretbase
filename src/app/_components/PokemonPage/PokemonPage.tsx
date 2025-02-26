@@ -5,7 +5,6 @@ import { PrimarySpinner } from "@/app/_components/PrimarySpinner";
 import { NavMenu } from "@/app/_components/PokemonPage/NavMenu";
 import { BasicInfoBox } from "@/app/_components/PokemonPage/BasicInfoBox";
 import { SpriteGallery } from "@/app/_components/PokemonPage/SpriteGallery";
-
 import { MovesTable } from "@/app/_components/PokemonPage/MovesTable";
 import { StatsTable } from "@/app/_components/PokemonPage/StatsTable";
 import { ScrollToTop } from "@/app/_components/ScrollToTop";
@@ -57,7 +56,6 @@ const PokemonPageContent = () => {
       .then((fullData) => {
         setPokemonFullData(fullData);
         setIsLoading(false);
-        console.log(fullData);
       })
       .catch(() => {
         setIsLoading(false);
