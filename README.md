@@ -20,23 +20,6 @@ To run locally, simply do:
   npm run dev
 ```
 
-## Roadmap
-
-- [x] unify font
-- [x] update background colors light/dark
-- [x] create card container for pokedex
-- [x] add types to pokemon card
-- [x] add route to pokemon detail page
-- [x] add moves table to pokemon page
-- [x] add stats table to pokemon page
-- [x] add filtering to search bar
-- [x] add different layout to pokedex
-- [x] remove invalid gen in moves table
-- [x] add type chart
-- [x] add type filtering
-- [x] evolution chart
-- [ ] add shiny sprites and other art work
-
 ## Status
 
 Secret Base is WIP, new features are being added continuously.
