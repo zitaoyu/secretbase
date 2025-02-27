@@ -76,7 +76,7 @@ export const SpriteGallery = ({
     <div className={`relative ${bgSizes[size]}`}>
       <PokeballSVG className="h-full w-full fill-zinc-200 dark:fill-zinc-700" />
       <img
-        className={`sprite absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform overflow-visible ${spriteSizes[size]}`}
+        className={`sprite absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform overflow-visible will-change-transform ${spriteSizes[size]}`}
         src={imageUrl}
         alt="pokemon sprite"
       />
