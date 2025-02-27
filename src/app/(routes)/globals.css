@@ -35,3 +35,7 @@ body {
   will-change: transform;
   background-size: cover;
 }
+
+.bg-cover {
+  background-size: cover;
+}
