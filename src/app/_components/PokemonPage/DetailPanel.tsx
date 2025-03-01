@@ -8,11 +8,15 @@ import {
 } from "@nextui-org/react";
 import { Overlay } from "../Overlay";
 import useToggleBodyScroll from "@/app/_hooks/useToggleBodyScroll";
-import { DetailPanelData } from "@/app/_services/models/DetailPanelData";
+import {
+  DetailPanelData,
+  DetailType,
+} from "@/app/_services/models/DetailPanelData";
 import { PrimaryButton } from "../PrimaryButton";
 import { capitalizeFirstLetter } from "@/app/_utils/format";
 import { SpriteGallery } from "./SpriteGallery";
 import { FaExternalLinkAlt } from "react-icons/fa";
+import React from "react";
 
 const splitParagraph = (text: string): string[] => {
   // Define an array of keywords that should trigger a split
@@ -55,7 +59,7 @@ export const DetailPanel = ({
       <Overlay onClick={() => setIsOpen(false)} />
       <div
         className="fixed left-1/2 top-[5vh] z-50 flex h-[90vh] w-[98vw] -translate-x-1/2
-      flex-col justify-center overflow-hidden rounded-xl p-6 md:max-h-[660px] md:max-w-2xl"
+      flex-col justify-center overflow-hidden rounded-xl p-6 md:max-h-[700px] md:max-w-2xl"
       >
         {/* TODO: implement UI */}
         <Card className="flex h-full w-full p-4">
@@ -86,11 +90,22 @@ export const DetailPanel = ({
             </p>
             <div>
               <span className="font-semibold">Detail:</span>
-              {splitParagraph(detailPanelData.detail).map((value, index) => (
-                <p className="pb-1" key={index}>
-                  {value}
-                </p>
-              ))}
+              {detailPanelData.type === DetailType.MOVE ? (
+                // TODO: create better UI for move detail
+                <div className="rounded-xl p-2 px-4 outline outline-default">
+                  {detailPanelData.detail.split("\n").map((line, index) => (
+                    <div className="pb-1" key={index}>
+                      {line}
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                splitParagraph(detailPanelData.detail).map((value, index) => (
+                  <p className="pb-1" key={index}>
+                    {value}
+                  </p>
+                ))
+              )}
             </div>
           </CardBody>
           <Divider />
