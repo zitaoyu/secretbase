@@ -14,8 +14,8 @@ import {
 } from "../_utils/format";
 import { DetailPanelData, DetailType } from "./models/DetailPanelData";
 import {
-  pokemonSimpleDataDatabase, 
-  evolutionChainDatabase
+  pokemonSimpleDataDatabase,
+  evolutionChainDatabase,
 } from "./databases/nationalDex/index";
 import myPokedex from "./pokeapi";
 
@@ -191,9 +191,27 @@ class NationalPokedexService implements IPokedexService {
           detailPanelData.spriteUrl = item.sprites.default;
         break;
       case DetailType.MOVE:
-        break;
+        const move = await myPokedex.getMoveByName(id);
+        detailPanelData.type = DetailType.MOVE;
+        const moveFriendlyName = move.names.find(
+          (item) => item.language.name == "en",
+        )?.name;
+        if (moveFriendlyName) detailPanelData.friendlyName = moveFriendlyName;
+        const effect = move.effect_entries.find(
+          (item) => item.language.name == "en",
+        )?.short_effect;
+        detailPanelData.detail = `
+        Type: ${move.type ? move.type.name : "none"}
+        Accuracy: ${move.accuracy ? move.accuracy : "none"}
+        Power: ${move.power ? move.power : "none"}
+        PP: ${move.pp ? move.pp : "none"}
+        Priority: ${move.priority ? move.priority : "none"}
+        Damage Class: ${move.damage_class ? move.damage_class.name : "none"}
+        Effect: ${effect ? effect : "none"}
+        `;
+        console.log(JSON.stringify(url));
     }
-    console.log(`Detail Panel data: ${JSON.stringify(detailPanelData)}`);
+    // console.log(`Detail Panel data: ${JSON.stringify(detailPanelData)}`);
     return detailPanelData;
   }
 }

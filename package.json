@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "ip": "next dev -H 10.0.0.205 -p 3000",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

@@ -21,6 +21,7 @@ import { StaticImageData } from "next/image";
 import { PrimaryButton } from "../PrimaryButton";
 import { SectionTitle } from "./SectionTitle";
 import { Gen } from "@/app/_types/gen.type";
+import { useDetailPanelContext } from "./DetailPanelContext";
 
 const moveTypeSpriteMap: Record<string, StaticImageData> = {
   physical: movePhysicalSprite,
@@ -140,6 +141,9 @@ export const MovesTable = ({ title, movesData, method }: MovesTableProps) => {
   const [genMovesMap, setGenMovesMap] = useState<Record<Gen, MoveRowData[]>>(
     createDefaultGenMovesMap(),
   );
+
+  const { setDetailPanelUrl, counter, setCounter } = useDetailPanelContext();
+
   const placeholder = "-";
 
   const columns = [
@@ -255,6 +259,11 @@ export const MovesTable = ({ title, movesData, method }: MovesTableProps) => {
     setGen(gen);
   }
 
+  async function showMoveInDetailPanel(url: string) {
+    setDetailPanelUrl(url);
+    setCounter(counter + 1);
+  }
+
   if (!movesData) {
     return;
   }
@@ -298,7 +307,10 @@ export const MovesTable = ({ title, movesData, method }: MovesTableProps) => {
         <TableBody isLoading={loading} loadingContent={<PrimarySpinner />}>
           {rows.slice(0, show).map((row) =>
             method === "level-up" ? (
-              <TableRow key={row.TMId}>
+              <TableRow
+                key={row.TMId}
+                onClick={() => showMoveInDetailPanel(row.url)}
+              >
                 <TableCell>
                   {row.level !== null && row.level === 0 ? "Evo." : row.level}
                 </TableCell>
@@ -331,7 +343,10 @@ export const MovesTable = ({ title, movesData, method }: MovesTableProps) => {
                 <TableCell>{row.accuracy || placeholder}</TableCell>
               </TableRow>
             ) : (
-              <TableRow key={row.move}>
+              <TableRow
+                key={row.move}
+                onClick={() => showMoveInDetailPanel(row.url)}
+              >
                 <TableCell>
                   <span className="text-nowrap font-medium">
                     {formatName(row.move) || placeholder}
