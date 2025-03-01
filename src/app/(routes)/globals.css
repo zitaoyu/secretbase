@@ -28,14 +28,5 @@ body {
 .sprite {
   image-rendering: pixelated;
   image-rendering: -moz-crisp-edges;
-  /* image-rendering: crisp-edges; */
-}
-
-.will-change-transform {
-  will-change: transform;
-  background-size: cover;
-}
-
-.bg-cover {
-  background-size: cover;
+  image-rendering: crisp-edges;
 }

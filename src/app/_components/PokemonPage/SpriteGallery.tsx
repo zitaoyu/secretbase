@@ -62,21 +62,28 @@ export const SpriteGallery = ({
   size = "md",
 }: SpriteGalleryProps) => {
   const bgSizes: Record<string, string> = {
-    sm: "h-28 w-28",
-    md: "h-32 w-32",
-    lg: "h-40 w-40 my-4",
+    sm: "h-32 w-32",
+    md: "h-36 w-36",
+    lg: "h-44 w-44 my-4",
   };
-  const spriteSizes: Record<string, string> = {
+  const gifSpriteSizes: Record<string, string> = {
     sm: "scale-[1]",
     md: "scale-[1.5]",
     lg: "scale-[2]",
   };
 
+  const spriteSizes: Record<string, string> = {
+    sm: "max-h-28 max-w-28",
+    md: "max-h-32 max-w-32",
+    lg: "max-h-40 max-w-40",
+  };
+
   return (
-    <div className={`relative bg-cover ${bgSizes[size]}`}>
+    <div className={`relative ${bgSizes[size]}`}>
       <PokeballSVG className="h-full w-full bg-cover fill-zinc-200 dark:fill-zinc-700" />
       <img
-        className={`sprite absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform overflow-visible bg-cover will-change-transform ${spriteSizes[size]}`}
+        className={`sprite absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform overflow-visible 
+          ${imageUrl.endsWith(".gif") ? gifSpriteSizes[size] : "h-full w-full " + spriteSizes[size]}`}
         src={imageUrl}
         alt="pokemon sprite"
       />
