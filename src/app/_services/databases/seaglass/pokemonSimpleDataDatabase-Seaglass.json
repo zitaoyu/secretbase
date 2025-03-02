@@ -2484,7 +2484,7 @@
     "pokeapiId": 371,
     "name": "Bagon",
     "formName": null,
-    "types": ["dragon "],
+    "types": ["dragon"],
     "stats": {
       "hp": 45,
       "attack": 75,
