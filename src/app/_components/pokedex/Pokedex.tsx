@@ -11,7 +11,8 @@ import { PokedexGrid } from "./PokedexGrid";
 import { PokedexTableGrid } from "./PokedexTableGrid";
 import { Gen } from "@/app/_types/gen.type";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { Game, pokedexMap } from "@/app/_services/pokedex-mapping";
+import { Game } from "@/app/_types/game.type";
+import { pokedexMap } from "@/app/_utils/pokedex-mapping";
 
 interface PokedexProps {
   game: Game;

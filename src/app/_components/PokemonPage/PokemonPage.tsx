@@ -115,7 +115,6 @@ const PokemonPageContent = () => {
               prevPokeapiId={pokemonFullData.pageData.prevPokeapiId}
               nextPokeapiId={pokemonFullData.pageData.nextPokeapiId}
               dexId={pokemonFullData.simpleData.id}
-              game={isSeaglass ? "seaglass" : "main"}
             />
             {/* Pokemon Info */}
             <div className="mt-6 flex w-full flex-col items-center">

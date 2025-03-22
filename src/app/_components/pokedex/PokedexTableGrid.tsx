@@ -12,7 +12,7 @@ import Link from "next/link";
 import { PokemonTypeBoxes } from "../PokemonTypeBox";
 import { PokemonSprite } from "../PokemonSprite";
 import useScreenSize from "@/app/_hooks/useScreenSize";
-import { Game } from "@/app/_services/pokedex-mapping";
+import { Game } from "@/app/_types/game.type";
 
 interface PokedexTableGridProps {
   pokemonData: PokemonSimpleData[];
@@ -117,7 +117,7 @@ export const PokedexTableGrid = ({
             <TableCell className={cellStyles + `${isMobile && " border-l-0"}`}>
               <Link
                 className="flex flex-col items-center font-bold"
-                href={`${game === "seaglass" ? "/seaglass/" : ""}${pokemon.pokeapiId}`}
+                href={`${game}/${pokemon.pokeapiId}`}
               >
                 <div className="">
                   <PokemonSprite
