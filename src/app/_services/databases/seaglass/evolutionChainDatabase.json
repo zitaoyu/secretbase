@@ -204,23 +204,6 @@
             "evolvesTo": []
           }
         ]
-      },
-      {
-        "pokeapiId": 10091,
-        "name": "rattata-alola",
-        "friendlyName": "Alolan Rattata",
-        "method": null,
-        "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/10091.png",
-        "evolvesTo": [
-          {
-            "pokeapiId": 10092,
-            "name": "raticate-alola",
-            "friendlyName": "Alolan Raticate",
-            "method": "Level 20 (Night)",
-            "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/10092.png",
-            "evolvesTo": []
-          }
-        ]
       }
     ]
   },
@@ -2568,23 +2551,6 @@
             "friendlyName": "Quagsire",
             "method": "Level 20",
             "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/195.png",
-            "evolvesTo": []
-          }
-        ]
-      },
-      {
-        "pokeapiId": 10253,
-        "name": "wooper-paldea",
-        "friendlyName": "Paldean Wooper",
-        "method": null,
-        "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/10253.png",
-        "evolvesTo": [
-          {
-            "pokeapiId": 980,
-            "name": "clodsire",
-            "friendlyName": "Clodsire",
-            "method": "Level 20",
-            "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/sprites/front/980.png",
             "evolvesTo": []
           }
         ]
