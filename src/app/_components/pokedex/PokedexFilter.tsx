@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { Autocomplete, AutocompleteItem, Input } from "@nextui-org/react";
+import { Autocomplete, AutocompleteItem, Input } from "@heroui/react";
 import { FaSearch } from "react-icons/fa";
 import { PrimaryIconButton } from "../PrimaryIconButton";
 import { BsFillGridFill, BsGrid3X3GapFill } from "react-icons/bs";

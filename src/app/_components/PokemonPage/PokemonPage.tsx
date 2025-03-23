@@ -1,4 +1,4 @@
-import { Card } from "@nextui-org/react";
+import { Card } from "@heroui/react";
 import { useParams, usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { PrimarySpinner } from "@/app/_components/PrimarySpinner";

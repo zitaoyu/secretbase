@@ -201,7 +201,6 @@ export const Pokedex = ({ game }: PokedexProps) => {
           showPokemons={showPokemons}
           isMini={gridType === "mini"}
           showShiny={showShiny}
-          game={game}
         />
       )}
     </div>

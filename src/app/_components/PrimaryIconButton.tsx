@@ -1,4 +1,4 @@
-import { Button, ButtonProps } from "@nextui-org/react";
+import { Button, ButtonProps } from "@heroui/react";
 import WrapperProps from "./Wrapper";
 import { MdCatchingPokemon } from "react-icons/md";
 import { IconType } from "react-icons";

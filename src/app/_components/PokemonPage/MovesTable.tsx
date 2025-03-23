@@ -8,7 +8,7 @@ import {
   TableCell,
   Tab,
   Tabs,
-} from "@nextui-org/react";
+} from "@heroui/react";
 import { MoveElement } from "pokedex-promise-v2";
 import { extractIdFromUrl, formatName } from "@/app/_utils/format";
 import myPokedex from "@/app/_services/pokeapi";

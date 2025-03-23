@@ -7,7 +7,7 @@ import {
   TableBody,
   TableRow,
   TableCell,
-} from "@nextui-org/react";
+} from "@heroui/react";
 import Link from "next/link";
 import { PokemonTypeBoxes } from "../PokemonTypeBox";
 import { PokemonSprite } from "../PokemonSprite";

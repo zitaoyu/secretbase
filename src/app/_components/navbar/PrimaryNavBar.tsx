@@ -7,7 +7,7 @@ import {
   NavbarItem,
   NavbarMenu,
   NavbarMenuItem,
-} from "@nextui-org/react";
+} from "@heroui/react";
 import { ThemeSwitcher } from "./ThemeSwitcher";
 import { SecretBaseLogo } from "./Logo";
 import Link from "next/link";

@@ -1,4 +1,4 @@
-import { Card, CardBody, CardFooter } from "@nextui-org/react";
+import { Card, CardBody, CardFooter } from "@heroui/react";
 import { useState } from "react";
 import { PokemonSimpleData } from "@/app/_services/models/PokemonSimpleData";
 import { PokemonTypeBoxes } from "../PokemonTypeBox";
@@ -18,9 +18,10 @@ export const PokemonCard = ({
   showShiny = false,
 }: PokemonCardProps) => {
   const [isHover, setIsHover] = useState(false);
-  const { game, id } = useParams();
+  const { pokedex, id } = useParams();
+
   const basePath =
-    id === undefined ? `${game}/${data.pokeapiId}` : `${data.pokeapiId}`;
+    id === undefined ? `${pokedex}/${data.pokeapiId}` : `${data.pokeapiId}`;
 
   function getSpriteUrl() {
     if (showShiny) {
