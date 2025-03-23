@@ -209,7 +209,7 @@ class NationalPokedexService implements IPokedexService {
         Damage Class: ${move.damage_class ? move.damage_class.name : "none"}
         Effect: ${effect ? effect : "none"}
         `;
-        console.log(JSON.stringify(url));
+      // console.log(JSON.stringify(url));
     }
     // console.log(`Detail Panel data: ${JSON.stringify(detailPanelData)}`);
     return detailPanelData;
