@@ -1,4 +1,4 @@
-import { Card } from "@nextui-org/react";
+import { Card } from "@heroui/react";
 import { useParams, usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { PrimarySpinner } from "@/app/_components/PrimarySpinner";
@@ -25,11 +25,11 @@ import {
   useDetailPanelContext,
 } from "./DetailPanelContext";
 import nationalDex from "@/app/_services/national-pokedex-service";
-import SeaglassPokedex from "@/app/_services/seaglass-pokedex-service";
-import { IPokedexService } from "@/app/_services/pokedex-service.interface";
+import { pokedexMap } from "@/app/_utils/pokedex-mapping";
+import { Game } from "@/app/_types/game.type";
 
 const PokemonPageContent = () => {
-  const { id } = useParams();
+  const { pokedex, id } = useParams();
   const { scrollY } = useScrollPosition();
   const { size } = useScreenSize();
 
@@ -47,11 +47,7 @@ const PokemonPageContent = () => {
 
   useEffect(() => {
     setIsLoading(true);
-    let pokedex: IPokedexService = nationalDex;
-    if (isSeaglass) {
-      pokedex = SeaglassPokedex;
-    }
-    pokedex
+    pokedexMap[pokedex as Game]
       .getPokemonFullDataById(pokemonId)
       .then((fullData) => {
         setPokemonFullData(fullData);
@@ -115,7 +111,6 @@ const PokemonPageContent = () => {
               prevPokeapiId={pokemonFullData.pageData.prevPokeapiId}
               nextPokeapiId={pokemonFullData.pageData.nextPokeapiId}
               dexId={pokemonFullData.simpleData.id}
-              game={isSeaglass ? "seaglass" : "main"}
             />
             {/* Pokemon Info */}
             <div className="mt-6 flex w-full flex-col items-center">

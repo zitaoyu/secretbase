@@ -1,4 +1,4 @@
-import { Link } from "@nextui-org/react";
+import { Link } from "@heroui/react";
 import { getPokemonTypeColor } from "@/app/_utils/type-colors";
 import { useEffect, useState } from "react";
 import { PrimarySpinner } from "../PrimarySpinner";

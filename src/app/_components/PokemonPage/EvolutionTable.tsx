@@ -14,7 +14,6 @@ interface EvolutionStageProps {
 }
 
 const EvolutionStage = ({ data }: EvolutionStageProps) => {
-  const isSeaglass = usePathname().includes("seaglass");
   return (
     <div className="flex items-center justify-between gap-6 md:gap-8">
       {data.method && (
@@ -25,7 +24,7 @@ const EvolutionStage = ({ data }: EvolutionStageProps) => {
       )}
       <Link
         className="flex flex-col items-center gap-2"
-        href={`${isSeaglass ? "/seaglass/" : ""}/${data.pokeapiId}`}
+        href={`${data.pokeapiId}`}
       >
         <SpriteGallery size="sm" imageUrl={data.spriteUrl} />
         <span className="font-medium">{data.friendlyName}</span>

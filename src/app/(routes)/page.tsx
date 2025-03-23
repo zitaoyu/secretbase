@@ -1,12 +1,13 @@
-import { Pokedex } from "../_components/pokedex/Pokedex";
-import { ScrollToTopButton } from "../_components/pokedex/ScrollToTopButton";
-import nationalDex from "../_services/national-pokedex-service";
+"use client";
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
-  return (
-    <section className="mx-auto max-w-7xl">
-      <Pokedex game={"main"} />
-      <ScrollToTopButton />
-    </section>
-  );
+  const router = useRouter();
+
+  useEffect(() => {
+    router.push("/main/");
+  }, [router]);
+
+  return null;
 }

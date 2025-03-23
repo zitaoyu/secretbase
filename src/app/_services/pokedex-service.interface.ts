@@ -8,5 +8,4 @@ export interface IPokedexService {
   getAllPokemonSimpleData(): PokemonSimpleData[];
   getEvolutionChainById(chainId: number): EvolutionChain;
   getPokemonFullDataById(pokemonId: string | number): Promise<PokemonFullData>;
-  getDetailPanelDataByUrl(url: string): Promise<DetailPanelData>;
 }

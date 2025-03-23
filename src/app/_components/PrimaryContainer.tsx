@@ -1,4 +1,4 @@
-import { Card } from "@nextui-org/react";
+import { Card } from "@heroui/react";
 import WrapperProps from "./Wrapper";
 
 interface PrimaryContainerProps extends WrapperProps {}

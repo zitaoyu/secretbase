@@ -444,7 +444,7 @@
     "pokeapiId": 274,
     "name": "Nuzleaf",
     "formName": null,
-    "types": ["gras", "dark"],
+    "types": ["grass", "dark"],
     "stats": {
       "hp": 70,
       "attack": 70,

@@ -17,7 +17,7 @@ import {
   pokemonSimpleDataDatabaseSeaglass,
   evolutionChainDatabase,
   abilityOverrideDatabase,
-  fakemonDatabase
+  fakemonDatabase,
 } from "./databases/seaglass/index";
 import myPokedex from "./pokeapi";
 
@@ -54,8 +54,11 @@ class SeaglassPokedexService implements IPokedexService {
     pokemonId: string | number,
   ): Promise<PokemonFullData> {
     if ((pokemonId as number) >= 99999) {
-      return fakemonDatabase.find((pokemonFullData) => 
-        pokemonFullData.simpleData.id === pokemonId) || fakemonDatabase[0]
+      return (
+        fakemonDatabase.find(
+          (pokemonFullData) => pokemonFullData.simpleData.id === pokemonId,
+        ) || fakemonDatabase[0]
+      );
     }
 
     const simpleData = this.getPokemonSimpleDataById(pokemonId as number);
@@ -118,11 +121,11 @@ class SeaglassPokedexService implements IPokedexService {
     const heldItems: DataLink[] =
       pokemon.held_items.length > 0
         ? pokemon.held_items.map((item) => {
-          return {
-            value: formatName(item.item.name),
-            url: item.item.url,
-          };
-        })
+            return {
+              value: formatName(item.item.name),
+              url: item.item.url,
+            };
+          })
         : [{ value: "None", url: null }];
 
     const evYield: DataLink[] = pokemon.stats
@@ -172,53 +175,6 @@ class SeaglassPokedexService implements IPokedexService {
     };
 
     return pokemonFullData;
-  }
-
-  async getDetailPanelDataByUrl(url: string): Promise<DetailPanelData> {
-    let [type, id] = extractResourceAndId(url);
-    type = type as DetailType;
-
-    let detailPanelData: DetailPanelData = {
-      type: DetailType.UNKNOWN,
-      friendlyName: "unknown",
-      detail: "unknown item",
-    };
-
-    switch (type) {
-      case DetailType.ABILITY:
-        const ability = await myPokedex.getAbilityByName(id);
-        detailPanelData.type = DetailType.ABILITY;
-
-        const friendlyName = ability.names.find(
-          (item) => item.language.name == "en",
-        )?.name;
-        if (friendlyName) detailPanelData.friendlyName = friendlyName;
-
-        const detail = ability.effect_entries.find(
-          (item) => item.language.name == "en",
-        )?.effect;
-        if (detail) detailPanelData.detail = detail;
-        break;
-      case DetailType.ITEM:
-        const item = await myPokedex.getItemByName(id);
-        detailPanelData.type = DetailType.ITEM;
-
-        const itemFriendlyName = item.names.find(
-          (item) => item.language.name == "en",
-        )?.name;
-        if (itemFriendlyName) detailPanelData.friendlyName = itemFriendlyName;
-
-        const itemDetail = item.effect_entries.find(
-          (item) => item.language.name == "en",
-        )?.effect;
-        if (itemDetail) detailPanelData.detail = itemDetail;
-        if (item.sprites.default)
-          detailPanelData.spriteUrl = item.sprites.default;
-        break;
-      case DetailType.MOVE:
-        break;
-    }
-    return detailPanelData;
   }
 }
 

@@ -5,7 +5,7 @@ import {
   CardFooter,
   Divider,
   Link,
-} from "@nextui-org/react";
+} from "@heroui/react";
 import { Overlay } from "../Overlay";
 import useToggleBodyScroll from "@/app/_hooks/useToggleBodyScroll";
 import {
@@ -92,13 +92,13 @@ export const DetailPanel = ({
               <span className="font-semibold">Detail:</span>
               {detailPanelData.type === DetailType.MOVE ? (
                 // TODO: create better UI for move detail
-                <div className="rounded-xl p-2 px-4 outline outline-default">
+                (<div className="rounded-xl p-2 px-4 outline outline-default">
                   {detailPanelData.detail.split("\n").map((line, index) => (
                     <div className="pb-1" key={index}>
                       {line}
                     </div>
                   ))}
-                </div>
+                </div>)
               ) : (
                 splitParagraph(detailPanelData.detail).map((value, index) => (
                   <p className="pb-1" key={index}>
