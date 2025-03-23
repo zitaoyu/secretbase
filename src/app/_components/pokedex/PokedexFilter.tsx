@@ -97,12 +97,12 @@ const ListBoxFilter = ({
       defaultItems={listItems}
       defaultSelectedKey={defaultSelectedKey}
       placeholder={placeholder}
-      className="w-full rounded-xl shadow-sm"
+      className="h-full w-full rounded-xl shadow-sm"
       classNames={{}}
       inputProps={{
         classNames: {
           input: "bg-content1 text-base",
-          inputWrapper: "bg-content1",
+          inputWrapper: "bg-content1 h-full",
         },
       }}
       listboxProps={{
@@ -175,13 +175,13 @@ export const PokedexFilter = ({
 
   return (
     <div className="flex w-full flex-col items-center gap-2 sm:gap-1 md:h-12 md:flex-row">
-      <div className="flex w-full flex-grow items-center gap-1 md:max-w-2xl">
+      <div className="flex h-14 w-full flex-grow items-center gap-1 md:max-w-2xl">
         {/* Search Bar */}
         <Input
-          className="w-full"
+          className="h-full w-full"
           classNames={{
             input: "bg-content1 text-base", // input
-            inputWrapper: "bg-content1 shadow-md", //outer wrapper
+            inputWrapper: "bg-content1 shadow-md h-full", //outer wrapper
             innerWrapper: "bg-content1",
           }}
           type="search"
@@ -198,16 +198,16 @@ export const PokedexFilter = ({
           className="block aspect-square h-14 w-14 bg-content1 shadow-md md:hidden"
           size="lg"
           icon={isShowFilters ? MdFilterAltOff : MdFilterAlt}
-          onClick={() => setIsShowFilters((prev) => !prev)}
+          onPress={() => setIsShowFilters((prev) => !prev)}
           disableAnimation
         />
       </div>
       <div
-        className={`flex h-full w-full flex-col items-center gap-1 sm:flex-row md:flex md:w-auto ${!isShowFilters && "hidden"}`}
+        className={`flex h-14 w-full flex-col items-center gap-1 sm:flex-row md:flex md:w-auto ${!isShowFilters && "hidden"}`}
       >
-        <div className="flex w-full gap-1">
+        <div className="flex h-full w-full gap-1">
           {/* Types Filter */}
-          <div className="w-full min-w-40">
+          <div className="h-full w-full min-w-40">
             <ListBoxFilter
               placeholder="Type 1"
               listItems={typeSelectorItems}
@@ -215,7 +215,7 @@ export const PokedexFilter = ({
               setter={setType1Filter}
             />
           </div>
-          <div className="w-full min-w-40">
+          <div className="h-full w-full min-w-40">
             <ListBoxFilter
               placeholder="Type 2"
               listItems={typeSelectorItems}
@@ -225,9 +225,9 @@ export const PokedexFilter = ({
           </div>
         </div>
 
-        <div className="flex w-full gap-1">
+        <div className="flex h-14 w-full items-center gap-1">
           {/* Gen Filter */}
-          <div className="w-full min-w-44">
+          <div className="h-full w-full min-w-44">
             <ListBoxFilter
               placeholder="Generation"
               listItems={genSelectorItems}

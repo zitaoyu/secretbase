@@ -77,7 +77,7 @@ export const SpriteGallery = ({
     md: "max-h-32 max-w-32",
     lg: "max-h-40 max-w-40",
   };
-  console.log("imageUrl", imageUrl);
+
   return (
     <div className={`relative ${bgSizes[size]}`}>
       <PokeballSVG className="h-full w-full bg-cover fill-zinc-200 dark:fill-zinc-700" />
