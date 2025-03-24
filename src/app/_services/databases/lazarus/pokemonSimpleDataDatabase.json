@@ -1,0 +1,562 @@
+[
+  {
+    "id": 1,
+    "pokeapiId": 722,
+    "name": "Rowlet",
+    "formName": null,
+    "types": ["grass", "flying"],
+    "stats": {
+      "hp": 68,
+      "attack": 55,
+      "defense": 55,
+      "special-attack": 50,
+      "special-defense": 50,
+      "speed": 42
+    },
+    "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front/1.png",
+    "shinySpriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front_shiny/1.png",
+    "animatedSpriteUrl": null,
+    "animatedShinySpriteUrl": null,
+    "evolutionChainId": 374
+  },
+  {
+    "id": 2,
+    "pokeapiId": 723,
+    "name": "Dartrix",
+    "formName": null,
+    "types": ["grass", "flying"],
+    "stats": {
+      "hp": 78,
+      "attack": 75,
+      "defense": 75,
+      "special-attack": 70,
+      "special-defense": 70,
+      "speed": 52
+    },
+    "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front/2.png",
+    "shinySpriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front_shiny/2.png",
+    "animatedSpriteUrl": null,
+    "animatedShinySpriteUrl": null,
+    "evolutionChainId": 374
+  },
+  {
+    "id": 3,
+    "pokeapiId": 724,
+    "name": "Decidueye",
+    "formName": null,
+    "types": ["grass", "ghost"],
+    "stats": {
+      "hp": 78,
+      "attack": 107,
+      "defense": 75,
+      "special-attack": 100,
+      "special-defense": 100,
+      "speed": 70
+    },
+    "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front/3.png",
+    "shinySpriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front_shiny/3.png",
+    "animatedSpriteUrl": null,
+    "animatedShinySpriteUrl": null,
+    "evolutionChainId": 374
+  },
+  {
+    "id": 3,
+    "pokeapiId": 10244,
+    "name": "Hisuian Decidueye",
+    "formName": "Hisuian Form",
+    "types": ["grass", "fighting"],
+    "stats": {
+      "hp": 88,
+      "attack": 112,
+      "defense": 80,
+      "special-attack": 95,
+      "special-defense": 95,
+      "speed": 60
+    },
+    "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front/3_h.png",
+    "shinySpriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front_shiny/3_h.png",
+    "animatedSpriteUrl": null,
+    "animatedShinySpriteUrl": null,
+    "evolutionChainId": 374
+  },
+  {
+    "id": 4,
+    "pokeapiId": 725,
+    "name": "Litten",
+    "formName": null,
+    "types": ["fire"],
+    "stats": {
+      "hp": 45,
+      "attack": 65,
+      "defense": 40,
+      "special-attack": 60,
+      "special-defense": 40,
+      "speed": 70
+    },
+    "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front/4.png",
+    "shinySpriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front_shiny/4.png",
+    "animatedSpriteUrl": null,
+    "animatedShinySpriteUrl": null,
+    "evolutionChainId": 375
+  },
+  {
+    "id": 5,
+    "pokeapiId": 726,
+    "name": "Torracat",
+    "formName": null,
+    "types": ["fire"],
+    "stats": {
+      "hp": 65,
+      "attack": 85,
+      "defense": 50,
+      "special-attack": 80,
+      "special-defense": 50,
+      "speed": 90
+    },
+    "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front/5.png",
+    "shinySpriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front_shiny/5.png",
+    "animatedSpriteUrl": null,
+    "animatedShinySpriteUrl": null,
+    "evolutionChainId": 375
+  },
+  {
+    "id": 6,
+    "pokeapiId": 727,
+    "name": "Incineroar",
+    "formName": null,
+    "types": ["fire", "dark"],
+    "stats": {
+      "hp": 95,
+      "attack": 115,
+      "defense": 90,
+      "special-attack": 80,
+      "special-defense": 90,
+      "speed": 60
+    },
+    "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front/6.png",
+    "shinySpriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front_shiny/6.png",
+    "animatedSpriteUrl": null,
+    "animatedShinySpriteUrl": null,
+    "evolutionChainId": 375
+  },
+  {
+    "id": 7,
+    "pokeapiId": 728,
+    "name": "Popplio",
+    "formName": null,
+    "types": ["water"],
+    "stats": {
+      "hp": 50,
+      "attack": 54,
+      "defense": 54,
+      "special-attack": 66,
+      "special-defense": 56,
+      "speed": 40
+    },
+    "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front/7.png",
+    "shinySpriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front_shiny/7.png",
+    "animatedSpriteUrl": null,
+    "animatedShinySpriteUrl": null,
+    "evolutionChainId": 376
+  },
+  {
+    "id": 8,
+    "pokeapiId": 729,
+    "name": "Brionne",
+    "formName": null,
+    "types": ["water"],
+    "stats": {
+      "hp": 60,
+      "attack": 69,
+      "defense": 69,
+      "special-attack": 91,
+      "special-defense": 81,
+      "speed": 50
+    },
+    "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front/8.png",
+    "shinySpriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front_shiny/8.png",
+    "animatedSpriteUrl": null,
+    "animatedShinySpriteUrl": null,
+    "evolutionChainId": 376
+  },
+  {
+    "id": 9,
+    "pokeapiId": 730,
+    "name": "Primarina",
+    "formName": null,
+    "types": ["water", "fairy"],
+    "stats": {
+      "hp": 80,
+      "attack": 74,
+      "defense": 74,
+      "special-attack": 126,
+      "special-defense": 116,
+      "speed": 60
+    },
+    "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front/9.png",
+    "shinySpriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front_shiny/9.png",
+    "animatedSpriteUrl": null,
+    "animatedShinySpriteUrl": null,
+    "evolutionChainId": 376
+  },
+  {
+    "id": 10,
+    "pokeapiId": 650,
+    "name": "Chespin",
+    "formName": null,
+    "types": ["grass"],
+    "stats": {
+      "hp": 56,
+      "attack": 61,
+      "defense": 65,
+      "special-attack": 48,
+      "special-defense": 45,
+      "speed": 38
+    },
+    "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front/10.png",
+    "shinySpriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front_shiny/10.png",
+    "animatedSpriteUrl": null,
+    "animatedShinySpriteUrl": null,
+    "evolutionChainId": 337
+  },
+  {
+    "id": 11,
+    "pokeapiId": 651,
+    "name": "Quilladin",
+    "formName": null,
+    "types": ["grass"],
+    "stats": {
+      "hp": 61,
+      "attack": 78,
+      "defense": 95,
+      "special-attack": 56,
+      "special-defense": 58,
+      "speed": 57
+    },
+    "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front/11.png",
+    "shinySpriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front_shiny/11.png",
+    "animatedSpriteUrl": null,
+    "animatedShinySpriteUrl": null,
+    "evolutionChainId": 337
+  },
+  {
+    "id": 12,
+    "pokeapiId": 652,
+    "name": "Chesnaught",
+    "formName": null,
+    "types": ["grass", "fighting"],
+    "stats": {
+      "hp": 88,
+      "attack": 107,
+      "defense": 122,
+      "special-attack": 74,
+      "special-defense": 75,
+      "speed": 64
+    },
+    "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front/12.png",
+    "shinySpriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front_shiny/12.png",
+    "animatedSpriteUrl": null,
+    "animatedShinySpriteUrl": null,
+    "evolutionChainId": 337
+  },
+  {
+    "id": 13,
+    "pokeapiId": 653,
+    "name": "Fennekin",
+    "formName": null,
+    "types": ["fire"],
+    "stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 40,
+      "special-attack": 62,
+      "special-defense": 60,
+      "speed": 60
+    },
+    "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front/13.png",
+    "shinySpriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front_shiny/13.png",
+    "animatedSpriteUrl": null,
+    "animatedShinySpriteUrl": null,
+    "evolutionChainId": 338
+  },
+  {
+    "id": 14,
+    "pokeapiId": 654,
+    "name": "Braixen",
+    "formName": null,
+    "types": ["fire"],
+    "stats": {
+      "hp": 59,
+      "attack": 59,
+      "defense": 58,
+      "special-attack": 90,
+      "special-defense": 70,
+      "speed": 73
+    },
+    "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front/14.png",
+    "shinySpriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front_shiny/14.png",
+    "animatedSpriteUrl": null,
+    "animatedShinySpriteUrl": null,
+    "evolutionChainId": 338
+  },
+  {
+    "id": 15,
+    "pokeapiId": 655,
+    "name": "Delphox",
+    "formName": null,
+    "types": ["fire", "psychic"],
+    "stats": {
+      "hp": 75,
+      "attack": 69,
+      "defense": 72,
+      "special-attack": 114,
+      "special-defense": 100,
+      "speed": 104
+    },
+    "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front/15.png",
+    "shinySpriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front_shiny/15.png",
+    "animatedSpriteUrl": null,
+    "animatedShinySpriteUrl": null,
+    "evolutionChainId": 338
+  },
+  {
+    "id": 16,
+    "pokeapiId": 656,
+    "name": "Froakie",
+    "formName": null,
+    "types": ["water"],
+    "stats": {
+      "hp": 41,
+      "attack": 56,
+      "defense": 40,
+      "special-attack": 62,
+      "special-defense": 44,
+      "speed": 71
+    },
+    "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front/16.png",
+    "shinySpriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front_shiny/16.png",
+    "animatedSpriteUrl": null,
+    "animatedShinySpriteUrl": null,
+    "evolutionChainId": 339
+  },
+  {
+    "id": 17,
+    "pokeapiId": 657,
+    "name": "Frogadier",
+    "formName": null,
+    "types": ["water"],
+    "stats": {
+      "hp": 54,
+      "attack": 63,
+      "defense": 52,
+      "special-attack": 83,
+      "special-defense": 56,
+      "speed": 97
+    },
+    "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front/17.png",
+    "shinySpriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front_shiny/17.png",
+    "animatedSpriteUrl": null,
+    "animatedShinySpriteUrl": null,
+    "evolutionChainId": 339
+  },
+  {
+    "id": 18,
+    "pokeapiId": 658,
+    "name": "Greninja",
+    "formName": null,
+    "types": ["water", "dark"],
+    "stats": {
+      "hp": 72,
+      "attack": 95,
+      "defense": 67,
+      "special-attack": 103,
+      "special-defense": 71,
+      "speed": 122
+    },
+    "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front/18.png",
+    "shinySpriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front_shiny/18.png",
+    "animatedSpriteUrl": null,
+    "animatedShinySpriteUrl": null,
+    "evolutionChainId": 339
+  },
+  {
+    "id": 19,
+    "pokeapiId": 906,
+    "name": "Sprigatito",
+    "formName": null,
+    "types": ["grass"],
+    "stats": {
+      "hp": 40,
+      "attack": 61,
+      "defense": 54,
+      "special-attack": 45,
+      "special-defense": 45,
+      "speed": 65
+    },
+    "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front/19.png",
+    "shinySpriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front_shiny/19.png",
+    "animatedSpriteUrl": null,
+    "animatedShinySpriteUrl": null,
+    "evolutionChainId": 478
+  },
+  {
+    "id": 20,
+    "pokeapiId": 907,
+    "name": "Floragato",
+    "formName": null,
+    "types": ["grass"],
+    "stats": {
+      "hp": 61,
+      "attack": 80,
+      "defense": 63,
+      "special-attack": 60,
+      "special-defense": 63,
+      "speed": 83
+    },
+    "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front/20.png",
+    "shinySpriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front_shiny/20.png",
+    "animatedSpriteUrl": null,
+    "animatedShinySpriteUrl": null,
+    "evolutionChainId": 478
+  },
+  {
+    "id": 21,
+    "pokeapiId": 908,
+    "name": "Meowscarada",
+    "formName": null,
+    "types": ["grass", "dark"],
+    "stats": {
+      "hp": 76,
+      "attack": 110,
+      "defense": 70,
+      "special-attack": 81,
+      "special-defense": 70,
+      "speed": 123
+    },
+    "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front/21.png",
+    "shinySpriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front_shiny/21.png",
+    "animatedSpriteUrl": null,
+    "animatedShinySpriteUrl": null,
+    "evolutionChainId": 478
+  },
+  {
+    "id": 22,
+    "pokeapiId": 909,
+    "name": "Fuecoco",
+    "formName": null,
+    "types": ["fire"],
+    "stats": {
+      "hp": 67,
+      "attack": 45,
+      "defense": 59,
+      "special-attack": 63,
+      "special-defense": 40,
+      "speed": 36
+    },
+    "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front/22.png",
+    "shinySpriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front_shiny/22.png",
+    "animatedSpriteUrl": null,
+    "animatedShinySpriteUrl": null,
+    "evolutionChainId": 479
+  },
+  {
+    "id": 23,
+    "pokeapiId": 910,
+    "name": "Crocalor",
+    "formName": null,
+    "types": ["fire"],
+    "stats": {
+      "hp": 81,
+      "attack": 55,
+      "defense": 78,
+      "special-attack": 90,
+      "special-defense": 58,
+      "speed": 49
+    },
+    "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front/23.png",
+    "shinySpriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front_shiny/23.png",
+    "animatedSpriteUrl": null,
+    "animatedShinySpriteUrl": null,
+    "evolutionChainId": 479
+  },
+  {
+    "id": 24,
+    "pokeapiId": 911,
+    "name": "Skeledirge",
+    "formName": null,
+    "types": ["fire", "ghost"],
+    "stats": {
+      "hp": 104,
+      "attack": 75,
+      "defense": 100,
+      "special-attack": 110,
+      "special-defense": 75,
+      "speed": 66
+    },
+    "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front/24.png",
+    "shinySpriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front_shiny/24.png",
+    "animatedSpriteUrl": null,
+    "animatedShinySpriteUrl": null,
+    "evolutionChainId": 479
+  },
+  {
+    "id": 25,
+    "pokeapiId": 912,
+    "name": "Quaxly",
+    "formName": null,
+    "types": ["water"],
+    "stats": {
+      "hp": 55,
+      "attack": 65,
+      "defense": 45,
+      "special-attack": 50,
+      "special-defense": 45,
+      "speed": 50
+    },
+    "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front/25.png",
+    "shinySpriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front_shiny/25.png",
+    "animatedSpriteUrl": null,
+    "animatedShinySpriteUrl": null,
+    "evolutionChainId": 480
+  },
+  {
+    "id": 26,
+    "pokeapiId": 913,
+    "name": "Quaxwell",
+    "formName": null,
+    "types": ["water"],
+    "stats": {
+      "hp": 70,
+      "attack": 85,
+      "defense": 65,
+      "special-attack": 65,
+      "special-defense": 60,
+      "speed": 65
+    },
+    "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front/26.png",
+    "shinySpriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front_shiny/26.png",
+    "animatedSpriteUrl": null,
+    "animatedShinySpriteUrl": null,
+    "evolutionChainId": 480
+  },
+  {
+    "id": 27,
+    "pokeapiId": 914,
+    "name": "Quaquaval",
+    "formName": null,
+    "types": ["water", "fighting"],
+    "stats": {
+      "hp": 85,
+      "attack": 120,
+      "defense": 80,
+      "special-attack": 85,
+      "special-defense": 75,
+      "speed": 85
+    },
+    "spriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front/27.png",
+    "shinySpriteUrl": "https://raw.githubusercontent.com/zitaoyu/seaglass-sprites/refs/heads/main/lazarus_sprites/front_shiny/27.png",
+    "animatedSpriteUrl": null,
+    "animatedShinySpriteUrl": null,
+    "evolutionChainId": 480
+  }
+]

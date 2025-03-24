@@ -107,9 +107,11 @@ export const Pokedex = ({ game }: PokedexProps) => {
       }
       filteredData = filteredData.filter(
         (pokemon) =>
-          indexFilter[0] <= pokemon.id && pokemon.id <= indexFilter[1],
+          indexFilter[0] <= pokemon.pokeapiId &&
+          pokemon.pokeapiId <= indexFilter[1],
       );
       setFilterList(filteredData);
+      // console.log(filteredData);
       updateQueryParams();
     }
   }

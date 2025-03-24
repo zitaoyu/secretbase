@@ -2,7 +2,7 @@ import { Gen } from "@/app/_types/gen.type";
 
 export type GridType = "regular" | "mini" | "table";
 export type GenIndex =
-  | [0, 1025]
+  | [0, 99999]
   | [0, 151]
   | [152, 251]
   | [252, 386]
@@ -13,7 +13,7 @@ export type GenIndex =
   | [810, 905]
   | [906, 1025];
 
-export const defaultGenIndexFilter: GenIndex = [0, 1025];
+export const defaultGenIndexFilter: GenIndex = [0, 99999];
 
 export const genIndexMap: Record<Gen, GenIndex> = {
   "red-blue": [0, 151],

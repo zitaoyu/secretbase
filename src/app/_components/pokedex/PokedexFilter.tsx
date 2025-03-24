@@ -203,9 +203,9 @@ export const PokedexFilter = ({
         />
       </div>
       <div
-        className={`flex h-14 w-full flex-col items-center gap-1 sm:flex-row md:flex md:w-auto ${!isShowFilters && "hidden"}`}
+        className={`flex h-full w-full flex-col items-center gap-1 sm:flex-row md:flex md:w-auto ${!isShowFilters && "hidden"}`}
       >
-        <div className="flex h-full w-full gap-1">
+        <div className="flex h-14 w-full gap-1">
           {/* Types Filter */}
           <div className="h-full w-full min-w-40">
             <ListBoxFilter
