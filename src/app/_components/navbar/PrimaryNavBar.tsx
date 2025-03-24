@@ -97,7 +97,7 @@ export const PrimaryNavBar = () => {
       newtab: false,
       isDropdown: true,
       dropdownMenuItems: [
-        { label: "Coming soon...", href: "" },
+        { label: "Lazarus Pokedex", href: "/lazarus/" },
         {
           label: "Download Lazarus",
           href: "https://ko-fi.com/s/590de096dc",
