@@ -19,6 +19,7 @@ import { useState } from "react";
 import { CgClose } from "react-icons/cg";
 import { IoMenu } from "react-icons/io5";
 import { PrimaryIconButton } from "../PrimaryIconButton";
+import { SupportMeButton } from "./SupportMeButton";
 
 type MenuItem = {
   label: string;
@@ -131,9 +132,11 @@ export const PrimaryNavBar = () => {
             <MenuItemComponent menuItem={menuItem} key={menuItem.label} />
           ),
         )}
-
         <NavbarItem>
           <ThemeSwitcher />
+        </NavbarItem>
+        <NavbarItem>
+          <SupportMeButton />
         </NavbarItem>
         <NavbarItem className="block sm:hidden">
           <PrimaryIconButton
