@@ -15,7 +15,7 @@ import {
 import { ThemeSwitcher } from "./ThemeSwitcher";
 import { SecretBaseLogo } from "./Logo";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { CgClose } from "react-icons/cg";
 import { IoMenu } from "react-icons/io5";
 import { PrimaryIconButton } from "../PrimaryIconButton";
@@ -75,6 +75,16 @@ const MenuItemComponent = ({ menuItem }: { menuItem: MenuItem }) => (
 
 export const PrimaryNavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    // Optionally, render a skeleton or nothing until mounted
+    return null;
+  }
 
   let menuItems: MenuItem[] = [
     { label: "National Dex", href: "/main", newtab: false },
