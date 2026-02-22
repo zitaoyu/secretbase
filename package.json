@@ -2,6 +2,9 @@
    "name": "secretbase",
    "version": "0.1.0",
    "private": true,
+   "engines": {
+      "node": "20.x"
+   },
    "scripts": {
       "dev": "next dev",
       "ip": "next dev -H 10.0.0.205 -p 3000",
